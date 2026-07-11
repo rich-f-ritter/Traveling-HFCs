@@ -14,13 +14,17 @@
     "sale_comment": null,
     "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Cameron",
     "census_id": "TX-63-3735",
     "partners": [
       "Alliance Development"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "San Benito/Brownsville",
+    "classification_confidence": "low"
   },
   {
     "market_id": "63",
@@ -37,13 +41,17 @@
     "sale_comment": null,
     "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Cameron",
     "census_id": "TX-63-403",
     "partners": [
       "Leste"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "San Benito/Brownsville",
+    "classification_confidence": "low"
   },
   {
     "market_id": "62",
@@ -60,13 +68,17 @@
     "sale_comment": null,
     "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Cameron",
     "census_id": "TX-62-3053",
     "partners": [
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "San Benito/Brownsville",
+    "classification_confidence": "low"
   },
   {
     "market_id": "62",
@@ -83,13 +95,17 @@
     "sale_comment": null,
     "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Cameron",
     "census_id": "TX-62-4070",
     "partners": [
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "San Benito/Brownsville",
+    "classification_confidence": "low"
   },
   {
     "market_id": "43",
@@ -113,7 +129,11 @@
     "partners": [
       "Bixby Bridge Capital",
       "Mountain Pacific Opportunity Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -137,7 +157,11 @@
     "partners": [
       "Brick Lane Capital",
       "Sherman Multifamily"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -161,7 +185,11 @@
     "partners": [
       "Post Investment Group",
       "Ascenda Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -184,7 +212,11 @@
     "census_id": "TX-61-1707",
     "partners": [
       "Dalian Development"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -207,7 +239,11 @@
     "census_id": "TX-38-1510",
     "partners": [
       "FCP"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -230,7 +266,11 @@
     "census_id": "TX-62-3044",
     "partners": [
       "Iliad Realty Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -253,7 +293,11 @@
     "census_id": "TX-62-4386",
     "partners": [
       "Iliad Realty Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -276,7 +320,11 @@
     "census_id": "TX-38-2811",
     "partners": [
       "LeavenWealth"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -299,7 +347,11 @@
     "census_id": "TX-37-109",
     "partners": [
       "Leste"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -322,7 +374,11 @@
     "census_id": "TX-43-2669",
     "partners": [
       "Leste"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -345,7 +401,11 @@
     "census_id": "TX-36-528",
     "partners": [
       "LoanCore Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -368,7 +428,11 @@
     "census_id": "TX-36-1466",
     "partners": [
       "LoanCore Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -391,7 +455,11 @@
     "census_id": "TX-61-614",
     "partners": [
       "LoanCore Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -414,7 +482,11 @@
     "census_id": "TX-37-8327",
     "partners": [
       "LoanCore Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -437,7 +509,11 @@
     "census_id": "TX-37-8328",
     "partners": [
       "LoanCore Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -460,7 +536,11 @@
     "census_id": "TX-43-1599",
     "partners": [
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -483,7 +563,11 @@
     "census_id": "TX-43-1938",
     "partners": [
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "113",
@@ -506,7 +590,11 @@
     "census_id": "TX-113-145",
     "partners": [
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "113",
@@ -529,7 +617,11 @@
     "census_id": "TX-113-122",
     "partners": [
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "113",
@@ -552,7 +644,11 @@
     "census_id": "TX-113-1569",
     "partners": [
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -575,7 +671,11 @@
     "census_id": "TX-61-1675",
     "partners": [
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -598,7 +698,11 @@
     "census_id": "TX-36-370218",
     "partners": [
       "RISE Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -621,7 +725,11 @@
     "census_id": "TX-37-772",
     "partners": [
       "ShainRealty Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -644,7 +752,11 @@
     "census_id": "TX-37-7585",
     "partners": [
       "ShainRealty Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -667,7 +779,11 @@
     "census_id": "TX-37-8332",
     "partners": [
       "Sphinx Development"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -690,7 +806,11 @@
     "census_id": "TX-38-2135",
     "partners": [
       "ZG Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -713,7 +833,11 @@
     "census_id": "TX-43-592",
     "partners": [
       "ZG Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -736,7 +860,11 @@
     "census_id": "TX-62-878",
     "partners": [
       "ZG Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "215",
@@ -759,7 +887,11 @@
     "census_id": "TX-215-1546292",
     "partners": [
       "ZG Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -780,7 +912,11 @@
     "tier": 1,
     "sponsor_home_county": "Cameron",
     "census_id": "TX-63-3909",
-    "partners": []
+    "partners": [],
+    "sponsor_entity_verified": "Cameron County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Harlingen",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -804,7 +940,11 @@
     "partners": [
       "Pennybacker Capital",
       "HM Equity Management"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -827,7 +967,11 @@
     "census_id": "TX-43-1510",
     "partners": [
       "Ashcroft Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -850,7 +994,11 @@
     "census_id": "TX-62-2746",
     "partners": [
       "Bodka Creek Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -873,7 +1021,11 @@
     "census_id": "TX-61-1653",
     "partners": [
       "CBRE Investment Management"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -896,7 +1048,11 @@
     "census_id": "TX-61-1237",
     "partners": [
       "CBRE Investment Management - REO"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -919,7 +1075,11 @@
     "census_id": "TX-62-3777",
     "partners": [
       "Fundamental Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -942,7 +1102,11 @@
     "census_id": "TX-62-4006",
     "partners": [
       "Fundamental Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -965,7 +1129,11 @@
     "census_id": "TX-63-3978",
     "partners": [
       "Legacy Wealth Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -988,7 +1156,11 @@
     "census_id": "TX-61-1757",
     "partners": [
       "Orion Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -1011,7 +1183,11 @@
     "census_id": "TX-61-531",
     "partners": [
       "Pennybacker Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -1034,7 +1210,11 @@
     "census_id": "TX-62-593",
     "partners": [
       "Pennybacker Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -1057,7 +1237,11 @@
     "census_id": "TX-36-1345319",
     "partners": [
       "Prism Multifamily Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -1080,7 +1264,11 @@
     "census_id": "TX-38-2732",
     "partners": [
       "Sahara Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -1103,7 +1291,11 @@
     "census_id": "TX-38-1487",
     "partners": [
       "ShainRealty Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -1126,7 +1318,11 @@
     "census_id": "TX-43-3829",
     "partners": [
       "ShainRealty Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -1149,7 +1345,11 @@
     "census_id": "TX-43-3702",
     "partners": [
       "Tides Equities"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -1172,7 +1372,11 @@
     "census_id": "TX-36-1228395",
     "partners": [
       "Wilson Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -1195,7 +1399,11 @@
     "census_id": "TX-36-1273141",
     "partners": [
       "Wilson Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Edcouch Community Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Edcouch",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1218,7 +1426,11 @@
     "census_id": "TX-37-1228308",
     "partners": [
       "L+M Development Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Garland Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Garland",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1233,7 +1445,7 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Garland Housing Finance Corporation, which expires 11/30/2121.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "no",
+    "traveling": "yes",
     "sponsor_species": "HFC",
     "sponsor_statute": "Ch.394",
     "tier": 1,
@@ -1241,7 +1453,11 @@
     "census_id": "TX-37-1314",
     "partners": [
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Garland Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Garland",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -1264,7 +1480,11 @@
     "census_id": "TX-38-1154678",
     "partners": [
       "RISE Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Garland Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Garland",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1285,7 +1505,11 @@
     "tier": 1,
     "sponsor_home_county": "Dallas",
     "census_id": "TX-37-1480322",
-    "partners": []
+    "partners": [],
+    "sponsor_entity_verified": "Garland Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Garland",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -1302,14 +1526,18 @@
     "sale_comment": null,
     "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-1274045",
     "partners": [
       "New York Life Insurance Company",
       "Aspen Oak Capital Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "62",
@@ -1326,14 +1554,18 @@
     "sale_comment": "In 06/25 the property was recapitalized with an unrecorded sale that added Houston Housing Authority and Brem Group to the ownership group.    The 05/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-62-1323501",
     "partners": [
       "Blake Capital Group",
       "Brem Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1350,13 +1582,17 @@
     "sale_comment": null,
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-5629",
     "partners": [
       "Aspen Oak Capital Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1373,13 +1609,17 @@
     "sale_comment": null,
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-939583",
     "partners": [
       "Aspen Oak Capital Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1396,13 +1636,17 @@
     "sale_comment": null,
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-1480419",
     "partners": [
       "Balvia Properties"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "62",
@@ -1419,13 +1663,17 @@
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Houston Housing Authority to the ownership group.    The 04/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-62-4408",
     "partners": [
       "Catalyst Equity Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "62",
@@ -1442,13 +1690,17 @@
     "sale_comment": null,
     "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-62-940094",
     "partners": [
       "Civitas Capital Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "62",
@@ -1465,13 +1717,17 @@
     "sale_comment": "The 12/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.    In 05/24 the property was recapitalized with an undisclosed sale that added Houston Housing Authority to the ownership group.",
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-62-1154856",
     "partners": [
       "Civitas Capital Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "62",
@@ -1488,13 +1744,17 @@
     "sale_comment": "The 12/22 sale price is undisclosed.    In 09/24 the property was recapitalized with an undisclosed sale that added Houston Housing Authority to the ownership group.",
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-62-1393784",
     "partners": [
       "Civitas Capital Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1511,13 +1771,17 @@
     "sale_comment": "The 03/24 sale was for the leasehold interest only in which Heritage Investments leased the 102 unit Alexis Apartments from the Houston Housing Authority.",
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-1155169",
     "partners": [
       "Heritage Investments"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1534,13 +1798,17 @@
     "sale_comment": null,
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-1478844",
     "partners": [
       "Lincoln Avenue Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "62",
@@ -1557,13 +1825,17 @@
     "sale_comment": "In 04/04 the property was recapitalized with an unrecorded sale that added Houston Housing Authority to the ownership group.    The 07/23 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-62-4391",
     "partners": [
       "Momentum Multifamily"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1580,13 +1852,17 @@
     "sale_comment": null,
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-5940",
     "partners": [
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1603,13 +1879,17 @@
     "sale_comment": "In 07/25 the property was recapitalized with an undisclosed sale that added Houston Housing Authority to the ownership group, as the operating partner.",
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-3477",
     "partners": [
       "Resolution Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1626,13 +1906,17 @@
     "sale_comment": null,
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-1411582",
     "partners": [
       "Streamline Advisory Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "62",
@@ -1649,13 +1933,17 @@
     "sale_comment": null,
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-62-1543349",
     "partners": [
       "Streamline Advisory Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1672,13 +1960,17 @@
     "sale_comment": null,
     "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-1418663",
     "partners": [
       "Trammell Crow Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1695,13 +1987,17 @@
     "sale_comment": null,
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-1418664",
     "partners": [
       "Trammell Crow Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -1718,11 +2014,15 @@
     "sale_comment": null,
     "traveling": "no",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Harris",
     "census_id": "TX-63-2405",
-    "partners": []
+    "partners": [],
+    "sponsor_entity_verified": "Houston Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Houston",
+    "classification_confidence": "med"
   },
   {
     "market_id": "37",
@@ -1746,7 +2046,11 @@
     "partners": [
       "S2 Capital",
       "April Housing"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1770,7 +2074,11 @@
     "partners": [
       "S2 Capital",
       "April Housing"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1794,7 +2102,11 @@
     "partners": [
       "S2 Capital",
       "April Housing"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1818,7 +2130,11 @@
     "partners": [
       "S2 Capital",
       "April Housing"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1842,7 +2158,11 @@
     "partners": [
       "S2 Capital",
       "April Housing"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -1866,7 +2186,11 @@
     "partners": [
       "Makaan Investment Group",
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -1889,7 +2213,11 @@
     "census_id": "TX-36-927014",
     "partners": [
       "Arqitel"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1912,7 +2240,11 @@
     "census_id": "TX-37-563",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1935,7 +2267,11 @@
     "census_id": "TX-37-564",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1958,7 +2294,11 @@
     "census_id": "TX-37-567",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -1981,7 +2321,11 @@
     "census_id": "TX-37-568",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -2004,7 +2348,11 @@
     "census_id": "TX-37-570",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -2027,7 +2375,11 @@
     "census_id": "TX-38-850",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -2050,7 +2402,11 @@
     "census_id": "TX-38-1456",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -2073,7 +2429,11 @@
     "census_id": "TX-38-2304",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -2096,7 +2456,11 @@
     "census_id": "TX-43-496",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -2119,7 +2483,11 @@
     "census_id": "TX-43-498",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2142,7 +2510,11 @@
     "census_id": "TX-63-3956",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -2165,7 +2537,11 @@
     "census_id": "TX-43-1340126",
     "partners": [
       "Electra America"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2188,7 +2564,11 @@
     "census_id": "TX-63-4688",
     "partners": [
       "Frankforter Group"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -2211,7 +2591,11 @@
     "census_id": "TX-62-3419",
     "partners": [
       "Viking Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -2232,7 +2616,11 @@
     "tier": 1,
     "sponsor_home_county": "Hidalgo",
     "census_id": "TX-61-250",
-    "partners": []
+    "partners": [],
+    "sponsor_entity_verified": "La Villa Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "La Villa",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2256,7 +2644,11 @@
     "partners": [
       "Westport Capital Partners",
       "Objective Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2279,7 +2671,11 @@
     "census_id": "TX-63-2255",
     "partners": [
       "29th Street Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2302,7 +2698,11 @@
     "census_id": "TX-63-2840",
     "partners": [
       "29th Street Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2325,7 +2725,11 @@
     "census_id": "TX-63-3939",
     "partners": [
       "29th Street Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -2348,7 +2752,11 @@
     "census_id": "TX-61-2718",
     "partners": [
       "AHV Communities"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2371,7 +2779,11 @@
     "census_id": "TX-63-393758",
     "partners": [
       "ApexOne Investment Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -2394,7 +2806,11 @@
     "census_id": "TX-43-3448",
     "partners": [
       "BLDG Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -2417,7 +2833,11 @@
     "census_id": "TX-43-3798",
     "partners": [
       "BLDG Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -2440,7 +2860,11 @@
     "census_id": "TX-37-1180",
     "partners": [
       "Magma Equities"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -2463,7 +2887,11 @@
     "census_id": "TX-38-2533",
     "partners": [
       "Magma Equities"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2486,7 +2914,11 @@
     "census_id": "TX-63-2651",
     "partners": [
       "Magma Equities"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -2509,7 +2941,11 @@
     "census_id": "TX-61-1394163",
     "partners": [
       "Marble Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -2532,7 +2968,11 @@
     "census_id": "TX-38-2606",
     "partners": [
       "Marlin Spring"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -2555,7 +2995,11 @@
     "census_id": "TX-38-1184276",
     "partners": [
       "Paceline Equity Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -2578,7 +3022,11 @@
     "census_id": "TX-38-2289",
     "partners": [
       "ValCap Group, The"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2601,7 +3049,11 @@
     "census_id": "TX-63-1358163",
     "partners": [
       "Vero Sade"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -2624,7 +3076,11 @@
     "census_id": "TX-38-2748",
     "partners": [
       "West Shore"
-    ]
+    ],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -2645,7 +3101,11 @@
     "tier": 1,
     "sponsor_home_county": "Maverick",
     "census_id": "TX-37-369642",
-    "partners": []
+    "partners": [],
+    "sponsor_entity_verified": "Maverick County Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Eagle Pass",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -2661,16 +3121,20 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority, Nome Capital Partners and <span style=\"white-space:normal\">Pensam Capital </span>to the ownership group.    The 12/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-36-861336",
     "partners": [
       "Impex Capital Group",
       "Nome Capital Partners",
       "Pensam Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -2686,15 +3150,19 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 08/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-36-1508",
     "partners": [
       "CAF Capital Partners",
       "Archway Equities"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -2710,15 +3178,19 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority and Fortress Investment Group to the ownership group.    The 01/22 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1614",
     "partners": [
       "Ashland Greene Capital",
       "Fortress Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -2734,15 +3206,19 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority and Fundamental Advisors to the ownership group.    In 03/21 WindMass Capital purchased the 1487 unit The Brooklyn @9669 Apartments for $160,000,000, then subsequently split the property to form the 314 unit The Bernard Apartments, 310 unit The Beckham Apartments, 309 unit The Blake Apartments, 284 unit The Bentley Apartments, and the 270 unit The Baxter Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1315615",
     "partners": [
       "WindMass Capital",
       "Fundamental Advisors"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -2758,15 +3234,19 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority and Fundamental Advisors to the ownership group.    In 03/21 WindMass Capital purchased the 1487 unit The Brooklyn @9669 Apartments for $160,000,000, then subsequently split the property to form the 314 unit The Bernard Apartments, 310 unit The Beckham Apartments, 309 unit The Blake Apartments, 284 unit The Bentley Apartments, and the 270 unit The Baxter Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1315617",
     "partners": [
       "WindMass Capital",
       "Fundamental Advisors"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -2782,15 +3262,19 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority and Fundamental Advisors to the ownership group.    In 03/21 WindMass Capital purchased the 1487 unit The Brooklyn @9669 Apartments for $160,000,000, then subsequently split the property to form the 314 unit The Bernard Apartments, 310 unit The Beckham Apartments, 309 unit The Blake Apartments, 284 unit The Bentley Apartments, and the 270 unit The Baxter Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1315618",
     "partners": [
       "WindMass Capital",
       "Fundamental Advisors"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -2806,15 +3290,19 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority and Fundamental Advisors to the ownership group.    In 03/21 WindMass Capital purchased the 1487 unit The Brooklyn @9669 Apartments for $160,000,000, then subsequently split the property to form the 314 unit The Bernard Apartments, 310 unit The Beckham Apartments, 309 unit The Blake Apartments, 284 unit The Bentley Apartments, and the 270 unit The Baxter Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1315619",
     "partners": [
       "WindMass Capital",
       "Fundamental Advisors"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -2830,15 +3318,19 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority and Fundamental Advisors to the ownership group.    In 03/21 WindMass Capital purchased the 1487 unit The Brooklyn @9669 Apartments for $160,000,000, then subsequently split the property to form the 314 unit The Bernard Apartments, 310 unit The Beckham Apartments, 309 unit The Blake Apartments, 284 unit The Bentley Apartments, and the 270 unit The Baxter Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1315620",
     "partners": [
       "WindMass Capital",
       "Fundamental Advisors"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -2854,15 +3346,19 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 12/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-1111",
     "partners": [
       "Frontline Holdings",
       "Park Row Equity Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -2878,14 +3374,18 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority to the ownership group.    The 08/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-62-2985",
     "partners": [
       "7C Equity Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2901,14 +3401,18 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority to the ownership group.    The 03/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-4046",
     "partners": [
       "7C Equity Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -2924,14 +3428,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-826",
     "partners": [
       "Abundance Equity Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -2947,14 +3455,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-4079",
     "partners": [
       "Abundance Equity Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -2970,14 +3482,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 08/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-36-1194",
     "partners": [
       "AIC Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -2993,14 +3509,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 09/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-2281",
     "partners": [
       "AIC Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -3016,14 +3536,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 05/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-712",
     "partners": [
       "AIC Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -3039,14 +3563,18 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 11/21 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-36-377618",
     "partners": [
       "Arbor Realty Trust"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3062,14 +3590,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    A loan in the amount of $23,455,000, held by Argentic, originally issued to Impact Prosperity was foreclosed on 04/02/2024. Argentic subsequently retained The Madeleine Apartments as an asset.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-740",
     "partners": [
       "Argentic"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3085,14 +3617,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    A loan in the amount of $15,879,000, held by Argentic, originally issued to Impact Prosperity was foreclosed on 04/02/2024. Argentic subsequently retained the Highland Cove Apartments as an asset.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-931",
     "partners": [
       "Argentic"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -3108,14 +3644,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 01/22 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1089",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -3131,14 +3671,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 12/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1415",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -3154,14 +3698,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 05/24 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-3204",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -3177,14 +3725,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 08/23 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-3376",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3200,14 +3752,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 06/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-854",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3223,14 +3779,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 12/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-862",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3246,14 +3806,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 12/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-865",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3269,14 +3833,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 06/22 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-2188",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -3292,14 +3860,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.         The 06/22 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1005",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -3315,14 +3887,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 10/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1523",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3338,14 +3914,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 06/22 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-1154934",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -3361,14 +3941,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.  On 01/28//22 Ashland Greene Capital Partners purchased the 260 unit Knowlton Apartment Homes for an undisclosed amount from C-III Capital Partners, and on 01/28/2022 purchased the 152 unit Newport Apartments for an undisclosed amount from LumaCorp, then subsequently merged the two properties rebranding the combined properties as the Knowlton Apartment Homes.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1473208",
     "partners": [
       "Ashland Greene Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -3384,14 +3968,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-61-2092",
     "partners": [
       "Austin Capital Advisors"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3407,14 +3995,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 10/22 sale was an undisclosed portfolio transaction, incorporating the 168 unit Leander Apartment Homes and the 166 unit Lawson Apartment Homes.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-864",
     "partners": [
       "Brazos Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3430,14 +4022,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 10/22 sale was an undisclosed portfolio transaction, incorporating the 168 unit Leander Apartment Homes and the 166 unit Lawson Apartment Homes.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-867",
     "partners": [
       "Brazos Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -3453,14 +4049,18 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 07/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-2940",
     "partners": [
       "CAF Capital Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -3476,14 +4076,18 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 09/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-2512",
     "partners": [
       "Catalyst Equity Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -3499,14 +4103,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 06/22 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-2539",
     "partners": [
       "Churchill Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3522,14 +4130,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 03/22 sale price is estimated from SEC or GSE documentation at time of loan.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-1179",
     "partners": [
       "Citadel Real Estate Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -3545,14 +4157,18 @@
     "sale_date": "2025-04-29",
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group, as the operating partner.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1065",
     "partners": [
       "Citadel Real Estate Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -3568,14 +4184,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-36-1604",
     "partners": [
       "Disrupt Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3591,14 +4211,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-2407",
     "partners": [
       "Disrupt Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -3614,14 +4238,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-2404",
     "partners": [
       "Disrupt Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -3637,14 +4265,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-4053",
     "partners": [
       "Disrupt Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -3660,14 +4292,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 09/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-61-1487",
     "partners": [
       "DiversyFund"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -3683,14 +4319,18 @@
     "sale_date": null,
     "sale_comment": "In 02/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 04/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-61-557312",
     "partners": [
       "Dreamstone Investments"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -3706,14 +4346,18 @@
     "sale_date": null,
     "sale_comment": "In 02/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority to the ownership group.    The 02/16 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-62-2327",
     "partners": [
       "Eureka Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -3729,14 +4373,18 @@
     "sale_date": null,
     "sale_comment": "In 02/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group    The 11/13 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-62-3511",
     "partners": [
       "Eureka Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -3752,14 +4400,18 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    A loan in the amount of $4,680,000, held by Fannie Mae was foreclosed on 08/07/2012.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-62-3875",
     "partners": [
       "Eureka Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -3775,14 +4427,18 @@
     "sale_date": null,
     "sale_comment": "In 02/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    On 07/16/2012 Eureka Holdings purchased the 921 unit Sterling Point Apartments for $20,800,000 from U.S. Bank - REO, and on 01/31/2013 purchased the 258 unit Milagro Apartments for an undisclosed amount from Wellington D. Yu, then subsequently merged the two properties.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-7604",
     "partners": [
       "Eureka Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3798,14 +4454,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 12/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-1744",
     "partners": [
       "Frontline Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3821,14 +4481,18 @@
     "sale_date": "2025-04-30",
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group, as the operating partner.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-2295",
     "partners": [
       "Frontline Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3844,14 +4508,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-674329",
     "partners": [
       "Gold Creek Homes"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3867,14 +4535,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-1483823",
     "partners": [
       "Gold Creek Homes"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3890,14 +4562,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-1502285",
     "partners": [
       "Gold Creek Homes"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3913,14 +4589,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-1518161",
     "partners": [
       "Gold Creek Homes"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -3936,14 +4616,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-939198",
     "partners": [
       "JPI"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -3959,14 +4643,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-939526",
     "partners": [
       "JPI"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -3982,14 +4670,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-2762",
     "partners": [
       "Keener Investments"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4005,14 +4697,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 12/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-4271",
     "partners": [
       "Knightvest Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -4028,14 +4724,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1417366",
     "partners": [
       "Landmark Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -4051,14 +4751,18 @@
     "sale_date": null,
     "sale_comment": "In 02/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 12/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-2158",
     "partners": [
       "LM Max Realty"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4074,14 +4778,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1294",
     "partners": [
       "MC Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -4097,14 +4805,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-1618000",
     "partners": [
       "MC Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -4120,14 +4832,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-3602",
     "partners": [
       "Next Investments"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -4143,14 +4859,18 @@
     "sale_date": null,
     "sale_comment": "In 01/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 03/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-3968",
     "partners": [
       "Next Investments"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4166,14 +4886,18 @@
     "sale_date": "2025-05-01",
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group, as the operating partner.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-3624",
     "partners": [
       "NorthMarq"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -4189,14 +4913,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-3422",
     "partners": [
       "Olive Tree Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -4212,14 +4940,18 @@
     "sale_date": null,
     "sale_comment": "In 02/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 10/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-1260",
     "partners": [
       "Orangehill Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4235,14 +4967,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 08/24 sale was an undisclosed portfolio transaction, incorporating the 314 unit The Charlie Apartments and the 220 unit The Warren Apartments.    <div> </div>",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1155",
     "partners": [
       "Reap Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4258,14 +4994,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 08/24 sale was an undisclosed portfolio transaction, incorporating the 314 unit The Charlie Apartments and the 220 unit The Warren Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1173",
     "partners": [
       "Reap Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -4281,14 +5021,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 08/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-61-1746",
     "partners": [
       "REEP Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -4304,14 +5048,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 05/21 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-2691",
     "partners": [
       "REEP Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -4327,14 +5075,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority to the ownership group.    The 06/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-3426",
     "partners": [
       "REEP Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -4350,14 +5102,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 04/22 sale was an undisclosed portfolio transaction incorporating the 90 unit Avenue M at 1620 Oaktree Apartments and the 75 unit Avenue M at 1720 Crestdale Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-769531",
     "partners": [
       "REEP Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -4373,14 +5129,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 04/22 sale was an undisclosed portfolio transaction incorporating the 90 unit Avenue M at 1620 Oaktree Apartments and the 75 unit Avenue M at 1720 Crestdale Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-1533925",
     "partners": [
       "REEP Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4396,14 +5156,18 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority to the ownership group.    The 04/22 sale was a $123,156,000 unconfirmed portfolio transaction incorporating the 356 unit Melville Apartments and the 320 unit The Holden Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-696",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4419,14 +5183,18 @@
     "sale_date": null,
     "sale_comment": "The 07/22 sale was an undisclosed portfolio transaction incorporating 11 properties in Texas.    In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-803",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4442,14 +5210,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 07/22 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1111",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4465,14 +5237,18 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 04/22 sale was a $123,156,000 unconfirmed portfolio transaction incorporating the 356 unit Melville Apartments and the 320 unit The Holden Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1320",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4488,14 +5264,18 @@
     "sale_date": null,
     "sale_comment": "The 07/22 sale was an undisclosed portfolio transaction incorporating 11 properties in Texas.    In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1438",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4511,14 +5291,18 @@
     "sale_date": null,
     "sale_comment": "The 07/22 sale was an undisclosed portfolio transaction incorporating 11 properties in Texas.    In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-3117",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4534,14 +5318,18 @@
     "sale_date": null,
     "sale_comment": "The 07/22 sale was an undisclosed portfolio transaction incorporating 11 properties in Texas.    In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-3160",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -4557,14 +5345,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 07/22 sale was an undisclosed portfolio transaction incorporating 11 properties in Texas.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-2481",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -4580,14 +5372,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 07/22 sale was an undisclosed portfolio transaction incorporating 11 properties in Texas.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1495",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -4603,14 +5399,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 07/22 sale was an undisclosed portfolio transaction incorporating 11 properties in Texas.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1702",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -4626,14 +5426,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 07/22 sale was an undisclosed portfolio transaction incorporating 11 properties in Texas.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-62-563",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -4649,14 +5453,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 07/22 sale was an undisclosed portfolio transaction incorporating 11 properties in Texas.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-2997",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -4672,14 +5480,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 07/22 sale was an undisclosed portfolio transaction incorporating 11 properties in Texas.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-3356",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4695,14 +5507,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 10/21 sale price is undisclosed.    The original ownership group contained Columbus Pacific Properties and Sovereign Properties. Columbus Pacific Properties has subsequently left the deal.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-4378",
     "partners": [
       "S2 Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4718,14 +5534,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-680",
     "partners": [
       "Sahara Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -4741,14 +5561,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 09/21 sale price is estimated from SEC or GSE documentation at time of loan.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-613",
     "partners": [
       "Sahara Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -4764,14 +5588,18 @@
     "sale_date": null,
     "sale_comment": "The 12/19 sale price is unconfirmed, but believed to be reasonably representative of the transfer.    In 03/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority to the ownership group.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1625",
     "partners": [
       "Sahara Equity"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -4787,14 +5615,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-36-1179",
     "partners": [
       "Silverstone Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4810,14 +5642,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1236",
     "partners": [
       "Staples Multifamily"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -4833,14 +5669,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-2879",
     "partners": [
       "Stillwater Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -4856,14 +5696,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 07/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-61-1383",
     "partners": [
       "StoneSteps Real Estate"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4879,14 +5723,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-7551",
     "partners": [
       "Strategic Property Investment"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -4902,14 +5750,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1153309",
     "partners": [
       "Sundance Bay"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -4925,14 +5777,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1153801",
     "partners": [
       "TDI"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -4948,14 +5804,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-1307454",
     "partners": [
       "TDI"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -4971,14 +5831,18 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 06/23 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-818",
     "partners": [
       "Texsun Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -4994,14 +5858,18 @@
     "sale_date": "2025-01-16",
     "sale_comment": "In 01/25 the property was recapitalized with an unrecorded portfolio sale that kept Texsun Holdings, but replaced Cottonwood Management with Pecos Housing Authority, as operating partner, incorporating the 280 unit The Brittany Apartments and the 200 unit The Ryan Apartments.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-2280",
     "partners": [
       "Texsun Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -5017,14 +5885,18 @@
     "sale_date": "2025-01-16",
     "sale_comment": "In 01/25 the property was recapitalized with an unrecorded portfolio sale that kept Texsun Holdings, but replaced Cottonwood Management with Pecos Housing Authority, as operating partner, incorporating the 280 unit The Brittany Apartments and the 200 unit The Ryan Apartments",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-2293",
     "partners": [
       "Texsun Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -5040,14 +5912,18 @@
     "sale_date": "2025-01-13",
     "sale_comment": "In 01/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority to the ownership group, as the operating partner.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-61-384",
     "partners": [
       "Texsun Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -5063,14 +5939,18 @@
     "sale_date": "2025-01-13",
     "sale_comment": "In 01/25 the property was recapitalized with an undisclosed sale that added Pecos Housing Authority to the ownership group, as the operating partner.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-61-1321",
     "partners": [
       "Texsun Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -5086,14 +5966,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-1661",
     "partners": [
       "Tides Equities"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -5109,14 +5993,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-62-3376",
     "partners": [
       "TriArc Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -5132,14 +6020,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-2765",
     "partners": [
       "TriArc Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -5155,14 +6047,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 08/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-3331",
     "partners": [
       "TriArc Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -5178,14 +6074,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-4066",
     "partners": [
       "TriArc Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -5201,14 +6101,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-1562762",
     "partners": [
       "TriArc Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -5224,14 +6128,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added <span style=\"white-space:normal\">Pecos Housing Authority</span> to the ownership group.    The 05/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-36-1875",
     "partners": [
       "TruAmerica Multifamily"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -5247,14 +6155,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 04/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1479",
     "partners": [
       "TruAmerica Multifamily"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -5270,14 +6182,18 @@
     "sale_date": null,
     "sale_comment": "In 03/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 01/19 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-62-3993",
     "partners": [
       "Turnstone Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -5293,14 +6209,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1324461",
     "partners": [
       "Vino Patel Real Estate"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -5316,14 +6236,18 @@
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 11/24 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-36-1403",
     "partners": [
       "WindMass Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -5339,14 +6263,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 03/20 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1092",
     "partners": [
       "WindMass Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -5362,14 +6290,18 @@
     "sale_date": null,
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group.    The 03/20 sale price is undisclosed.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1094",
     "partners": [
       "WindMass Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -5385,14 +6317,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-3179",
     "partners": [
       "WindMass Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -5408,14 +6344,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-4261",
     "partners": [
       "WindMass Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -5431,14 +6371,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1043",
     "partners": [
       "WindMass Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -5454,14 +6398,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-1071",
     "partners": [
       "WindMass Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -5477,14 +6425,18 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-43-3479",
     "partners": [
       "WindMass Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -5500,14 +6452,18 @@
     "sale_date": "2025-05-02",
     "sale_comment": "In 05/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority to the ownership group, as the operating partner.",
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-37-1112",
     "partners": [
       "WindMass Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -5523,12 +6479,16 @@
     "sale_date": null,
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-63-3280",
-    "partners": []
+    "partners": [],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -5544,12 +6504,16 @@
     "sale_date": "2025-02-14",
     "sale_comment": null,
     "traveling": "yes",
-    "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
-    "tier": 3,
+    "sponsor_species": "HFC",
+    "sponsor_statute": "Ch.394",
+    "tier": 1,
     "sponsor_home_county": "Reeves",
     "census_id": "TX-38-383621",
-    "partners": []
+    "partners": [],
+    "sponsor_entity_verified": "Pecos Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pecos",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -5566,13 +6530,17 @@
     "sale_comment": null,
     "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Collin",
     "census_id": "TX-43-2392",
     "partners": [
       "AMCAL Housing"
-    ]
+    ],
+    "sponsor_entity_verified": "Plano Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Plano",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -5596,7 +6564,11 @@
     "partners": [
       "Leuven Group",
       "Ascenda Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -5620,7 +6592,11 @@
     "partners": [
       "TTI Capital",
       "Brick Street Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -5644,7 +6620,11 @@
     "partners": [
       "TTI Capital",
       "Brick Street Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -5668,7 +6648,11 @@
     "partners": [
       "RPM",
       "DRA Advisors"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -5692,7 +6676,11 @@
     "partners": [
       "Kor Group",
       "Kingbird Investment Management"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -5716,7 +6704,11 @@
     "partners": [
       "3D Investments",
       "Langdon Street Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -5740,7 +6732,11 @@
     "partners": [
       "Post Investment Group",
       "Marble Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -5764,7 +6760,11 @@
     "partners": [
       "RPM",
       "Marble Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -5788,7 +6788,11 @@
     "partners": [
       "Equity Partnership Holdings",
       "Moses Tucker Real Estate"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -5812,7 +6816,11 @@
     "partners": [
       "Flournoy Companies",
       "PointOne Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -5836,7 +6844,11 @@
     "partners": [
       "Ascenda Capital",
       "Post Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -5859,7 +6871,11 @@
     "census_id": "TX-63-558869",
     "partners": [
       "Amaz Property Management USA"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -5882,7 +6898,11 @@
     "census_id": "TX-61-1709",
     "partners": [
       "Ascendant Capital Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -5905,7 +6925,11 @@
     "census_id": "TX-37-5252",
     "partners": [
       "Ascendant Capital Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -5928,7 +6952,11 @@
     "census_id": "TX-61-1175498",
     "partners": [
       "Ascendant Capital Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -5951,7 +6979,11 @@
     "census_id": "TX-62-4440",
     "partners": [
       "Avid Realty Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -5974,7 +7006,11 @@
     "census_id": "TX-38-856",
     "partners": [
       "BrightSpire Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -5997,7 +7033,11 @@
     "census_id": "TX-38-2869",
     "partners": [
       "BrightSpire Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -6020,7 +7060,11 @@
     "census_id": "TX-63-3007",
     "partners": [
       "Brixton Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -6043,7 +7087,11 @@
     "census_id": "TX-63-8262",
     "partners": [
       "Cardone Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -6066,7 +7114,11 @@
     "census_id": "TX-63-393756",
     "partners": [
       "Cardone Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -6089,7 +7141,11 @@
     "census_id": "TX-43-1225449",
     "partners": [
       "Cityview"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -6112,7 +7168,11 @@
     "census_id": "TX-61-533",
     "partners": [
       "Cottonwood Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -6135,7 +7195,11 @@
     "census_id": "TX-37-1385",
     "partners": [
       "Cypress Equity Investments"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -6158,7 +7222,11 @@
     "census_id": "TX-61-659",
     "partners": [
       "DB Capital Management"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -6181,7 +7249,11 @@
     "census_id": "TX-38-1314388",
     "partners": [
       "Elevate Commercial Investment Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -6204,7 +7276,11 @@
     "census_id": "TX-38-1357393",
     "partners": [
       "Equity Partnership Holdings"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -6227,7 +7303,11 @@
     "census_id": "TX-62-3038",
     "partners": [
       "Hilltop Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -6250,7 +7330,11 @@
     "census_id": "TX-63-3158",
     "partners": [
       "Hilltop Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -6273,7 +7357,11 @@
     "census_id": "TX-63-4733",
     "partners": [
       "Hilltop Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -6296,7 +7384,11 @@
     "census_id": "TX-38-1047",
     "partners": [
       "KCB Real Estate"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -6319,7 +7411,11 @@
     "census_id": "TX-43-1468",
     "partners": [
       "L5 Odyssey"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -6342,7 +7438,11 @@
     "census_id": "TX-63-2717",
     "partners": [
       "Madera Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -6365,7 +7465,11 @@
     "census_id": "TX-62-4478",
     "partners": [
       "Madera Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6388,7 +7492,11 @@
     "census_id": "TX-36-2275",
     "partners": [
       "Marlin Spring"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6411,7 +7519,11 @@
     "census_id": "TX-36-186",
     "partners": [
       "Palladius Capital Management"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6434,7 +7546,11 @@
     "census_id": "TX-36-240",
     "partners": [
       "Palladius Capital Management"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -6457,7 +7573,11 @@
     "census_id": "TX-61-1955",
     "partners": [
       "Palladius Capital Management"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -6480,7 +7600,11 @@
     "census_id": "TX-63-3697",
     "partners": [
       "Palladius Capital Management"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "84",
@@ -6503,7 +7627,11 @@
     "census_id": "TX-84-943",
     "partners": [
       "Palladius Capital Management"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6526,7 +7654,11 @@
     "census_id": "TX-36-1128394",
     "partners": [
       "Palladius Capital Management"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6549,7 +7681,11 @@
     "census_id": "TX-36-568",
     "partners": [
       "Polaris Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6572,7 +7708,11 @@
     "census_id": "TX-36-1526",
     "partners": [
       "Polaris Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6595,7 +7735,11 @@
     "census_id": "TX-36-1838",
     "partners": [
       "Polaris Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -6618,7 +7762,11 @@
     "census_id": "TX-37-750",
     "partners": [
       "Polaris Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -6641,7 +7789,11 @@
     "census_id": "TX-37-1104",
     "partners": [
       "Polaris Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -6664,7 +7816,11 @@
     "census_id": "TX-37-1153",
     "partners": [
       "Polaris Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -6687,7 +7843,11 @@
     "census_id": "TX-43-3712",
     "partners": [
       "Polaris Real Estate Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6710,7 +7870,11 @@
     "census_id": "TX-36-1155680",
     "partners": [
       "Presidium Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6733,7 +7897,11 @@
     "census_id": "TX-36-1357295",
     "partners": [
       "Presidium Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "37",
@@ -6756,7 +7924,11 @@
     "census_id": "TX-37-1358481",
     "partners": [
       "Presidium Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -6779,7 +7951,11 @@
     "census_id": "TX-38-1402209",
     "partners": [
       "Presidium Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6802,7 +7978,11 @@
     "census_id": "TX-36-1417384",
     "partners": [
       "Presidium Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -6825,7 +8005,11 @@
     "census_id": "TX-36-1549620",
     "partners": [
       "Presidium Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -6848,7 +8032,11 @@
     "census_id": "TX-38-1550",
     "partners": [
       "Rialto Capital Management - REO"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -6871,7 +8059,11 @@
     "census_id": "TX-62-1184067",
     "partners": [
       "Sundance Bay"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -6894,7 +8086,11 @@
     "census_id": "TX-62-919380",
     "partners": [
       "ZaneCRE"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -6917,7 +8113,11 @@
     "census_id": "TX-63-1171213",
     "partners": [
       "ZaneCRE"
-    ]
+    ],
+    "sponsor_entity_verified": "Pleasanton Housing Finance Corporation",
+    "faces_2027_cliff": true,
+    "sponsor_home_city": "Pleasanton",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -6932,15 +8132,19 @@
     "ground_lease_comment": null,
     "sale_date": null,
     "sale_comment": "In 04/25 the property was recapitalized with an unrecorded sale that added Rosenberg Housing Authority to the ownership group.    The 08/22 sale price is unconfirmed, but believed to be reasonably representative of the transfer.",
-    "traveling": "no",
+    "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Fort Bend",
     "census_id": "TX-63-3263",
     "partners": [
       "Catalyst Equity Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Rosenberg Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Rosenberg",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -6955,15 +8159,19 @@
     "ground_lease_comment": null,
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "no",
+    "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Fort Bend",
     "census_id": "TX-63-334",
     "partners": [
       "Madera Companies"
-    ]
+    ],
+    "sponsor_entity_verified": "Rosenberg Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Rosenberg",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -6978,15 +8186,19 @@
     "ground_lease_comment": null,
     "sale_date": "2026-02-26",
     "sale_comment": "The 02/26 sale was an unrecorded transaction in which Rosenberg Housing Authority purchased the single asset entity which held title to the 295 unit Waterview Apartments.",
-    "traveling": "no",
+    "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Fort Bend",
     "census_id": "TX-63-8200",
     "partners": [
       "Velocity Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Rosenberg Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Rosenberg",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -7001,13 +8213,17 @@
     "ground_lease_comment": null,
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "no",
+    "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Fort Bend",
     "census_id": "TX-63-4944",
-    "partners": []
+    "partners": [],
+    "sponsor_entity_verified": "Rosenberg Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Rosenberg",
+    "classification_confidence": "med"
   },
   {
     "market_id": "63",
@@ -7022,13 +8238,17 @@
     "ground_lease_comment": null,
     "sale_date": "2025-09-29",
     "sale_comment": "The 09/25 sale was an unrecorded transaction in which Rosenberg Housing Authority purchased the single asset entity which held title to the 297 unit Haven at Bellaire Apartments.",
-    "traveling": "no",
+    "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Fort Bend",
     "census_id": "TX-63-939655",
-    "partners": []
+    "partners": [],
+    "sponsor_entity_verified": "Rosenberg Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Rosenberg",
+    "classification_confidence": "med"
   },
   {
     "market_id": "53",
@@ -7045,13 +8265,17 @@
     "sale_comment": null,
     "traveling": "yes",
     "sponsor_species": "HA",
-    "sponsor_statute": "HA (Ch.392)",
+    "sponsor_statute": "Ch.392",
     "tier": 3,
     "sponsor_home_county": "Cameron",
     "census_id": "TX-53-1154589",
     "partners": [
       "Brownstone Group, The"
-    ]
+    ],
+    "sponsor_entity_verified": "San Benito Housing Authority",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "San Benito",
+    "classification_confidence": "low"
   },
   {
     "market_id": "36",
@@ -7066,16 +8290,20 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 05/05/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-36-535",
     "partners": [
       "Embrey Partners",
       "Black Salmon"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -7090,15 +8318,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 05/26/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-38-1506024",
     "partners": [
       "Alpine Start Development"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -7113,15 +8345,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 02/03/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-61-374106",
     "partners": [
       "Ascendant Capital Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -7136,15 +8372,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 04/01/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-61-1521",
     "partners": [
       "Brixton Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -7159,15 +8399,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 11/28/2121.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-62-3188",
     "partners": [
       "Brixton Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -7182,15 +8426,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 05/09/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-63-2885",
     "partners": [
       "BV Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "62",
@@ -7205,15 +8453,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 05/25/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-62-921094",
     "partners": [
       "CityStreet Residential"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -7228,15 +8480,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 12/01/2120.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-36-1510489",
     "partners": [
       "Civicap Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -7251,15 +8507,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 05/24/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-36-1395069",
     "partners": [
       "Firmus Equity Partners"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -7274,15 +8534,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 05/01/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-36-1968",
     "partners": [
       "Lynd Management Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -7297,15 +8561,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 04/20/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-36-2017",
     "partners": [
       "Lynd Management Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -7320,15 +8588,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 06/02/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-36-2088",
     "partners": [
       "Lynd Management Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -7343,15 +8615,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 06/20/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-36-2231",
     "partners": [
       "Lynd Management Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "61",
@@ -7366,15 +8642,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 06/05/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-61-457",
     "partners": [
       "Lynd Management Group"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "38",
@@ -7389,15 +8669,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 06/20/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-38-1046",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -7412,15 +8696,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 10/04/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-43-518",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -7435,15 +8723,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 06/20/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-43-554",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -7458,15 +8750,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 06/20/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-43-616",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "43",
@@ -7481,15 +8777,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 06/30/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-43-1018",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -7504,15 +8804,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-63-2465",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -7527,15 +8831,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 06/01/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-63-2485",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -7550,15 +8858,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 10/25/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-63-2583",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -7573,15 +8885,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 10/27/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-63-2618",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "63",
@@ -7596,15 +8912,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 10/04/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-63-4482",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "84",
@@ -7619,15 +8939,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 10/11/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-84-548",
     "partners": [
       "Nitya Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -7642,15 +8966,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 01/26/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-36-1314832",
     "partners": [
       "SHIR Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -7665,15 +8993,19 @@
     "ground_lease_comment": "The property is subject to a 99-year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 06/01/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-36-1527161",
     "partners": [
       "SHIR Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "36",
@@ -7688,15 +9020,19 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 11/01/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-36-1527165",
     "partners": [
       "SHIR Capital"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   },
   {
     "market_id": "114",
@@ -7711,14 +9047,18 @@
     "ground_lease_comment": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 02/28/2122.",
     "sale_date": null,
     "sale_comment": null,
-    "traveling": "unknown",
+    "traveling": "yes",
     "sponsor_species": "PFC",
     "sponsor_statute": "Ch.303",
     "tier": 2,
-    "sponsor_home_county": null,
+    "sponsor_home_county": "Travis",
     "census_id": "TX-114-1177607",
     "partners": [
       "Z Modular"
-    ]
+    ],
+    "sponsor_entity_verified": "Texas Essential Housing Public Facility Corporation",
+    "faces_2027_cliff": false,
+    "sponsor_home_city": "Austin (SH130 corridor)",
+    "classification_confidence": "high"
   }
 ]
