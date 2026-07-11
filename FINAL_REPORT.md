@@ -127,7 +127,8 @@ The seed was a good net but wrong on the load-bearing dimension — legal specie
 **Pecos "Authority" → HFC** (126 rows, Tier 3→1); **two "Cameron County Housing Authority" buckets →
 Cameron County HFC** (Tier 3→1); **home-jurisdiction / traveling test fixed** to the statutory
 city-boundary (HB 21) and city+5-mile (§392.014) rules; **Texas Essential Housing PFC home county
-resolved** (Travis); **Houston HA reclassified mostly-local**; **~126 off-seed properties added.**
+resolved** (Travis); **Houston HA reclassified mostly-local**; **~126 off-seed properties added**;
+and a **14th sponsor discovered** via the litigation harvest (Fort Bend County HFC) beyond the seed's 13.
 
 ## 7. Data model, provenance & known gaps
 
@@ -144,9 +145,12 @@ Confidence ladder: seed → single-source → cross-validated → deep-dive.
   scramble to fix.
 - **Unmatched rows:** McLennan (CAD unreachable), Rockwall (CAD login-walled), a Burleson Pecos deal,
   and 13 Harris rows (mostly under-construction) — carried forward as gaps, not dropped.
-- **Not yet folded in:** the statewide TDHCA registry cross-check and the litigation/HB 21-challenge
-  property rosters (harvest agents did not deliver); these *enhance* cross-validation but do not
-  change the tier findings.
+- **Statewide cross-checks (in `census/phase2/`):** the TDHCA compliance-registry pull and the
+  litigation property roster landed and are captured; the HB 21-challenge roster is the one harvest
+  still outstanding. The litigation roster surfaced a **14th sponsor — Fort Bend County HFC**
+  ("Ravella at Sienna," Missouri City) not in the original seed, and confirmed the aggregate-suit
+  parcel lists (Tarrant 28-site/$974M, Bexar 27, Fort Worth 13) are **not publicly itemized** — they
+  require the petitions or a CAD owner-roll sweep to enumerate.
 - **Out of scope (gated):** unrecorded ground leases, live loan/special-servicing status, TPIA
   productions — recorded as gaps, to be pulled by a human if desired.
 
