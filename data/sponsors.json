@@ -101,16 +101,42 @@
     "name": "Texas Essential Housing Public Facility Corporation",
     "aka": [
       "Texas Essential Housing PFC",
-      "TEH PFC"
+      "TEH PFC",
+      "TEHPFC"
     ],
     "species": "PFC",
     "statute": "Ch.303",
-    "home_city": null,
-    "home_county": null,
+    "home_city": "Austin",
+    "home_county": "Travis",
+    "sponsoring_government": "SH130 Municipal Management District No. 1 (Travis County; created 2019 by HB 4694, Special District Local Laws Ch. 3971; in Austin's ETJ along SH 130). MMD created/sponsors the PFC 2021.",
+    "sponsor_type": "municipal management district (special district) - statewide traveling PFC administered by Locke Lord LLP (Adam Harden); President/Chair Aundre Dukes; Frost Bank FA; Z Modular developer nexus",
     "tier": 2,
     "property_count": 29,
-    "traveling_count_seed": 0,
-    "classification_status": "SEED_GUESS_UNVERIFIED"
+    "traveling_count_seed": 29,
+    "travels": "statewide (all 29 outside the tiny SH130 MMD boundary)",
+    "best_independent_count": 30,
+    "best_independent_count_source": "Williamson County Sun ('at least 30 apartment complexes')",
+    "classification_status": "CONFIRMED_TIER2_PFC_CH303",
+    "classification_confidence": "high",
+    "profile": "sponsors/texas-essential-housing-pfc.md",
+    "faces_2027_cliff": false,
+    "deal_vintage": "2021-2023 (99-yr ground leases expiring 2120-2122); grandfather cutoff = HB 2071 eff. 2023-06-18 (approval/acquisition-date test, s10); majority grandfathered, a post-6/18/2023 boundary subset is per-property fact-dependent",
+    "kill_regime": "NO statutory cliff (HB 21/Ch.394 does not apply to Ch.303 PFCs). Exemption ends deal-by-deal on: contract/lease term (99-yr, to 2120-2122); capital event (sale/refi/PFC ceasing to own); s303.0426 TDHCA audit non-compliance/non-filing; CAD/AG challenge (Tax Code s11.43(i) 5-yr back-assessment); contingent legislative dissolution of sponsor MMD (SB 2434 died 88R)",
+    "kill_date_est": "none (event-driven; no cliff)",
+    "litigation": [
+      "TEHPFC v. Williamson Central Appraisal District, 395th Dist. Ct., Cause 24-0022-C395",
+      "TEHPFC (Enclave La Frontera) v. Williamson CAD, Cause 24-1698-C395",
+      "AG Opinion KP-0437 (2023-03-08, Bettencourt) - PFC-by-MMD out-of-territory; declined but skeptical",
+      "SB 2434 (88R) to dissolve SH130 MMD - passed Senate 2023-05-08, died House Urban Affairs",
+      "Williamson County Commissioners investigation into TEHPFC exemptions"
+    ],
+    "open_questions": [
+      "Per-property grandfather split (pull SWD/ground-lease + board-approval dates)",
+      "TDHCA s303.0426 audit filings (TEHPFC not visible on PFC monitoring list this pass - filer vs non-filer?)",
+      "Williamson CAD litigation outcomes 24-0022-C395 / 24-1698-C395",
+      "Current officer/board roster & registered agent (SOSDirect #0804246315); board-conflict allegations (TPPF)",
+      "Z Modular related-party deal confirmation; Aundre Dukes GLO background / any enforcement action (none found)"
+    ]
   },
   {
     "name": "Pecos Housing Authority",
