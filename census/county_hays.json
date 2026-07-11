@@ -1,0 +1,1198 @@
+[
+  {
+    "census_id": "TX-36-1273141",
+    "confidence": "single-source",
+    "property": {
+      "name": "Jovie Belterra Apartments",
+      "aka": [
+        "The Jovie at Belterra"
+      ],
+      "address": "167 Hargraves Dr, Dripping Springs, TX 78620",
+      "city": "Dripping Springs",
+      "county": "Hays",
+      "zip": "78620",
+      "cad_account": "R179726",
+      "units": 150,
+      "year_built": 2022,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Edcouch Community Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Edcouch",
+      "home_county": "Hidalgo",
+      "role_on_property": "Additional owner (per seed); fee owner per HaysCAD deed of record"
+    },
+    "partners": [
+      "Wilson Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-04-14",
+      "ground_lease_date": "2025-04-16",
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "25013871",
+        "25013870"
+      ],
+      "recording_batch_note": "HaysCAD deed history shows a two-step SWD chain: Belterra Lot 3H Ltd -> Jovie Belterra LP (recorded as inst. 25013870) then Jovie Belterra Leasehold LP -> Edcouch Community HFC (inst. 25013871) -- consistent with the kit's fee-conveyance-plus-leaseback fingerprint (Method 3). Same-instrument sibling parcel R156480 (a $1,090 sliver lot on Nutty Brown Rd, Austin/Belterra) conveyed via the same instrument 25013871 -- treated as an appurtenant parcel to this property, not modeled as a separate census record."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 35500000.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 7
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 §13(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 §13(i): HFC-owned multifamily property outside the sponsor's home jurisdiction (Edcouch, Hidalgo Co.) on 9/1/2025 loses the §394.905 exemption after 1/1/2027 absent a qualifying host-jurisdiction resolution. NOTE: this account shows ZERO exemption applied on both the TY2025 (acquisition year) and TY2026 HaysCAD rolls -- market value = taxable value in both years -- so the exemption this cliff would otherwise kill does not currently appear to be in effect at all; see gaps."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Not a named party to Hays County v. Pecos HFC & Pleasanton HFC (25-1185-DCB) -- that suit and TRO name only Pecos HFC and Pleasanton HFC. Edcouch Community HFC's Hays County holdings (this property and TX-NEW-HAYS-1/2/3) are not confirmed to be covered by that TRO, yet this account is nonetheless carried fully taxable on both the TY2025 and TY2026 roll -- see kill_analysis and gaps."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "property.units (150) sourced from the developer's own portfolio page (wilson-capital.com); secondary listing aggregators disagree (75 or 36 units reported elsewhere) -- not independently reconciled.",
+      "Seed row TX-36-1273141 carries no address; Edcouch HFC in fact holds TWO distinct Dripping Springs complexes in HaysCAD (this property, and 'Local at Dripping Springs' -- see TX-NEW-HAYS-1/2/3), both developed by the seed's named partner Wilson Capital. The single seed row was matched to this (higher-value) property on a best-effort basis, consistent with the Dallas census's bucket-pairing convention; it could equally represent the other complex. Method 3 (Hays County Clerk grantor/grantee index) would resolve definitively.",
+      "Why this account shows $0 exemption on both TY2025 and TY2026 despite Edcouch HFC fee ownership since 4/14/2025 is not determinable from the roll alone -- candidate causes: no exemption application filed/approved yet, non-filing of the §394.9027 TDHCA compliance audit, or precautionary Hays CAD posture amid the adjacent Pecos/Pleasanton litigation. TDHCA compliance-monitoring page or a TPIA request would resolve.",
+      "year_built (2022) is the CAD improvement 'year built' field for the main structure; secondary marketing sources describe the community as having opened/completed in 2024 -- likely reflects construction-to-lease-up lag rather than a data conflict, not independently reconciled."
+    ],
+    "provenance": [
+      {
+        "field": "property.address, property.cad_account, exemption.appraised_value, exemption.taxing_units",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R179726&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Situs address, legal description, Property Values panel, and Property Taxing Jurisdiction table (7 entities, market=taxable=$35,500,000)."
+      },
+      {
+        "field": "structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R179726&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Property Deed History table."
+      },
+      {
+        "field": "exemption history (TY2025 fully taxable)",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R179726&year=2025",
+        "retrieved": "2026-07-11",
+        "note": "Year-selector toggle to TY2025; owner already Edcouch Community HFC, market=taxable=$34,071,457."
+      },
+      {
+        "field": "sponsor.name, sponsor.species, sponsor.statute, sponsor.home_jurisdiction, classification.tier, kill_analysis.regime",
+        "source": "data/sponsors.json; docs/phase1_verdict.md",
+        "retrieved": "2026-07-11",
+        "note": "Project Phase-1 verified sponsor roster."
+      },
+      {
+        "field": "property.name (aka), property.units",
+        "source": "wilson-capital.com/portfolio/the-jovie-at-belterra/",
+        "retrieved": "2026-07-11",
+        "note": "Developer's own portfolio page; 150 units, completed 2024, market-rate marketing (no HFC/ground-lease disclosure -- typical for these deals per kit trap #1)."
+      },
+      {
+        "field": "litigation_flags (Hays suit context)",
+        "source": "sponsors/pleasanton-hfc.md; sponsors/pecos-ha.md; therealdeal.com/texas/austin/2025/04/30/hays-county-sues-housing-finance-corporations/",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-36-861336",
+    "confidence": "seed",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "San Marcos",
+      "county": "Hays",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Additional owner (per seed)"
+    },
+    "partners": [
+      "Impex Capital Group",
+      "Nome Capital Partners",
+      "Pensam Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": null,
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "Seed sale_comment: 'In 03/25 the property was recapitalized with an unrecorded sale that added Pecos Housing Authority, Nome Capital Partners and Pensam Capital to the ownership group. The 12/21 sale price is unconfirmed...' -- i.e. the seed itself flags the Pecos-HFC-adding transaction as UNRECORDED."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 §13(i)",
+      "captured_9_1_2025": null,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "Applies in principle to Pecos HFC as a confirmed Tier-1 traveling HFC (docs/phase1_verdict.md), but cannot be tied to a specific parcel/appraised value from free HaysCAD data -- see gaps."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Hays County v. Pecos Housing Finance Corporation & Pleasanton Housing Finance Corporation, Case No. 25-1185-DCB (filed 4/30/2025, Hays Co. Dist. Ct.) -- Hays County / City of San Marcos sought and obtained a TRO to stop Hays CAD from granting ad valorem exemptions on Pleasanton HFC's and Pecos HFC's San Marcos & Kyle multifamily properties. County Judge Ruben Becerra: proposed exemptions would pull >$227-230M off local rolls, ~$500K/yr county loss alone. 5/5/2025 hearing not held per public reporting; action may be refiled/pending. (Sources: The Real Deal 4/30/2025; KXAN; Pleasanton Express; sponsors/pleasanton-hfc.md, sponsors/pecos-ha.md)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "No HaysCAD account was found under owner name 'PECOS', 'PECOS HOUSING...', or any of the seed-listed recap partners (Nome Capital Partners, Pensam Capital, Impex Capital Group) in an owner-name sweep of esearch.hayscad.com on 2026-07-11 (OwnerName:PECOS returned only an unrelated retail account; OwnerName:NOME/PENSAM/IMPEX all returned zero results).",
+      "This null result is CONSISTENT with, and corroborates, two independent facts already in the record: (1) the seed's own sale_comment describing the 03/2025 Pecos-HFC addition as an 'unrecorded sale', and (2) the Hays County TRO (Case 25-1185-DCB) that specifically sought to stop Hays CAD from processing/granting exemptions on these properties -- if the underlying deed conveying an interest to Pecos HFC was never filed/indexed, HaysCAD's owner-of-record would still show a predecessor entity, not Pecos HFC.",
+      "Cannot confirm property identity, address, appraised value, unit count, or exemption status from free public HaysCAD data. Resolving this record requires either the Hays County Clerk grantor/grantee index (Method 3, to find the underlying unrecorded-or-differently-recorded conveyance) or the property exhibits/pleadings in Case 25-1185-DCB itself (not freely available online as of 2026-07-11)."
+    ],
+    "provenance": [
+      {
+        "field": "sponsor.name (verified), classification.tier, kill_analysis.regime",
+        "source": "data/sponsors.json; docs/phase1_verdict.md; sponsors/pecos-ha.md",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "gaps (no CAD match)",
+        "source": "esearch.hayscad.com Search/SearchResults owner-name sweep (OwnerName:<sponsor name>)",
+        "retrieved": "2026-07-11",
+        "note": "Owner-name searches: PECOS, \"PECOS HOUSING\", \"PECOS HOUSING AUTHORITY\", \"PECOS HFC\", \"PECOS HSG\", NOME, PENSAM, IMPEX -- all zero relevant results."
+      },
+      {
+        "field": "litigation_flags",
+        "source": "sponsors/pecos-ha.md; sponsors/pleasanton-hfc.md; therealdeal.com/texas/austin/2025/04/30/hays-county-sues-housing-finance-corporations/; kxan.com (Hays County TRO)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "structure_dates.recording_batch_note",
+        "source": "data/seed_properties.json (sale_comment, property_id 861336)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-36-2275",
+    "confidence": "single-source",
+    "property": {
+      "name": "Vantage at Plum Creek Apartments",
+      "aka": [
+        "Vista at Plum Creek (former marketing name)",
+        "Oasis at Plum Creek (marketing name per some current listings)"
+      ],
+      "address": "4925 Cromwell Dr, Kyle, TX 78640",
+      "city": "Kyle",
+      "county": "Hays",
+      "zip": "78640",
+      "cad_account": "R132408",
+      "units": null,
+      "year_built": 2009,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Ground Leasor (per seed); fee owner per HaysCAD deed of record"
+    },
+    "partners": [
+      "Marlin Spring"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2024-12-11",
+      "ground_lease_date": "2024-12-11",
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "24048946",
+        "24048945"
+      ],
+      "recording_batch_note": "Same-day two-step SWD chain (both recorded 12/11/2024): Plum Creek Apartments LP -> Plum Creek Apartments Tenant LP (inst. 24048945) then -> Pleasanton HFC (inst. 24048946) -- fee-conveyance-plus-leaseback fingerprint. Seed's ground_lease_comment (99-yr unsubordinated net ground lease, expires 01/01/2124) matches."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 38000000.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 12
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 §13(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 §13(i): acquired 12/11/2024 (well before 9/1/2025), outside Pleasanton's home jurisdiction -> exemption ineligible after 1/1/2027 absent a host resolution. Moot in practice for now: this account is carried FULLY TAXABLE (market value = taxable value, $38,000,000 = $38,000,000) on both the TY2025 and TY2026 HaysCAD roll -- no exemption has actually been granted, consistent with the Hays County TRO's effect."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Hays County v. Pecos Housing Finance Corporation & Pleasanton Housing Finance Corporation, Case No. 25-1185-DCB (filed 4/30/2025, Hays Co. Dist. Ct.) -- Hays County / City of San Marcos sought and obtained a TRO to stop Hays CAD from granting ad valorem exemptions on Pleasanton HFC's and Pecos HFC's San Marcos & Kyle multifamily properties. County Judge Ruben Becerra: proposed exemptions would pull >$227-230M off local rolls, ~$500K/yr county loss alone. (Sources: The Real Deal 4/30/2025; KXAN; Pleasanton Express; sponsors/pleasanton-hfc.md, sponsors/pecos-ha.md)",
+      "This account (Kyle) falls within the Hays suit's named subject matter (Pleasanton HFC Kyle & San Marcos properties) and shows zero exemption on the roll in both years since acquisition, consistent with the TRO blocking Hays CAD from granting the exemption."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "property.units not found in free public sources; the 4925 Cromwell Dr address has been marketed under at least three different names over time (Vista/Vantage/Oasis at Plum Creek) across secondary listing sites with inconsistent unit counts -- not reconciled, left null rather than guessed.",
+      "Two Pleasanton HFC Kyle CAD accounts exist in HaysCAD (R132408 and R172991); the seed carries two Kyle rows for Pleasanton HFC, both role 'Ground Leasor' (property_id 2275, 1128394) with no distinguishing address. Pairing of seed rows to CAD accounts here is best-effort (by property_id ordering), not independently deed-confirmed -- flagged single-source per the Dallas census's bucket-pairing convention."
+    ],
+    "provenance": [
+      {
+        "field": "property.address, property.cad_account, exemption.appraised_value, exemption.taxing_units, property.year_built",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R132408&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Legal description 'VANTAGE AT PLUM CREEK'; Property Values panel; Taxing Jurisdiction table (12 entities, market=taxable=$38,000,000); improvement year-built 2009."
+      },
+      {
+        "field": "structure_dates",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R132408&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Property Deed History table."
+      },
+      {
+        "field": "exemption history (TY2024 pre-sponsor, TY2025 fully taxable)",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R132408&year=2024 and year=2025",
+        "retrieved": "2026-07-11",
+        "note": "TY2024 owner: Plum Creek Apartments LP, taxable=$38,000,000; TY2025 owner: Pleasanton HFC, taxable=$36,600,495 (=market, i.e. still fully taxable)."
+      },
+      {
+        "field": "sponsor fields, classification.tier, litigation context",
+        "source": "data/sponsors.json; docs/phase1_verdict.md; sponsors/pleasanton-hfc.md",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-36-186",
+    "confidence": "single-source",
+    "property": {
+      "name": "The Lodge in San Marcos",
+      "aka": [
+        "Lodge in San Marcos",
+        "The Lodge at Southwest"
+      ],
+      "address": "1975 Aquarena Springs Dr, San Marcos, TX 78666",
+      "city": "San Marcos",
+      "county": "Hays",
+      "zip": "78666",
+      "cad_account": "R100679",
+      "units": 258,
+      "year_built": 2000,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Additional owner (per seed); fee owner per HaysCAD deed of record"
+    },
+    "partners": [
+      "Palladius Capital Management"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-01-10",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "25001429",
+        "25001427"
+      ],
+      "recording_batch_note": "HaysCAD deed history: PRE SMTX PROPCO LLC & PRE SMTX TIC A/B/C LLC -> Pleasanton HFC (1/10/2025, inst. 25001429); immediately preceded by 29SC Lodge LP -> the PRE SMTX entities (1/6/2025, inst. 25001427). No distinct 'Leasehold' entity named in this chain -- ground-lease-back structure not directly confirmed from the recorded grantor/grantee names alone (unlike the Jovie Belterra / Vantage at Plum Creek chains)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 38600000.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 9
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 §13(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 §13(i): acquired 1/10/2025, outside Pleasanton's home jurisdiction -> exemption ineligible after 1/1/2027 absent a host resolution. Moot in practice for now: fully taxable (market=taxable=$38,600,000) on the TY2026 roll; also fully taxable TY2025 ($36,500,000=$36,500,000) -- no exemption has actually been granted, consistent with the Hays TRO."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Hays County v. Pecos Housing Finance Corporation & Pleasanton Housing Finance Corporation, Case No. 25-1185-DCB (filed 4/30/2025, Hays Co. Dist. Ct.) -- Hays County / City of San Marcos sought and obtained a TRO to stop Hays CAD from granting ad valorem exemptions on Pleasanton HFC's and Pecos HFC's San Marcos & Kyle multifamily properties. County Judge Ruben Becerra: proposed exemptions would pull >$227-230M off local rolls, ~$500K/yr county loss alone. (Sources: The Real Deal 4/30/2025; KXAN; Pleasanton Express; sponsors/pleasanton-hfc.md, sponsors/pecos-ha.md)",
+      "This account (San Marcos) falls within the Hays suit's named subject matter and shows zero exemption on the roll for both years since acquisition, consistent with the TRO."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Only ONE Pleasanton HFC-owned account was found in San Marcos via the HaysCAD owner-name sweep, but the seed carries TWO San Marcos Pleasanton rows (this one, role 'Additional owner'; and TX-36-240, role 'Ground Leasor'). This record was matched to the sole San Marcos account found (R100679); TX-36-240 could not be separately matched -- see that record's gaps.",
+      "property.units (258) and year_built discrepancy: Yardi Matrix's own public listing page for this address gives 258 units and a construction date of 1969, while HaysCAD's improvement table's earliest 'year built' entries read 2000 (likely a renovation/re-appraisal baseline rather than original construction) -- not reconciled; year_built retained from CAD as the primary record source, 1969 noted here as a secondary discrepancy."
+    ],
+    "provenance": [
+      {
+        "field": "property.address, property.cad_account, exemption.appraised_value, exemption.taxing_units",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R100679&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Legal description 'MELROSE ADDITION'; Taxing Jurisdiction table (9 entities, market=taxable=$38,600,000)."
+      },
+      {
+        "field": "structure_dates",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R100679&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Property Deed History table."
+      },
+      {
+        "field": "exemption history (TY2024 pre-sponsor, TY2025)",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R100679&year=2024 and year=2025",
+        "retrieved": "2026-07-11",
+        "note": "TY2024 owner: 29SC Lodge LP, taxable=$35,000,000; TY2025 owner: Pleasanton HFC, taxable=$36,500,000 (=market)."
+      },
+      {
+        "field": "property.name, property.units",
+        "source": "yardimatrix.com/property-types/multifamily/austin/the-lodge-1975-aquarena-springs-drive-tx-78666--30297; apartments.com listing 'Lodge in San Marcos'",
+        "retrieved": "2026-07-11",
+        "note": "258 units; secondary source lists 1969 construction."
+      },
+      {
+        "field": "sponsor fields, litigation context",
+        "source": "data/sponsors.json; docs/phase1_verdict.md; sponsors/pleasanton-hfc.md",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-36-240",
+    "confidence": "seed",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "San Marcos",
+      "county": "Hays",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Ground Leasor (per seed)"
+    },
+    "partners": [
+      "Palladius Capital Management"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": null,
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [],
+      "recording_batch_note": "Seed ground_lease_comment: 'The property is subject to a 99 year unsubordinated net ground lease held by Pleasanton Housing Finance Corporation, which expires 02/01/2124.' No matching second San Marcos CAD account found -- see gaps."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 §13(i)",
+      "captured_9_1_2025": null,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "Applies in principle as a confirmed Pleasanton HFC traveling deal; cannot be tied to a specific HaysCAD parcel -- see gaps."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Hays County v. Pecos Housing Finance Corporation & Pleasanton Housing Finance Corporation, Case No. 25-1185-DCB (filed 4/30/2025, Hays Co. Dist. Ct.) -- Hays County / City of San Marcos sought and obtained a TRO to stop Hays CAD from granting ad valorem exemptions on Pleasanton HFC's and Pecos HFC's San Marcos & Kyle multifamily properties. County Judge Ruben Becerra: proposed exemptions would pull >$227-230M off local rolls, ~$500K/yr county loss alone. (Sources: The Real Deal 4/30/2025; KXAN; Pleasanton Express; sponsors/pleasanton-hfc.md, sponsors/pecos-ha.md)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Only one Pleasanton HFC-owned San Marcos account exists in HaysCAD as of 2026-07-11 (R100679 / The Lodge in San Marcos, matched to TX-36-186). This seed row's distinct expiry date (02/01/2124, vs. TX-36-186's implied deal date) suggests it IS a genuinely separate ground-lease instrument rather than a duplicate Yardi Matrix entry for the same deal, but no second San Marcos parcel under Pleasanton ownership could be located via free owner-name search. Possibilities: (a) an unrecorded conveyance analogous to the Pecos San Marcos gap (TX-36-861336) -- plausible given the same Hays TRO covers both sponsors' San Marcos deals; (b) the ground-lease-only interest was never separately parceled by HaysCAD and is bundled into R100679's account. Hays County Clerk grantor/grantee index (Method 3) would resolve."
+    ],
+    "provenance": [
+      {
+        "field": "sponsor fields, classification.tier",
+        "source": "data/sponsors.json; docs/phase1_verdict.md",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "gaps (no second San Marcos CAD match)",
+        "source": "esearch.hayscad.com Search/SearchResults owner-name sweep (OwnerName:<sponsor name>)",
+        "retrieved": "2026-07-11",
+        "note": "OwnerName:PLEASANTON returned exactly 3 total HaysCAD accounts (2 Kyle, 1 San Marcos) as of 2026-07-11."
+      },
+      {
+        "field": "litigation_flags",
+        "source": "sponsors/pleasanton-hfc.md; therealdeal.com/texas/austin/2025/04/30/hays-county-sues-housing-finance-corporations/",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "structure_dates.recording_batch_note",
+        "source": "data/seed_properties.json (ground_lease_comment, property_id 240)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-36-1128394",
+    "confidence": "single-source",
+    "property": {
+      "name": "The Chloe",
+      "aka": [
+        "3400 Kyle Crossing Apartments",
+        "Kyle Towne Center (legal/subdivision name)"
+      ],
+      "address": "3400 Kyle Xing, Kyle, TX 78640",
+      "city": "Kyle",
+      "county": "Hays",
+      "zip": "78640",
+      "cad_account": "R172991",
+      "units": 342,
+      "year_built": 2021,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Ground Leasor (per seed); fee owner per HaysCAD deed of record"
+    },
+    "partners": [
+      "Palladius Capital Management"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2024-11-18",
+      "ground_lease_date": "2024-11-18",
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "24045125"
+      ],
+      "recording_batch_note": "Single-step SWD: PREF Kyle Crossing Propco LLC -> Pleasanton HFC, recorded 11/18/2024. Seed's ground_lease_comment (99-yr, expires 01/01/2124) matches the batch of other Pleasanton Kyle/San Marcos closings around this period."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 51000000.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 12
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 §13(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 §13(i): acquired 11/18/2024, outside Pleasanton's home jurisdiction -> exemption ineligible after 1/1/2027 absent a host resolution. Moot in practice for now: fully taxable both TY2025 ($55,537,034=$55,537,034) and TY2026 ($51,000,000=$51,000,000, a preliminary-value decrease from TY25) -- no exemption has actually been granted, consistent with the Hays TRO."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Hays County v. Pecos Housing Finance Corporation & Pleasanton Housing Finance Corporation, Case No. 25-1185-DCB (filed 4/30/2025, Hays Co. Dist. Ct.) -- Hays County / City of San Marcos sought and obtained a TRO to stop Hays CAD from granting ad valorem exemptions on Pleasanton HFC's and Pecos HFC's San Marcos & Kyle multifamily properties. County Judge Ruben Becerra: proposed exemptions would pull >$227-230M off local rolls, ~$500K/yr county loss alone. (Sources: The Real Deal 4/30/2025; KXAN; Pleasanton Express; sponsors/pleasanton-hfc.md, sponsors/pecos-ha.md)",
+      "This account (Kyle) falls within the Hays suit's named subject matter and shows zero exemption on the roll in both years since acquisition, consistent with the TRO."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Two Pleasanton HFC Kyle CAD accounts exist in HaysCAD (R132408 and R172991); the seed carries two Kyle rows for Pleasanton HFC, both role 'Ground Leasor' (property_id 2275, 1128394) with no distinguishing address. Pairing of seed rows to CAD accounts here is best-effort (by property_id ordering), not independently deed-confirmed -- flagged single-source per the Dallas census's bucket-pairing convention."
+    ],
+    "provenance": [
+      {
+        "field": "property.address, property.cad_account, exemption.appraised_value, exemption.taxing_units, property.year_built",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R172991&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Legal description 'KYLE TOWNE CENTER SECOND'; Taxing Jurisdiction table (12 entities, market=taxable=$51,000,000); improvement year-built 2021."
+      },
+      {
+        "field": "structure_dates",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R172991&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Property Deed History table."
+      },
+      {
+        "field": "exemption history TY2024/TY2025",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R172991&year=2024 and year=2025",
+        "retrieved": "2026-07-11",
+        "note": "TY2024 owner: PREF Kyle Crossing Propco LLC, taxable=$29,500,000; TY2025 owner: Pleasanton HFC, taxable=$55,537,034 (=market)."
+      },
+      {
+        "field": "property.name, property.units",
+        "source": "greystar.com/the-chloe-kyle-tx; har.com/chloe; apartments.com/the-chloe-kyle-tx",
+        "retrieved": "2026-07-11",
+        "note": "342 units, built 2021-22, consistent across 3+ independent listing sources."
+      },
+      {
+        "field": "sponsor fields, litigation context",
+        "source": "data/sponsors.json; docs/phase1_verdict.md; sponsors/pleasanton-hfc.md",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-HAYS-1",
+    "confidence": "single-source",
+    "property": {
+      "name": "Local Dripping Springs (Lot 1 of 3 CAD accounts)",
+      "aka": [
+        "LOCAL Dripping Springs"
+      ],
+      "address": "1282 S Rob Shelton Blvd, Dripping Springs, TX 78620",
+      "city": "Dripping Springs",
+      "county": "Hays",
+      "zip": "78620",
+      "cad_account": "R190278",
+      "units": null,
+      "year_built": 2024,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Edcouch Community Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Edcouch",
+      "home_county": "Hidalgo",
+      "role_on_property": "Primary Owner (fee, per HaysCAD)"
+    },
+    "partners": [
+      "Wilson Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-16",
+      "ground_lease_date": "2025-05-16",
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "25017723",
+        "25017722"
+      ],
+      "recording_batch_note": "HaysCAD deed history: DS Joint Venture LP -> Locals at DS LP (1/24/2023, inst. 23003118) -> Local at DS Leasehold LP -> Edcouch Community HFC (both steps recorded 5/16/2025, inst. 25017723 and 25017722) -- fee-conveyance-plus-leaseback fingerprint, all 3 CAD accounts (R190278/79/80) conveyed via the same instrument set / same closing."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 11000000.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 §13(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 §13(i) applies in principle (2027-01-01), but this account already shows an EARLIER exemption reversal: TY2025 (acquisition year) carried a partial exemption (market $4,461,092 / taxable $929,062, ~79% exempt), but TY2026 reverts to FULLY TAXABLE ($11,000,000=$11,000,000) despite continued Edcouch HFC ownership. See gaps -- the practical kill may already have occurred ahead of the 2027 statutory date."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Not a named party to Hays County v. Pecos HFC & Pleasanton HFC (25-1185-DCB) -- Edcouch Community HFC is not a defendant in that suit."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Exemption granted (partial) for TY2025 then REMOVED for TY2026 -- cause not determinable from the roll alone. Candidate causes per kit Method 1: non-filing of the §394.9027 TDHCA compliance audit (first due 6/1/2026, would forfeit the exemption for the year), a lapsed/non-renewed exemption application, or heightened Hays CAD scrutiny of traveling HFCs generally following the adjacent Pecos/Pleasanton litigation even though Edcouch itself is not a named party. TDHCA's compliance-monitoring page or a TPIA request would resolve.",
+      "Complex-wide unit count (204 total: 172-unit Phase 1 + 32-unit Phase 2, per the developer's own site, wilson-capital.com/portfolio/local-at-dripping-springs/) could not be broken out per CAD account/lot; property.units left null on each of the 3 accounts rather than guessed at a per-lot split.",
+      "This is one of 3 HaysCAD accounts (R190278/79/80) covering the same physical complex/closing; sibling accounts TX-NEW-HAYS-2 and TX-NEW-HAYS-3 show different (inconsistent) TY2025 exemption treatment -- R190279 was fully taxable in TY2025 while this account (R190278) had a partial exemption -- not reconciled; reported as observed."
+    ],
+    "provenance": [
+      {
+        "field": "property.address, property.cad_account, exemption.appraised_value, exemption.taxing_units, property.year_built",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R190278&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Legal description 'CRTX ADDITION, BLOCK A, Lot 1'; Taxing Jurisdiction table (8 entities, market=taxable=$11,000,000)."
+      },
+      {
+        "field": "structure_dates",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R190278&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Property Deed History table."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, kill_analysis basis",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R190278&year=2025",
+        "retrieved": "2026-07-11",
+        "note": "TY2025: market $4,461,092 / taxable $929,062 (partial exemption, first year post-acquisition, likely prorated for partial-year completion)."
+      },
+      {
+        "field": "property.name, property.aka",
+        "source": "apartments.com/local-dripping-springs-dripping-springs-tx; wilson-capital.com/portfolio/local-at-dripping-springs/",
+        "retrieved": "2026-07-11",
+        "note": "204-unit complex (172 Phase 1 + 32 Phase 2), built 2025, marketed as market-rate."
+      },
+      {
+        "field": "sponsor fields, classification.tier",
+        "source": "data/sponsors.json; docs/phase1_verdict.md",
+        "retrieved": "2026-07-11",
+        "note": "Genuine Method-2 expansion -- not in the 6-row Hays seed."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-HAYS-2",
+    "confidence": "single-source",
+    "property": {
+      "name": "Local Dripping Springs (Lot 2 of 3 CAD accounts)",
+      "aka": [
+        "LOCAL Dripping Springs"
+      ],
+      "address": "1282 S Rob Shelton Blvd, Dripping Springs, TX 78620",
+      "city": "Dripping Springs",
+      "county": "Hays",
+      "zip": "78620",
+      "cad_account": "R190279",
+      "units": null,
+      "year_built": 2024,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Edcouch Community Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Edcouch",
+      "home_county": "Hidalgo",
+      "role_on_property": "Primary Owner (fee, per HaysCAD)"
+    },
+    "partners": [
+      "Wilson Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-16",
+      "ground_lease_date": "2025-05-16",
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "25017723",
+        "25017722"
+      ],
+      "recording_batch_note": "HaysCAD deed history: DS Joint Venture LP -> Locals at DS LP (1/24/2023, inst. 23003118) -> Local at DS Leasehold LP -> Edcouch Community HFC (both steps recorded 5/16/2025, inst. 25017723 and 25017722) -- fee-conveyance-plus-leaseback fingerprint, all 3 CAD accounts (R190278/79/80) conveyed via the same instrument set / same closing."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 18000000.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 §13(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 §13(i) applies in principle (2027-01-01). Unlike sibling account R190278, this account shows NO exemption ever applied -- fully taxable in both TY2025 ($27,808,140=$27,808,140) and TY2026 ($18,000,000=$18,000,000; the TY26 preliminary value is lower, consistent with a construction-in-progress reassessment)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Not a named party to Hays County v. Pecos HFC & Pleasanton HFC (25-1185-DCB) -- Edcouch Community HFC is not a defendant in that suit."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Complex-wide unit count (204 total: 172-unit Phase 1 + 32-unit Phase 2, per the developer's own site, wilson-capital.com/portfolio/local-at-dripping-springs/) could not be broken out per CAD account/lot; property.units left null on each of the 3 accounts rather than guessed at a per-lot split.",
+      "This is one of 3 HaysCAD accounts (R190278/79/80) covering the same physical complex/closing; see TX-NEW-HAYS-1 for the sibling-account exemption inconsistency."
+    ],
+    "provenance": [
+      {
+        "field": "property.address, property.cad_account, exemption.appraised_value, exemption.taxing_units, property.year_built",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R190279&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Legal description 'CRTX ADDITION, BLOCK A, Lot 2'; Taxing Jurisdiction table (8 entities, market=taxable=$18,000,000)."
+      },
+      {
+        "field": "structure_dates",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R190279&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Property Deed History table."
+      },
+      {
+        "field": "exemption history TY2025",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R190279&year=2025",
+        "retrieved": "2026-07-11",
+        "note": "TY2025: market=taxable=$27,808,140 (fully taxable)."
+      },
+      {
+        "field": "sponsor fields, classification.tier",
+        "source": "data/sponsors.json; docs/phase1_verdict.md",
+        "retrieved": "2026-07-11",
+        "note": "Genuine Method-2 expansion -- not in the 6-row Hays seed."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-HAYS-3",
+    "confidence": "single-source",
+    "property": {
+      "name": "Local Dripping Springs (Lot 3 of 3 CAD accounts -- small parcel, likely retail/amenity pad)",
+      "aka": [
+        "LOCAL Dripping Springs"
+      ],
+      "address": "1282 S Rob Shelton Blvd, Dripping Springs, TX 78620",
+      "city": "Dripping Springs",
+      "county": "Hays",
+      "zip": "78620",
+      "cad_account": "R190280",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Edcouch Community Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Edcouch",
+      "home_county": "Hidalgo",
+      "role_on_property": "Primary Owner (fee, per HaysCAD)"
+    },
+    "partners": [
+      "Wilson Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-16",
+      "ground_lease_date": "2025-05-16",
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "25017723",
+        "25017722"
+      ],
+      "recording_batch_note": "HaysCAD deed history: DS Joint Venture LP -> Locals at DS LP (1/24/2023, inst. 23003118) -> Local at DS Leasehold LP -> Edcouch Community HFC (both steps recorded 5/16/2025, inst. 25017723 and 25017722) -- fee-conveyance-plus-leaseback fingerprint, all 3 CAD accounts (R190278/79/80) conveyed via the same instrument set / same closing."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 458050.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 §13(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 §13(i) applies in principle (2027-01-01). Fully taxable in TY2025 and TY2026 (market=taxable=$458,050, unchanged both years) -- no improvement value recorded (no year-built rows), consistent with a small out-parcel (parking/retail pad/common area) rather than a residential building."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Not a named party to Hays County v. Pecos HFC & Pleasanton HFC (25-1185-DCB) -- Edcouch Community HFC is not a defendant in that suit."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Likely a non-residential out-parcel (no improvement/year-built data on the CAD roll); not confirmed whether this lot carries any dwelling units at all -- property.units and property.year_built left null rather than assumed zero."
+    ],
+    "provenance": [
+      {
+        "field": "property.address, property.cad_account, exemption.appraised_value, exemption.taxing_units",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R190280&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Legal description 'CRTX ADDITION, BLOCK A, Lot 3'; Taxing Jurisdiction table (8 entities, market=taxable=$458,050); no improvement/year-built rows found."
+      },
+      {
+        "field": "structure_dates",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R190280&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Property Deed History table."
+      },
+      {
+        "field": "sponsor fields, classification.tier",
+        "source": "data/sponsors.json; docs/phase1_verdict.md",
+        "retrieved": "2026-07-11",
+        "note": "Genuine Method-2 expansion -- not in the 6-row Hays seed."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-HAYS-4",
+    "confidence": "single-source",
+    "property": {
+      "name": "Cheatham Street Flats",
+      "aka": [],
+      "address": "407 S Guadalupe St, San Marcos, TX 78666",
+      "city": "San Marcos",
+      "county": "Hays",
+      "zip": "78666",
+      "cad_account": "R151288",
+      "units": null,
+      "year_built": 2019,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Primary Owner (fee, per HaysCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2022-03-11",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "22016595",
+        "18005372"
+      ],
+      "recording_batch_note": "HaysCAD deed history: Cheatham Street Flats LLC -> Cheatham Street LP (2/9/2018, inst. 18005372) -> Texas Essential Housing PFC (3/11/2022, inst. 22016595). Single-step SWD to the PFC; no separate 'Leasehold' entity named in the recorded chain (unlike the Edcouch/Pleasanton fee-flip-groundlease deals in this county) -- ground-lease-back to an operating entity, if any, not evidenced in HaysCAD's deed history."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2022,
+      "appraised_value": 18107596.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 9
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 / Ch.303 grandfather -- NO 2027 cliff (HB21 is HFC-only, does not reach Ch.303 PFCs)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "Per docs/phase1_verdict.md, Texas Essential Housing PFC faces NO statutory cliff -- event-driven unwind only (99-yr ground-lease term, capital event, §303.0426 audit failure, or CAD/AG challenge; AG KP-0437 and two Williamson CAD suits are already testing the sponsor generally). This account has been FULLY EXEMPT (taxable=$0) on the HaysCAD roll since TY2023, after a partial/prorated exemption in TY2022 (the acquisition year: market $20,864,500 / taxable $4,674,002)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Not a party to Hays County v. Pecos HFC & Pleasanton HFC (25-1185-DCB) -- different sponsor entirely (PFC, not HFC), and this account IS currently exempt, unlike the Hays-suit properties.",
+      "Sponsor-level litigation (not Hays-specific, per data/sponsors.json): Texas Essential Housing PFC v. Williamson CAD, 24-0022-C395 & 24-1698-C395; AG opinion request KP-0437; SB 2434 (dissolution bill) died in the 88th Regular Session."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "property.units not found in free public sources (multiple apartment-listing aggregators give sqft/rent ranges for Cheatham Street Flats but not a total unit count); left null rather than estimated from the 127,630 sqft 'Apartment 100% Of Base' CAD improvement figure.",
+      "This property is a genuine SWEEP expansion (Method 2, owner-name search '%PUBLIC FACILITY%' / '%HOUSING FINANCE%') -- it is NOT among the 6-row Hays seed and was not previously in this project's Hays roster at all.",
+      "annual_exemption_value_est left null: HaysCAD's TY2026 per-jurisdiction 'Total Tax Rate' field reads 0.000000 across the board on the (preliminary) 2026 roll -- rates are not yet adopted for the current tax year, so foregone-tax cannot be computed from this snapshot; a prior adopted-rate year (e.g. TY2025) times the TY2025 exempted value would approximate it in a future pass."
+    ],
+    "provenance": [
+      {
+        "field": "property.address, property.cad_account, exemption.appraised_value, exemption.taxing_units, property.year_built",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R151288&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Legal description 'CHEATHAM STREET FLATS'; Taxing Jurisdiction table (9 entities, market=$18,107,596 / taxable=$0 -- fully exempt); improvement 'APT' component built 2019, 127,630 sqft."
+      },
+      {
+        "field": "structure_dates, exemption.first_exempt_tax_year",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R151288&year=2021,2022,2023,2026",
+        "retrieved": "2026-07-11",
+        "note": "Deed History table (SWD 3/11/2022 to TEHPFC); TY2021 (pre-sponsor) taxable=$16,955,876=market; TY2022 taxable=$4,674,002 of $20,864,500 market (partial/prorated first-year exemption); TY2023 taxable=$0 (fully exempt, first full year)."
+      },
+      {
+        "field": "sponsor.name, classification.tier, kill_analysis.regime, litigation_flags (sponsor-level)",
+        "source": "data/sponsors.json; docs/phase1_verdict.md",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "property context (marketing)",
+        "source": "cheathamstreetflats.com; apartments.com/cheatham-street-flats-san-marcos-tx",
+        "retrieved": "2026-07-11",
+        "note": "Confirms residential apartment community, studios-3BR, near Texas State University; no unit count published."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-HAYS-5",
+    "confidence": "single-source",
+    "property": {
+      "name": "Cheatham Street Flats -- retail/ancillary parcel",
+      "aka": [],
+      "address": "407 S Guadalupe St, San Marcos, TX 78666",
+      "city": "San Marcos",
+      "county": "Hays",
+      "zip": "78666",
+      "cad_account": "R194294",
+      "units": null,
+      "year_built": 2019,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Primary Owner (fee, per HaysCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "not-exemption-structure",
+      "affordability_source": null,
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "No deed-history rows returned for this account specifically (likely platted/split from the main R151288 parcel post-acquisition); same-site, same-owner as TX-NEW-HAYS-4."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 1388417.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 9
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 / Ch.303 grandfather -- NO 2027 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "Not applicable in the same way as TX-NEW-HAYS-4: this is the RETAIL/commercial component of the mixed-use Cheatham Street Flats site (CAD neighborhood code 'C-SM-RET' vs. the main parcel's 'C-SM-MF'), and is mostly TAXABLE, not exempt -- TY2023 fully taxable ($876,231=$876,231), TY2025 partially exempt (taxable $1,051,477 of $1,234,960), TY2026 partially exempt (taxable $1,261,772 of $1,388,417, ~9% of value exempt). Consistent with the housing-exemption theory not extending to the commercial/retail portion of a mixed-use HFC/PFC deal."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Not a party to Hays County v. Pecos HFC & Pleasanton HFC (25-1185-DCB) -- different sponsor entirely.",
+      "Sponsor-level litigation (not Hays-specific): Texas Essential Housing PFC v. Williamson CAD, 24-0022-C395 & 24-1698-C395; AG opinion request KP-0437."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "This is the small commercial/retail parcel accompanying the residential Cheatham Street Flats deal (TX-NEW-HAYS-4); included for completeness of the CAD owner-name sweep but is NOT itself a multifamily property in the project's core sense -- classification.structure_confirmed set to 'not-exemption-structure' accordingly. Flagged rather than silently dropped per the kit's per-property data model.",
+      "Exact tax year the partial exemption on this parcel first appeared (between TY2023, fully taxable, and TY2025, partially exempt) not pinned down -- TY2024 not checked in this pass."
+    ],
+    "provenance": [
+      {
+        "field": "property.address, property.cad_account, exemption.appraised_value, exemption.taxing_units",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R194294&year=2026",
+        "retrieved": "2026-07-11",
+        "note": "Legal description 'CHEATHAM STREET FLATS', neighborhood C-SM-RET (retail); Taxing Jurisdiction table (9 entities, market=$1,388,417 / taxable=$1,261,772)."
+      },
+      {
+        "field": "exemption history",
+        "source": "esearch.hayscad.com (Hays CAD Property Search, powered by BIS Consultants) -- Property/View page?Id=R194294&year=2023,2025,2026",
+        "retrieved": "2026-07-11",
+        "note": "TY2023: taxable=$876,231=market (fully taxable). TY2025: taxable=$1,051,477 of market $1,234,960. TY2026: taxable=$1,261,772 of market $1,388,417."
+      },
+      {
+        "field": "sponsor fields, classification.tier",
+        "source": "data/sponsors.json; docs/phase1_verdict.md",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  }
+]

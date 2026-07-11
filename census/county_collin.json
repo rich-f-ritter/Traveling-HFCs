@@ -1,0 +1,2631 @@
+[
+  {
+    "census_id": "TX-37-109",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Spring Pointe Apartments",
+      "aka": [],
+      "address": "3501 N Jupiter Rd, Richardson, TX 75082",
+      "city": "Richardson",
+      "county": "Collin",
+      "zip": "75082",
+      "cad_account": "1615274",
+      "units": 208,
+      "year_built": 1985,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Leste"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-04-14",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000048360"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 25558696.0,
+      "annual_exemption_value_est": 463198.46,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "First appears with exemptCodes=EX-XV on the TY2026 Preliminary roll; TY2025 certified roll (vffy-snc6) shows exemptCodes=None for this account under the same owner name. Treated as first-exempt TY2026, pending final ARB certification."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "HIGH confidence: seed sale_comment explicitly names '208 unit Spring Pointe Apartment Homes in Richardson, TX' as part of the same 04/25 portfolio recapitalization -- exact unit-count (208) and city match to CCAD account 1615274."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-8327",
+    "confidence": "single-source",
+    "property": {
+      "name": "Oaks of North Dallas Apartments",
+      "aka": [],
+      "address": "4701 Haverwood Ln, Dallas, TX 75287",
+      "city": "Dallas",
+      "county": "Collin",
+      "zip": "75287",
+      "cad_account": "1571748",
+      "units": 168,
+      "year_built": 1983,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [
+      "LoanCore Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2024-12-23",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2024000159878"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 16760321.0,
+      "annual_exemption_value_est": 329996.14,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-parcel identity rests on a bucket pairing (descending appraised value) within a 4-parcel same-deed-batch cluster, not an independent match -- Collin County Clerk grantor/grantee index (Method 3) would be needed to pin this seed row to a specific parcel."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (owner was already Cameron County HFC per deed 12/23/2024, but pre-certification-cutoff / no exemption yet posted); first appears EX-XV on TY2026 Preliminary roll."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "SINGLE-SOURCE / bucket pairing, DISCLOSED ASSUMPTION: seed rows 8327 and 8328 are both 'Primary Owner', same sale_date (2024-12-26) and identical sale_comment/partners (LoanCore Capital), with no address or unit count given. CCAD shows FOUR parcels acquired by Cameron County HFC on the same deed batch (2024-12-23/26, deed 2024000159878 for 3 of them + 2024000159844 for the 4th): 'Oaks of North Dallas Apartments' split across 4701 Haverwood Ln (168u), 5075 Pear Ridge Dr (144u), 5055 Pear Ridge Dr (144u), and a separately-deeded '4804 Haverwood Apartments' (180u). With no seed-side distinguishing feature, the two highest-appraised-value parcels were paired to the two seed rows (Dallas census-note convention): 8327 -> 4701 Haverwood (highest value, $16.76M) and 8328 -> 4804 Haverwood ($15.75M). The other two parcels (5075 and 5055 Pear Ridge) are captured as expansion records TX-NEW-COLLIN-1/2. NOT independently verified beyond sponsor/deed-batch/city."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-8328",
+    "confidence": "single-source",
+    "property": {
+      "name": "4804 Haverwood Apartments",
+      "aka": [],
+      "address": "4804 Haverwood Ln, Dallas, TX 75287",
+      "city": "Dallas",
+      "county": "Collin",
+      "zip": "75287",
+      "cad_account": "1708824",
+      "units": 180,
+      "year_built": 1984,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [
+      "LoanCore Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2024-12-23",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2024000159844"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 15751585.0,
+      "annual_exemption_value_est": 310135.0,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-parcel identity rests on a bucket pairing (descending appraised value) within a 4-parcel same-deed-batch cluster, not an independent match -- Collin County Clerk grantor/grantee index (Method 3) would be needed to pin this seed row to a specific parcel."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll; first appears EX-XV on TY2026 Preliminary roll."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "SINGLE-SOURCE / bucket pairing (see TX-37-8327 note) -- 8328 paired to the second-highest-value parcel in the same 4-parcel Cameron County HFC deed-batch cluster ('4804 Haverwood Apartments', $15.75M)."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-8332",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "380 Villas",
+      "aka": [],
+      "address": "1101 N Throckmorton St, McKinney, TX 75069",
+      "city": "McKinney",
+      "county": "Collin",
+      "zip": "75069",
+      "cad_account": "2905902",
+      "units": 220,
+      "year_built": 2023,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Sphinx Development"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2024-02-07",
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "2024010000054"
+      ],
+      "recording_batch_note": "Seed ground_lease_comment: '99 year unsubordinated net ground lease held by The Cameron County Housing Finance Corporation, which expires 07/31/2121' (implies lease commencement ~2022, i.e. before the 2024-02-07 fee deed captured on the CCAD roll -- sequencing not independently reconciled)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2024,
+      "appraised_value": 48859852.0,
+      "annual_exemption_value_est": 853653.44,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Already shows exemptCodes=EX-XV on the TY2024 certified roll (6dqt-e958), the same tax year as the 2024-02-07 deed -- confirmed first-exempt year via year-over-year bracket (TY2023 pre-dates the CCAD account/deed)."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "HIGH confidence: partner 'Sphinx Development' + role 'Ground Leasor' + property_city McKinney uniquely identifies CCAD account 2905902 ('380 Villas', 1101 N Throckmorton St, McKinney) -- the only Cameron County HFC-owned McKinney parcel found in the CCAD sweep, and Sphinx Development is the same partner developer seen building Cameron County HFC's Dallas-area 'Sphinx at Fiji Lofts' portfolio (see census/county_dallas.md TX-NEW-DALLAS-2..11)."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1228308",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Montgomery at Watters Creek",
+      "aka": [],
+      "address": "1280 Montgomery Blvd, Allen, TX 75013",
+      "city": "Allen",
+      "county": "Collin",
+      "zip": "75013",
+      "cad_account": "2834129",
+      "units": 370,
+      "year_built": 2021,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Garland Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Garland",
+      "home_county": "Dallas",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "L+M Development Partners"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2023-09-20",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "202300010815"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2023,
+      "appraised_value": 87659189.0,
+      "annual_exemption_value_est": 1553113.08,
+      "taxing_units": 5
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "TY2022 certified roll shows prior owner 'HS/P MONTGOMERY LLC', no exemption; TY2023 certified roll shows owner already 'GARLAND HOUSING FINANCE CORPORATION' with exemptCodes=EX-XV -- first-exempt year pinned to 2023, matching the 2023-09-20 deed exactly."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "HIGH confidence: only Garland HFC-owned parcel in Allen found in the CCAD sweep; property_city and 'L+M Development Partners' partner consistent with a large (370-unit) 2021-vintage complex."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1480322",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Savannah at Gateway Senior Apartments",
+      "aka": [
+        "Savannah at Gateway Senior Apts Tc"
+      ],
+      "address": "401 Shiloh Rd, Plano, TX 75074",
+      "city": "Plano",
+      "county": "Collin",
+      "zip": "75074",
+      "cad_account": "2630081",
+      "units": null,
+      "year_built": null,
+      "status": null
+    },
+    "sponsor": {
+      "name": "Garland Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Garland",
+      "home_county": "Dallas",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2017-10-30",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "20171101001459330"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2020,
+      "appraised_value": 4654168.0,
+      "annual_exemption_value_est": 79479.83,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Likely subject property of Collin CAD v. Garland Housing Finance Corp., 05-19-01417-CV (GHFC won pre-HB21; HB21 \u00a713(i) now overrides per Phase 1 verdict) -- not independently confirmed by parcel-level court filing review."
+    ],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Exempt (code EX-XA) on every certified roll back to at least TY2020, the earliest year available in CCAD's free historical exports (2020-2026); first-exempt year is therefore <=2020, true origin unconfirmed. Code changed from EX-XA to EX-XV between TY2021 and TY2022 (administrative recode, not a status change)."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "HIGH confidence: only Garland HFC-owned parcel in Plano found in the CCAD sweep. Long-standing exemption matches Phase 1's note that Garland HFC 'won a pre-HB21 exemption case' (Collin CAD v. GHFC 05-19-01417-CV) -- this is very likely the property at issue in that litigation."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-4164",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Twin Creeks Crossing I Apartments",
+      "aka": [
+        "Twin Creeks Crossing I Apts"
+      ],
+      "address": "1090 W Exchange Pkwy, Allen, TX 75013",
+      "city": "Allen",
+      "county": "Collin",
+      "zip": "75013",
+      "cad_account": "2731037",
+      "units": 347,
+      "year_built": 2014,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "La Villa Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "La Villa",
+      "home_county": "Hidalgo",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "S2 Capital",
+      "April Housing"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-16",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000061501"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 60528188.0,
+      "annual_exemption_value_est": 1072416.04,
+      "taxing_units": 5
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (owner was already 'S2 TWIN CREEK I LP' per TY2024/2025 data); first appears as La Villa HFC-owned with exemptCodes=EX-XV on the TY2026 Preliminary roll, consistent with the 2025-05-16 deed."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "HIGH confidence: seed sale_comment explicitly names 'the 677 unit Twin Creeks Crossing Apartments in Allen, TX' -- CCAD's Twin Creeks Crossing I (347u) + Twin Creeks Crossing II (330u) sum to exactly 677 units, and both were deeded to La Villa HFC on the same date (2025-05-16, deed 2025000061501) alongside partners S2 Capital/April Housing. Seed row linked to the larger parcel (Twin Creeks Crossing I); Twin Creeks Crossing II and a small common-area parcel captured as expansion records TX-NEW-COLLIN-4/5."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1180",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Palencia Apartments",
+      "aka": [],
+      "address": "17817 Coit Rd, Dallas, TX 75252",
+      "city": "Dallas",
+      "county": "Collin",
+      "zip": "75252",
+      "cad_account": "2018449",
+      "units": 281,
+      "year_built": 1995,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Maverick County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Eagle Pass",
+      "home_county": "Maverick",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Magma Equities"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-03-26",
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "2025000035327"
+      ],
+      "recording_batch_note": "Seed ground_lease_comment: '99 year unsubordinated net ground lease held by Maverick County Housing Finance Corporation, which expires 03/31/2124' -- consistent with the 2025-03-26 fee deed date on the CCAD roll."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 32936817.0,
+      "annual_exemption_value_est": 648497.27,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (prior owner 'PALENCIA OWNER LLC'); first appears EX-XV on TY2026 Preliminary roll, consistent with the 2025-03-26 deed."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "HIGH confidence: only Maverick County HFC-owned parcel in the Dallas-city/Collin-county area (75252 ZIP, straddling the Dallas/Collin line) found in the CCAD sweep; role 'Ground Leasor' matches CCAD's separate small common-area parcel (2040610, same address) typical of a ground-lease structure's split accounts."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-369642",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Alma Hub 121 Apartments",
+      "aka": [],
+      "address": "7201 Henneman Way, McKinney, TX 75070",
+      "city": "McKinney",
+      "county": "Collin",
+      "zip": "75070",
+      "cad_account": "2820606",
+      "units": 286,
+      "year_built": 2018,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Maverick County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Eagle Pass",
+      "home_county": "Maverick",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-01-29",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000011329"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 50321895.0,
+      "annual_exemption_value_est": 890016.69,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (prior owner 'SEVENSEAS HOLDINGS IX LLC'); first appears EX-XV on TY2026 Preliminary roll, consistent with the 2025-01-29 deed (seed's own '01/25' recapitalization date)."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "HIGH confidence: only Maverick County HFC-owned parcel in McKinney found in the CCAD sweep; deed date (2025-01-29) matches seed's stated '01/25' recapitalization month exactly."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-3204",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Larkin",
+      "aka": [],
+      "address": "2301 W White Ave, McKinney, TX 75071",
+      "city": "McKinney",
+      "county": "Collin",
+      "zip": "75071",
+      "cad_account": "2057207",
+      "units": 240,
+      "year_built": 1997,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Ashland Greene Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-14",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000060501"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 38218870.0,
+      "annual_exemption_value_est": 667739.84,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (prior owner 'WESTCREEK APARTMENTS LLC'); first appears EX-XV on TY2026 Preliminary roll, consistent with the 2025-05-14 deed (seed's '05/25' recapitalization date)."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "HIGH confidence: only Pecos HFC-owned parcel in McKinney found in the CCAD sweep; deed date (2025-05-14/15) matches seed's stated '05/25' recapitalization month."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-3160",
+    "confidence": "single-source",
+    "property": {
+      "name": "The Dayton",
+      "aka": [],
+      "address": "6000 Ohio Dr, Plano, TX 75093",
+      "city": "Plano",
+      "county": "Collin",
+      "zip": "75093",
+      "cad_account": "1627494",
+      "units": 389,
+      "year_built": 1985,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "S2 Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-04-01",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000038869"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 47324508.0,
+      "annual_exemption_value_est": 808166.78,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-parcel match (The Dayton vs. Hathaway at Willow Bend) is a disclosed best-effort pick between two same-city, same-partner-initial candidates -- Collin County Clerk grantor/grantee index (Method 3) would be needed to confirm."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (prior owner 'S2 SUMMER LP'); first appears EX-XV on TY2026 Preliminary roll, consistent with the 2025-04-01 deed (seed's '04/25' recapitalization date)."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "MEDIUM/single-source, DISCLOSED AMBIGUITY: seed gives only property_city=Plano and partner 'S2 Capital' plus a '04/25' recapitalization date. TWO Pecos HFC-owned Plano parcels exist in CCAD: 'The Dayton' (1627494, deed 2025-04-01, prior owner 'S2 Summer LP') and 'Hathaway at Willow Bend' (1716655, deed 2025-03-21, prior owner 'S2 Willow Bend...' entities) -- both prior-owner names contain 'S2'. Linked to The Dayton on the closer date match ('04/25' vs 03/25). Hathaway at Willow Bend captured separately as expansion record TX-NEW-COLLIN-9 (and independently found to have already been SOLD OUT of Pecos HFC ownership on 2026-06-24 -- a \u00a713(e) capital event)."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-4378",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Carson at Twin Creeks",
+      "aka": [],
+      "address": "659 Junction Dr, Allen, TX 75013",
+      "city": "Allen",
+      "county": "Collin",
+      "zip": "75013",
+      "cad_account": "2856059",
+      "units": 374,
+      "year_built": 2015,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "S2 Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-21",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000063520"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 67847411.0,
+      "annual_exemption_value_est": 1202095.32,
+      "taxing_units": 5
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (prior owner 'SOVEREIGN TWIN CREEKS PHASE 1 LLC'); first appears EX-XV on TY2026 Preliminary roll, consistent with the 2025-05-21 deed (seed's '05/25' recapitalization date)."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "HIGH confidence: seed sale_comment names original partners 'Columbus Pacific Properties and Sovereign Properties' -- CCAD's prior-owner-of-record for this parcel through TY2024/2025 was 'Sovereign Twin Creeks Phase 1 LLC', directly corroborating the 'Sovereign Properties' name in the seed."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-3179",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Adriane",
+      "aka": [],
+      "address": "2000 FM 1378, Wylie, TX 75098",
+      "city": "Wylie",
+      "county": "Collin",
+      "zip": "75098",
+      "cad_account": "2526594",
+      "units": 180,
+      "year_built": 2002,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "WindMass Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-14",
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "2025000060689"
+      ],
+      "recording_batch_note": "Seed ground_lease_comment: '99 year unsubordinated net ground lease held by Pecos Housing Finance Corporation, which expires 05/16/2124' -- consistent with the 2025-05-14/15 fee deed date on the CCAD roll."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 26575673.0,
+      "annual_exemption_value_est": 518013.28,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code \u00a79.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (prior owner '2000 Country Club Road LLC'); first appears EX-XV on TY2026 Preliminary roll, consistent with the 2025-05-14 deed."
+      },
+      {
+        "field": "sponsor.role_on_property, structure_dates.ground_lease info, partners",
+        "source": "data/seed_properties.json (Matrix seed, phase-1-verified sponsor identity per data/sponsors.json)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id <-> CCAD account match",
+        "source": "cross-reference: seed_properties.json sale_comment/ground_lease_comment/property_city/partners vs. CCAD owner-name sweep results",
+        "retrieved": "2026-07-11",
+        "note": "HIGH confidence: only Pecos HFC-owned parcel in Wylie found in the CCAD sweep; role 'Ground Leasor' and partner 'WindMass Capital' consistent with CCAD's fee-deed record."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-COLLIN-1",
+    "confidence": "single-source",
+    "property": {
+      "name": "Oaks of North Dallas Apartments",
+      "aka": [],
+      "address": "5075 Pear Ridge Dr, Dallas, TX 75287",
+      "city": "Dallas",
+      "county": "Collin",
+      "zip": "75287",
+      "cad_account": "1650804",
+      "units": 144,
+      "year_built": 1983,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Primary Owner (fee, per CCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2024-12-23",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2024000159878"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 14002575.0,
+      "annual_exemption_value_est": 275698.52,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 13-row Collin seed; discovered via CCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code Sec. 9.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll; first appears EX-XV on TY2026 Preliminary roll. Part of the same 2024-12-23/26 deed batch as TX-37-8327/8328."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-COLLIN-2",
+    "confidence": "single-source",
+    "property": {
+      "name": "Oaks of North Dallas Apartments",
+      "aka": [],
+      "address": "5055 Pear Ridge Dr, Dallas, TX 75287",
+      "city": "Dallas",
+      "county": "Collin",
+      "zip": "75287",
+      "cad_account": "1650813",
+      "units": 144,
+      "year_built": 1983,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Primary Owner (fee, per CCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2024-12-23",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2024000159878"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 13788728.0,
+      "annual_exemption_value_est": 271488.06,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 13-row Collin seed; discovered via CCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code Sec. 9.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll; first appears EX-XV on TY2026 Preliminary roll. Part of the same 2024-12-23/26 deed batch as TX-37-8327/8328."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-COLLIN-3",
+    "confidence": "single-source",
+    "property": {
+      "name": "The Riley",
+      "aka": [],
+      "address": "3551 Wilshire Way 1, Richardson, TX 75082",
+      "city": "Richardson",
+      "county": "Collin",
+      "zip": "75082",
+      "cad_account": "2924643",
+      "units": 269,
+      "year_built": 2016,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Garland Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Garland",
+      "home_county": "Dallas",
+      "role_on_property": "Primary Owner (fee, per CCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2024-04-30",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2024000052485"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 62918060.0,
+      "annual_exemption_value_est": 0.0,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "Not currently exempt, so HB21 Sec.13(i)'s 2027-01-01 cliff has no practical effect here -- this parcel is already fully taxable. Retained in the census as a traveling Garland HFC-owned multifamily property for completeness; the 'kill' has, in effect, already happened administratively rather than by the 2027 statute."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 13-row Collin seed; discovered via CCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate.",
+      "No ad valorem exemption has ever appeared on the CCAD roll for this account despite 2+ years of Garland HFC ownership -- cause (no application filed, application denied, or TDHCA Sec.394.9027 non-filing) cannot be determined from the appraisal roll alone."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json and data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property does NOT appear on CCAD's TY2026 Absolute Exemption List and carries no exemptCodes value on the TY2026 Preliminary roll -- fully taxable despite sponsor-of-record ownership."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-COLLIN-4",
+    "confidence": "single-source",
+    "property": {
+      "name": "Twin Creeks Crossing II Apartments",
+      "aka": [
+        "Twin Creeks Crossing II Apts"
+      ],
+      "address": "1301 Bray Central Dr, Allen, TX 75013",
+      "city": "Allen",
+      "county": "Collin",
+      "zip": "75013",
+      "cad_account": "2735309",
+      "units": 330,
+      "year_built": 2016,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "La Villa Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "La Villa",
+      "home_county": "Hidalgo",
+      "role_on_property": "Additional owner (fee, per CCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-16",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000061501"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 57575594.0,
+      "annual_exemption_value_est": 1020103.07,
+      "taxing_units": 5
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 13-row Collin seed; discovered via CCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code Sec. 9.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (prior owner 'S2 Twin Creek I LP'); first appears EX-XV on TY2026 Preliminary roll, consistent with the 2025-05-16 deed. Companion parcel to TX-37-4164 (Twin Creeks Crossing I) -- combined 677 units matches the seed's sale_comment exactly."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-COLLIN-5",
+    "confidence": "single-source",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": "Bray Central Dr, Allen, TX 75013",
+      "city": "Allen",
+      "county": "Collin",
+      "zip": "75013",
+      "cad_account": "2735311",
+      "units": null,
+      "year_built": null,
+      "status": null
+    },
+    "sponsor": {
+      "name": "La Villa Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "La Villa",
+      "home_county": "Hidalgo",
+      "role_on_property": "Additional owner (fee, per CCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-16",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000061501"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 6338.0,
+      "annual_exemption_value_est": 112.29,
+      "taxing_units": 5
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 13-row Collin seed; discovered via CCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate.",
+      "Very small ($6,338 appraised) unnamed/no-unit-count parcel on the same street (Bray Central Dr, Allen) and same deed batch as Twin Creeks Crossing I/II -- almost certainly a common-area, retention-pond, or amenity outparcel of the same apartment complex, not a separate rentable property."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code Sec. 9.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll; first appears EX-XV on TY2026 Preliminary roll."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-COLLIN-6",
+    "confidence": "single-source",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": "17817 Coit Rd, Dallas, TX 75252",
+      "city": "Dallas",
+      "county": "Collin",
+      "zip": "75252",
+      "cad_account": "2040610",
+      "units": null,
+      "year_built": null,
+      "status": null
+    },
+    "sponsor": {
+      "name": "Maverick County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Eagle Pass",
+      "home_county": "Maverick",
+      "role_on_property": "Ground Leasor (fee, per CCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-03-26",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000035327"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 70276.0,
+      "annual_exemption_value_est": 1383.67,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 13-row Collin seed; discovered via CCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate.",
+      "Very small ($70,276 appraised) unnamed/no-unit-count parcel at the same address (17817 Coit Rd) and same deed date as Palencia Apartments (TX-37-1180) -- almost certainly a common-area/amenity outparcel of that complex, not a separate rentable property."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code Sec. 9.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (prior owner 'Palencia Owner LLC'); first appears EX-XV on TY2026 Preliminary roll."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-COLLIN-7",
+    "confidence": "single-source",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": "McCallum Blvd, Dallas, TX 75252",
+      "city": "Dallas",
+      "county": "Collin",
+      "zip": "75252",
+      "cad_account": "1970815",
+      "units": null,
+      "year_built": null,
+      "status": null
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Additional owner (fee, per CCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-02",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000054597"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 99461.0,
+      "annual_exemption_value_est": 1958.3,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 13-row Collin seed; discovered via CCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate.",
+      "Very small ($99,461 appraised) unnamed/no-unit-count parcel on McCallum Blvd, same deed date/number as The Junction at 7760 (TX-NEW-COLLIN-8) -- almost certainly a common-area/amenity outparcel of that complex."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code Sec. 9.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (prior owner 'Tides on McCallum North Owner LLC'); first appears EX-XV on TY2026 Preliminary roll."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-COLLIN-8",
+    "confidence": "single-source",
+    "property": {
+      "name": "The Junction at 7760",
+      "aka": [
+        "The Junction at 7760 %"
+      ],
+      "address": "7760 McCallum Blvd, Dallas, TX 75252",
+      "city": "Dallas",
+      "county": "Collin",
+      "zip": "75252",
+      "cad_account": "1963419",
+      "units": 297,
+      "year_built": 1988,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Primary Owner (fee, per CCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-02",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000054597"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 22642344.0,
+      "annual_exemption_value_est": 445808.05,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 13-row Collin seed; discovered via CCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's own bulk appraisal-data export (TY2026 Preliminary roll), published via the Texas.gov Open Data Portal (Socrata). Free public data; queried by owner-name match, not downloaded in bulk (avoids large local files)."
+      },
+      {
+        "field": "sponsor.name, structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "ownername + deedEffDate/deedFileDate/deedNum fields on the CCAD account record."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised field, TY2026 Preliminary roll (not yet ARB-certified as of retrieval date)."
+      },
+      {
+        "field": "kill_analysis / current exemption status",
+        "source": "data.texas.gov Collin CAD Public List - Absolute Exemptions (Texas Administrative Code 9.3011), dataset apc5-s9fa, published by Collin Central Appraisal District; https://data.texas.gov/resource/apc5-s9fa.json",
+        "retrieved": "2026-07-11",
+        "note": "Property appears on CCAD's TY2026 Absolute (100%) Exemption List under exemptTypeCode EX-XV ('Other -- public property, government, religious, charitable, etc'), the statutorily-required public list of wholly-exempt accounts (Tex. Admin. Code Sec. 9.3011). Treated as 'currently exempt' for this census. NOTE: CCAD's bulk roll export's currValAssessed field does NOT net out this exemption (verified against known 100%-exempt government-owned parcels, which also show currValAssessed==currValAppraised) -- the Absolute Exemption List, not the assessed-value field, is the authoritative signal used here."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using CCAD's published TY2025 combined tax rate (county + community college + school district + city, from entityCodes on the account) applied to currValAppraised; TIF-zone entity codes excluded from the rate sum. Rough estimate only -- actual levy depends on each taxing unit's TY2026 rate (not yet adopted) and any partial-year proration."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json; data.texas.gov Collin CAD Appraisal Data - 2024 (certified), dataset 6dqt-e958, Collin Central Appraisal District; data.texas.gov Collin CAD Appraisal Data 2020-2023 (certified), datasets hkzz-rrn8/cwex-zmku/vtby-uz4n/khef-anha, Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "exemptCodes=None on TY2025 certified roll (prior owner 'Tides on McCallum North Owner LLC'); first appears EX-XV on TY2026 Preliminary roll, consistent with the 2025-05-02 deed."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-COLLIN-9",
+    "confidence": "single-source",
+    "property": {
+      "name": "Hathaway at Willow Bend",
+      "aka": [
+        "Willow Bend Apartments (legal/plat name)"
+      ],
+      "address": "2525 Preston Rd, Plano, TX 75093",
+      "city": "Plano",
+      "county": "Collin",
+      "zip": "75093",
+      "cad_account": "1716655",
+      "units": 229,
+      "year_built": 1984,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Primary Owner (fee, per CCAD, historical)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-03-21",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025000033776"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 34500000.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(e) (capital-event early death) -- already occurred",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": "Sold by Pecos Housing Finance Corporation to Winston GT Holdings LP (& Herrera 1031 TIC LLC & Artem Winston LLC), deed effective 2026-06-24, filed 2026-06-25 (Collin CAD instrument 2026000085487).",
+      "kill_date_estimate": "2026-06-24",
+      "kill_date_basis": "HB21 \u00a713(e): a sale/transfer of the property out of HFC ownership triggers loss of the ad valorem exemption immediately upon the transfer, earlier than the general 2027-01-01 \u00a713(i) cliff. This property left Pecos HFC ownership entirely on 2026-06-24 (pre-2027) -- an independently-discovered, already-realized pre-2027 exit, analogous to the Dallas census's Bernard/Beckham/Blake and Knowlton Apartment Homes findings (see census/county_dallas.md)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 13-row Collin seed; discovered via CCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate, independently corroborating a pre-2027 exit.",
+      "Reason for the sale (voluntary disposition vs. distressed/lender-driven, per the Dallas-county pattern of similar 2026 dispositions) not determinable from free CAD data alone; no CMBS/servicer/court-filing research performed for this county pass.",
+      "As of the 2026-07-10/11 data pull, CCAD's own Absolute Exemption List extract (apc5-s9fa) had not yet been refreshed to reflect the 2026-06-24 sale and still listed Pecos HFC as owner with an active exemption -- illustrating the general lag/ambiguity in relying on any single CCAD extract for 'current' exemption status."
+    ],
+    "provenance": [
+      {
+        "field": "property.name, property.address, property.city, property.zip, property.cad_account, property.units, property.year_built",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "Collin CAD's TY2026 Preliminary roll (post-sale) and TY2025 certified roll (Pecos HFC-owned); same account 1716655 in both."
+      },
+      {
+        "field": "sponsor.name (historical), structure_dates.swd_to_sponsor_date, structure_dates.recording_refs",
+        "source": "data.texas.gov Collin CAD Appraisal Data - 2025 (certified), dataset vffy-snc6, Collin Central Appraisal District; https://data.texas.gov/resource/vffy-snc6.json",
+        "retrieved": "2026-07-11",
+        "note": "Pecos Housing Finance Corporation acquired via deed dated 2025-03-21 (filed 2025-03-24, instrument 2025000033776), per the TY2025 certified roll's ownerName/deedEffDate/deedNum fields."
+      },
+      {
+        "field": "exemption.appraised_value",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "currValAppraised on the TY2026 Preliminary roll ($32,707,033), now under new ownership; TY2025 (Pecos-owned) appraised value was $34,500,000."
+      },
+      {
+        "field": "kill_analysis.recent_capital_event, sale to Winston GT Holdings LP",
+        "source": "data.texas.gov Texas Open Data Portal / Collin CAD Appraisal Data - Preliminary (TY2026), dataset nne4-8riu, published by Collin Central Appraisal District (collincad.org open-data exports); Socrata API https://data.texas.gov/resource/nne4-8riu.json",
+        "retrieved": "2026-07-11",
+        "note": "TY2026 Preliminary roll shows ownerName changed to 'WINSTON GT HOLDINGS LP &' via deed dated 2026-06-24 (filed 2026-06-25, instrument 2026000085487) -- Pecos HFC is no longer the owner of record. Independently, CCAD's TY2026 Absolute Exemption List snapshot (retrieved same day, apc5-s9fa) still showed 'PECOS HOUSING FINANCE CORPORATION' as owner -- a stale-extract artifact confirming the sale is very recent (within days to weeks of the 2026-07-10/11 data pull) and had not yet fully propagated across all of CCAD's published tables."
+      },
+      {
+        "field": "exemption.annual_exemption_value_est",
+        "source": "data.texas.gov Collin CAD Value History, dataset pvdc-9ym5 (TY2025 entity tax rates), Collin Central Appraisal District",
+        "retrieved": "2026-07-11",
+        "note": "Estimated using TY2025 combined entity tax rate on the TY2026 (post-sale) appraised value -- now moot given the sale; retained for reference only."
+      }
+    ]
+  }
+]

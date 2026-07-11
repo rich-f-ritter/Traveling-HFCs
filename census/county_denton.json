@@ -1,0 +1,1451 @@
+[
+  {
+    "census_id": "TX-43-2669",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Bluffs at Vista Ridge Apartments",
+      "aka": [],
+      "address": "625 E VISTA RIDGE MALL DR",
+      "city": "Lewisville",
+      "county": "Denton",
+      "zip": "75067",
+      "cad_account": "310825",
+      "units": 272,
+      "year_built": 2004,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Leste"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-04-14",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025-41590"
+      ],
+      "recording_batch_note": "Seed sale_comment: 'In 04/25 the property was recapitalized with an undisclosed sale that kept Leste, but replaced GVA Real Estate Investments with The Cameron County Housing Finance Corporation' -- names 'the 272 unit The Bluffs at Vista Ridge Apartments in Lewisville, TX' explicitly, matching this DCAD parcel's deed date (04-14-2025) and dba ('BLUFFS AT VISTA RIDGE')."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 43486332.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'None' (categorical, not a verified AMI%/unit-count set-aside)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": "2025-04-14 recapitalization (fee acquired by Cameron County HFC, per seed sale_comment)",
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff; the 04/2025 recapitalization predates 5/28/2025 so does not trigger an earlier \u00a713(e) capital-event death on its own, but ANY future sale/refi/majority transfer after acquisition would."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "Williamson County v. Cameron County HFC (TRO)",
+      "Bexar AD suit (27 complexes/$26M)",
+      "TWHC HB21 constitutional challenge (Cameron Co., 9/9/2025)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "annual_exemption_value_est not computed -- would require applying each taxing unit's adopted TY2026 rate to the appraised value.",
+      "first_exempt_tax_year not determinable from a single-year roll snapshot; Denton CAD's Property-file 'ex_qualify_yr' field is unpopulated for this parcel (as for every HFC/PFC-owned parcel found in this sweep) -- the entity-level $0 taxable_val mechanism used for these ground-lease structures does not appear to route through the standard 'EX' absolute-exemption code/qualify-year field."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "Matched to seed row via sale_comment text ('The Bluffs at Vista Ridge Apartments in Lewisville, TX') -- high-confidence cross-validated match, not a bucket assumption."
+      },
+      {
+        "field": "sponsor.*, classification.tier, kill_analysis.regime",
+        "source": "docs/phase1_verdict.md + data/sponsors.json (Phase 1 sponsor classification, public-record sourced)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-2577",
+    "confidence": "single-source",
+    "property": {
+      "name": "Tides at Lewisville",
+      "aka": [
+        "Jefferson at Round Grove"
+      ],
+      "address": "201 E ROUND GROVE RD",
+      "city": "Lewisville",
+      "county": "Denton",
+      "zip": "75067",
+      "cad_account": "173667",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Bixby Bridge Capital",
+      "Mountain Pacific Opportunity Partners"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-04-09",
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "2025-37443"
+      ],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by The Cameron County Housing Finance Corporation, which expires 06/01/2124 (seed); DCAD deed date 04-09-2025 is consistent with a 2025 lease commencement (~99yr to 2124)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 47185908.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'None' (categorical, not a verified AMI%/unit-count set-aside)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff; no evidence of an intervening post-5/28/2025 capital-event death for this specific parcel beyond the original 04/2025 acquisition."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "Williamson County v. Cameron County HFC (TRO)",
+      "Bexar AD suit (27 complexes/$26M)",
+      "TWHC HB21 constitutional challenge (Cameron Co., 9/9/2025)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "DCAD owner-name field reads 'THE CAMERON COUNTRY HOUSING FINANCE CORPORATION' (scrivener error: COUNTRY for COUNTY) -- treated as the same entity per the kit's Traps #2 guidance (recording-stamp/roll data over notary-block spelling), corroborated by identical 'THE ... HOUSING FINANCE CORPORATION' naming convention used in the seed's own ground_lease_comment text and by the shared Harlingen mailing history of the other 3 Denton Cameron Co. HFC parcels.",
+      "Seed-row-to-parcel pairing is a best-effort assumption: 3 Denton seed rows for Cameron County HFC map to 3 distinct DCAD-confirmed properties in Lewisville (Oak Forest I&II, Bluffs at Vista Ridge [confirmed via sale_comment], Tides at Lewisville); after removing the sale_comment-confirmed Bluffs match, this row (2577, ground lease expiring 2124 i.e. ~2025 origination) was paired with Tides at Lewisville (DCAD deed 04-09-2025) over Oak Forest I&II (DCAD deed 03-15-2023) on lease-term-implied origination year; not independently verified beyond sponsor+city+date-proximity.",
+      "Units not found in DCAD bulk export (not published for any parcel in this sweep) or in seed data for this row."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "Owner name 'THE CAMERON COUNTRY HOUSING FINANCE CORPORATION' (likely data-entry variant of Cameron County HFC); dba 'TIDES AT LEWISVILLE'."
+      },
+      {
+        "field": "sponsor.*, classification.tier, kill_analysis.regime",
+        "source": "docs/phase1_verdict.md + data/sponsors.json (Phase 1 sponsor classification, public-record sourced)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1938",
+    "confidence": "single-source",
+    "property": {
+      "name": "Oak Forest I & II Apartments",
+      "aka": [],
+      "address": "1531 S SH 121",
+      "city": "Lewisville",
+      "county": "Denton",
+      "zip": "75067",
+      "cad_account": "19743 + 174992 (2 accounts, Ph.1/Ph.2)",
+      "units": null,
+      "year_built": 1994,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Post Investment Group"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2023-03-15",
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "2023-26605"
+      ],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by The Cameron County Housing Finance Corporation, which expires 03/20/2112 (seed, implying ~2013 origination); DCAD's most-recent-deed field shows 03-15-2023 for both accounts (same instrument 2023-26605) -- may reflect a later re-recording/re-financing rather than the original 2013 ground-lease commencement (kit Trap #4)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 77527500.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'None' (categorical, not a verified AMI%/unit-count set-aside)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff. NOTE: unlike the other 6 Denton seed-matched parcels, this property currently shows $0 taxable_val at every taxing entity (city/county/school/CAD) on the TY2026 preliminary roll -- i.e. the exemption is STILL IN EFFECT here, not yet stripped."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "Williamson County v. Cameron County HFC (TRO)",
+      "Bexar AD suit (27 complexes/$26M)",
+      "TWHC HB21 constitutional challenge (Cameron Co., 9/9/2025)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-parcel pairing is a best-effort assumption (see TX-43-2577 gap note) -- paired with Oak Forest I&II over Tides at Lewisville by process of elimination, not independently verified.",
+      "Represented by 2 DCAD tax accounts (Ph.1 acct 19743 $31,011,000 + Ph.2 acct 174992 $46,516,500 = $77,527,500 combined) treated as one physical property per DCAD's own dba 'OAK FORREST I & II APTS' on both accounts.",
+      "Units not found in DCAD bulk export or seed data.",
+      "This is the ONLY one of the 3 Denton Cameron County HFC parcels still carrying its exemption (taxable_val=$0 at all 4 entities) on the 2026 preliminary roll; the other 2 (Bluffs, Tides) are fully taxable -- cause of the split outcome not determinable from the roll alone."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "2 accounts, same dba 'OAK FORREST I & II APTS', same deed instrument 2023-26605; Property-Entity table shows taxable_val=$0 at C12/CAD/G01/S09 for both accounts (still exempt)."
+      },
+      {
+        "field": "sponsor.*, classification.tier, kill_analysis.regime",
+        "source": "docs/phase1_verdict.md + data/sponsors.json (Phase 1 sponsor classification, public-record sourced)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1417366",
+    "confidence": "cross-validated",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": "4204 N LOCUST ST",
+      "city": "Denton",
+      "county": "Denton",
+      "zip": "76209",
+      "cad_account": "1063244",
+      "units": null,
+      "year_built": 2025,
+      "status": "Under Construction"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Landmark Companies"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-06",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025-49494"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 16902935.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'NULL'",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff; property is Under Construction (yr_built 2025 per DCAD improvement detail) and currently FULLY TAXABLE (no exemption posted for TY2026 despite Pecos HFC ownership of record since 05/2025)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. (~$230M)",
+      "Tarrant ARB $974M/28 sites",
+      "TWHC HB21 challenge"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "No dba/property name populated in DCAD (consistent with Under Construction status) -- property name unresolved; would need TDHCA registration filing or a leasing-office source once it opens.",
+      "Units not found in DCAD bulk export or seed data."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "Unique match: seed property_city 'Denton' exactly equals DCAD situs_city 'DENTON' -- only one Pecos HFC-owned Denton-county parcel with that situs city in the sweep."
+      },
+      {
+        "field": "sponsor.*, classification.tier, kill_analysis.regime",
+        "source": "docs/phase1_verdict.md + data/sponsors.json (Phase 1 sponsor classification, public-record sourced)",
+        "retrieved": "2026-07-11",
+        "note": "RECLASSIFIED: seed label 'Pecos Housing Authority' is a MISLABEL -- appraisal-district owner records confirm Pecos Housing FINANCE Corporation (Ch.394 HFC)."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1236",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Retreat at 3737",
+      "aka": [
+        "Rosemeade Apartments"
+      ],
+      "address": "3737 TIMBERGLEN DR",
+      "city": "Dallas",
+      "county": "Denton",
+      "zip": "75287",
+      "cad_account": "86134",
+      "units": null,
+      "year_built": 1984,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Staples Multifamily"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-03-06",
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "2025-24182"
+      ],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Pecos Housing Authority [sic -- Finance Corp], which expires 04/01/2124 (seed, ~2025 origination, consistent with DCAD deed 03-06-2025)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 29950000.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'None'",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff; currently FULLY TAXABLE (no exemption posted for TY2026)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. (~$230M)",
+      "Tarrant ARB $974M/28 sites",
+      "TWHC HB21 challenge"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Property is situs-addressed 'Dallas, TX 75287' but administered by Denton CAD -- confirms the seed matrix's unusual property_city='Dallas'/property_county='Denton' combination reflects a real Denton-County parcel with a Dallas-area mailing/situs city (near the Denton/Dallas county line, Carrollton-Farmers Branch ISD).",
+      "Units not found in DCAD bulk export or seed data."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "Unique match: seed property_city 'Dallas' exactly equals DCAD situs_city 'DALLAS' among Pecos HFC's Denton-county parcels; dba 'RETREAT AT 3737', legal desc names 'ROSEMEADE APTS'."
+      },
+      {
+        "field": "sponsor.*, classification.tier, kill_analysis.regime",
+        "source": "docs/phase1_verdict.md + data/sponsors.json (Phase 1 sponsor classification, public-record sourced)",
+        "retrieved": "2026-07-11",
+        "note": "RECLASSIFIED: seed label 'Pecos Housing Authority' is a MISLABEL -- appraisal-district owner records confirm Pecos Housing FINANCE Corporation (Ch.394 HFC)."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-7551",
+    "confidence": "seed",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "Aubrey",
+      "county": "Denton",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Strategic Property Investment"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'None'",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff applies to the sponsor generally; specific parcel unconfirmed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. (~$230M)",
+      "Tarrant ARB $974M/28 sites",
+      "TWHC HB21 challenge"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "No DCAD-confirmed parcel could be isolated for this seed row: no Pecos Housing Finance Corporation-owned parcel with situs_city 'AUBREY' was found in the Denton CAD 2026 preliminary real-property sweep (the only Denton-CAD Pecos HFC parcels found are in Denton, Dallas(75287)/Carrollton-FB ISD, Corinth, and Lewisville). Candidate causes: (a) not yet recorded under a name containing 'HOUSING FINANCE' (deal may still show a developer/LLC name pending fee transfer), (b) the seed matrix's 'Aubrey' city tag is a mailing/marketing address rather than situs city, or (c) the deal has not closed. Web search for 'Pecos Housing Finance Aubrey' and the seed's named partner 'Strategic Property Investment' + Aubrey turned up no corroborating public source. Would need Method 3 (Denton County Clerk grantor/grantee index) or a TDHCA TPIA request to resolve."
+    ],
+    "provenance": [
+      {
+        "field": "sponsor.*, classification.tier, kill_analysis.regime",
+        "source": "docs/phase1_verdict.md + data/sponsors.json (Phase 1 sponsor classification, public-record sourced)",
+        "retrieved": "2026-07-11",
+        "note": "RECLASSIFIED: seed label 'Pecos Housing Authority' is a MISLABEL -- appraisal-district owner records confirm Pecos Housing FINANCE Corporation (Ch.394 HFC)."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-2392",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Oak Tree Village Apartments",
+      "aka": [
+        "Orchard Village"
+      ],
+      "address": "1595 S OLD ORCHARD LN",
+      "city": "Lewisville",
+      "county": "Denton",
+      "zip": "75067",
+      "cad_account": "86563",
+      "units": null,
+      "year_built": 1985,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Plano Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Plano",
+      "home_county": "Collin",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "AMCAL Housing"
+    ],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2021-09-29",
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "2021-180078"
+      ],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Plano Housing Authority, which expires 09/30/2120 (seed) -- DCAD deed date 09-29-2021 is an exact match to the 99-year lease commencement implied by the 2120 expiry."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 37985836.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": "Partial (seed)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 (Ch.303 via Plano PFC); no 2027 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "No HB21 cliff (sponsor of record is a Ch.303 PFC, not a Ch.394 HFC). Phase 1 (docs/phase1_verdict.md) already identifies this exact property as 'Oak Tree Village grandfathered (pre-2023)' -- deed 2021 predates HB2071's 6/18/2023 boundary-risk date. Real unwind vector is the active Collin Co. litigation, not a statutory date. Currently still exempt (taxable_val=$0 at all 4 entities on the TY2026 preliminary roll)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "City of Plano + Plano ISD v. Plano HA & its PFCs (Collin Co. 219-03003-2024) \u2014 constitutional PFC ad valorem challenge"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "ENTITY IDENTITY: DCAD's owner-of-record for this parcel is 'PLANO PUBLIC FACILITY CORPORATION' (mailing 1740 G Ave, Plano), NOT 'Plano Housing Authority' directly -- classified here by actual owner entity per Phase 1's own note that 'deals ride on affiliated PFCs.' sponsor.name is kept as 'Plano Housing Authority' to match the master sponsors.json roster/tier, but the true CAD title-holder and Ch.303 PFC affiliate is Plano Public Facility Corporation.",
+      "Units not found in DCAD bulk export or seed data."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "Owner-of-record 'PLANO PUBLIC FACILITY CORPORATION'; deed date 09-29-2021 matches seed ground-lease-implied origination exactly; dba 'OAK TREE Village APTS'."
+      },
+      {
+        "field": "sponsor.*, classification.tier, kill_analysis.regime",
+        "source": "docs/phase1_verdict.md + data/sponsors.json (Phase 1 sponsor classification, public-record sourced)",
+        "retrieved": "2026-07-11",
+        "note": "Seed's single property (Lewisville) is the lone traveling deal of Plano PFC's ~14 (rest Plano-local); Oak Tree Village explicitly named as grandfathered in Phase 1."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-5252",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "4 Corners Apartments",
+      "aka": [],
+      "address": "1690 FM 423",
+      "city": "Frisco",
+      "county": "Denton",
+      "zip": "75036",
+      "cad_account": "655887",
+      "units": null,
+      "year_built": 2015,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Ascendant Capital Partners"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2024-10-18",
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "2024-113846"
+      ],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Pleasanton Housing Finance Corporation, which expires 11/01/2123 (seed) -- DCAD deed date 10-18-2024 is consistent with the 2123 expiry (~99yr)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 88899643.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'None'",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff; currently FULLY TAXABLE (no exemption posted for TY2026 despite Pleasanton HFC ownership since 10/2024)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "15-25-00110/-00111-CV (appeals abandoned; TIs stand)",
+      "Hays Co. 25-1185-DCB TRO",
+      "AG RQ-0566-KP pending"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Units not found in DCAD bulk export or seed data.",
+      "yr_built 2015 predates the 2024 ground-lease/fee acquisition -- an existing older property acquired into the structure, not new construction."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "Unique match: only Pleasanton HFC-owned Denton-county parcel found, situs city Frisco matches seed exactly; dba '4 CORNERS APTS'."
+      },
+      {
+        "field": "sponsor.*, classification.tier, kill_analysis.regime",
+        "source": "docs/phase1_verdict.md + data/sponsors.json (Phase 1 sponsor classification, public-record sourced)",
+        "retrieved": "2026-07-11",
+        "note": "Archetype traveling HFC; multiple injunctions already stand elsewhere in the state (Lake Worth, Arlington, Fort Worth, Missouri City)."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-DENTON-1",
+    "confidence": "single-source",
+    "property": {
+      "name": "Arden at Corinth",
+      "aka": [],
+      "address": "3451 FM 2181",
+      "city": "Corinth",
+      "county": "Denton",
+      "zip": "76210",
+      "cad_account": "1037503 + 1037504",
+      "units": null,
+      "year_built": 2023,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-05-12",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025-51727"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 53292148.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 5
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff; currently FULLY TAXABLE (no exemption posted for TY2026 despite Pecos HFC ownership since 05/2025)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. (~$230M)",
+      "Tarrant ARB $974M/28 sites",
+      "TWHC HB21 challenge"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not in Denton seed set -- discovered via Method 2 owner-name sweep of Denton CAD's 2026 preliminary roll for 'HOUSING FINANCE'/'PUBLIC FACILITY' owners. Not independently verified beyond CAD owner-of-record.",
+      "Ground-lease vs. fee-simple structure not confirmed (no ground_lease_comment source for this expansion property, unlike the seed rows).",
+      "Units not found in DCAD bulk export."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "2 accounts (main improved parcel 1037503 $53,063,894 + small adjoining land parcel 1037504 $228,254), same deed instrument 2025-51727, dba 'ARDEN AT CORINTH'."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-DENTON-2",
+    "confidence": "single-source",
+    "property": {
+      "name": "Luxe @ Lewisville",
+      "aka": [
+        "Inspired Living at Lewisville"
+      ],
+      "address": "2400 ACE LN",
+      "city": "Lewisville",
+      "county": "Denton",
+      "zip": "75067",
+      "cad_account": "1052070",
+      "units": null,
+      "year_built": 2024,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-02-21",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2025-17886"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 25700295.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff; currently FULLY TAXABLE (no exemption posted for TY2026 despite Pecos HFC ownership since 02/2025)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. (~$230M)",
+      "Tarrant ARB $974M/28 sites",
+      "TWHC HB21 challenge"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not in Denton seed set -- discovered via Method 2 owner-name sweep. Not independently verified beyond CAD owner-of-record.",
+      "Ground-lease vs. fee-simple structure not confirmed.",
+      "Units not found in DCAD bulk export."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "Legal desc 'INSPIRED LIVING AT LEWISVILLE ADDITION'; dba 'LUXE @ LEWISVILLE'."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-DENTON-3",
+    "confidence": "single-source",
+    "property": {
+      "name": "One90 Frankford",
+      "aka": [],
+      "address": "3301 PRESIDENT GEORGE BUSH TPKE",
+      "city": "Dallas",
+      "county": "Denton",
+      "zip": "75287",
+      "cad_account": "1027658",
+      "units": null,
+      "year_built": 2023,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Garland Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Garland",
+      "home_county": "Dallas",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 65285915.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff. Currently EXEMPT: taxable_val=$0 at all 4 taxing entities on the TY2026 preliminary roll -- exemption still in effect."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "Collin CAD v. GHFC 05-19-01417-CV (GHFC won pre-HB21; now overridden by \u00a713(i))"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not in the Denton seed set at all -- Phase 1's sponsors.json lists only 4 Garland HFC properties statewide (all elsewhere), flagged there as 'a floor.' This Denton discovery (2 distinct properties, 11 accounts) is new evidence the true Garland HFC portfolio is materially larger than the seed captured.",
+      "Ground-lease vs. fee-simple structure not confirmed.",
+      "Units not found in DCAD bulk export.",
+      "No deed date/instrument number populated in DCAD's Property file for this account (blank deed_dt/deed_num) -- acquisition date unconfirmed; yr_built (2023-2024, per improvement detail) is the only dating evidence."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "Situs Dallas 75287 (Denton-County parcel near Addison/Carrollton-FB ISD line, same pattern as the Pecos HFC 'Retreat at 3737' parcel); dba 'ONE90 FRANKFORD'."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-DENTON-4",
+    "confidence": "single-source",
+    "property": {
+      "name": "Parchaus",
+      "aka": [
+        "Lake Pointe"
+      ],
+      "address": "LAKE POINTE (Soccer Dr / Goalie Dr / Forward Dr / Crossbar Dr)",
+      "city": "Little Elm",
+      "county": "Denton",
+      "zip": "75068",
+      "cad_account": "1052297, 1052298, 1052299, 1052305, 1052310, 1052318, 1052319, 1052320, 1052321, 1052322 (10 accounts)",
+      "units": null,
+      "year_built": 2024,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Garland Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Garland",
+      "home_county": "Dallas",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 45784159.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff. Currently EXEMPT: taxable_val=$0 at all taxing entities for 9 of the 10 accounts (the 10th, a nominal $50-appraised HOA/open-space parcel, shows $12 taxable) on the TY2026 preliminary roll -- exemption still in effect."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [
+      "Collin CAD v. GHFC 05-19-01417-CV (GHFC won pre-HB21; now overridden by \u00a713(i))"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not in the Denton seed set (see TX-NEW-DENTON-3 note on Garland HFC portfolio undercount).",
+      "10 DCAD tax accounts (garden-style complex split across multiple blocks/lots plus 3 nominal $50 HOA/open-space parcels) rolled up into one property record on shared dba 'PARCHAUS' and site name 'LAKE POINTE'.",
+      "Ground-lease vs. fee-simple structure not confirmed. Units not found in DCAD bulk export. No deed date populated for any of the 10 accounts."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "10 accounts sharing dba 'PARCHAUS', legal desc 'LAKE POINTE BLK [A/J/K/L]', entities CAD/G01/S10 Little Elm ISD/W18 Denton Co FWSD 8-A."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-DENTON-5",
+    "confidence": "single-source",
+    "property": {
+      "name": "Pecan Place Apartments",
+      "aka": [],
+      "address": "302 S LOCUST ST",
+      "city": "Denton",
+      "county": "Denton",
+      "zip": "76201",
+      "cad_account": "32975",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Denton Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Denton",
+      "home_county": "Denton",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 2,
+      "traveling": "no",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": false
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2012-12-31",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2013-31871"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 8059257.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 5
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "N/A -- non-traveling (home-turf Ch.303 PFC)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "Not an HB21/HB2071 traveling target: sponsor's mailing address (1225 Wilson St, Denton) matches the Denton Housing Authority's headquarters, and the property sits inside the City of Denton (sponsor's own home jurisdiction) -- same non-traveling, in-area exclusion Phase 1/Dallas census applied to Houston HA's and Garland HFC's home-turf holdings. No statutory cliff identified for this in-area, non-abusive use of Ch.303."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "New find via the %PUBLIC FACILITY CORP% sweep, not one of the 13 known project sponsors. Classified as a City-of-Denton-affiliated in-area PFC (mailing address 1225 Wilson St, Denton matches the other 2 same-named PFCs below and Denton Housing Authority's own address) and EXCLUDED from the traveling target set/totals -- included here for completeness/transparency only, per the same treatment Phase 1/Dallas gave other sponsors' home-turf parcels.",
+      "Entity affiliation with Denton Housing Authority is inferred from shared mailing address, not from a Secretary of State filing or certificate of formation (would need a paid/gated source or a TPIA request to confirm definitively)."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "dba 'PECAN PLACE APARTMENTS'; mailing address 1225 Wilson St, Denton, TX 76205."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-DENTON-6",
+    "confidence": "single-source",
+    "property": {
+      "name": "Veranda",
+      "aka": [],
+      "address": "2420 E MCKINNEY ST",
+      "city": "Denton",
+      "county": "Denton",
+      "zip": "76209",
+      "cad_account": "565421",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Denton Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Denton",
+      "home_county": "Denton",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 2,
+      "traveling": "no",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": false
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2016-04-15",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "2016-42730"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 52303575.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "N/A -- non-traveling (home-turf Ch.303 PFC)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "Same non-traveling in-area exclusion as TX-NEW-DENTON-5."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "New find via the %PUBLIC FACILITY CORP% sweep. Excluded from the traveling target set/totals (in-area, City of Denton).",
+      "Entity affiliation with Denton Housing Authority inferred from mailing address only."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "dba 'VERANDA'; mailing address 1225 Wilson St, Denton, TX 76205."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-DENTON-7",
+    "confidence": "single-source",
+    "property": {
+      "name": "Eighteen51 Brinker",
+      "aka": [],
+      "address": "1851 BRINKER RD",
+      "city": "Denton",
+      "county": "Denton",
+      "zip": "76208",
+      "cad_account": "754770",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Premier Denton Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Denton",
+      "home_county": "Denton",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 2,
+      "traveling": "no",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": false
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 40945891.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "N/A -- non-traveling (home-turf Ch.303 PFC)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "Same non-traveling in-area exclusion as TX-NEW-DENTON-5."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "New find via the %PUBLIC FACILITY CORP% sweep. Excluded from the traveling target set/totals (in-area, City of Denton).",
+      "Entity affiliation with Denton Housing Authority inferred from mailing address only.",
+      "No deed date populated in DCAD's Property file for this account."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "dba 'EIGHTEEN51 BRINKER'; mailing address 1225 Wilson St, Denton, TX 76205 (same as Denton PFC and Renaissance Courts PFC)."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-DENTON-8",
+    "confidence": "single-source",
+    "property": {
+      "name": "Renaissance Courts",
+      "aka": [],
+      "address": "1224 E HICKORY ST",
+      "city": "Denton",
+      "county": "Denton",
+      "zip": "76205",
+      "cad_account": "32689",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Renaissance Courts Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Denton",
+      "home_county": "Denton",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 2,
+      "traveling": "no",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": false
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2005-07-29",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "05-92703"
+      ],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 14223217.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": 4
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "N/A -- non-traveling (home-turf Ch.303 PFC)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "Same non-traveling in-area exclusion as TX-NEW-DENTON-5."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched (public-record loan/servicing data not available via free CAD/court sources for this pass)."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "New find via the %PUBLIC FACILITY CORP% sweep. Excluded from the traveling target set/totals (in-area, City of Denton).",
+      "Entity affiliation with Denton Housing Authority inferred from mailing address only. No dba populated in DCAD; property name is the entity's own name."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/units/cad_account/exemption status",
+        "source": "Denton CAD (dentoncad.com) free bulk data mirror at dentoncad.net/data/_uploaded/files/datafiles/2026/PreliminaryDataReal/ ('2026 Preliminary Data - Residential (Real) Property.zip'); APPRAISAL_INFO.TXT (Property) / APPRAISAL_ENTITY_INFO.TXT (Property-Entity) / APPRAISAL_IMPROVEMENT_DETAIL.TXT tables per Legacy8.0.30 PACS export layout; free public data product",
+        "retrieved": "2026-07-11",
+        "note": "Mailing address 1225 Wilson St, Denton, TX 76205 (same as Denton PFC and Premier Denton PFC); state class code B1 (multifamily) confirmed on both land and improvement."
+      }
+    ]
+  }
+]

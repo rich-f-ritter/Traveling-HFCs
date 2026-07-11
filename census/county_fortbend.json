@@ -1,0 +1,1289 @@
+[
+  {
+    "census_id": "TX-63-1358163",
+    "confidence": "single-source",
+    "property": {
+      "name": "Vero Sade",
+      "aka": [
+        "Vero Sade Apartments"
+      ],
+      "address": "28325 Retail Lane S",
+      "city": "Rosenberg",
+      "county": "Fort Bend",
+      "zip": "77471",
+      "cad_account": "R540253",
+      "units": 310,
+      "year_built": null,
+      "status": "Under Construction"
+    },
+    "sponsor": {
+      "name": "Maverick County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Eagle Pass",
+      "home_county": "Maverick",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [
+      "Vero Sade"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "FBCAD year-snapshot: TY2023-2024 owner 'US Living Rosenberg LLC' (Real Land, ~$2.6M); TY2025 owner already 'Maverick County Housing Finance Corporation' (still Real Land); by TY2026 reclassified 'Real Apartment' at $24,000,000 as construction progressed. Exact recording date not captured (method: annual roll snapshots, not deed index)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 24000000.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff. FBCAD shows Maverick County HFC took title by TY2025 (before 9/1/2025 lookback), so \u00a713(i) captures it. Property is STILL FULLY TAXABLE on the TY2026 certified roll (Real Apartment class, no exemption) \u2014 construction/lease-up not yet complete or exemption application not yet effective, so no ad valorem benefit has actually been realized as of this snapshot."
+    },
+    "loan": {
+      "lender_or_servicer": "IBC Bank (construction financing, per Connect CRE/fbherald.com coverage)",
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Construction loan only; permanent financing/servicer not identified from free sources."
+    },
+    "litigation_flags": [
+      "NOTE: distinct from the separate Missouri City v. Maverick County HFC suit (Fort Bend 268th Dist. Ct., filed 1/24/2025) concerning 'The Ranch at Sienna' (8811 Sienna Springs Blvd, Missouri City) \u2014 a DIFFERENT Fort Bend property. FBCAD's TY2023-2026 rolls show Ranch at Sienna continuously owned by 'Ranch@Sienna Equity Partners Property LLC', NEVER by Maverick County HFC \u2014 consistent with the City's TRO having blocked that acquisition from closing. See county md for detail; no property record created for Ranch at Sienna since CAD shows no sponsor ownership."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "first_exempt_tax_year unresolved \u2014 property remains fully taxable (Real Apartment, no exemption code) through TY2026 despite HFC ownership since TY2025; cause (under-construction status, pending exemption application, or non-filing of \u00a7394.9027 audit) not determinable from the roll alone.",
+      "annual_exemption_value_est not computed (rates not applied; also moot while taxable).",
+      "units figure (310) is web-sourced (Connect CRE / fbherald.com / Houston Agent Magazine coverage of the Vero Sade project announcement), not from FBCAD (FBCAD does not publish a unit-count field)."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/appraised_value/status",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; account R540253, owner-name search 'MAVERICK COUNTY HOUSING FINANCE'",
+        "retrieved": "2026-07-11",
+        "note": "Matched to seed row by partner-name exact match (seed partner 'Vero Sade' = FBCAD DBA field 'Vero Sade')."
+      },
+      {
+        "field": "exemption status history (TY2023-2026)",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; /Property/View/R540253?year=2023..2026",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "property.units",
+        "source": "Vero Sade unveils plans for 310 apartments in Rosenberg, texasrealestate.news / fbherald.com / Connect CRE (public news coverage of project announcement)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "loan.lender_or_servicer",
+        "source": "Connect CRE / fbherald.com coverage naming IBC Bank as construction lender",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-3158",
+    "confidence": "single-source",
+    "property": {
+      "name": "Villas at River Park West",
+      "aka": [
+        "The Villas @ Riverpark",
+        "Villas at Riverpark"
+      ],
+      "address": "21811 Wildwood Park Rd",
+      "city": "Richmond",
+      "county": "Fort Bend",
+      "zip": "77469",
+      "cad_account": "R331334",
+      "units": 252,
+      "year_built": 1999,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Hilltop Residential"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "FBCAD year-snapshot: TY2021-2022 owner 'AHC Villas Richmond LLC'; TY2023-2024 owner 'HT River Park Owner LP' (HT = Hilltop Residential entity, confirmed by Hilltop's own 10/2024 blog post 'Newly Acquired \u2013 Villas at River Park West'); TY2025 owner became 'Pleasanton Housing Finance Corporation' while STILL classified Real Apartment (taxable, $32,000,000); by the TY2026 current roll reclassified Real Exempt at $35,725,441. Matches seed's own note: unrecorded 03/25 recapitalization added PHFC to the ownership group."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 35725441.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": "2025 recapitalization (per seed sale_comment, unrecorded)",
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff; FBCAD confirms PHFC in ownership chain by TY2025, exemption posted TY2026."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched; out of reach of free CAD/court sources for this pass."
+    },
+    "litigation_flags": [
+      "15-25-00110/-00111-CV (Pleasanton HFC 15th COA appeals vs. Lake Worth/Arlington \u2014 abandoned, TIs stand)",
+      "Hays Co. 25-1185-DCB TRO",
+      "AG RQ-0566-KP pending"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "annual_exemption_value_est not computed (FBCAD TaxRates page not pulled this pass)."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/appraised_value/status",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; account R331334 (+ linked personal-property account P326218, $263,790), owner-name search 'PLEASANTON HOUSING FINANCE'",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "sponsor pairing (partner Hilltop Residential)",
+        "source": "Hilltop Residential company blog, 'Newly Acquired \u2013 Villas at River Park West' (Oct 2024), livehilltop.com; corroborates FBCAD's TY2023-24 owner-of-record 'HT River Park Owner LP'",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "property.units/year_built",
+        "source": "public apartment-listing aggregators (apartments.com, apartmenthomeliving.com) citing 252 units, built 1999",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "exemption status history (TY2021-2026)",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; /Property/View/R331334?year=2021..2025",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-3263",
+    "confidence": "single-source",
+    "property": {
+      "name": "The Addison at Sugar Land",
+      "aka": [],
+      "address": "15000 W Airport Blvd",
+      "city": "Sugar Land",
+      "county": "Fort Bend",
+      "zip": "77498",
+      "cad_account": "R302075",
+      "units": 280,
+      "year_built": 2004,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Rosenberg Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Rosenberg",
+      "home_county": "Fort Bend",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Catalyst Equity Partners"
+    ],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "FBCAD year-snapshot: TY2021-22 owner 'Advenir@Woodbridge LLC'; TY2023-24 owner 'CEP Sugar Land DE LLC' (CEP = Catalyst Equity Partners, confirmed by REBusinessOnline's 'Catalyst Equity Partners Buys 280-Unit Addison at Sugar Land Apartments' coverage); TY2025 owner became 'Housing Authority Of The City Of Rosenberg' while STILL classified Real Apartment (taxable, $54,104,861); by TY2026 exemption posted (Real Exempt, $49,186,268). Matches seed's own note: unrecorded 04/25 recapitalization added Rosenberg HA to the ownership group."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 49186268.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392 \u00a7392.005)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": null,
+      "recent_capital_event": "2025 recapitalization (per seed sale_comment, unrecorded)",
+      "kill_date_estimate": null,
+      "kill_date_basis": "NO 2027 cliff \u2014 owner of record is the Housing Authority itself (Ch.392), not the affiliated Rosenberg Housing Authority Public Facility Corporation (Ch.303). HB21/HB2071 do not reach direct \u00a7392.005 HA ownership. Corrects Phase-1's working assumption that 'Rosenberg HA deals ride on affiliated PFCs' \u2014 FBCAD shows most Rosenberg-sponsored Fort Bend deals are DIRECT HA ownership; only 2 of 8 FBCAD-confirmed Rosenberg-sponsor properties are actually held by the RHAPFC. See county md."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "annual_exemption_value_est not computed."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/appraised_value/status",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; account R302075, owner-name search 'HOUSING AUTHORITY OF THE CITY OF ROSENBERG'",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "sponsor pairing (partner Catalyst Equity Partners) + units",
+        "source": "REBusinessOnline, 'Catalyst Equity Partners Buys 280-Unit Addison at Sugar Land Apartments in Metro Houston'",
+        "retrieved": "2026-07-11",
+        "note": "280 units, built 2004, confirmed independently of FBCAD (which does not publish a unit-count field)."
+      },
+      {
+        "field": "exemption status history (TY2021-2026)",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; /Property/View/R302075?year=2021..2025",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-334",
+    "confidence": "seed",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "Stafford",
+      "county": "Fort Bend",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Rosenberg Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Rosenberg",
+      "home_county": "Fort Bend",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Madera Companies"
+    ],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": null,
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'All' (categorical, not a verified AMI%/unit-count set-aside)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392 \u00a7392.005)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": null,
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "No 2027 cliff if genuinely Ch.392 HA-held; unable to confirm structure at all from free FBCAD data (see gaps)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "NO FBCAD account found for Rosenberg HA (or RHAPFC) in the City of Stafford. Owner-name sweeps for 'ROSENBERG HOUSING', 'HOUSING AUTHORITY OF THE CITY OF ROSENBERG', and the RHAPFC's full name return zero Stafford-situs accounts. A separate keyword sweep of all ~13 Stafford apartment complexes on the FBCAD roll (Stafford Run, Estates at Fountain Lake, Miramonte, Waterstone Place/Silverbrooke/Colony Lakes (VR/'Waterstone Apartments 3 Pack' cluster), MAA Kirkwood, Park at Tivoli, ARC/1879 Apartments, Shadowbrooke, Fountain Park) shows all conventional LLC/LP ownership \u2014 none tied to Rosenberg HA, RHAPFC, or partner 'Madera Companies'.",
+      "Unlike the other 3 Rosenberg HA seed rows with sale_comment noting an unrecorded 2025 transaction, this row's sale_comment is null \u2014 consistent with either (a) an even-more-recent/unrecorded deal not yet reflected anywhere on the FBCAD roll, (b) a deal that never closed, or (c) a data-source error in the underlying seed matrix. Cannot be resolved from free public CAD data; would need a TPIA request to Rosenberg HA or a Fort Bend County Clerk grantor/grantee search (Method 3) for 'Madera Companies' as grantor."
+    ],
+    "provenance": [
+      {
+        "field": "all fields",
+        "source": "data/seed_properties.json (Matrix seed only); no independent public-record confirmation found this pass",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-8200",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "The Waterview",
+      "aka": [
+        "Waterview Apartments"
+      ],
+      "address": "19525 W Bellfort",
+      "city": "Richmond",
+      "county": "Fort Bend",
+      "zip": "77406",
+      "cad_account": "R484621",
+      "units": 295,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Rosenberg Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Rosenberg",
+      "home_county": "Fort Bend",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [
+      "Velocity Capital"
+    ],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2026-02-26",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "Seed sale_comment: '02/26 unrecorded transaction in which Rosenberg Housing Authority purchased the single asset entity which held title to the 295 unit Waterview Apartments.' FBCAD's current (TY2026) owner-of-record field already reflects 'Housing Authority Of The City Of Rosenberg' even though the Feb 2026 closing postdates the Jan 1, 2026 valuation date \u2014 consistent with CAD updating the correspondence/owner name mid-year ahead of the deed hitting the index."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 45164643.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'None' (categorical)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392 \u00a7392.005)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": null,
+      "recent_capital_event": "2026-02-26 acquisition by Rosenberg HA (entity purchase)",
+      "kill_date_estimate": null,
+      "kill_date_basis": "No 2027 cliff (direct Ch.392 HA ownership, not HFC). Currently FULLY TAXABLE (Real Apartment, no exemption) on the TY2026 roll despite HA ownership \u2014 likely because the Feb 2026 close came after the Jan 1 valuation/exemption-application date; exemption would be expected to post for TY2027 if the deed/exemption application is filed in time."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Currently taxable despite sponsor ownership \u2014 cause (post-Jan-1 closing timing vs. pending exemption application) not fully determinable from the roll alone.",
+      "annual_exemption_value_est not computed."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/cad_account/appraised_value",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; account R484621, matched by exact name+unit-count correspondence to seed sale_comment ('295 unit Waterview Apartments')",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-4944",
+    "confidence": "single-source",
+    "property": {
+      "name": "The Retreat @ Riverstone",
+      "aka": [
+        "Retreat at Riverstone"
+      ],
+      "address": "18545 University Blvd",
+      "city": "Sugar Land",
+      "county": "Fort Bend",
+      "zip": "77479",
+      "cad_account": "R418163",
+      "units": 249,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Rosenberg Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Rosenberg",
+      "home_county": "Fort Bend",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "FBCAD year-snapshot: TY2021-23 owner 'Sugarland Hudson Realty LLC & Azure Sugarland LP'; by TY2024 owner already 'Housing Authority Of The City Of Rosenberg TX', Real Exempt. This is FBCAD's earliest-dated Rosenberg HA acquisition of the 5 found (predates the other 3 rows' 2025 sale_comment dates)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2024,
+      "appraised_value": 51627706.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'Partial' (categorical)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392 \u00a7392.005)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": null,
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "No 2027 cliff (direct Ch.392 HA ownership). Currently exempt (Real Exempt) since TY2024, the longest-standing of the 5 Rosenberg-HA-sponsored FBCAD matches."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-parcel pairing is BY ELIMINATION, not independently confirmed: this is the only unassigned Sugar-Land Rosenberg-HA-owned FBCAD parcel remaining after TX-63-3263 was matched to The Addison at Sugar Land via the confirmed Catalyst Equity Partners news story. This seed row carries no partner name to cross-check.",
+      "units (249) is web-sourced (apartment-listing aggregators), not from FBCAD.",
+      "annual_exemption_value_est not computed."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/appraised_value",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; account R418163 (+ linked personal-property account P362348, $842,350)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "exemption status history (TY2021-2025)",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; /Property/View/R418163?year=2021..2025",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-939655",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Haven at Bellaire",
+      "aka": [
+        "Haven at Bellaire Apartments"
+      ],
+      "address": "20220 Bellaire Blvd",
+      "city": "Richmond",
+      "county": "Fort Bend",
+      "zip": "77407",
+      "cad_account": "R487824",
+      "units": 297,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Rosenberg Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Rosenberg",
+      "home_county": "Fort Bend",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": "2025-09-29",
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "Seed sale_comment: '09/25 unrecorded transaction in which Rosenberg Housing Authority purchased the single asset entity which held title to the 297 unit Haven at Bellaire Apartments.' FBCAD confirms: TY2025 owner still 'Haven At Bellaire II LLC' (taxable); TY2026 owner 'Housing Authority Of The City Of Rosenberg', Real Exempt."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 37365861.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'None' (categorical)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392 \u00a7392.005)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": null,
+      "recent_capital_event": "2025-09-29 acquisition by Rosenberg HA (entity purchase)",
+      "kill_date_estimate": null,
+      "kill_date_basis": "No 2027 cliff (direct Ch.392 HA ownership). Exemption posted TY2026, consistent with a Sept-2025 acquisition (before the Jan 1, 2026 valuation date)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "annual_exemption_value_est not computed."
+    ],
+    "provenance": [
+      {
+        "field": "property.name/address/cad_account/appraised_value",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; account R487824, matched by exact name+unit-count correspondence to seed sale_comment ('297 unit Haven at Bellaire Apartments')",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "exemption status history (TY2021-2026)",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; /Property/View/R487824?year=2021..2025",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-1274045",
+    "confidence": "seed",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "Richmond",
+      "county": "Fort Bend",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Houston Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Houston",
+      "home_county": "Harris",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "New York Life Insurance Company",
+      "Aspen Oak Capital Partners"
+    ],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": null,
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [],
+      "recording_batch_note": "Seed: 'subject to a 99 year unsubordinated net ground lease held by Houston Housing Authority, which expires 12/22/2121' (implies origination ~2022)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'None' (categorical)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392 \u00a7392.005)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": null,
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "No 2027 cliff if confirmed Ch.392 HA structure; property itself not located on FBCAD (see gaps)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Only ONE Houston Housing Authority-owned account was found anywhere on the FBCAD roll via exhaustive owner-name sweeps ('HOUSTON HOUSING AUTHORITY', 'HOUSING AUTHORITY OF HOUSTON', 'HOUSING ALLIANCE' [HHA's public rebrand]) \u2014 Willow Park Apartments (FBCAD R302037, situs 14001 Fondren Rd, unincorporated Fort Bend Co. near Missouri City; captured as TX-NEW-FORTBEND-5). That account has been 100%-HHA-owned and exempt continuously since at least TY2018, which does NOT fit either this row's or TX-63-1418663's ~2022-origination 99-yr/75-yr ground-lease profile (both would date to ~2022 given their stated 2121/2097 lease-expiry years) or the seed's 'Richmond' city label. It looks like an older, directly-owned legacy public-housing asset rather than one of these two ground-lease deals, so it is NOT paired to this seed row.",
+      "Neither of the 2 partner names (New York Life Insurance Company, Aspen Oak Capital Partners) appears as an owner/DBA on any Fort Bend account in FBCAD's keyword index.",
+      "Structure may not be recorded on FBCAD at all under HHA's name if the fee/ground-lease split leaves a private LLC as the FBCAD-indexed owner (as observed with the unrelated Ravella-at-Sienna and Ranch-at-Sienna parcels, where sponsor ownership never appears on the CAD roll) \u2014 would need a Fort Bend County Clerk grantor/grantee search (Method 3) or a TPIA to Houston Housing Authority."
+    ],
+    "provenance": [
+      {
+        "field": "all fields",
+        "source": "data/seed_properties.json (Matrix seed only); no independent public-record confirmation found this pass",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-1418663",
+    "confidence": "seed",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "Richmond",
+      "county": "Fort Bend",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Houston Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Houston",
+      "home_county": "Harris",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Trammell Crow Residential"
+    ],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": null,
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 75,
+      "recording_refs": [],
+      "recording_batch_note": "Seed: 'subject to a 75 year unsubordinated net ground lease held by Houston Housing Authority, which expires 09/13/2097' (implies origination ~2022)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": "seed-labeled 'Partial' (categorical)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392 \u00a7392.005)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": null,
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "No 2027 cliff if confirmed Ch.392 HA structure; property itself not located on FBCAD (see gaps)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Same gap as TX-63-1274045 \u2014 no second HHA-owned Fort Bend FBCAD account found beyond Willow Park Apartments (R302037, paired instead to TX-NEW-FORTBEND-5), which does not fit this row's ~2022-origination 75-yr ground-lease profile (exempt since \u22642018).",
+      "Partner 'Trammell Crow Residential' does not appear as an owner/DBA on any Fort Bend FBCAD account.",
+      "Would need Method 3 (county clerk grantor/grantee search) or a TPIA to Houston Housing Authority to locate."
+    ],
+    "provenance": [
+      {
+        "field": "all fields",
+        "source": "data/seed_properties.json (Matrix seed only); no independent public-record confirmation found this pass",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-FORTBEND-1",
+    "confidence": "single-source",
+    "property": {
+      "name": "Royal Sienna Plantation",
+      "aka": [
+        "Royal Sienna"
+      ],
+      "address": "5222 Avalon Pt",
+      "city": "Missouri City",
+      "county": "Fort Bend",
+      "zip": "77459",
+      "cad_account": "R489540",
+      "units": 330,
+      "year_built": 2020,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "FBCAD year-snapshot: TY2021 owner 'Broadstone Sienna Plantation Owner LLC'; TY2022-24 owner 'Royal Sienna SPE LLC'; TY2025-26 owner 'Pleasanton Housing Finance Corporation', but STILL classified Real Apartment (taxable) in both years \u2014 exemption has never posted."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 56475767.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) cliff applies. Property is IN the City of Missouri City, which is the jurisdiction Phase 1 flags as having ALREADY WON a standing injunction against Pleasanton HFC (Pleasanton's litigation list: 'multiple injunctions already STAND (Lake Worth, Arlington, Fort Worth, Missouri City \u2014 appeals abandoned)'). This property's continued full-taxable status on the TY2025-26 FBCAD roll, despite 18+ months of PHFC record ownership, is consistent with that standing Missouri City injunction/tax-injunction actually being enforced against this specific parcel."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [
+      "Missouri City injunction vs. Pleasanton HFC \u2014 appeal abandoned, TI stands (per docs/phase1_verdict.md); this parcel is the most likely subject property given it sits inside Missouri City and remains fully taxable years after PHFC took title.",
+      "15-25-00110/-00111-CV (Lake Worth/Arlington)",
+      "Hays Co. 25-1185-DCB TRO",
+      "AG RQ-0566-KP pending"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not independently confirmed as THE Missouri City injunction property by case caption/docket \u2014 inference from jurisdiction + persistent taxable status only. A search.txcourts.gov / Fort Bend District Clerk docket pull would confirm the case name and subject parcel."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/appraised_value/status",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; account R489540 (+ linked personal-property account P377611, $47,000), owner-name search 'PLEASANTON HOUSING FINANCE'",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "property.units/year_built",
+        "source": "royalsienna.com / apartment-listing aggregators: built 2020, 330 units",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "ownership history TY2021-2026",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; /Property/View/R489540?year=2021..2025",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-FORTBEND-2",
+    "confidence": "single-source",
+    "property": {
+      "name": "The Trestle",
+      "aka": [
+        "The Trestles Apartments"
+      ],
+      "address": "1201 Dulles Ave",
+      "city": "Missouri City",
+      "county": "Fort Bend",
+      "zip": "77459",
+      "cad_account": "R111856",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Rosenberg Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Rosenberg",
+      "home_county": "Fort Bend",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "FBCAD year-snapshot: TY2021-23 owner 'USPA Trestles Apartment LLC'; TY2024 owner became 'Housing Authority Of The City Of Rosenberg TX', Real Exempt."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2024,
+      "appraised_value": 21724017.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392 \u00a7392.005/\u00a7392.014)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": null,
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "No 2027 cliff (direct Ch.392 HA ownership). Missouri City is outside Rosenberg's \u00a7392.014 city+5-mile municipal area of operation (~9 road miles from Rosenberg city hall), so this is genuinely traveling for Rosenberg HA's Ch.392 test too. Exempt since TY2024, the same vintage as the Retreat @ Riverstone acquisition \u2014 not part of the well-publicized 2025 unrecorded-sale wave the seed matrix captured for the other 3 Rosenberg HA rows."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "units not found in free public sources (only 'available units' snapshot counts, not total community size).",
+      "Not in the Matrix seed at all \u2014 discovered only via the FBCAD owner-name sweep; not cross-validated by news/litigation."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/appraised_value/status",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; account R111856, owner-name search 'HOUSING AUTHORITY OF THE CITY OF ROSENBERG' / 'MISSOURI CITY HOUSING'",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "ownership history TY2021-2026",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; /Property/View/R111856?year=2021..2025",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-FORTBEND-3",
+    "confidence": "single-source",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": "1500 Andado Ln (+ adjoining Southwest Fwy parcel)",
+      "city": "Richmond",
+      "county": "Fort Bend",
+      "zip": "77469",
+      "cad_account": "R538097 / R538098",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Rosenberg Housing Authority",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Rosenberg",
+      "home_county": "Fort Bend",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "FBCAD year-snapshot: TY2023-24 owner 'Parkside Vigavi WR LLC' (Real Land, ~$5.1-5.2M for R538097); TY2025 owner became 'Rosenberg Housing Authority Public Facility Corporation' (Real Land, $6.2M) \u2014 still classified as land in the TY2025 snapshot; by the TY2026 current roll R538097 is reclassified Real Apartment ($19,462,036), R538098 remains Real Land ($1,039,796). Legal description: '0055 Jane Long, Block 1, Williams Ranch Multifamily Commercial Reserve, Restricted Reserve B (Multi-Family).' Owner mailing address on file: 7102 S Mason Rd, Richmond, TX 77407 (same street as Hanover Lakemont, TX-NEW-FORTBEND-4)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 20501832.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 grandfather (Ch.303, via Rosenberg Housing Authority Public Facility Corporation)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "No 2027 cliff (HB21 is HFC-only). This IS one of only two FBCAD-confirmed properties genuinely held by the Rosenberg Housing Authority Public Facility Corporation (Ch.303) rather than the HA directly. Acquired 2025 (post-6/18/2023), so per Phase 1's kill_regime note for this sponsor, carries \u00a7303.021(d) out-of-area-PFC-ownership boundary risk \u2014 the exemption may be arguably invalid from inception if challenged. Currently fully taxable on the TY2026 roll (no exemption posted)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Property name not found \u2014 not indexed under a marketing name in FBCAD's DBA field or in a targeted web search of the predecessor developer name ('Parkside Vigavi WR LLC' / 'Vigavi'); units unknown.",
+      "Not in the Matrix seed \u2014 discovered only via the FBCAD owner-name sweep."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/appraised_value/status",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; accounts R538097 + R538098, owner-name search 'PUBLIC FACILITY CORPORATION' / 'ROSENBERG HOUSING AUTHORITY PUBLIC FACILITY CORPORATION'",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "ownership history TY2023-2026",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; /Property/View/R538097?year=2023..2026",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-FORTBEND-4",
+    "confidence": "single-source",
+    "property": {
+      "name": "Hanover Lakemont",
+      "aka": [],
+      "address": "7102 S Mason Rd",
+      "city": "Richmond",
+      "county": "Fort Bend",
+      "zip": "77407",
+      "cad_account": "R313610",
+      "units": 360,
+      "year_built": 2024,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Rosenberg Housing Authority",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Rosenberg",
+      "home_county": "Fort Bend",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [
+      "Hanover Company"
+    ],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "FBCAD year-snapshot: TY2018-24 owner 'Ann Arundel Farms Ltd' (Real Land, raw land ~$3.2M); TY2025 owner became 'Rosenberg Housing Authority Public Facility Corporation', reclassified Real Apartment at $6,214,422 (construction in progress \u2014 The Real Deal reported Hanover Company's $54M ground-up development announced 9/2024); by TY2026 appraised at $42,316,919 (built out)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 42316919.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 grandfather (Ch.303, via Rosenberg Housing Authority Public Facility Corporation)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "No 2027 cliff (HB21 is HFC-only). Second of only two RHAPFC-held (Ch.303) properties found. Land acquired 2025 (post-6/18/2023) \u2014 carries \u00a7303.021(d) out-of-area-PFC-ownership boundary risk per Phase 1's note on this sponsor. Currently fully taxable (Real Apartment, no exemption) despite RHAPFC ownership."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "$54M ground-up construction cost reported by The Real Deal (9/2024); lender/servicer not identified."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not in the Matrix seed \u2014 discovered only via the FBCAD owner-name sweep.",
+      "annual_exemption_value_est not computed (moot while taxable)."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/appraised_value/status",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; account R313610",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "property.units/year_built/developer",
+        "source": "Hanover Company property page (hanoverco.com); The Real Deal, 'Hanover Company Plans $54M Apartments in Houston Suburb' (9/11/2024)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "ownership history TY2018-2026",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; /Property/View/R313610?year=2018..2025",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-FORTBEND-5",
+    "confidence": "single-source",
+    "property": {
+      "name": "Willow Park Apartments",
+      "aka": [],
+      "address": "14001 Fondren Rd",
+      "city": "Missouri City (unincorporated Fort Bend Co. per FBCAD legal description)",
+      "county": "Fort Bend",
+      "zip": "77489",
+      "cad_account": "R302037",
+      "units": 260,
+      "year_built": 2004,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Houston Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Houston",
+      "home_county": "Harris",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [
+      "Embrey (private management company; not a title/ownership partner)"
+    ],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "not-exemption-structure",
+      "affordability_source": "LIHTC",
+      "in_target_set": false
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "FBCAD confirms 'Housing Authority of Houston' as 100%-owner-of-record and Real Exempt continuously from TY2018 (earliest year checked) through TY2026 \u2014 no ownership change detected. This long, stable, wholly-owned-outright profile (no private LLC in the title chain) is inconsistent with the newer 2021-25 vintage 'fee-flip/ground-lease' shell structures this census otherwise tracks; it reads as an authentic, older HHA-owned mixed-income/tax-credit property (public housing/HUD program branded 'housing developments' on housingforhouston.com) rather than a traveling tax-avoidance deal."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2018,
+      "appraised_value": 18432548.0,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": "All (tax-credit / mixed-income per public listings)",
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392 \u00a7392.005)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": null,
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "No 2027 cliff. Flagged in_target_set=false: exemption predates the 9/1/2025 HB21 lookback by years and shows no shell/flip signature, so this looks like a genuine legacy HHA housing asset outside this project's 'traveling tax shelter' scope, even though it is technically Harris-sponsor-in-Fort-Bend traveling. Included for completeness/transparency of the sponsor sweep, not as a priority kill-date target."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "Could not confirm whether this is (or is not) the property behind either TX-63-1274045 or TX-63-1418663 \u2014 term/date mismatch argues against it (see those records' gaps); treated as a standalone, unpaired discovery.",
+      "Only property found under Houston HA's name anywhere in Fort Bend County despite exhaustive keyword sweeps."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/appraised_value/status",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; account R302037, owner-name search 'HOUSTON HOUSING AUTHORITY' / 'HOUSING AUTHORITY OF HOUSTON'",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "property.units/year_built/management",
+        "source": "housingforhouston.com (Houston Housing Authority's own property page); RentCafe listing",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "exemption status history (TY2018-2026)",
+        "source": "Fort Bend CAD (esearch.fbcad.org, TrueAutomation/BIS Consulting platform) free public property-search portal, keyword owner-name search (/Search/SearchResults?keywords=...) and per-account year-toggle history (/Property/View/{id}?year=YYYY); TY2026 certified roll; /Property/View/R302037?year=2018..2025",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  }
+]
