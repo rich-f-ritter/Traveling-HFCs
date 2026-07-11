@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Pleasanton Housing Finance Corporation",
+    "aka": [
+      "Pleasanton HFC",
+      "PHFC"
+    ],
+    "species": "HFC",
+    "statute": "Ch.394",
+    "home_city": "Pleasanton",
+    "home_county": "Atascosa",
+    "tier": 1,
+    "property_count": 58,
+    "traveling_count_seed": 58,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "Cameron County Housing Finance Corporation, The",
+    "aka": [
+      "Cameron County HFC"
+    ],
+    "species": "HFC",
+    "statute": "Ch.394",
+    "home_city": "San Benito",
+    "home_county": "Cameron",
+    "tier": 1,
+    "property_count": 30,
+    "traveling_count_seed": 30,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "La Villa Housing Finance Corporation",
+    "aka": [
+      "La Villa HFC"
+    ],
+    "species": "HFC",
+    "statute": "Ch.394",
+    "home_city": "La Villa",
+    "home_county": "Hidalgo",
+    "tier": 1,
+    "property_count": 22,
+    "traveling_count_seed": 22,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "Edcouch Community Housing Finance Corporation",
+    "aka": [
+      "Edcouch HFC"
+    ],
+    "species": "HFC",
+    "statute": "Ch.394",
+    "home_city": "Edcouch",
+    "home_county": "Hidalgo",
+    "tier": 1,
+    "property_count": 18,
+    "traveling_count_seed": 18,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "Maverick County Housing Finance Corporation",
+    "aka": [
+      "Maverick County HFC"
+    ],
+    "species": "HFC",
+    "statute": "Ch.394",
+    "home_city": "Eagle Pass",
+    "home_county": "Maverick",
+    "tier": 1,
+    "property_count": 18,
+    "traveling_count_seed": 18,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "Garland Housing Finance Corporation",
+    "aka": [
+      "Garland HFC"
+    ],
+    "species": "HFC",
+    "statute": "Ch.394",
+    "home_city": "Garland",
+    "home_county": "Dallas",
+    "tier": 1,
+    "property_count": 4,
+    "traveling_count_seed": 3,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "Texas Essential Housing Public Facility Corporation",
+    "aka": [
+      "Texas Essential Housing PFC",
+      "TEH PFC"
+    ],
+    "species": "PFC",
+    "statute": "Ch.303",
+    "home_city": null,
+    "home_county": null,
+    "tier": 2,
+    "property_count": 29,
+    "traveling_count_seed": 0,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "Pecos Housing Authority",
+    "aka": [
+      "Pecos HA"
+    ],
+    "species": "HA",
+    "statute": "HA (Ch.392)",
+    "home_city": "Pecos",
+    "home_county": "Reeves",
+    "tier": 3,
+    "property_count": 126,
+    "traveling_count_seed": 126,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "Houston Housing Authority",
+    "aka": [
+      "Houston HA",
+      "HHA"
+    ],
+    "species": "HA",
+    "statute": "HA (Ch.392)",
+    "home_city": "Houston",
+    "home_county": "Harris",
+    "tier": 3,
+    "property_count": 19,
+    "traveling_count_seed": 4,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "Cameron County Housing Authority",
+    "aka": [
+      "Cameron County HA"
+    ],
+    "species": "HA",
+    "statute": "HA (Ch.392)",
+    "home_city": "San Benito",
+    "home_county": "Cameron",
+    "tier": 3,
+    "property_count": 4,
+    "traveling_count_seed": 4,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "Rosenberg Housing Authority",
+    "aka": [
+      "Rosenberg HA"
+    ],
+    "species": "HA",
+    "statute": "HA (Ch.392)",
+    "home_city": "Rosenberg",
+    "home_county": "Fort Bend",
+    "tier": 3,
+    "property_count": 5,
+    "traveling_count_seed": 0,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "San Benito Housing Authority",
+    "aka": [
+      "San Benito HA"
+    ],
+    "species": "HA",
+    "statute": "HA (Ch.392)",
+    "home_city": "San Benito",
+    "home_county": "Cameron",
+    "tier": 3,
+    "property_count": 1,
+    "traveling_count_seed": 1,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  },
+  {
+    "name": "Plano Housing Authority",
+    "aka": [
+      "Plano HA"
+    ],
+    "species": "HA",
+    "statute": "HA (Ch.392)",
+    "home_city": "Plano",
+    "home_county": "Collin",
+    "tier": 3,
+    "property_count": 1,
+    "traveling_count_seed": 1,
+    "classification_status": "SEED_GUESS_UNVERIFIED"
+  }
+]

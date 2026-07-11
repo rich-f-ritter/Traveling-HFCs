@@ -1,0 +1,1027 @@
+[
+ {
+  "doc": "Amended and Restated Leasehold Deed of Trust, Assignment of Leases and Rents, Security Agreement and Fixture Filing, dated as of February 27, 2025 \u2014 Sarah at Lake Houston SPE, LLC (Trustor) to Gerry Orth (Trustee) for the benefit of LoanCore 2021-CRE6 Issuer Ltd. (Beneficiary). Property: 17571 West Lake Houston Parkway, Humble, Texas 77346 (Unrestricted Reserve \"A\", Block 1, Dwell at Lake Houston, Film Code No. 692396, Map Records of Harris County). 28 pages. Amends and restates in its entirety the original fee DoT RP-2022-353646 onto the new PFC leasehold estate. File analyzed: /tmp/claude-0/-home-user-Sarah-at-Lake-Houston/02ee1418-070f-5e2e-aa7f-d7e2155c9ee7/scratchpad/pfc_docs/Leasehold DOT.pdf",
+  "parties": [
+   "Sarah at Lake Houston SPE, LLC \u2014 Trustor/borrower; Delaware LLC, office at 2220 Coit Rd., Suite 480-214, Plano, Texas 75075; signed by Dustin Howard, Authorized Representative",
+   "Gerry Orth \u2014 Trustee (individual), 2501 Parkview Drive, Suite 620, Fort Worth, Texas 76102 (same trustee as the 2022 fee DoT)",
+   "LoanCore 2021-CRE6 Issuer Ltd. \u2014 Beneficiary/current lender; Cayman Islands exempted company, c/o LoanCore Capital, 55 Railroad Avenue, Suite 100, Greenwich, Connecticut 06830; successor-in-interest to LoanCore Capital Credit REIT LLC; signature block executed by Situs Holdings, LLC, solely in its capacity as special servicer, by Henry J. Bieber, Director",
+   "LoanCore Capital Credit REIT LLC \u2014 'Original Beneficiary' (original 2022 lender, Delaware LLC)",
+   "LCC Warehouse I LLC \u2014 intermediate assignee of the DoT (Delaware LLC), per assignment dated 7/25/2022",
+   "LoanCore CRE Seller LLC \u2014 intermediate assignee of the DoT (Delaware LLC), per assignment dated 1/25/2023",
+   "Pleasanton Housing Finance Corporation \u2014 'Ground Lessor'; a Texas public nonprofit housing finance corporation; landlord under the Ground Lease dated as of February 27, 2025 (the PFC entity)",
+   "Situs Holdings, LLC \u2014 special servicer for Beneficiary (signed the DoT on Beneficiary's behalf)",
+   "Firsel Ross Gussis & Alexander LLC (Attn: Samuel P. Gussis, Esq.), 10 Parkway North Boulevard, Suite 110, Deerfield, Illinois 60015 \u2014 document preparer / return-to",
+   "Notaries: Debbie Henry, Texas (ID #979855, comm. exp. 3/26/2026) \u2014 Trustor acknowledgment, Dallas County, Jan 29, 2025; Cristy L. Hicks Koster, California, Orange County (comm. #2400184, exp. Apr 8, 2026) \u2014 Beneficiary acknowledgment, Feb 24, 2025"
+  ],
+  "dollar_amounts": [
+   {
+    "label": "Maximum principal amount of the Loan \u2014 UNCHANGED from the 2022 fee-simple loan; no additional advances stated",
+    "amount": "$58,300,000.00",
+    "page": 2
+   },
+   {
+    "label": "County recording fee (e-filed)",
+    "amount": "$129.00",
+    "page": 28
+   }
+  ],
+  "instrument_no": "RP-2025-72637, e-Filed & e-Recorded 03/03/2025 07:34 AM, Official Public Records of Harris County, Texas (Teneshia Hudspeth, County Clerk); 28 pages; fees $129.00",
+  "effective_date": "Dated \"as of\" February 27, 2025 (same date as the Ground Lease and Memorandum of Ground Lease, which was recorded simultaneously)",
+  "executed_date": "Trustor (Dustin Howard) acknowledged January 29, 2025 (Dallas County, TX); Beneficiary (Henry J. Bieber for Situs Holdings, LLC as special servicer) acknowledged February 24, 2025 (Orange County, CA) \u2014 both pre-dating the as-of date of 2/27/2025",
+  "key_dates": [
+   {
+    "label": "Loan Agreement (original) between Trustor and Original Beneficiary",
+    "date": "July 7, 2022 (referenced only 'as amended, modified, restated, consolidated or supplemented from time to time' \u2014 NO separate modification or extension agreement is cited by name or date anywhere in this document)"
+   },
+   {
+    "label": "Promissory Note",
+    "date": "July 7, 2022 (as the same may be amended, modified, restated, severed, consolidated, renewed, replaced, or supplemented)"
+   },
+   {
+    "label": "Stated maturity of the Loan / Debt (p.2 recital and Para 30)",
+    "date": "July 9, 2025, subject to extension rights contained in the Loan Agreement ('The Debt initially matures on July 9, 2025') \u2014 i.e., one year later than the 7/9/2024 initial maturity in the 2022 DoT, implying an extension option was exercised, but no extension instrument is identified"
+   },
+   {
+    "label": "Ground Lease (Pleasanton Housing Finance Corporation as landlord, Trustor as tenant)",
+    "date": "February 27, 2025"
+   },
+   {
+    "label": "Memorandum of Ground Lease Agreement (Ground Lessor / Trustor), recorded simultaneously in Harris County",
+    "date": "February 27, 2025"
+   },
+   {
+    "label": "Collateral Assignment of Interest Rate Protection Agreement",
+    "date": "'of even date herewith' (February 27, 2025)"
+   },
+   {
+    "label": "Original (fee) Deed of Trust made to Gerry Orth for benefit of Original Beneficiary \u2014 the 'Original Agreement,' now of no further force or effect",
+    "date": "Dated July 7, 2022; recorded July 8, 2022 as RP-2022-353646"
+   },
+   {
+    "label": "Assignment of DoT: Original Beneficiary to LCC Warehouse I LLC",
+    "date": "Dated July 25, 2022; recorded August 4, 2022 as RP-2022-400887"
+   },
+   {
+    "label": "Assignment of DoT: LCC Warehouse I LLC to LoanCore CRE Seller LLC",
+    "date": "Dated January 25, 2023; recorded February 9, 2023 as RP-2023-45301"
+   },
+   {
+    "label": "Assignment of DoT: LoanCore CRE Seller LLC to LoanCore 2021-CRE6 Issuer Ltd. (current Beneficiary)",
+    "date": "Dated January 25, 2023; recorded February 24, 2023 as RP-2023-64308"
+   },
+   {
+    "label": "Recording of this A&R Leasehold DoT",
+    "date": "March 3, 2025, 07:34 AM (RP-2025-72637)"
+   }
+  ],
+  "key_terms": [
+   "PRINCIPAL UNCHANGED: maximum principal 'of up to Fifty Eight Million Three Hundred Thousand and No/100 Dollars ($58,300,000.00)' \u2014 identical to the 2022 fee loan; no new money or additional advances stated (p.2)",
+   "MATURITY NOW STATED AS JULY 9, 2025: recital says the Loan 'matures on July 9, 2025, subject to extension rights contained in the Loan Agreement' (p.2); Para 30 says 'The Debt initially matures on July 9, 2025, as the same may be extended or changed pursuant to the Loan Agreement' (p.16). The word 'initially' plus 'extension rights' implies at least one further extension option remains under the Loan Agreement",
+   "INTEREST: Para 29 \u2014 'The Loan secured by this Deed of Trust is a variable interest rate loan, as more particularly set forth in the Loan Agreement' (p.16). NO rate, index, or spread stated anywhere in this document; 'Default Rate' referenced (paras 9, 11, 31, 32) but not quantified",
+   "NO SEPARATE MODIFICATION/EXTENSION AGREEMENT REFERENCED: the Loan Agreement and Note are cited only with generic '(as amended...from time to time)' qualifiers \u2014 the instrument that moved maturity from 7/9/2024 to 7/9/2025 is not identified",
+   "SECURED ESTATE: leasehold estate in the land (Exhibit A) created by Ground Lease dated 2/27/2025 with Pleasanton Housing Finance Corporation (Ground Lessor), plus Improvements, Equipment, Leases and Rents, insurance/condemnation proceeds, interest-rate protection arrangements, all accounts/reserves/intangibles \u2014 Trust Property includes 'all modifications, extensions and renewals of the Ground Lease' and Trustor's options to renew/extend (p.3)",
+   "AMENDMENT AND RESTATEMENT (Para 39, p.23): amends and restates in its entirety the 7/7/2022 fee DoT RP-2022-353646, tracing assignments RP-2022-400887, RP-2023-45301, RP-2023-64308; 'which Original Agreement is of no further force or effect'",
+   "GROUND LEASE COVENANTS (Para 32, p.17): Trustor must pay all Ground Lease rents when due and perform all tenant obligations; Trustor shall NOT, without Beneficiary's prior consent, surrender, terminate, cancel, modify or supplement the Ground Lease \u2014 any such act without consent 'shall be void and of no force and effect'; Beneficiary may cure Trustor's Ground Lease defaults at Default Rate and is subrogated to Ground Lessor; Trustor must exercise Ground Lease renewal/extension options on Beneficiary's demand (irrevocable POA granted); Trustor will not subordinate the Ground Lease to any interest in Ground Lessor's fee",
+   "GROUND LEASE SUBLEASES (Para 33, p.17): every future Lease/renewal must be non-terminable if the Ground Lease terminates and Beneficiary enters a new ground lease with Ground Lessor, or upon foreclosure (unless tenant named and joined); tenants must attorn to foreclosure purchaser",
+   "NO MERGER (Para 34, p.18): fee title and leasehold estate shall not merge while Debt unpaid absent Beneficiary written consent",
+   "TRUSTOR'S ACQUISITION OF FEE (Para 35, p.18): if Trustor becomes owner of fee title, Trustor must subject the fee to the lien of this DoT and deliver updated title policy insuring first lien on the fee \u2014 critical unwind mechanic",
+   "BANKRUPTCY / 365(h) (Para 36, p.18): no election to treat Ground Lease terminated without Beneficiary consent; lien extends to Trustor's possessory rights and rejection-damage claims; Trustor assigns 365 rights to Beneficiary; at Beneficiary's request Trustor must assign its Ground Lease interest to Beneficiary in lieu of rejection; if Ground Lease terminates and Beneficiary/designee gets a new lease, Trustor has no interest in it (Para 36(d), p.19)",
+   "TRANSFER PROHIBITION (Para 4, pp.6-7): no sale, conveyance, mortgage, encumbrance, pledge or Transfer of the Trust Property other than a 'Permitted Transfer' (defined in Loan Agreement); violation = Debt immediately due, transfer null and void; no impairment showing required",
+   "LOAN REPAYMENT / RELEASE (Para 24, p.15): 'Provided no Event of Default exists, the Lien of this Deed of Trust shall be terminated, released and reconveyed of record by Beneficiary...prior to the Maturity Date only in accordance with the terms and provisions set forth in the Loan Agreement'",
+   "DEFEASANCE/ASSIGNMENT MECHANIC (p.5): upon payment in full, automatic reconveyance; or at Trustor's request, Beneficiary shall assign the DoT and endorse the Note 'to a lender designated by Trustor' without representation, warranty or recourse \u2014 useful for refi/unwind without lien release",
+   "INTEREST RATE PROTECTION (Para 31, pp.16-17): Trustor is or may be party to an Interest Rate Protection Agreement; default thereunder is an Event of Default; Trustor's rights assigned via Collateral Assignment of Interest Rate Protection Agreement of even date (2/27/2025); Beneficiary advances under it accrue at Default Rate and are secured",
+   "SECURITY AGREEMENT/FIXTURE FILING (Para 12, p.12): first priority lien and security interest in all of Trustor's assets; UCC all-assets collateral description authorized",
+   "EXCULPATION (Para 27, p.15): Trustor liability limited pursuant to Section 10.1 of the Loan Agreement (non-recourse carve-out structure lives in the Loan Agreement)",
+   "GOVERNING LAW (Para 26, p.15): Texas law for creation/perfection/enforcement of the DoT; New York law for all other matters, the Loan Documents, and the Debt",
+   "TEXAS PROVISIONS (Paras 37-38, pp.19-22): Tex. Prop. Code 51.002 foreclosure mechanics; waiver of deficiency-statute FMV protections (51.003-51.005) to extent permitted; TARA (Ch. 64) assignment of rents; DTPA waiver; entire-agreement (statute of frauds) notice; jury trial waiver (Para 22, p.14)",
+   "VARIABLE ADVANCES THAT INCREASE DEBT: cure costs (Para 9), inspection costs (Para 11), IRPA advances (Para 31), Ground Lease cure sums (Para 32) \u2014 all at Default Rate and secured",
+   "Property is 'Dwell at Lake Houston' addition \u2014 legal: Unrestricted Reserve 'A', Block 1, Film Code No. 692396, Map Records of Harris County (Exhibit A, p.27)"
+  ],
+  "unwind_relevant": [
+   "NO MOU REFERENCE: this DoT never mentions the MOU with the PFC, any PFC purchase option, option price, or unwind formula \u2014 the only PFC-related instruments referenced are the Ground Lease (2/27/2025) and the simultaneously recorded Memorandum of Ground Lease Agreement (2/27/2025). No recognition agreement or SNDA with Pleasanton HFC is referenced anywhere in the document",
+   "LENDER CONSENT GATE ON UNWIND: Para 32 makes any surrender, termination, cancellation, modification or supplement of the Ground Lease without Beneficiary's prior consent 'void and of no force and effect' \u2014 collapsing the PFC structure (terminating the ground lease) requires LoanCore/Situs consent while the Debt is outstanding",
+   "FEE-ACQUISITION SPRING (Para 35): if Trustor re-acquires the fee from the PFC, Trustor must (i) execute all documents to subject the fee title to this DoT's lien and (ii) deliver an updated title policy insuring the DoT as first lien on the fee \u2014 the lien automatically follows an unwind back to fee ownership",
+   "NO MERGER (Para 34): fee and leasehold stay separate even if united in Trustor, Beneficiary, or any other person, unless Beneficiary consents in writing \u2014 prevents accidental extinguishment of the leasehold collateral during an unwind",
+   "TRANSFER RESTRICTION (Para 4): any transfer of the leasehold (e.g., assignment of the tenant position to a buyer) other than a 'Permitted Transfer' under the Loan Agreement accelerates the Debt and is null and void \u2014 buyer taking the leasehold needs lender consent/assumption or payoff",
+   "RELEASE ONLY PER LOAN AGREEMENT (Para 24): lien can be released before maturity only per the Loan Agreement's terms (i.e., payoff/defeasance provisions live there)",
+   "ASSIGNMENT-IN-LIEU-OF-RELEASE (p.5): at Trustor's request on payment in full, Beneficiary must assign the DoT and endorse the Note to a lender designated by Trustor (no recourse/warranty) \u2014 allows a replacement lender to step into this lien in a refinancing/unwind without a break in lien priority",
+   "MATURITY PRESSURE: Debt 'initially matures on July 9, 2025' \u2014 approximately 4 months after recording (3/3/2025) and now PAST DUE relative to today (7/9/2026 next week from 7/9/2025... note: maturity date July 9, 2025 has already passed as of the diligence date 7/9/2026-07-09; verify whether a further extension was exercised); further 'extension rights contained in the Loan Agreement' are acknowledged but not described",
+   "SPECIAL SERVICER SIGNED: the Beneficiary executed via 'Situs Holdings, LLC, solely in its capacity as special servicer' (p.24) \u2014 as of Feb 2025 the loan (in the LoanCore 2021-CRE6 CLO) was administered by a special servicer, a possible distress/modification signal; consent requests for any unwind go through Situs",
+   "BENEFICIARY FREELY ASSIGNABLE (Para 21, p.14): Beneficiary may assign the DoT without limitation",
+   "GROUND LEASE TERMINATION FALLOUT (Para 36(d), p.19): if the Ground Lease is terminated early and Beneficiary or its designee acquires a new lease of the Leasehold, Trustor has no right, title or interest in it \u2014 lender can recreate the leasehold around the borrower",
+   "SUBLEASE PROTECTION REQUIREMENT (Para 33): apartment leases must survive Ground Lease termination if Beneficiary takes a new ground lease from the PFC \u2014 a lender-side recognition mechanic with the PFC embedded in lease covenants rather than a separate SNDA",
+   "Trustor may not subordinate or consent to subordination of the Ground Lease to any mortgage/lease/interest on Ground Lessor's (PFC's) fee interest (Para 32 end, p.17) \u2014 blocks PFC from financing its fee ahead of the leasehold"
+  ],
+  "verbatim_quotes": [
+   {
+    "page": 2,
+    "text": "Trustor and Original Beneficiary entered into that certain Loan Agreement dated as of July 7, 2022 (as amended, modified, restated, consolidated or supplemented from time to time, the \"Loan Agreement\") pursuant to which Original Beneficiary made a secured loan to Trustor in the maximum principal amount of up to Fifty Eight Million Three Hundred Thousand and No/100 Dollars ($58,300,000.00) (the \"Loan\"), which matures on July 9, 2025, subject to extension rights contained in the Loan Agreement."
+   },
+   {
+    "page": 2,
+    "text": "The Loan is evidenced by that certain Promissory Note, dated as of July 7, 2022, made by Trustor to Original Beneficiary in such principal amount (as the same may be amended, modified, restated, severed, consolidated, renewed, replaced, or supplemented from time to time, the \"Note\"). WHEREAS, prior to the date hereof, Original Beneficiary assigned all of its right, title and interest in the Loan and the Loan Documents (as defined in the Loan Agreement) to Beneficiary, and Beneficiary is the holder of the Loan as of the date hereof."
+   },
+   {
+    "page": 2,
+    "text": "...all of Trustor's right, title and interest in and to (i) the leasehold estate in the land described in Exhibit A (the \"Premises\") created by that certain Ground Lease (as the same may hereafter be amended or otherwise modified in accordance with the terms of the Loan Documents, the \"Ground Lease\"), dated as of February 27, 2025, by and between Pleasanton Housing Finance Corporation, a Texas public nonprofit housing finance corporation (\"Ground Lessor\"), as landlord, and Trustor, as tenant, which Ground Lease is evidenced by that certain Memorandum of Ground Lease Agreement by and between Ground Lessor and Trustor dated as of February 27, 2025, as simultaneously recorded in the Official Public Records of Harris County"
+   },
+   {
+    "page": 16,
+    "text": "29. Variable Interest Rate. The Loan secured by this Deed of Trust is a variable interest rate loan, as more particularly set forth in the Loan Agreement."
+   },
+   {
+    "page": 16,
+    "text": "30. Maturity Date. The Debt initially matures on July 9, 2025, as the same may be extended or changed pursuant to the Loan Agreement."
+   },
+   {
+    "page": 23,
+    "text": "39. Amendment and Restatement. This Deed of Trust amends and restates in its entirety that certain Deed of Trust, Assignment of Leases and Rents, Security Agreement and Fixture Filing made by Trustor to Gerry Orth, as trustee, for the benefit of Original Beneficiary, dated as of July 7, 2022, and recorded on July 8, 2022, as Document Number RP-2022-353646 in the Official Public Records of Harris County, Texas, as assigned to LCC Warehouse I LLC, a Delaware limited liability company, pursuant to that certain Assignment of Deed of Trust, Assignment of Leases and Rents, Security Agreement and Fixture Filing made by Original Beneficiary to LCC Warehouse I LLC, dated as of July 25, 2022, and recorded on August 4, 2022, as Document Number RP-2022-400887 in the Official Public Records of Harris County, Texas, as further assigned to LoanCore CRE Seller LLC, a Delaware limited liability company, pursuant to that certain Assignment of Deed of Trust, Assignment of Leases and Rents, Security Agreement and Fixture Filing made by LCC Warehouse I LLC to LoanCore CRE Seller LLC, dated as of January 25, 2023, and recorded on February 9, 2023, as Document Number RP-2023-45301 in the Official Public Records of Harris County, Texas, and as further assigned to Assignee pursuant to that certain Assignment of Deed of Trust, Assignment of Leases and Rents, Security Agreement and Fixture Filing made by LoanCore CRE Seller LLC to Assignee, dated as of January 25, 2023, and recorded on February 24, 2023, as Document Number RP-2023-64308 in the Official Public Records of Harris County, Texas (collectively, the \"Original Agreement\"), which Original Agreement is of no further force or effect."
+   },
+   {
+    "page": 17,
+    "text": "Trustor shall not, without the prior consent of Beneficiary, surrender the leasehold estate created by the Ground Lease or terminate, cancel, modify or supplement the Ground Lease, and Trustor hereby assigns to Beneficiary, as further security for the payment of the Debt, all of Trustor's rights and privileges, as tenant under the Ground Lease, to surrender the leasehold estate created by the Ground Lease or to terminate, cancel, modify or supplement the Ground Lease, and any such surrender, termination, cancellation, modification or supplement without the prior consent of Beneficiary shall be void and of no force and effect."
+   },
+   {
+    "page": 18,
+    "text": "34. No Merger of Ground Lease Fee and Leasehold Estates. So long as any portion of the Debt shall remain unpaid, unless Beneficiary shall otherwise consent in writing, the fee title to the Premises and the leasehold estate under the Ground Lease shall not merge, but shall always be kept separate and distinct, notwithstanding the union of such estates in Trustor, Beneficiary or any other person by purchase, operation of law or otherwise."
+   },
+   {
+    "page": 18,
+    "text": "35. Trustor's Acquisition of Ground Lease Fee Estate. If Trustor shall become the owner of fee title to the Leasehold, then Trustor shall (i) execute all documents necessary to subject its fee title to the Leasehold to the lien of this Deed of Trust; and (ii) provide to Beneficiary an updated title insurance policy insuring that the lien of this Deed of Trust is a first lien on such fee title."
+   },
+   {
+    "page": 15,
+    "text": "24. Loan Repayment. Provided no Event of Default exists, the Lien of this Deed of Trust shall be terminated, released and reconveyed of record by Beneficiary (and the Trustee, to the extent required by law to effect a full and proper termination, release and reconveyance) prior to the Maturity Date only in accordance with the terms and provisions set forth in the Loan Agreement."
+   },
+   {
+    "page": 5,
+    "text": "...or, at Trustor's request, assign this Deed of Trust and endorse the Note, as applicable, to a lender designated by Trustor without any representation, warranty or recourse of any nature whatsoever by Beneficiary, and Beneficiary shall execute and deliver an instrument of assignment in a form which shall be appropriate in the state of Texas"
+   },
+   {
+    "page": 24,
+    "text": "BENEFICIARY: LOANCORE 2021-CRE6 ISSUER LTD., a Cayman Islands exempted company \u2014 By: Situs Holdings, LLC, solely in its capacity as special servicer \u2014 By: [signature] Name: Henry J. Bieber, Title: Director"
+   },
+   {
+    "page": 27,
+    "text": "EXHIBIT A \u2014 Legal Description: Unrestricted Reserve \"A\", Block 1, of Dwell at Lake Houston, an addition in Harris County, Texas, according to the map or plat thereof recorded in/under Film Code No. 692396 of the Map Records of Harris County, Texas."
+   }
+  ]
+ },
+ {
+  "doc": "Purchase Option and Right of First Refusal Agreement \u2014 Sarah at Lake Houston Apartments, 17571 West Lake Houston Parkway, Humble, Texas 77346 (Harris County). Recorded county copy, 13 pages, stamped \"UNOFFICIAL COPY\" watermark. Source file: /tmp/claude-0/-home-user-Sarah-at-Lake-Houston/02ee1418-070f-5e2e-aa7f-d7e2155c9ee7/scratchpad/pfc_docs/Purchase Option and ROFA.pdf",
+  "parties": [
+   "Sarah at Lake Houston SPE, LLC, a Delaware limited liability company \u2014 'Owner' or 'Grantor' (ground lessee; holds the Leasehold Interest and the Project improvements). Notice address: 2220 Coit Rd., Suite 480-214, Plano, TX 75075, Attn: Iqbal Mutabanna; copy to MW Law, PLLC, 5001 LBJ Fwy, Suite 830, Dallas, TX 75244, Attn: Pete Larsen",
+   "Pleasanton Housing Finance Corporation, a Texas public nonprofit housing finance corporation \u2014 'Grantee' (also the Lessor/fee owner under the concurrent Ground Lease; holder of the Option and Refusal Right). Notice address: 108 Second Street, Pleasanton, TX 78064, Attn: President; copy to Cantu Harden Montoya LLP, 1020 NE Loop 410, Suite 401, San Antonio, TX 78209, Attn: Carey R. Troell, Esq.",
+   "PHFC SLH MM, LLC, a Texas limited liability company \u2014 'Managing Member' of Owner; an affiliate of Grantee. Notice address: 108 Second Street, Pleasanton, TX 78064, Attn: President",
+   "Sponsor Member \u2014 Recital A (p.1) defines the 'Sponsor Member' as 'Sarah at Lake Houston SPE, LLC' (apparent scrivener's error: it names the same entity as the Owner); the Section 11 notice block (p.7) identifies the Sponsor Member as 'Sarah At Lake Houston JV, LLC' with the address lines left BLANK",
+   "Signatories: Dustin Howard, Authorized Representative, for Owner (acknowledged 2/27/2025, Denton County, TX; notary Pierre Bitar, ID #132591818, commission expires 7/28/2028); Johnny Huizar, Authorized Signer, for both PHFC SLH MM, LLC and Pleasanton Housing Finance Corporation (both acknowledged 1/22/2025, Atascosa County, TX; notary Victoria B. Solis, ID #131965890, commission expires 4/9/2027)",
+   "LoanCore 2021-CRE6 Issuer Ltd. \u2014 the 'Lender' (not a signatory; Section 8 subordinates this Agreement to its Loan)"
+  ],
+  "dollar_amounts": [
+   {
+    "label": "County recording fee (only fixed dollar figure anywhere in the document \u2014 the option price is entirely formulaic, no fixed purchase price stated)",
+    "amount": "$69.00",
+    "page": 1
+   },
+   {
+    "label": "Broker commission payable to Sponsor Member on Grantee's exercise of Options or Refusal Right (part of Grantee-paid closing costs)",
+    "amount": "4% of transaction (percentage, no dollar figure)",
+    "page": 5
+   },
+   {
+    "label": "Capital-contribution multiplier inside the Owner Diminution component of the Option purchase price",
+    "amount": "125% of aggregate capital contributions and advances",
+    "page": 2
+   }
+  ],
+  "instrument_no": "RP-2025-72635; e-Filed & e-Recorded 03/03/2025 07:34 AM in the Official Public Records of Harris County, Texas (Teneshia Hudspeth, County Clerk); 13 pages; fees $69.00; ER stamp on p.1 reads \"RP-2025-72635 03/03/2025 ER $69.00\"",
+  "effective_date": "February 21, 2025 (the \"Effective Date\", p.1)",
+  "executed_date": "Counterparts: Grantee (Pleasanton HFC) and Managing Member (PHFC SLH MM, LLC) both acknowledged January 22, 2025 (Atascosa County); Owner (Sarah at Lake Houston SPE, LLC) acknowledged February 27, 2025 (Denton County). No signature page for the Sponsor Member appears in the recorded document.",
+  "key_dates": [
+   {
+    "label": "Effective Date of Agreement (also date of Operating Agreement and Ground Lease, per Recitals A-B)",
+    "date": "2025-02-21"
+   },
+   {
+    "label": "Grantee (PHFC) and Managing Member acknowledgments, Atascosa County",
+    "date": "2025-01-22"
+   },
+   {
+    "label": "Owner acknowledgment (Dustin Howard), Denton County",
+    "date": "2025-02-27"
+   },
+   {
+    "label": "Recorded in Harris County Official Public Records",
+    "date": "2025-03-03 07:34 AM"
+   },
+   {
+    "label": "Option exercisable: purchase may occur on any date 45 days after Grantee's notice of intent to exercise (during Ground Lease term)",
+    "date": "notice + 45 days"
+   },
+   {
+    "label": "Option closing deadline: within 60 days after Grantee's exercise notice, extendable max 30 additional days if Grantee diligently pursuing",
+    "date": "notice + 60 days (+30 max)"
+   },
+   {
+    "label": "ROFR exercise window: 30 days after Grantee's receipt of written notice of an Offer",
+    "date": "offer notice + 30 days"
+   },
+   {
+    "label": "ROFR closing window: 90 days following Grantee's receipt of the Offer",
+    "date": "offer receipt + 90 days"
+   },
+   {
+    "label": "Sponsor Member's third-party sale window if ROFR not exercised/closed: 12 months commencing on the 31st day following Grantee's receipt of the Offer; sale within it TERMINATES the Option and Refusal Right; failure to close within it REINSTATES the Refusal Right",
+    "date": "day 31 to month 12 after offer receipt"
+   },
+   {
+    "label": "Appraisal: three appraisers determine FMV within 30 days after appointment of third appraiser",
+    "date": "30 days"
+   },
+   {
+    "label": "Reinstatement window after removal of Managing Member: Agreement auto-reinstated if Grantee cures payments/costs within 30 days after removal",
+    "date": "removal + 30 days"
+   }
+  ],
+  "key_terms": [
+   "DIRECTION OF OPTION: The Owner/lessee does NOT hold a repurchase option in this document. The Owner (Grantor) grants Pleasanton HFC (Grantee) the Option to purchase the Project; the HFC also gets the Refusal Right. Any lessee-side right to reacquire the fee would be in the Ground Lease ('except as otherwise set forth in the Ground Lease' appears in both Sec. 1.a and Sec. 3).",
+   "Option (Sec. 1.a, p.2): during the Ground Lease term, HFC may purchase the Project on any date 45 days after delivering notice of intent to Owner and each of its members.",
+   "Option Purchase Price (Sec. 2.a, p.2) = (I) Fair Market Value of land and improvements PLUS (II) the 'Owner Diminution': (i) after-tax diminution of economic value to Owner's members, including without limitation (A) 125% of aggregate capital contributions and any other advances made by the partners of the Tenant prior to closing; (B) outstanding balance of all loans (plus accrued interest and yield maintenance) made to Owner by its members/affiliates or the guarantors and any other lenders not otherwise repaid at purchase; (C) any accrued and unpaid fees owed to Owner or its affiliates; and (ii) all unreimbursed costs/expenses of Owner's investors re (A) admission to the joint venture, (B) pre-purchase Project activities, (C) an amount sufficient for limited investors to pay, after taxes on the distribution, the taxes projected from the sale. FMV determined in accordance with the Partnership Agreement.",
+   "FMV / appraisal mechanics (Sec. 2.b, pp.2-3): FMV considers recorded land-use restrictions and third-party liens AND ASSUMES ANY PROPERTY TAX EXEMPTION REMAINS WITH THE PROJECT; independent appraiser agreed by Grantee and Sponsor Member; failing agreement each picks one and the two appoint a third; three appraisers each determine FMV within 30 days of the third's appointment; FMV = average of the three, except any determination more than 10% above/below the average is disregarded; if none differs from the average by more than 10%, FMV = the MIDDLE determination. Each party pays its own appraiser; jointly selected appraiser fees split equally between Grantee and Sponsor Member.",
+   "Equity-purchase alternative (Sec. 2.c, p.3): 'Grantee may, at its option, exercise the Option described in this section by acquiring all of the equity interests of the Sponsor Members. Such purchase price will be paid by Grantee to Grantor in exchange for an assignment of the interest.'",
+   "ROFR triggers (Sec. 3, p.3): applies (provided Managing Member has not been removed/withdrawn from Owner) when Sponsor Member receives an acceptable bona fide third-party Offer to purchase (a) the unencumbered fee estate and termination of the Ground Lease, (b) all interests of Sponsor Member in the Grantor, or (c) an assignment of Grantor's rights under the Ground Lease. Grantee gets an irrevocable, exclusive right of first refusal at terms not less favorable than the Offer; 30 days to exercise after written notice; 90 days from receipt of Offer to close.",
+   "ROFR governmental-status condition (Sec. 3, p.3): the Refusal Right is effective only if Grantee is a governmental agency in good standing on both the exercise date and the closing date.",
+   "ROFR burn-off (Sec. 3, p.3): if not exercised or not closed on time, no subsequent change in Offer terms reinstates it EXCEPT a price reduction of more than 10% from the original Offer; Sponsor Member then has 12 months (starting day 31 after Grantee's receipt of the Offer) to consummate; failure to consummate reinstates the Refusal Right; consummation within 12 months TERMINATES both the Option and the Refusal Right permanently. Owner not obligated to reimburse Managing Member for costs (incl. attorney fees) of a sale to the Grantee entity under the Refusal Right.",
+   "Conditions precedent to exercise (Sec. 4.a, p.4): at exercise and purchase (i) neither Grantee nor any affiliate in material default past notice/cure under the Operating Agreement or any agreement with Owner or Investment Member; (ii) Grantee or affiliate must still be MAJORITY OWNER OF THE MANAGING MEMBER of Owner (except as provided in 'Section 5.b.(iv)' [apparent cross-reference error for 4.b.(iv)]); (iii) Grantee must be a housing finance corporation. If unsatisfied, the rights are not exercisable and the Agreement is of no further force or effect.",
+   "Automatic termination (Sec. 4.b, p.4): (i) transfer of the Project to any lender holding a security interest (foreclosure, deed in lieu or otherwise) in total or partial satisfaction of Project debt; (ii) Project ceases to meet the restrictions in the Regulatory Agreement and Declaration of Restrictive Covenants between Grantee and Grantor; (iii) any transfer or attempted transfer of all or part of the Refusal Right except as permitted; (iv) removal of Managing Member as managing member of Owner under the Operating Agreement \u2014 but auto-reinstated if within 30 days Grantee (1) satisfies all payment obligations to Sponsor Member and other members in full and (2) pays all costs/expenses (incl. reasonable attorney's fees) of the removal/replacement and correction of Project issues arising from Managing Member's acts/omissions; (v) Grantee's acquisition of legal title to the Project.",
+   "Contract and closing (Sec. 5.a, pp.4-5): on Option exercise, written PSA with closing within 60 days of exercise notice (extendable up to 30 more days if diligently pursuing); absent a contract the Agreement is specifically enforceable upon exercise. ROFR closing per the Offer terms.",
+   "Conveyance (Sec. 5.b, p.5): warranty deed ('Deed'), blanket conveyance/bill of sale/assignment ('Bill of Sale'), and assignment of Owner's interests under the Ground Lease ('Ground Lease Assignment') = 'Conveyance Documents'; Owner delivers, at Grantee's cost, a Texas form Owner's Title Policy in the amount of the purchase price. Closing is AS-IS, WHERE-IS, without representation or warranty.",
+   "Closing costs (Sec. 5.c, p.5): Grantee pays ALL closing costs of exercising the Options or Refusal Right, including transfer taxes, exit taxes, income taxes (including all federal/state/local income taxes incurred by Sponsor Member or affiliates), loan prepayment costs/fees/penalties (e.g., interest-rate breakage), a FOUR PERCENT (4%) BROKER COMMISSION PAYABLE TO SPONSOR MEMBER, and recording costs. Rents/insurance/taxes/debt service prorated as of midnight preceding closing; rents apportioned as actually collected (survives closing). Each party bears its own legal fees.",
+   "Guaranties (Sec. 5.d, p.5): as a condition to closing, Grantee must provide for replacement or release of the Guarantors (Sponsor Member or its affiliates) under any Outstanding Guaranty Agreements that would survive.",
+   "Existing indebtedness (Sec. 6, p.6): with holder consent, Grantee may pay all or part of the price by ASSUMING the existing Project mortgage debt, provided Owner, Sponsor Member and Guarantors are all released from liability; Owner must use reasonable efforts (other than paying money) to get consent; those efforts do not extend the closing timeframe unless Owner and Grantee agree.",
+   "Assignments (Sec. 7, p.6): Grantee prohibited from assigning any rights under the Agreement, except use of a wholly owned subsidiary to facilitate the acquisition is not an assignment.",
+   "Subordination (Sec. 8, p.6): Project financed by a loan from LoanCore 2021-CRE6 Issuer Ltd. (the 'Lender'); Agreement subordinate at all times to the Loan and Lender's rights; if Grantee assumes the debt, Agreement unconditionally subordinated to (a) the lien/security interest/rights of Lender under the Loan Documents, (b) all advances/charges under or secured by the Loan Documents, (c) extensions/modifications/renewals. Any modification to 'Section 7' [sic \u2014 likely means this Section 8] requires Lender's prior written consent. Agreement terminates upon any transfer by foreclosure or deed in lieu of foreclosure of the Loan.",
+   "Transfer of the rights (Sec. 9, p.6): Refusal Right and Options not transferable to any Person without Sponsor Member's consent in its SOLE DISCRETION; a permitted transferee is bound by all conditions and is disqualified whenever Grantee itself would have been ineligible.",
+   "Legal proceedings (Sec. 10, p.6): prevailing party recovers all reasonable attorney's fees and expenses.",
+   "Binding provisions (Sec. 12, pp.7-8): no party may assign without consent of each other party (not unreasonably withheld/delayed); amendments effective only in writing signed by each party.",
+   "Miscellaneous (Sec. 13, p.8): time is of the essence; severability; Texas law (exclusive of conflicts principles); counterparts.",
+   "Legal description (Exhibit A, p.12): Unrestricted Reserve 'A', Block 1, Dwell at Lake Houston subdivision, Harris County, Texas, Film Code No. 692396, Map/Plat Records of Harris County.",
+   "Defined terms inventory: Agreement, Effective Date, Owner/Grantor, Grantee, Managing Member, Operating Agreement, Sponsor Member, Leasehold Interest, Land, Project (defined twice \u2014 Recital B as the physical development, Recital C expanded to include Owner's interest, personalty and Leasehold Interest), Ground Lease, Lessor, Option, Owner Diminution, Fair Market Value, Offer, Refusal Right, Deed, Bill of Sale, Ground Lease Assignment, Conveyance Documents, Title Policy, Outstanding Guaranty Agreements, Guarantors, Lender, Loan Documents. 'Investment Member', 'Tenant' and 'Partnership Agreement' are used but never defined in this document.",
+   "No fixed dollar purchase price, no option fee/consideration amount, and no stated Ground Lease term or rent appears anywhere in this document; the only dollar figure is the $69.00 recording fee."
+  ],
+  "unwind_relevant": [
+   "CRITICAL STRUCTURE POINT: This document does NOT give the Owner/lessee an option to buy the fee back from Pleasanton HFC. The option runs HFC-ward: the HFC (Grantee) holds the Option to buy the Project from the Owner, plus a ROFR over sponsor-side exits. Both Sec. 1.a and Sec. 3 carve out 'except as otherwise set forth in the Ground Lease' \u2014 the lessee's fee-repurchase/Ground Lease termination mechanics, if any, must be located in the recorded Ground Lease, which should be pulled and read for the actual unwind price.",
+   "PATH TO COLLAPSE THE PFC VIA SALE (Sec. 3): a sale of (a) the unencumbered fee estate WITH termination of the Ground Lease, (b) all of Sponsor Member's interests in the Grantor, or (c) an assignment of Grantor's rights under the Ground Lease is expressly contemplated \u2014 each is an 'Offer' event subject to the HFC's ROFR. Process cost: give HFC written notice with full Offer terms; HFC has 30 days to exercise and 90 days from receipt to close; if HFC passes or fails to close, Sponsor Member has 12 months (from day 31 after HFC's receipt) to consummate at terms not reduced in price by more than 10%; CONSUMMATION WITHIN THAT WINDOW PERMANENTLY TERMINATES BOTH THE OPTION AND THE ROFR \u2014 i.e., a completed third-party sale run through the ROFR gauntlet cleanly extinguishes the HFC's rights under this Agreement.",
+   "HFC OPTION PRICE IF HFC EXERCISES (Sec. 2): FMV of land+improvements (appraised assuming the property-tax exemption REMAINS with the Project) PLUS 'Owner Diminution' \u2014 including 125% of all partner capital contributions/advances, full repayment of member/affiliate/guarantor loans with accrued interest and yield maintenance, accrued unpaid fees, unreimbursed investor costs, and a tax gross-up for limited investors. This formula makes an HFC-side buyout expensive and sponsor-protective; it is not a bargain-purchase right.",
+   "ADDITIONAL HFC EXERCISE COSTS (Sec. 5.c): on any HFC exercise, Grantee bears ALL closing costs \u2014 transfer taxes, exit taxes, Sponsor Member's income taxes, loan prepayment/breakage, recording \u2014 plus a 4% broker commission payable to Sponsor Member; Grantee must also replace or release all sponsor-side Guarantors (Sec. 5.d).",
+   "TERMINATION TRIGGERS THAT KILL THE HFC'S RIGHTS AUTOMATICALLY (Sec. 4.b): (i) lender foreclosure/deed-in-lieu transfer of the Project; (ii) Project ceasing to meet the Regulatory Agreement and Declaration of Restrictive Covenants (note: exiting the regulatory regime terminates the HFC's option/ROFR \u2014 but presumably also the tax exemption); (iii) prohibited transfer of the Refusal Right; (iv) removal of PHFC SLH MM, LLC as managing member (subject to the HFC's 30-day cure/reinstatement by paying all obligations and removal costs); (v) HFC acquiring title. Also Sec. 8: the Agreement terminates on any transfer by foreclosure or deed in lieu under the LoanCore loan.",
+   "CONDITIONS THAT DISABLE THE HFC'S RIGHTS (Sec. 4.a): the Option/ROFR are exercisable only while (i) Grantee/affiliates are not in uncured material default, (ii) Grantee or an affiliate remains MAJORITY OWNER of Owner's managing member, and (iii) Grantee is a housing finance corporation; the ROFR additionally requires Grantee to be a governmental agency in good standing at exercise AND closing (Sec. 3). If unsatisfied, 'the Refusal Right and/or Options shall not be exercisable and this Agreement shall be of no further force or effect.'",
+   "LENDER CONSENT / SUBORDINATION (Secs. 6, 8): the Agreement is at all times subordinate to the LoanCore 2021-CRE6 Issuer Ltd. loan; HFC may pay part of the price by assuming the debt only with holder consent and full release of Owner, Sponsor Member and Guarantors; modifications to the subordination section need Lender's prior written consent. Any acquirer's unwind plan must account for the existing CRE CLO debt.",
+   "TRANSFERABILITY: HFC cannot assign its rights (Sec. 7) and the Option/ROFR cannot be transferred without Sponsor Member's sole-discretion consent (Sec. 9) \u2014 the rights are personal to Pleasanton HFC (wholly owned subsidiary permitted as acquisition vehicle only). Conversely, Sec. 12 bars ANY party from assigning without the others' consent (not unreasonably withheld).",
+   "OPEN ITEMS / DEFECTS FOR DILIGENCE: (1) Recital A names 'Sarah at Lake Houston SPE, LLC' as the Sponsor Member \u2014 the same entity as the Owner \u2014 while the notice block names 'Sarah At Lake Houston JV, LLC' with a blank address; (2) no Sponsor Member signature page is in the recorded instrument even though the Sponsor Member has substantive rights/obligations (appraiser selection, ROFR notice, 4% commission, sole-discretion transfer consent); (3) Sec. 4.a cross-references 'Section 5.b.(iv)' where 4.b.(iv) is clearly intended; (4) Sec. 8 requires Lender consent to modify 'Section 7' though the subordination text is in Section 8; (5) 'Partnership Agreement', 'Tenant' and 'Investment Member' are used but undefined; (6) Sec. 2.c awkwardly says exercise 'by acquiring all of the equity interests of the Sponsor Members' with price paid 'by Grantee to Grantor' \u2014 ambiguous drafting worth flagging."
+  ],
+  "verbatim_quotes": [
+   {
+    "page": 1,
+    "text": "This PURCHASE OPTION AND RIGHT OF FIRST REFUSAL AGREEMENT (this \"Agreement\") is made as of February 21, 2025 (the \"Effective Date\"), by and among Sarah at Lake Houston SPE, LLC, a Delaware limited liability company (the \"Owner\" or \"Grantor\"), Pleasanton Housing Finance Corporation, a Texas public nonprofit housing finance corporation (the \"Grantee\"), and PHFC SLH MM, LLC, a Texas limited liability company (the \"Managing Member\")."
+   },
+   {
+    "page": 2,
+    "text": "During the term of the Ground Lease, except as otherwise set forth in the Ground Lease, the Owner hereby grants to the Grantee an option (the \"Option\") to purchase the Project on any date forty-five (45) days after the Grantee delivers notice to the Owner and each of its members of the Grantee's intent to exercise the Option, on the terms and conditions set forth in this Agreement."
+   },
+   {
+    "page": 2,
+    "text": "The purchase price for the Project under the Option shall be an amount equal to the sum of (I) Fair Market Value of the land and improvements comprising the Project and (II) the sum of (i) an amount, on an after tax basis, equal to the diminution of economic value to the Owner's members as a result of the purchase of the Owner's interest in the Project by Grantee (the \"Owner Diminution\"), which amount shall include, without limitation, (A) 125% of the aggregate of all capital contributions and any other advances of any made by the partners of the Tenant prior to closing of the Option; (B) the outstanding balance of all loans (and any accrued interest and yield maintenance thereon) made to the Owner by its members (or their respective affiliates) or the guarantors and any other lenders, which will not otherwise be repaid at the time of the purchase; (C) any accrued and unpaid fees owed to the Owner or its affiliates in connection with the Project and (ii) all unreimbursed costs and expenses incurred by or on behalf of Owner's investors with respect to (A) admission to the joint venture, (B) activities with respect to the Project prior to the Managing Member's purchase of the ownership interest in the Project under this Option, (C) an amount to distribute to the Owner's limited investors cash proceeds sufficient to enable its limited investors to pay, after any and all taxes imposed on such distribution, the taxes projected to be imposed on the limited investors as a result of the sale pursuant to the Option. For the purpose of the Option, fair market value shall be determined in accordance with the Partnership Agreement."
+   },
+   {
+    "page": 2,
+    "text": "The fair market value (\"Fair Market Value\") of the land and improvements comprising the Project shall take into consideration any recorded land-use restrictions and any third-party liens on the Project (and assuming that any property tax exemption remains with the Project), and any such appraisal to be made by an independent appraiser agreed to by the Grantee and Sponsor Member."
+   },
+   {
+    "page": 3,
+    "text": "Grantee may, at its option, exercise the Option described in this section by acquiring all of the equity interests of the Sponsor Members. Such purchase price will be paid by Grantee to Grantor in exchange for an assignment of the interest as mor [sic] particularly set forth below."
+   },
+   {
+    "page": 3,
+    "text": "in the event that the Sponsor Member receives from a ready, willing, and able third party purchaser an acceptable bona fide offer to purchase (a) the unencumbered fee estate and termination of the Ground Lease, (b) all interests of the Sponsor Member in the Grantor, or (c) an assignment of Grantor's rights under the Ground Lease (any of the foregoing, an \"Offer\"), which Offer the Sponsor Member intends to accept on behalf of the Owner), the Grantee will have an irrevocable and exclusive right of first refusal to purchase the Project or Leasehold Interest for which the Offer has been made (the \"Refusal Right\") for terms not less favorable than those set forth in the Offer"
+   },
+   {
+    "page": 3,
+    "text": "The Grantee will thereupon have the right to exercise the Refusal Right by giving written notice of Grantee's intent to exercise the Refusal Right on terms not less favorable than those set forth in the Offer to the Sponsor Member within thirty (30) days after the Grantee's receipt of the written notice of the Offer from the Sponsor Member. ... Grantee shall have ninety (90) days following receipt of the Offer in which to close the transaction. ... the foregoing grant of the Refusal Right shall be effective only if the Grantee is a governmental agency in good standing on the date that the Refusal Right has been exercised and the date on which the resulting purchase and sale has been closed."
+   },
+   {
+    "page": 3,
+    "text": "In the event that the Refusal Right is not exercised within the timing outlined above or Grantee does not close in the applicable time period, no subsequent change in the terms of an Offer (other than a reduction of the purchase price set forth in the original Offer by more than 10%) will be deemed to reinstate the Refusal Right or otherwise renew the Grantee's opportunity to exercise the Refusal Right and Sponsor Member shall have a period of twelve (12) months commencing on the thirty-first (31st) day following Grantee's receipt of the Offer in which to consummate the sale as presented in the Offer. If Sponsor Member does not consummate the sale within said twelve (12) month period then the Refusal Right shall be reinstated. If the Sponsor Member does consummate the sale within said twelve (12) month period, then the Option and Refusal Right shall be terminated and have no further force or effect."
+   },
+   {
+    "page": 4,
+    "text": "the Refusal Right, and Options granted hereunder shall be contingent on the following being true and correct at the time of exercise and any purchase pursuant thereto: (i) neither Grantee nor any affiliate of Grantee is in material default past all applicable notice and cure periods under the Operating Agreement or any agreement with Owner or Investment Member, (ii) Grantee, or an affiliate thereof, shall continue to be the majority owner of the managing member of Owner, except as otherwise provided in Section 5.b.(iv) below, and (iii) Grantee shall be a housing finance corporation. If such conditions precedent are not satisfied, the Refusal Right and/or Options shall not be exercisable and this Agreement shall be of no further force or effect."
+   },
+   {
+    "page": 4,
+    "text": "This Agreement shall automatically terminate upon: (i) the transfer of the Project to any lender of Owner having a security interest in the Project (by foreclosure, deed in lieu of foreclosure or otherwise) in total or partial satisfaction of any Project indebtedness; or (ii) the Project ceases to meet the restrictions as set forth in the Regulatory Agreement and Declaration of Restrictive Covenants by and between Grantee and Grantor; or (iii) any transfer or attempted transfer of all or part of the Refusal Right, whether by operation of law or otherwise, except as otherwise permitted herein; or (iv) the removal of Managing Member as the managing member of Owner pursuant to the provisions of the Operating Agreement ... or (v) Grantee's acquisition of legal title to the Project."
+   },
+   {
+    "page": 5,
+    "text": "The Grantee shall be responsible for all closing costs incurred pursuant to its exercise of any of the Options or the Refusal Right, including, but not limited to, transfer taxes , exit taxes, and income taxes (including, without limitation all federal, state and local income taxes incurred by Sponsor Member or any of their affiliates) , any loan prepayment costs fees, penalties and costs (e.g. interest rate breakage costs), a four percent (4%) broker commission payable to Sponsor Member and recording costs."
+   },
+   {
+    "page": 6,
+    "text": "To the extent that consent can be obtained from the then holder(s) of any of the mortgage indebtedness with respect to the Project, the Grantee may pay all or a portion of the purchase price for the Options or the Refusal Right by assuming the existing indebtedness of the Project, provided the Owner, Sponsor Member and the Guarantors are all released from any liability with respect thereto."
+   },
+   {
+    "page": 6,
+    "text": "The Project has been financed by a loan from LoanCore 2021-CRE6 Issuer Ltd. (the \"Lender\"). This Agreement shall at all times be subordinate to the Loan and the rights of Lender under the Loan documents. ... Any modification to this Section 7 requires the prior written consent of the Lender. In addition, this Agreement shall terminate upon any transfer by foreclosure or deed in lieu of foreclosure of the Loan."
+   },
+   {
+    "page": 6,
+    "text": "The Refusal Right and Options shall not be transferred to any Person without the consent of Sponsor Member, in Sponsor Members sole discretion."
+   },
+   {
+    "page": 12,
+    "text": "Being Unrestricted Reserve \"A\", in Block 1 of Dwell at Lake Houston, a subdivision in Harris County, Texas, according to the map or plat thereof, filed of record under Film Code No. 692396, of the Map or Plat Records of Harris County, Texas"
+   }
+  ]
+ },
+ {
+  "doc": "Regulatory Agreement and Declaration of Restrictive Covenants (\"Regulatory Agreement\") \u2014 Sarah at Lake Houston Apartments, 17571 West Lake Houston Parkway, Humble, Texas 77346 (350 units, City of Humble, Harris County). Imposes the affordability covenants supporting the Chapter 394 PFC/HFC ad valorem exemption structure. Grantor ground-leases the Land from HFC under a Ground Lease of even date (memorandum recorded in Harris County Land Records). Legal description (Exhibit A): Unrestricted Reserve \"A\", Block 1 of Dwell at Lake Houston, per plat filed under Film Code No. 692396, Map or Plat Records of Harris County. Exhibits: A (legal description), B (form of Continuing Program Compliance Certificate), C (form of Verification of Income). 17 pages, scanned, watermarked \"UNOFFICIAL COPY\".",
+  "parties": [
+   "PLEASANTON HOUSING FINANCE CORPORATION ('HFC') \u2014 a Texas public nonprofit housing finance corporation created under Texas Local Government Code Chapter 394 (the 'Act'); fee owner of the Land/Project and ground lessor. Notice address: 108 Second Street, Pleasanton, TX 78064, Attn: Johnny Huizar. Signed by Johnny Huizar, Authorized Signer.",
+   "SARAH AT LAKE HOUSTON SPE, LLC ('Grantor') \u2014 described as 'a Texas limited liability company' on page 1 but as 'a Delaware limited liability company' in its signature block (p.9) and Exhibit B (p.12) \u2014 an internal inconsistency. Ground lessee; manages and operates the Project. Notice address: 2220 Coit Rd., Suite 480-214, Plano, TX 75075, Attn: Iqbal Mutabanna. Signed by Dustin Howard, Authorized Representative.",
+   "Affordable Housing Compliance Services II, LLC \u2014 the 'Compliance Specialist' (third-party compliance monitor; its written consent is required, along with HFC's and Grantor's, for any material modification of the Regulatory Agreement; prepares the annual audit report under a separate 'Audit and Compliance Agreement').",
+   "HFC counsel (notice copy): Cantu Harden Montoya LLP, 1020 NE Loop 410, Suite 401, San Antonio, TX 78209, Attn: Carey R. Troell, Esq. (also the after-recording return party).",
+   "Grantor counsel (notice copy): MW Law, PLLC, 5001 LBJ Fwy, Suite 830, Dallas, TX 75244, Attn: Pete Larsen, Partner."
+  ],
+  "dollar_amounts": [
+   {
+    "label": "County recording fee (only dollar amount in the entire document; recording stamp p.1 and clerk certificate p.17)",
+    "amount": "$85.00",
+    "page": 1
+   },
+   {
+    "label": "Annual fees payable to HFC ($/unit, % of tax savings, application/origination fees)",
+    "amount": "NONE stated in this document \u2014 no HFC annual fee, per-unit fee, or %-of-savings fee appears anywhere in the Regulatory Agreement; audit costs arise under a separate 'Audit and Compliance Agreement' (referenced p.5, amount not stated here)",
+    "page": 5
+   },
+   {
+    "label": "Exhibit C income verification form dollar line",
+    "amount": "blank form field ('is below $__________') \u2014 no amount",
+    "page": 13
+   }
+  ],
+  "effective_date": "February 21, 2025",
+  "executed_date": "Grantor (Dustin Howard) acknowledged in Denton County on the \"27 day of February 2024\" as written \u2014 the printed year 2024 appears to be a scrivener's error given the February 21, 2025 Effective Date; HFC (Johnny Huizar) acknowledged in Atascosa County on January 22, 2025",
+  "instrument_no": "RP-2025-72633, e-Filed & e-Recorded 03/03/2025 07:34 AM, Official Public Records of Real Property, Harris County, Texas (Teneshia Hudspeth, County Clerk; 17 pages; fees $85.00)",
+  "key_dates": [
+   {
+    "label": "Effective Date of Regulatory Agreement",
+    "date": "February 21, 2025"
+   },
+   {
+    "label": "Recorded (Harris County, RP-2025-72633)",
+    "date": "March 3, 2025, 07:34 AM"
+   },
+   {
+    "label": "Grantor acknowledgment (Dustin Howard, Denton County; printed year likely scrivener's error)",
+    "date": "February 27, 2024 (as written)"
+   },
+   {
+    "label": "HFC acknowledgment (Johnny Huizar, Atascosa County)",
+    "date": "January 22, 2025"
+   },
+   {
+    "label": "First Continuing Program Compliance Certificate + audit report due (one year after Effective Date, then annually on the anniversary until end of Term)",
+    "date": "February 21, 2026"
+   },
+   {
+    "label": "Grantor notary commission expires (Pierre Bitar, ID #132591818; stamp/handwriting partially illegible \u2014 reads July 28, 2026 or 2028; handwritten entry appears '07/28/2028')",
+    "date": "July 28, 2026/2028 (illegible last digit)"
+   },
+   {
+    "label": "HFC notary commission expires (Victoria Blanca Solis, ID #131965890)",
+    "date": "April 9, 2027"
+   },
+   {
+    "label": "Ground Lease date (of even date with Regulatory Agreement; memorandum recorded in Land Records)",
+    "date": "February 21, 2025"
+   }
+  ],
+  "key_terms": [
+   "SET-ASIDE (operative covenant, Sec. 2(a)(i), p.3): no less than 175 of the 350 Units (50%) must be reserved for/rented to and occupied by households earning less than 80% of AMI ('80% Low Income Households'), counting combined incomes of all unit occupants. Single AMI tier only \u2014 no 60% tier, no income averaging.",
+   "RECITAL-LEVEL MISSION STANDARD (p.1): not less than 50% of units for families earning less than 80% AMI per the Act, AND not less than 90% of units reserved for/occupied by 'low and moderate income individuals and families as defined by the HFC' (the 90% covenant appears only in the recitals, not in Section 2's operative Rental Requirement).",
+   "AMI DEFINITION (Sec. 1(d), p.2): area median family income for the Houston-The Woodlands-Sugar Land, TX HUD Metro FMR Area, adjusted for a four (4) person household, calculated per the Novogradac Rent and Income Limit Calculator (the 'Calculator') under the 'Other Federal, State, or Local Program' category. If the Calculator is unavailable, a reasonable substitute tool mutually agreed by the parties and by the indirect members of the Grantor.",
+   "RENT CAP FORMULA (Sec. 1(d) p.2; Sec. 2(a)(i) p.3): maximum monthly rent = AMI x 0.80 x 0.35 / 12 (AMI times 80%, times a 35% rent cap, divided by 12 months). Rents set by the Calculator WITHOUT regard to utility allowances; must not exceed 35% of 0.8 x AMI / 12.",
+   "AMI DECLINE RATCHET (Sec. 2(b)(i), p.4): if AMI falls year-over-year, Grantor need not reduce rents on Low-Income Units but cannot increase them until AMI rises again; any increase must be consistent with the Calculator.",
+   "TERM (Sec. 4, p.5): commences on the Effective Date and ends on the date HFC no longer owns title to the Land or the Project \u2014 i.e., the covenants do NOT survive a sale out of HFC ownership; no fixed year term.",
+   "TERMINATION \u2014 INVOLUNTARY (Sec. 4, pp.5-6): requirements terminate upon involuntary noncompliance caused by fire, seizure, requisition, foreclosure, exercise of power of sale, deed in lieu of foreclosure, condemnation or similar event, or a change in federal law or federal-agency action after the Effective Date preventing HFC enforcement.",
+   "TERMINATION \u2014 GROUND LEASE (Sec. 4, p.6): automatic termination upon termination or expiration of the Ground Lease.",
+   "TERMINATION \u2014 MUTUAL (Sec. 4, p.6): HFC and Grantor may agree to terminate; parties to execute/record release instruments, but recording is not a prerequisite to effectiveness; all termination costs (incl. HFC fees/expenses) paid by Grantor and its successors.",
+   "VOUCHERS (Sec. 1(g), p.3): no discrimination based on source of income; Project must accept Housing Choice Vouchers.",
+   "VOUCHER SUITABILITY CAP (Sec. 1(h), p.3): a Low Income Tenant using an HFC-allocated Housing Choice Voucher need only show monthly income of 2-1/2 times the portion of monthly rent NOT paid by the voucher; confirms the 175 'Low Income Unit(s)' count.",
+   "UNIT PARITY (Sec. 1(i), p.3): non-Low-Income Units are 'Market Units'; Low Income Units must be evenly distributed throughout the Project with renovations/furnishings/fixtures/equipment of comparable standard to Market Units.",
+   "TEMPORARY OCCURRENCE CURE (Sec. 2(b), pp.3-4): if the Rental Requirement fails due to vacancy, required repairs, or income increase of a tenant, Grantor must restore compliance as soon as possible and in any case within sixty (60) days; no obligation to evict; if <100% occupied, reserve the appropriate proportion; if 100% occupied, lease next available units to Low Income Tenants until 50% of total units are so occupied.",
+   "VACANT UNIT RULE (Sec. 2(a), p.3): a vacant unit last occupied by a Low-Income Tenant counts as a Low-Income Unit until reoccupied.",
+   "INCOME CERTIFICATIONS (Sec. 2(c), pp.4-5): initial Income Certification dated immediately prior to occupancy for each Low Income Tenant; annual recertification on each occupancy anniversary and no less than every 12 months; plus event-driven recerts on change in family composition or income increase. Verification steps: 4-week pay stubs, 2 years of tax returns, consumer credit search, employer verification, SSA verification, or other independent verification. TDHCA LIHTC certification form permitted as an alternative (Exhibit C is the base form).",
+   "REPORTING (Sec. 2(e), p.5): beginning one year after the Effective Date and annually on the anniversary until end of Term, Grantor submits to HFC a Continuing Program Compliance Certificate (Exhibit B form) with an audit report prepared by the Compliance Specialist under the Audit and Compliance Agreement; unit-designation changes reported on the annual certificate filed with HFC and the Compliance Specialist (Sec. 2(b)(ii), p.4).",
+   "RECORDS/INSPECTION (Sec. 2(d), p.5): complete and accurate records of Low-Income Units; HFC representatives may inspect books and records at reasonable times on reasonable notice during business hours.",
+   "LEASE PROVISIONS (Sec. 2(f), p.5): every Low Income Unit lease must state that material misstatement in the Income Certification (intentional or not) may be cause for immediate lease termination, and disclose annual income recertification.",
+   "MARKETING (Sec. 2(h), p.5): market per Grantor's marketing plan; all public marketing materials and websites must reference the Rental Requirement and voucher acceptance in both English and Spanish.",
+   "NO MATERIAL MODIFICATION (Sec. 2(b)(ii), p.4): no material modification of the Regulatory Agreement without prior written consent of HFC, Grantor, AND the Compliance Specialist.",
+   "COVENANTS RUN WITH LAND (Sec. 5, p.6): covenants run with the land, binding on Grantor's successors and Grantor's leasehold title; BUT expire upon termination of the Regulatory Agreement; every later contract/deed/instrument is conclusively deemed subject to them whether or not recited.",
+   "LENDER PROTECTION (Sec. 5, p.6): no breach impairs, defeats, or invalidates the lien of any mortgage/deed of trust made in good faith and for value.",
+   "DEFAULT/ENFORCEMENT (Sec. 7, pp.6-7): Event of Default after uncured default 60 days post written notice from HFC; if not curable in 60 days, no Event of Default so long as Grantor (or direct/indirect members) institutes corrective action within 60 days and diligently pursues it \u2014 but cure period capped at one hundred twenty (120) days. Remedies: mandamus/suit/injunction, books-and-records access, other law/equity actions. SPECIFIC PERFORMANCE IS THE SOLE REMEDY ('specific enforcement ... is the only means by which HFC may obtain the benefits'); HFC recovers reasonable legal fees when enforcing an Event of Default.",
+   "SUBORDINATION (Sec. 8, p.7): Grantor must record the agreement and all amendments in the Land Records and pay all recording fees; the Regulatory Agreement is subject and subordinate to all matters of record as of its date.",
+   "TAX-EXEMPTION DISCLAIMER (Sec. 2(a), p.3): HFC makes NO representation as to qualification for the Chapter 394 ad valorem tax exemption due to occupancy of a Low-Income Unit by a tenant at 80% AMI or above.",
+   "MISC (Sec. 9, pp.7-8): Texas governing law (excluding conflicts rules); amendments only by written recorded instrument (subject to Sec. 4); notice by personal/overnight/certified mail, deemed given on delivery/refusal or 3 business days after mailing; severability; counterparts.",
+   "NO CONDO/CO-OP CONVERSION (Sec. 1(c), p.2): no cooperative housing ownership; no steps toward condominium conversion during the Term.",
+   "EXHIBIT B DISCREPANCY (p.11): the form Continuing Program Compliance Certificate certifies 'No less than 160 Units' reserved for 80% Low Income Households \u2014 inconsistent with the 175-unit covenant in Section 2(a)(i) (160 = 45.7% vs 175 = 50% of 350 units).",
+   "ABSENT FROM THIS DOCUMENT: no HB 21 reference, no January 1, 2027 exemption-sunset provision, no option-to-purchase price or mechanics, no lender-consent condition to termination, no fixed compliance period surviving sale, and no HFC annual/per-unit/%-of-savings fee schedule (those economics must live in the Ground Lease, option agreement, and Audit and Compliance Agreement)."
+  ],
+  "unwind_relevant": [
+   "TERM IS COTERMINOUS WITH HFC OWNERSHIP (Sec. 4, p.5): 'The term of this Regulatory Agreement (the \u201cTerm\u201d) shall commence on the Effective Date and end on the date upon which the HFC no longer owns title to the Land or to the Project.' A sale/conveyance by the HFC out of the structure (e.g., option exercise or PFC unwind transferring fee title) ends the Term by its own terms \u2014 the affordability covenants do NOT survive HFC's disposition of title.",
+   "AUTOMATIC TERMINATION ON GROUND LEASE TERMINATION (Sec. 4, p.6): 'This Regulatory Agreement shall automatically terminate upon the termination or expiration of the Ground Lease.' Collapsing the ground lease (standard unwind step) automatically kills the Regulatory Agreement.",
+   "MUTUAL TERMINATION MECHANICS (Sec. 4, p.6): on agreement of HFC and Grantor to terminate, parties execute, deliver, and record release/discharge instruments \u2014 but execution/recording 'shall not be necessary or a prerequisite to the termination'; ALL termination costs including HFC's fees and expenses are paid by Grantor and its successors in interest under the Ground Lease and/or the Regulatory Agreement.",
+   "INVOLUNTARY TERMINATION EVENTS (Sec. 4, pp.5-6): foreclosure, exercise of power of sale, deed in lieu, condemnation, fire, seizure, requisition, or similar events; also 'change in a federal law or an action of a federal agency after the Effective Date which prevents HFC from enforcing' \u2014 note this safety valve covers FEDERAL law changes only; a STATE law change (e.g., Texas HB 21) is NOT a listed termination trigger, and there is no 1/1/2027 or HB 21 provision anywhere in the document.",
+   "COVENANTS EXPIRE ON TERMINATION (Sec. 5, p.6): covenants run with the land and bind Grantor's successors and leasehold title, 'provided, however, that on the termination of this Regulatory Agreement said covenants, reservations, and restrictions shall expire.' No post-termination affordability tail.",
+   "LENDER PROTECTION / NO LENDER CONSENT (Sec. 5, p.6): no breach impairs a good-faith, for-value mortgage/deed-of-trust lien; foreclosure or deed in lieu terminates the requirements (Sec. 4). No lender consent is required for termination of the Regulatory Agreement, and the agreement is subject and subordinate to all matters of record as of its date (Sec. 8, p.7).",
+   "REMEDY LIMITATION HELPS BUYER RISK ANALYSIS (Sec. 7, p.7): specific performance is the ONLY remedy for breach; no liquidated damages, no clawback of tax savings, no monetary penalty regime \u2014 HFC recovers only reasonable legal fees if it litigates an Event of Default.",
+   "NO OPTION PRICE/MECHANICS HERE: the Regulatory Agreement contains no purchase option, option price, or assumption/transfer provisions for the Project itself; it references the Ground Lease (of even date, memorandum recorded) \u2014 option economics must be in the Ground Lease/option documents.",
+   "TRANSFER MONITORING (Exhibit B para. 6, p.11): the annual compliance certificate requires Grantor to certify it 'has not transferred any interest in the Project since the date of submission of the Continuing Program Compliance Certificate last submitted' \u2014 transfers are surfaced to HFC annually but no consent standard for transfer appears in this document.",
+   "AMENDMENTS (Sec. 9(d), p.7): amendment only by written recorded instrument executed by the parties 'or their successors in title,' subject to Section 4 \u2014 plus Sec. 2(b)(ii) requires Compliance Specialist consent for material modifications, giving the third-party monitor a veto over restructuring the covenants without terminating them.",
+   "TAX-EXEMPTION RISK ALLOCATION (Sec. 2(a), p.3): HFC expressly makes no representation regarding qualification for the Chapter 394 ad valorem exemption where a Low-Income Unit is occupied by a tenant at/above 80% AMI \u2014 exemption risk sits with Grantor/investors, relevant to underwriting the value of keeping vs. unwinding the PFC structure."
+  ],
+  "verbatim_quotes": [
+   {
+    "page": 1,
+    "text": "HFC has required that Grantor enter into this Regulatory Agreement to ensure that its mission is being carried out by assuring that not less than 50% of the dwelling units in the Project (as defined below) are reserved for or occupied by individuals or families earning less than 80% of the area median family income as set forth in the Act and not less than 90% of the dwelling units are reserved for or occupied by low and moderate income individuals and families as defined by the HFC"
+   },
+   {
+    "page": 2,
+    "text": "...reserved for lease to an individual tenant or family earning less than 80% of the area median family income (\"Low Income Tenants\") for the Houston-The Woodlands-Sugar Land, TX HUD Metro FMR Area for the applicable year, as adjusted for a four (4) person household (\"AMI\") ... as calculated in accordance with the Novogradac Rent and Income Limit Calculator (the \"Calculator\") for the applicable year, under the \"Other Federal, State, or Local Program\" category ... with a maximum monthly rent calculated by multiplying the AMI by 80%, multiplying that amount by a maximum rent cap of 35% and dividing by 12 months (AMI x .80 x .35 \u00f7 12)."
+   },
+   {
+    "page": 3,
+    "text": "Subject to the provisions of Section 2(b) below, no less than 175 of the Units of the Project shall be reserved for or rented to and occupied by a household earning less than 80% of AMI, as calculated in accordance with the Calculator (\"80% Low Income Households\") ... Rental rates for the 80% Low Income Households shall be established by the Calculator, without regard to utility allowances, provided that they shall not exceed 35% of 0.8 multiplied by the AMI, divided by 12."
+   },
+   {
+    "page": 3,
+    "text": "a Low Income Tenant that utilizes or intends to utilize a Housing Choice Voucher allocated by HFC to satisfy its contractual rent obligation for the 175 Units in the Project required to be rented to, or held available for occupancy by, Low Income Tenants pursuant to Section 2(a) hereof (the \"Low Income Unit(s)\") at the Project shall have a monthly income of two and one half (2-1/2) times the portion of the tenant's monthly rent which is not paid with a Housing Choice Voucher."
+   },
+   {
+    "page": 3,
+    "text": "HFC makes no representation as to the qualification for that certain exemption from ad valorem taxation available under Chapter 394 of the Texas Local Government Code, as amended from time to time, due to occupancy of a Low-Income Unit by a tenant whose income is 80% of AMI or above."
+   },
+   {
+    "page": 4,
+    "text": "If AMI goes down year-over-year at any time during the term of this Regulatory Agreement, Grantor shall not be required to reduce rents on the Low-Income Units in such a case but will not be able to increase rents on the Low-Income Units until AMI again rises and any increase in rents will be consistent with the Calculator."
+   },
+   {
+    "page": 4,
+    "text": "No material modification to this Regulatory Agreement may be made without the prior written consent of HFC, Grantor, and the Compliance Specialist."
+   },
+   {
+    "page": 5,
+    "text": "Beginning one year after the Effective Date and continuing annually thereafter on the anniversary of such date, the Grantor will prepare and submit to HFC annually until the end of the Term, a Continuing Program Compliance Certificate, along with an audit report prepared by the Compliance Specialist in accordance with the Audit and Compliance Agreement."
+   },
+   {
+    "page": 5,
+    "text": "Section 4. Term. The term of this Regulatory Agreement (the \"Term\") shall commence on the Effective Date and end on the date upon which the HFC no longer owns title to the Land or to the Project."
+   },
+   {
+    "page": 5,
+    "text": "The terms of this Regulatory Agreement to the contrary notwithstanding, the requirements set forth herein shall terminate and be of no further force and effect in the event of involuntary noncompliance with the provisions of this Regulatory Agreement caused by fire, seizure, requisition, foreclosure, exercise of the power of sale, or transfer of title by deed in lieu of foreclosure, condemnation, or similar event, or change in a federal law or an action of a federal agency after the Effective Date which prevents HFC from enforcing the provisions hereof."
+   },
+   {
+    "page": 6,
+    "text": "This Regulatory Agreement shall automatically terminate upon the termination or expiration of the Ground Lease."
+   },
+   {
+    "page": 6,
+    "text": "...provided, however, that on the termination of this Regulatory Agreement said covenants, reservations, and restrictions shall expire."
+   },
+   {
+    "page": 6,
+    "text": "No breach of any of the provisions of this Regulatory Agreement shall impair, defeat, or render invalid the lien of any mortgage, deed of trust, or like encumbrance made in good faith and for value encumbering the Project or any portion thereof."
+   },
+   {
+    "page": 6,
+    "text": "...if such default remains uncured for a period of sixty (60) days after written notice thereof shall have been given by HFC to the Grantor, then HFC, may declare an \"Event of Default\" to have occurred hereunder; provided, however, that, if the default stated in the notice is of such a nature that it cannot be corrected within sixty (60) days, such default shall not constitute an Event of Default hereunder so long as the Grantor or direct or indirect members of Grantor institutes corrective action within said sixty (60) days and diligently pursues such action until the default is corrected, but in no event shall the cure period extend beyond one hundred and twenty (120) days."
+   },
+   {
+    "page": 7,
+    "text": "The Grantor hereby agrees that specific enforcement of the Grantor's agreements contained herein is the only means by which HFC may obtain the benefits of such agreements made by the Grantor herein, and the Grantor therefore agrees to the imposition of the remedy of specific performance against it in the case of any default by the Grantor hereunder. In the event HFC takes legal action to enforce an Event of Default, HFC shall be entitled to recover reasonable legal fees from Grantor to enforce these provisions."
+   },
+   {
+    "page": 7,
+    "text": "This Regulatory Agreement is subject to and subordinate to all matters of record as of the date hereof."
+   },
+   {
+    "page": 11,
+    "text": "No less than 160 Units have been reserved for or rented to and occupied by 80% Low Income Households at a rental rate calculated as described in Section 2(a)(i) of the Regulatory Agreement. No Unit reserved for Low Income Tenants shall be rented to a market rate renter, unless another Unit has been reserved in its place or in accordance with Section 2(b) of the Regulatory Agreement. [NOTE: Exhibit B's 160-unit figure conflicts with Section 2(a)(i)'s 175-unit covenant.]"
+   }
+  ]
+ },
+ {
+  "doc": "Memorandum of Understanding between Pleasanton Housing Finance Corporation (\"PHFC\") and Sarah At Lake Houston SPE LLC (\"Developer\") re: Sarah At Lake Houston Apartments, a 350-unit multifamily development in Humble, Harris County, Texas. Executed counterpart, 7 pages, law-firm doc control #2063507.3 in every footer. IMPORTANT FLAG: despite being described as a recorded county document, this copy bears NO recording stamp, NO instrument number, NO county clerk file mark on any of the 7 pages (verified at 3.2x zoom on page 1 top and page 7 margins). It appears to be the executed but un-file-stamped counterpart. All other expected values verified: effective 7/1/2024 (confirmed), 99-year ground lease (confirmed), 50% set-aside at <80% AMI (confirmed), 10% Savings Fee (confirmed), $100/unit Annual Compliance Fee (confirmed). Additional economics not in the expected list: $300,000 Closing Fee; 25% of construction sales tax savings to PHFC as GC; $125,000 cap on PHFC counsel costs; PHFC purchase Option at FMV + 125%-of-capital \"Tenant Diminution\" make-whole; $10 reconveyance and $1 fee-title-transfer unwind mechanics. Venue oddity: exclusive jurisdiction/venue in Atascosa County, Texas (PHFC's home county), not Harris County. Drafting defects noted: J.10(iii) says \"non- binding party\" (apparently meant \"non-breaching party\"); J.10 closing paragraph reads \"neither party shall have any ongoing to the other\" (missing word, presumably \"obligation\"); J.12 references \"Costs as provided in Section J12\" but \"Costs\" is never independently defined.",
+  "parties": [
+   "Pleasanton Housing Finance Corporation (\"PHFC\") \u2014 a Texas nonprofit and public facility corporation; tax-exempt governmental entity; ground lessor / fee title holder; signed by Johnny Huizar, Designated Official",
+   "Sarah At Lake Houston SPE LLC, its affiliates, and its assigns (\"Developer\") \u2014 developer/owner of the improvements; signed by Iqbal Mutabanna, Authorized Signatory on behalf of its Manager",
+   "Tenant / Partnership (defined role, entity TBD) \u2014 an LP or LLC to be ground-lease tenant, owned by PHFC through the General Partner, the Special LP, and Investor LP",
+   "General Partner (defined role) \u2014 special purpose entity through which PHFC owns the Tenant",
+   "Special LP (defined role) \u2014 Developer or its affiliate",
+   "Investor LP (defined role) \u2014 equity investor, if and as applicable",
+   "Affordable Housing Compliance Services, LLC \u2014 payee of the Annual Compliance Fee (not a signatory)",
+   "Cantu Harden Montoya LLP and Maldonado Law Group, PLLC (\"PHFC Counsel\") \u2014 PHFC's counsel for the transaction"
+  ],
+  "dollar_amounts": [
+   {
+    "label": "Closing Fee \u2014 one-time fee to PHFC for participation",
+    "amount": "$300,000.00",
+    "page": 4
+   },
+   {
+    "label": "GC sales-tax-savings share \u2014 PHFC or affiliate as general contractor receives share of sales tax savings during construction/rehab",
+    "amount": "25% of any sales tax savings",
+    "page": 4
+   },
+   {
+    "label": "Savings Fee \u2014 annual fee to PHFC from Tenant",
+    "amount": "10% of annual ad valorem property tax savings",
+    "page": 4
+   },
+   {
+    "label": "Annual Compliance Fee \u2014 to Affordable Housing Compliance Services, LLC",
+    "amount": "$100.00 per unit per calendar year (inflation-adjusted 2.0% per annum for acq/rehab first-year payment)",
+    "page": 5
+   },
+   {
+    "label": "Fee title transfer price to Tenant if tax-exempt status lost during first 20 years (other than Developer default)",
+    "amount": "$1.00",
+    "page": 1
+   },
+   {
+    "label": "Reconveyance price (exemption not issued; exemption revoked absent Developer material default; or voluntary reconveyance at any time)",
+    "amount": "$10.00",
+    "page": 4
+   },
+   {
+    "label": "Tenant Diminution component (A) of PHFC purchase Option price",
+    "amount": "125% of aggregate capital contributions and other advances by partners",
+    "page": 2
+   },
+   {
+    "label": "Cap on PHFC Counsel costs treated as Costs",
+    "amount": "$125,000.00 maximum aggregate",
+    "page": 6
+   },
+   {
+    "label": "Tenant residual cash flow retention after priority fees",
+    "amount": "100% of remaining net cash flow",
+    "page": 5
+   },
+   {
+    "label": "Affordable rent cap formula",
+    "amount": "rents shall not exceed 35% of 0.8 multiplied by the AMI, divided by 12",
+    "page": 4
+   }
+  ],
+  "effective_date": "July 1, 2024 (confirmed against expected 7/1/2024 \u2014 matches). \"\u2026and is effective as of July 1, 2024.\" (p.1)",
+  "executed_date": "Undated signatures \u2014 signature page (p.7) states only \"EXECUTED to be effective as of the date above shown\" (i.e., July 1, 2024). No separate execution dates appear next to either signature.",
+  "instrument_no": "NONE FOUND \u2014 FLAG: no Harris County recording stamp, no RP-2024 instrument number, no clerk's file stamp, and no recording certificate appears on any of the 7 pages (checked at 3.2x zoom, including page margins and signature page). This copy appears to be the executed but unrecorded counterpart. Only identifying mark is law-firm document control number \"#2063507.3\" in each footer.",
+  "key_dates": [
+   {
+    "label": "MOU effective date",
+    "date": "July 1, 2024"
+   },
+   {
+    "label": "Ground Lease term",
+    "date": "99 years (confirmed)"
+   },
+   {
+    "label": "Tax-exempt-loss fee-title-transfer window ($1.00 transfer to Tenant)",
+    "date": "first 20 years of the structure"
+   },
+   {
+    "label": "ROFR exercise window after Sale Notice",
+    "date": "30 days"
+   },
+   {
+    "label": "ROFR closing deadline after receipt of Sale Notice",
+    "date": "90 days"
+   },
+   {
+    "label": "Closing Window for Special LP to complete sale (commences 31st day after Sale Notice delivery)",
+    "date": "12 months"
+   },
+   {
+    "label": "Savings Fee annual due date",
+    "date": "no later than January 31 of the year following the year the property tax would have been owed"
+   },
+   {
+    "label": "First Savings Fee example \u2014 CY2024 fee payable",
+    "date": "on or before January 31, 2025"
+   },
+   {
+    "label": "Annual Compliance Fee due date (after first year)",
+    "date": "no later than January 31 of each year; new construction: first 3 years payable at closing, remainder due January 31st following second anniversary of closing"
+   },
+   {
+    "label": "Breach cure period before termination (J.10(iii))",
+    "date": "30 days"
+   }
+  ],
+  "key_terms": [
+   "Project: Sarah At Lake Houston Apartments, 350-unit multifamily residential rental housing development, Humble, Harris County, Texas (p.1)",
+   "Ownership structure: fee title to land taken in PHFC; Developer retains title to improvements; PHFC enters 99-year Ground Lease with Tenant/Partnership (owned by PHFC through General Partner SPE, plus Special LP = Developer affiliate, plus Investor LP) (p.1)",
+   "Regulatory Agreement to be filed against the Project at closing setting forth Tenant's Affordable Component obligations as condition to property tax exemption (p.1)",
+   "Upon expiration of Ground Lease, ownership of improvements goes to PHFC (p.1)",
+   "If tax-exempt status lost for any reason during first 20 years (other than Developer-caused default), fee title transfers from PHFC to Tenant for $1.00 (p.1)",
+   "Ground Lease terms subject to approval of Developer AND its capital sources (p.1)",
+   "PHFC or qualified designee receives a right of first offer to acquire the Project as provided in the Lease Agreement (p.1)",
+   "Special LP may market Project via Fee Sale (unencumbered fee + Ground Lease termination) or Partnership Sale (all Investor LP + Special LP interests); Sale Notice required to PHFC and GP (pp.1-2)",
+   "ROFR: HFC Entity (PHFC, GP, Ground Lessor or PHFC affiliate) has 30 days from Sale Notice to exercise right of first refusal on same terms; if it fails to exercise or fails to close within 90 days, Special LP gets 12-month Closing Window (from 31st day after Sale Notice) to sell; ROFR revives if sale not completed (p.2)",
+   "Any Partnership Sale subject to GP consent 'in its sole discretion, such consent not to be unreasonably withheld' (internally contradictory drafting), with Partnership reimbursing GP's reasonable costs including attorney fees (p.2)",
+   "PHFC purchase Option: Purchase Price = (I) fair market value + (II) Tenant Diminution, including (A) 125% of aggregate capital contributions/advances by partners, (B) outstanding LP/affiliate/guarantor/lender loans incl. accrued interest and yield maintenance not otherwise repaid, plus earned deferred development fee due Special LP, (C) accrued/unpaid fees owed Special LP, plus all unreimbursed LP costs (admission, pre-purchase activities) plus tax gross-up distribution; FMV determined per Partnership Agreement (p.2)",
+   "Due diligence Checklist required with application; Developer has already delivered items to PHFC's satisfaction (p.2)",
+   "Financing: Developer applies for the Loan on Tenant's behalf, selects lender, negotiates terms; Developer pays all application/pre-development costs, reimbursed at closing from Loan/equity proceeds; if MOU terminates or fails to close, Developer solely responsible for all such costs (p.3)",
+   "Developer or affiliates provide construction/rehab completion guarantees required by Loan or equity financing, with reasonable discretion approval rights and no obligation to execute (p.3)",
+   "PHFC or affiliate serves as general contractor; Master Subcontract with Developer-selected Master Subcontractor; contractor fee approved by Developer; contractor's contingency solely for Master Subcontractor; GMP contract contemplated; Developer approval rights over master contract and Master Subcontract forms (p.3)",
+   "Management: Developer performs or recommends third-party property manager; PHFC not responsible for property management but has reasonable approval rights (p.3)",
+   "AFFORDABLE COMPONENT (confirmed vs. expected): for any year Tenant wants the property tax exemption, at least 50% of units set aside/rented to tenants earning less than 80% of AMI for Houston-The Woodlands-Sugar Land MSA (p.3)",
+   "AMI mechanics: 4-person household figure, Novogradac Rent and Income Limit Calculator, 'Other Federal, State, or Local Program' category, Harris County \u2013 Houston-The Woodlands-Sugar Land TX HUD Metro FMR Area; income/rent limits NOT adjusted for family size and NOT calculated with regard to utility allowances (pp.3-4)",
+   "Affordable rent cap: rents shall not exceed 35% of 0.8 x AMI / 12; Affordable Units allocated among unit types as selected by Tenant (p.4)",
+   "Tax exemption from all property tax jurisdictions is a CONDITION to the transaction; if not issued, PHFC reconveys for $10.00 and refunds the Closing Fee; if issued then revoked (absent Developer material default), PHFC reconveys for $10.00; Developer/Tenant may voluntarily trigger reconveyance any time for $10.00 (exemption then ceases); PHFC has right to cure defaults to preserve exemption (p.4)",
+   "Fees: $300,000.00 one-time Closing Fee to PHFC; 25% of construction/rehab sales tax savings to PHFC/affiliate as GC; 10% annual Savings Fee on ad valorem tax savings (paid by Jan 31 of following year, subject to reconciliation after tax contests; overages credited to Tenant next year); $100.00/unit/year Annual Compliance Fee to Affordable Housing Compliance Services, LLC with 2.0% p.a. inflation adjustment; acq/rehab first-year fee at closing; new construction first 3 years at closing (pp.4-5)",
+   "After Closing Fee, Savings Fee, Annual Compliance Fee and other Ground Lease priority payments, Tenant retains 100% of remaining net cash flow; all net profits/losses pass solely to Tenant's limited partners; PHFC has no share (p.5)",
+   "Neither party may create financial/legal liability for the other without prior written consent, except Developer may capitalize the Project at closing/ordinary course (p.5)",
+   "MOU is a BINDING obligation, not an agreement to agree; amendments only in writing signed by both parties (p.5)",
+   "No assignment by either party without prior written consent, not to be unreasonably withheld (p.5)",
+   "Texas governing law, exclusive of conflict of laws (p.5)",
+   "Exclusive jurisdiction and venue: state and federal courts of ATASCOSA County, Texas \u2014 not Harris County (p.6)",
+   "Prevailing-party attorneys' fees (p.6)",
+   "Termination (J.10): (i) Developer election in writing, sole and absolute discretion; (ii) Developer fails to deliver Checklist items; (iii) uncured breach after 30-day notice/cure; (iv) bankruptcy/insolvency of either party; post-termination only surviving obligation is Developer reimbursement of PHFC Costs per J.12; MOU also terminates/suspends upon execution of definitive agreements (p.6)",
+   "Due consideration acknowledged as paid to PHFC by Developer for entering binding obligation (p.6)",
+   "PHFC Counsel = Cantu Harden Montoya LLP and Maldonado Law Group, PLLC; PHFC Counsel costs up to $125,000.00 max aggregate treated as Costs paid as provided herein (p.6)",
+   "Signature blocks: PHFC by Johnny Huizar, Designated Official; Sarah At Lake Houston SPE LLC by Iqbal Mutabanna, Authorized Signatory on behalf of its Manager; signatures undated (p.7)",
+   "No exhibits, schedules, or legal description attached; no acknowledgment/notary block; no recording stamp (whole document)"
+  ],
+  "unwind_relevant": [
+   "NO RECORDING EVIDENCE: this executed counterpart bears no Harris County instrument number or file stamp on any page \u2014 cannot confirm from this copy that the MOU was ever recorded; also no notary acknowledgment block, which Texas recording would ordinarily require. Obtain the recorded version or county records search.",
+   "PHFC purchase Option (p.2): Purchase Price = FMV (per Partnership Agreement) + Tenant Diminution, which includes 125% of ALL partner capital contributions and advances, repayment of all LP/affiliate/guarantor/lender loans with accrued interest and yield maintenance, earned deferred development fee due Special LP, all accrued/unpaid Special LP fees, unreimbursed LP costs, and a tax gross-up so LPs net of taxes on the distribution. This is an expensive make-whole if PHFC exercises.",
+   "ROFR mechanics (p.2): 30-day HFC Entity right of first refusal on any Fee Sale or Partnership Sale, 90-day closing requirement, then 12-month Closing Window for Special LP; ROFR revives if the sale is not completed in the window. Any buyer of the project or partnership interests must clear this.",
+   "Partnership Sale requires General Partner consent 'in its sole discretion, such consent not to be unreasonably withheld' (contradictory standard \u2014 ambiguity risk), plus Partnership reimburses GP costs of evaluation/closing (p.2).",
+   "Voluntary unwind lever (p.4): 'the Developer and Tenant may choose to voluntarily have the property reconveyed by PHFC at any time for the sum of $10.00 upon written request by the Developer or Tenant, at which point the tax exemption would cease' \u2014 a cheap, unilateral (Developer/Tenant side) exit from the PFC structure; Developer/Tenant remain responsible for compliance with existing leases.",
+   "Automatic unwind triggers (p.4): if the tax exemption is NOT issued, PHFC reconveys for $10.00 AND refunds the $300,000 Closing Fee; if issued then revoked for reasons other than Developer material default, PHFC reconveys for $10.00 (no fee refund stated).",
+   "20-year protection (p.1): if tax-exempt status is lost for any reason during first 20 years (other than Developer-caused default), fee title transfers from PHFC to Tenant for $1.00.",
+   "Ground Lease expiration (p.1): improvements revert to PHFC at end of 99-year term \u2014 reversion burden on any long-hold analysis.",
+   "PHFC right of first offer to acquire the Project 'as provided in the Lease Agreement' (p.1) \u2014 separate from the ROFR and the Option; check the Ground Lease for its terms.",
+   "PHFC cure right (p.4): PHFC may cure any default to the extent necessary to obtain/preserve the tax exemption \u2014 could interfere with a lender's or buyer's default-driven strategies.",
+   "Anti-assignment (p.5, J.2): neither party may assign interests/benefits/responsibilities without the other's prior written consent, not to be unreasonably withheld \u2014 an acquirer of the Developer position needs PHFC consent (note 'Developer' is defined to include Sarah At Lake Houston SPE LLC 'its affiliates, and its assigns').",
+   "NO express lender consent or lender protection provisions in the MOU \u2014 no leasehold mortgagee protections, no lender cure rights, no subordination language; those presumably live in the Ground Lease (not attached).",
+   "Termination of MOU (p.6, J.10): Developer can terminate in writing in its sole and absolute discretion; MOU auto-terminates/suspends upon execution of definitive agreements \u2014 the operative unwind documents are therefore the Ground Lease, Regulatory Agreement, and Partnership Agreement, none attached here.",
+   "Surviving obligation post-termination: Developer reimbursement of PHFC 'Costs' per J.12 \u2014 PHFC Counsel costs capped at $125,000.00 aggregate; note 'Costs' is otherwise undefined in the document.",
+   "Ongoing fee drag on the structure until unwound: 10% Savings Fee, $100/unit/yr compliance fee (2% escalator), and the priority payment waterfall in the Ground Lease (p.5)."
+  ],
+  "verbatim_quotes": [
+   {
+    "page": 1,
+    "text": "This Memorandum of Understanding (the \"MOU\") is between Pleasanton Housing Finance Corporation (\"PHFC\"), a Texas nonprofit and public facility corporation, and Sarah At Lake Houston SPE LLC, its affiliates, and its assigns (\"Developer\"), and is effective as of July 1, 2024."
+   },
+   {
+    "page": 1,
+    "text": "Sarah At Lake Houston Apartments, being a 350-unit multifamily residential rental housing development located in Humble, Harris County, Texas (the \"Project\")."
+   },
+   {
+    "page": 1,
+    "text": "The PHFC shall then enter into a 99-year ground lease (\"Ground Lease\") with a limited partnership or a limited liability company (the \"Tenant\" or the \"Partnership\") owned by PHFC through a special purpose entity (the \"General Partner\"), Developer or its affiliate (the \"Special LP\"), and its equity investor, if and as applicable (the \"Investor LP\"), as tenant."
+   },
+   {
+    "page": 1,
+    "text": "Notwithstanding the foregoing, if the tax-exempt status of the Project is lost for any reason during the first 20 years, other than a default caused by Developer, then fee title to the Project shall be transferred from PHFC to the Tenant or the then existing tenant under the Ground Lease for $1.00."
+   },
+   {
+    "page": 2,
+    "text": "Within thirty (30) days of its receipt of a Sale Notice, the PHFC, General Partner, Ground Lessor or other PHFC affiliate (the \"HFC Entity\") shall have a right of first refusal (the \"ROFR\") to purchase the Partnership Interests or the Project on the same terms and conditions contained in the Sale Notice."
+   },
+   {
+    "page": 2,
+    "text": "In addition, upon Closing, the PHFC shall have a purchase option (the \"Option\") to acquire the Project at a price (the \"Purchase Price\") equal to the sum of (I) fair market value and (II) the sum of (i) an amount, on an after tax basis, equal to the diminution of economic value to the Partnership's limited partners as a result of the purchase of the Partnership's interest in the Project by the PHFC (the \"Tenant Diminution\"), which shall include without limitation (A) 125% of the aggregate of all capital contributions and any other advances of any made by the partners of the Partnership prior to Closing of the Option"
+   },
+   {
+    "page": 3,
+    "text": "The Ground Lease and Regulatory Agreement will provide that for any year the Tenant wishes to obtain a property tax exemption, it will set aside or rent at least 50% of the units to tenants earning less than 80% of the area median income (\"AMI\") established by the Department of Housing and Urban Development for the Houston-The Woodlands-Sugar Land MSA (the \"Affordable Units\")."
+   },
+   {
+    "page": 4,
+    "text": "The income and rent limits will not be adjusted for family size and will not be calculated with regard to utility allowances; provided, however, that the rents shall not exceed 35% of 0.8 multiplied by the AMI, divided by 12 for the Affordable Units."
+   },
+   {
+    "page": 4,
+    "text": "If the tax exemption is not issued for the Project, then PHFC shall promptly reconvey the Project to the Tenant for the sum of $10.00 upon written request by the Tenant and shall reimburse to Developer the Closing Fee paid to PHFC at closing."
+   },
+   {
+    "page": 4,
+    "text": "Furthermore, the Developer and Tenant may choose to voluntarily have the property reconveyed by PHFC at any time for the sum of $10.00 upon written request by the Developer or Tenant, at which point the tax exemption would cease."
+   },
+   {
+    "page": 4,
+    "text": "PHFC shall be entitled to receive a one-time Closing Fee (the \"Closing Fee\") for its participation in the Project.  The amount of the Closing Fee for the Project shall be equal to $300,000.00.  Additionally, PHFC or its affiliate acting as general contractor shall receive an amount equal to 25% of any sales tax savings during construction or rehabilitation for the Project for serving as the general contractor pursuant to the Master Subcontract."
+   },
+   {
+    "page": 4,
+    "text": "Pursuant to the Ground Lease, PHFC shall be entitled to receive an annual fee payable from the Tenant in an amount equal to 10% of the annual ad valorem property tax savings for the Project (the \"Savings Fee\") determined following, final, non-appealable resolution of any contest of the ad valorem tax values for the Project and paid no later than January 31 of the year following the year in which the applicable property tax would have been owed"
+   },
+   {
+    "page": 5,
+    "text": "An annual compliance fee (the \"Annual Compliance Fee\") for annual oversight and accountability compliance management functions on behalf of the Tenant in an amount equal to $100.00 per unit per calendar year shall be payable to Affordable Housing Compliance Services, LLC."
+   },
+   {
+    "page": 5,
+    "text": "This MOU reflects the entire understanding between the parties and may only be amended in writing, signed by both parties.  This MOU is a binding obligation and is not merely an \"agreement to agree.\""
+   },
+   {
+    "page": 6,
+    "text": "The parties hereto submit exclusively to the jurisdiction of the state and federal courts of Atascosa County, Texas, and venue for any cause of action arising hereunder shall lie exclusively in the state and federal courts of Atascosa County, Texas."
+   },
+   {
+    "page": 6,
+    "text": "All costs of PHFC Counsel, up to a maximum aggregate amount of $125,000.00, will be considered Costs hereunder and paid as provided herein."
+   }
+  ]
+ },
+ {
+  "doc": "Special Warranty Deed \u2014 Sarah at Lake Houston SPE, LLC to Pleasanton Housing Finance Corporation (fee conveyance of the Land underlying the Dwell at Lake Houston project, City of Humble, Harris County, TX). 6 pages: deed body (pp.1-2), signature/acknowledgment (p.3), Exhibit A legal description (p.4), Exhibit B permitted encumbrances (p.5), Harris County e-recording certificate (p.6).",
+  "parties": [
+   "Grantor: SARAH AT LAKE HOUSTON SPE, LLC, a Delaware limited liability company (signed by Dustin Howard, Title: Authorized Representative). NOTE: the notary acknowledgment on p.3 inconsistently recites it as 'a Texas limited liability company' \u2014 internal discrepancy with p.1 and the signature block, which both say Delaware.",
+   "Grantee: PLEASANTON HOUSING FINANCE CORPORATION, a Texas public facility corporation, mailing address 17571 West Lake Houston Parkway, Humble, Texas 77346. NOTE: entity is styled 'Housing Finance Corporation' but is characterized in the deed as 'a Texas public facility corporation' \u2014 flag for entity-type diligence (HFC vs PFC statute).",
+   "After-recording return to: Cantu Harden Montoya LLP, 1020 NE Loop 410, Suite 401, San Antonio, Texas 78209, Attn: Carey R. Troell, Esq. (Grantee-side PFC counsel)",
+   "Notary: Pierre Bitar, Texas Notary ID # 132591818, commission expires July 28, 2028; acknowledgment taken in Denton County (form said 'COUNTY OF [COUNTY]' with 'Denton' handwritten in)",
+   "Recording officer: Teneshia Hudspeth, Harris County Clerk"
+  ],
+  "dollar_amounts": [
+   {
+    "label": "Stated consideration (nominal)",
+    "amount": "$10.00 (TEN AND NO/100 DOLLARS) cash and other good and valuable consideration",
+    "page": 1
+   },
+   {
+    "label": "County recording fee",
+    "amount": "$41.00",
+    "page": 6
+   }
+  ],
+  "effective_date": "February 27, 2025 (\"EXECUTED to be effective the 27th day of February, 2025\", p.2)",
+  "executed_date": "Acknowledged before notary 2/27/2025 (p.3); deed states executed \"as of the Effective Date\" (Feb 27, 2025)",
+  "instrument_no": "RP-2025-72632, e-Filed & e-Recorded 03/03/2025 07:34 AM, Official Public Records of Real Property, Harris County, Texas (stamp p.1: \"RP-2025-72632 03/03/2025 ER $41.00\"; clerk certificate p.6)",
+  "key_dates": [
+   {
+    "label": "Effective Date / execution",
+    "date": "February 27, 2025"
+   },
+   {
+    "label": "Notary acknowledgment (Denton County, TX)",
+    "date": "February 27, 2025 (written 2/27/2025)"
+   },
+   {
+    "label": "Recorded, Harris County (RP-2025-72632)",
+    "date": "March 3, 2025, 07:34 AM"
+   },
+   {
+    "label": "Notary commission expiration (Pierre Bitar)",
+    "date": "July 28, 2028"
+   }
+  ],
+  "key_terms": [
+   "Conveyance: Grantor GRANTS, SELLS and CONVEYS to Grantee all of Grantor's rights, titles, benefits, easements, privileges and interests in real property in the City of Humble, Harris County, Texas, described on Exhibit A (the 'Land'), together with any and all improvements on the Land (the 'Improvements'), plus appurtenances, strips/gores, roads, easements, streets, alleys, drainage facilities, rights-of-way, utility capacity, utilities, water rights, licenses, permits, entitlements and bonds, and rights of ingress/egress (the 'Additional Interests'); Land + Improvements + Additional Interests collectively the 'Property'. This is a FEE conveyance of the whole Property, not a land-only carve-out \u2014 'Improvements' are expressly included.",
+   "Legal description (Exhibit A, p.4): Unrestricted Reserve 'A', Block 1 of Dwell at Lake Houston, a subdivision in Harris County, Texas, per plat filed under Film Code No. 692396, Map/Plat Records of Harris County, Texas.",
+   "Consideration: nominal $10.00 cash 'and other good and valuable consideration' \u2014 no purchase price stated in the deed; the real economics sit in the unrecorded transaction documents.",
+   "Warranty: SPECIAL warranty only \u2014 Grantor warrants and defends title against claims 'by, through or under Grantor, but not otherwise', subject to the Permitted Exceptions (p.1-2).",
+   "'Permitted Exceptions' (deed body, p.1): liens described as part of the consideration and any other liens described in the deed as assumed or taken subject to (NOTE: none are actually described anywhere in the deed); validly existing easements, rights-of-way, prescriptive rights whether of record or not; all presently recorded and validly existing restrictions, reservations, covenants, conditions, oil and gas leases, mineral interests, and water interests outstanding in persons other than Grantor; other instruments affecting the Property 'including but not limited to those instruments set forth in Exhibit B'; rights of adjoining owners in common-boundary walls/fences; boundary discrepancies/shortages; encroachments/overlapping improvements.",
+   "Exhibit B 'Permitted Encumbrances' (p.5) contains ONLY generic title-policy standard exceptions \u2014 (1) boundary discrepancies/encroachments; (2) homestead/community property/survivorship rights of any spouse of any insured (Owner's Policy only); (3) titles/rights asserted by anyone to (a) tidelands/shores/beds of navigable or perennial rivers, streams, lakes, bays, gulfs, oceans, (b) lands beyond harbor/bulkhead lines, (c) filled-in lands or artificial islands, (d) statutory water rights including riparian rights, (e) area from mean low tide line to vegetation line. NO specific recorded instruments (no deed-of-trust, ground lease, MOU, option, or regulatory agreement) are listed.",
+   "AS-IS clause (p.2, all caps): except for the special warranty of title, Property conveyed 'AS IS', 'WHERE IS', 'WITH ALL FAULTS', without representations or warranties express or implied; Grantee not relying on any statements of Grantor or any agent or real estate broker; all previous statements/representations/warranties/agreements merged herein.",
+   "NO reservations by Grantor: Grantor reserves nothing (no mineral, water, or other reservation); it conveys 'all of Grantor's rights, titles, benefits...'. Outstanding mineral/water interests of third parties are merely excepted.",
+   "NO reference anywhere in the deed to a ground lease, MOU, option agreement, purchase option, lease-back, right of reverter, or repurchase right \u2014 none of the PFC transaction documents are cross-referenced or recorded as exceptions in this deed.",
+   "Recorder's memorandum + federal fair-housing savings clause (p.6): any provision restricting sale/rental/use because of color or race is invalid and unenforceable.",
+   "Anomalies to flag: (i) acknowledgment recites Grantor as a 'Texas limited liability company' vs. Delaware LLC on p.1/signature block; (ii) acknowledgment county field is the un-replaced form placeholder 'COUNTY OF [COUNTY]' with 'Denton' handwritten; (iii) signer's capacity in the acknowledgment appears handwritten as 'rep.' (Authorized Representative); none of these defeat recording but are diligence notes."
+  ],
+  "unwind_relevant": [
+   "No repurchase option, right of first refusal, reverter, or possibility of reverter is reserved or referenced in this deed. Title in Pleasanton Housing Finance Corporation is fee simple, subject only to the generic Permitted Exceptions. Any option to unwind (e.g., sponsor's option to repurchase the Land, ground-lease termination mechanics, or the MOU) must be found in separate documents \u2014 if the option/ground lease/MOU were not separately recorded, they do not appear in this chain-of-title instrument at all.",
+   "Because Exhibit B lists only standard title exceptions and no specific recorded instruments, an unwind conveyance from the PFC back to the sponsor would not be constrained by any deed-level transfer restriction; conversely, a purchaser's title search on this deed alone reveals nothing about the PFC structure, the ground lease, or the tax exemption.",
+   "Nominal $10.00 consideration confirms this is a structural (tax-exemption) transfer, not an arm's-length sale \u2014 the deed provides no purchase price to benchmark an unwind/repurchase price; that price/formula must come from the option or ground lease documents.",
+   "No lender consent, deed-of-trust subordination, or mortgagee protection language appears in the deed; no existing lien is listed as assumed or taken subject to (despite the deed body's boilerplate contemplating 'liens described as part of the consideration' \u2014 none are described). Any lender consent requirements for unwinding live outside this instrument.",
+   "The deed conveys Improvements along with the Land ('together with any and all improvements situated on the Land'), so the PFC holds fee to both land and improvements of record; an unwind requires a re-conveyance of the entire Property, and any lease-back split of land vs. improvements is a matter of the unrecorded ground lease, not this deed.",
+   "Grantee mailing address of record for notices in the chain of title: 17571 West Lake Houston Parkway, Humble, Texas 77346 (the project site itself, not a Pleasanton/City address).",
+   "Special (not general) warranty: on an unwind re-conveyance, the sponsor's title recourse against the PFC would run only to claims arising by, through, or under the PFC during its holding period."
+  ],
+  "verbatim_quotes": [
+   {
+    "page": 1,
+    "text": "THAT THE UNDERSIGNED, SARAH AT LAKE HOUSTON SPE, LLC, a Delaware limited liability company (the, \"Grantor\"), for and in consideration of the sum of TEN AND NO/100 DOLLARS ($10.00) cash and other good and valuable consideration paid to Grantor by PLEASANTON HOUSING FINANCE CORPORATION, a Texas public facility corporation (\"Grantee\"), whose mailing address is 17571 West Lake Houston Parkway, Humble, Texas 77346, the receipt and sufficiency of which are hereby fully acknowledged and confessed, has GRANTED, SOLD and CONVEYED, and by these presents does hereby GRANT, SELL and CONVEY unto Grantee, all of Grantor's rights, titles, benefits, easements, privileges and interests in and to that certain real property situated in the City of Humble, Harris County, Texas legally described on Exhibit A attached hereto (the \"Land\") together with any and all improvements situated on the Land (the \"Improvements\")..."
+   },
+   {
+    "page": 1,
+    "text": "This conveyance is subject to liens described as part of the consideration and any other liens described in this deed as being either assumed or subject to which title is taken; validly existing easements, rights-of-way, and prescriptive rights, whether of record or not; all presently recorded and validly existing restrictions, reservations, covenants, conditions, oil and gas leases, mineral interests, and water interests outstanding in persons other than Grantor, and other instruments that affect the Property, including but not limited to those instruments set forth in Exhibit B attached hereto and incorporated herein for all purposes... (collectively the \"Permitted Exceptions\")."
+   },
+   {
+    "page": 2,
+    "text": "FOREVER DEFEND all and singular the Land unto the said Grantee, and Grantee's successors and assigns, against every person whomsoever lawfully claiming or to claim the same or any part thereof, by, through or under Grantor, but not otherwise, subject, however, to the Permitted Exceptions."
+   },
+   {
+    "page": 2,
+    "text": "EXCEPT FOR THE SPECIAL WARRANTY OF TITLE CONTAINED HEREIN, GRANTOR HAS EXECUTED AND DELIVERED THIS DEED AND HAS CONVEYED THE PROPERTY AND GRANTEE HAS RECEIVED AND ACCEPTED THIS DEED AND HAS ACCEPTED THE PROPERTY \"AS IS\", \"WHERE IS\", AND \"WITH ALL FAULTS\" AND WITHOUT REPRESENTATIONS OR WARRANTIES WHATSOEVER, EXPRESS OR IMPLIED, WRITTEN OR ORAL."
+   },
+   {
+    "page": 2,
+    "text": "EXECUTED to be effective the 27th day of February, 2025."
+   },
+   {
+    "page": 4,
+    "text": "Being Unrestricted Reserve \"A\", in Block 1 of Dwell at Lake Houston, a subdivision in Harris County, Texas, according to the map or plat thereof, filed of record under Film Code No. 692396, of the Map or Plat Records of Harris County, Texas."
+   },
+   {
+    "page": 3,
+    "text": "The foregoing instrument was ACKNOWLEDGED before me on 2/27/, 2025, by Dustin Howard as rep. of SARAH AT LAKE HOUSTON SPE, LLC, a Texas limited liability company, on behalf of said limited liability company. [Note: 'Texas' here conflicts with 'Delaware' on p.1 and in the signature block]"
+   },
+   {
+    "page": 6,
+    "text": "RP-2025-72632 / # Pages 6 / 03/03/2025 07:34 AM / e-Filed & e-Recorded in the Official Public Records of HARRIS COUNTY / TENESHIA HUDSPETH / COUNTY CLERK / Fees $41.00"
+   }
+  ]
+ },
+ {
+  "doc": "Amended and Restated Assignment of Leases and Rents (Sarah at Lake Houston SPE, LLC to LoanCore 2021-CRE6 Issuer Ltd.) \u2014 12-page recorded Harris County instrument, given as additional security for the $58.3M leasehold loan and accompanying the A&R Leasehold Deed of Trust executed the same date. File: /tmp/claude-0/-home-user-Sarah-at-Lake-Houston/02ee1418-070f-5e2e-aa7f-d7e2155c9ee7/scratchpad/pfc_docs/Amended and Restate assign of leases and rents.pdf",
+  "parties": [
+   "Sarah at Lake Houston SPE, LLC, a Delaware limited liability company, office at 2220 Coit Rd., Suite 480-214, Plano, Texas 75075 \u2014 Assignor (owner of LEASEHOLD title to the Premises)",
+   "LoanCore 2021-CRE6 Issuer Ltd., a Cayman Islands exempted company, address c/o LoanCore Capital, 55 Railroad Avenue, Suite 100, Greenwich, Connecticut 06830 \u2014 Assignee (together with successors and assigns); successor-in-interest to Original Assignee",
+   "LoanCore Capital Credit REIT LLC, a Delaware limited liability company \u2014 'Original Assignee' (original lender under the July 7, 2022 Loan Agreement)",
+   "Situs Holdings, LLC, solely in its capacity as SPECIAL SERVICER \u2014 signed for Assignee/Beneficiary, by Henry J. Bieber, Director (signature block, p.8; notable diligence flag: special-servicer execution suggests the loan is in special servicing)",
+   "Dustin Howard, Authorized Representative \u2014 signed for Assignor (p.7)",
+   "Prior chain assignees of the Original Assignment (recited in Sec. 19): LCC Warehouse I LLC, a Delaware LLC; LoanCore CRE Seller LLC, a Delaware LLC",
+   "Document prepared by / return to: Firsel Ross Gussis & Alexander LLC, 10 Parkway North Boulevard, Suite 110, Deerfield, Illinois 60015, Attention: Samuel P. Gussis, Esq.",
+   "Recording officer: Teneshia Hudspeth, County Clerk, Harris County, Texas"
+  ],
+  "dollar_amounts": [
+   {
+    "label": "Maximum principal amount of the Loan under the July 7, 2022 Loan Agreement (the '$58.3M note' \u2014 confirmed; no new/different loan amount is stated anywhere in this instrument)",
+    "amount": "$58,300,000.00 (Fifty Eight Million Three Hundred Thousand and No/100 Dollars)",
+    "page": 2
+   },
+   {
+    "label": "County recording fee",
+    "amount": "$65.00",
+    "page": 1
+   }
+  ],
+  "effective_date": "Dated and effective as of February 27, 2025",
+  "executed_date": "Assignor (Dustin Howard) acknowledged January 29, 2025 (Dallas County, Texas, notary Debbie Henry, ID #979855, commission expires March 26, 2026); Assignee/Beneficiary (Henry J. Bieber for Situs Holdings, LLC as special servicer) acknowledged February 24, 2025 (Orange County, California, notary Cristy L. Hicks Koster, Commission #2400184, expires April 8, 2026)",
+  "instrument_no": "RP-2025-72638, e-Filed & e-Recorded 03/03/2025 07:34 AM in the Official Public Records of Harris County, Texas (12 pages, fees $65.00)",
+  "key_dates": [
+   {
+    "label": "Dated and effective as of (this A&R Assignment)",
+    "date": "February 27, 2025"
+   },
+   {
+    "label": "Recorded (RP-2025-72638)",
+    "date": "March 3, 2025, 07:34 AM"
+   },
+   {
+    "label": "Loan Agreement between Assignor and Original Assignee (LoanCore Capital Credit REIT LLC)",
+    "date": "July 7, 2022"
+   },
+   {
+    "label": "Promissory Note executed by Assignor (same principal amount)",
+    "date": "July 7, 2022"
+   },
+   {
+    "label": "A&R Leasehold Deed of Trust, Assignment of Leases and Rents, Security Agreement and Fixture Filing ('Mortgage') \u2014 dated 'as of the date hereof'",
+    "date": "February 27, 2025"
+   },
+   {
+    "label": "Original Assignment of Leases and Rents (now superseded) dated",
+    "date": "July 7, 2022"
+   },
+   {
+    "label": "Original Assignment recorded as RP-2022-353647",
+    "date": "July 8, 2022"
+   },
+   {
+    "label": "Assignment of Assignment of Leases and Rents, Original Assignee to LCC Warehouse I LLC, dated",
+    "date": "July 25, 2022"
+   },
+   {
+    "label": "\u2026recorded as RP-2022-400888",
+    "date": "August 8, 2022"
+   },
+   {
+    "label": "Assignment of Assignment of Leases and Rents, LCC Warehouse I LLC to LoanCore CRE Seller LLC, dated",
+    "date": "January 25, 2023"
+   },
+   {
+    "label": "\u2026recorded as RP-2023-45302",
+    "date": "February 9, 2023"
+   },
+   {
+    "label": "Assignment of Assignment of Leases and Rents, LoanCore CRE Seller LLC to Assignee (LoanCore 2021-CRE6 Issuer Ltd.), dated",
+    "date": "January 25, 2023"
+   },
+   {
+    "label": "\u2026recorded as RP-2023-67045",
+    "date": "February 27, 2023"
+   },
+   {
+    "label": "Assignor acknowledgment (Dustin Howard, Dallas County TX)",
+    "date": "January 29, 2025"
+   },
+   {
+    "label": "Beneficiary acknowledgment (Henry J. Bieber, Orange County CA)",
+    "date": "February 24, 2025"
+   }
+  ],
+  "key_terms": [
+   "Assignor holds LEASEHOLD title (not fee) to the Premises described in Exhibit A \u2014 consistent with the PFC ground-lease structure; the companion 'Mortgage' is an Amended and Restated LEASEHOLD Deed of Trust, ALR, Security Agreement and Fixture Filing dated as of the same date (Feb 27, 2025), executed to a trustee for Assignee's benefit (p.2 recitals)",
+   "Loan: secured loan in the maximum principal amount of up to $58,300,000.00 under the Loan Agreement dated as of July 7, 2022 'as amended, modified, restated, consolidated or supplemented from time to time' \u2014 the document references the ORIGINAL July 7, 2022 note (as it may be amended) and does NOT recite any specific loan modification/extension, new principal, interest rate, or maturity date; no modified-note terms appear anywhere in this instrument",
+   "Given 'as additional security for the Loan'; capitalized terms not defined herein take meanings from the Loan Agreement or the Mortgage, both incorporated by reference (p.2)",
+   "Sec. 1(a): Assignor will not waive, release, reduce, discount or otherwise discharge/compromise payment of Rents",
+   "Sec. 1(c): Assignor authorizes and directs the property manager and all tenants to pay Rents DIRECTLY TO THE CLEARING ACCOUNT per the Loan Agreement, without further Assignor consent \u2014 hard cash-management lockbox in place",
+   "Sec. 2(a): PRESENT, ABSOLUTE and UNCONDITIONAL assignment of all present and future Leases and Rents (not merely collateral security); Assignor retains only a REVOCABLE LICENSE (subject at all times to the Clearing Account deposit requirement) to deal with Leases prior to an Event of Default",
+   "Sec. 2(b): license automatically revoked upon and during an Event of Default, without Assignee needing to take possession",
+   "Sec. 3: Rents held by Assignor are held IN TRUST for Assignee and must be promptly deposited to the Clearing Account",
+   "Sec. 5 (Event of Default remedies): Assignee may collect Rents in person/by agent/receiver without possession, and may cancel, enforce or modify any Lease to the extent Assignor could; payment of Rent to Assignee fully discharges the tenant; UCC secured-party rights preserved",
+   "Sec. 7: Assignor irrevocably appoints Assignee attorney-in-fact (coupled with an interest) upon an Event of Default to demand/collect Rents and execute instruments",
+   "Sec. 8 (Termination): when ALL of the Debt is paid in full, this Assignment terminates and Assignee must deliver instruments of termination/re-assignment and UCC termination statements, without recourse, as reasonably requested by Assignor",
+   "Sec. 9: Assignor pays all out-of-pocket enforcement expenses including attorneys' fees",
+   "Sec. 11: no obligation on Assignee to perform under Leases; not lender-in-possession",
+   "Sec. 12(b) (Governing law): Texas law governs creation, perfection and enforcement procedures of this Assignment; otherwise NEW YORK law (without conflicts principles) governs the Assignment, the other Loan Documents and all indebtedness, per the Loan Agreement's governing-law provision",
+   "Sec. 13 (No Oral Change): amendment only by writing signed by Assignor and Assignee",
+   "Sec. 14 (Successors and Assigns): Assignor may NOT assign its rights under this Assignment except as permitted under the Loan Agreement",
+   "Sec. 16 (Exculpation): recourse against Assignor limited as and to the extent provided in SECTION 10.1 OF THE LOAN AGREEMENT (non-recourse carve-out structure lives in the Loan Agreement)",
+   "Sec. 17: jury-trial waiver by Assignor",
+   "Sec. 18 (Texas Assignment of Rents Act): Assignee entitled to all rights of an assignee under Chapter 64, Texas Property Code ('TARA'); the assignment constitutes a security instrument under TARA",
+   "Sec. 19 (Amendment and Restatement): amends and restates in its entirety the July 7, 2022 Original Assignment (RP-2022-353647) and its chain of assignments (RP-2022-400888 to LCC Warehouse I LLC; RP-2023-45302 to LoanCore CRE Seller LLC; RP-2023-67045 to LoanCore 2021-CRE6 Issuer Ltd.); the Original Assignment 'is of no further force or effect'",
+   "Exhibit A legal description: Unrestricted Reserve 'A', Block 1, of Dwell at Lake Houston, an addition in Harris County, Texas, per plat recorded under Film Code No. 692396 of the Map Records of Harris County, Texas",
+   "Percentages: NONE stated anywhere in the document (no interest rate, no fee percentages)"
+  ],
+  "unwind_relevant": [
+   "Termination mechanics (Sec. 8): the Assignment terminates only when 'all of the Debt shall have been paid in full'; Assignee must then execute termination/re-assignment instruments and UCC terminations without recourse \u2014 payoff of the $58.3M loan is the release path for this lien in any PFC unwind",
+   "Transfer restriction (Sec. 14): Assignor may not assign its rights under this Assignment except as permitted under the Loan Agreement \u2014 any transfer/assumption in an unwind is governed by the Loan Agreement's transfer provisions, not this instrument",
+   "Lender identity for consent purposes: the current holder is LoanCore 2021-CRE6 Issuer Ltd. (a 2021 CRE CLO issuer), but the beneficiary signature block was executed by Situs Holdings, LLC 'solely in its capacity as special servicer' (p.8) \u2014 a strong indicator the loan was in special servicing as of Feb 2025; any lender consent for an unwind/assumption would run through the special servicer",
+   "Hard cash management: tenants/property manager irrevocably directed to pay all Rents to the Clearing Account (Sec. 1(c), Sec. 2(a), Sec. 3) \u2014 rent flow is lender-controlled until payoff",
+   "Absolute present assignment of Leases and Rents with only a revocable license back to Assignor (Sec. 2(a)-(b)) \u2014 on an Event of Default the license auto-revokes; relevant to control of income during any restructure period",
+   "Exculpation cross-reference (Sec. 16): recourse limited per Section 10.1 of the Loan Agreement \u2014 the carve-out guaranty/recourse triggers (which typically include unauthorized transfers, i.e., an unwind without consent) reside in the Loan Agreement",
+   "Leasehold structure confirmed: Assignor owns leasehold title only, and the parallel security instrument is a LEASEHOLD deed of trust \u2014 unwinding the PFC ground lease would collapse the lender's collateral, so lender/special-servicer consent is effectively mandatory",
+   "Chain of title to the debt fully recited (Sec. 19): LoanCore Capital Credit REIT LLC -> LCC Warehouse I LLC (7/25/2022) -> LoanCore CRE Seller LLC (1/25/2023) -> LoanCore 2021-CRE6 Issuer Ltd. (1/25/2023) \u2014 useful for confirming the proper payoff/consent counterparty",
+   "No option price, purchase-option mechanics, or PFC termination triggers appear in this instrument \u2014 it is purely the rents-collateral piece; no loan modification or extension terms (no new rate, maturity, or principal) are recited despite the Feb 2025 restatement",
+   "This A&R was executed contemporaneously with the A&R Leasehold Deed of Trust dated as of the same date (Feb 27, 2025) \u2014 the leasehold restructure re-papered the security documents without changing the stated maximum loan amount"
+  ],
+  "verbatim_quotes": [
+   {
+    "page": 1,
+    "text": "RP-2025-72638 03/03/2025 ER $65.00 ... AMENDED AND RESTATED ASSIGNMENT OF LEASES AND RENTS ... Dated and effective as of February 27, 2025 between SARAH AT LAKE HOUSTON SPE, LLC as Assignor and LOANCORE 2021-CRE6 ISSUER LTD. as Assignee"
+   },
+   {
+    "page": 2,
+    "text": "WHEREAS, Assignor and Original Assignee entered into that certain Loan Agreement dated as of July 7, 2022 (as amended, modified, restated, consolidated or supplemented from time to time, the \"Loan Agreement\") pursuant to which Original Assignee made a secured loan to Assignor in the maximum principal amount of up to Fifty Eight Million Three Hundred Thousand and No/100 Dollars ($58,300,000.00) (the \"Loan\");"
+   },
+   {
+    "page": 2,
+    "text": "WHEREAS, Assignor executed that certain Promissory Note dated as of July 7, 2022 in such principal amount (as the same may be amended, modified, restated, severed, consolidated, renewed, replaced, or supplemented from time to time, the \"Note\"), which is secured by, inter alia, that certain Amended and Restated Leasehold Deed of Trust, Assignment of Leases and Rents, Security Agreement and Fixture Filing, dated as of the date hereof, executed by Assignor to a trustee for the benefit of Assignee (as the same may be amended, modified, consolidated, split, supplemented, replaced or otherwise modified from time to time, the \"Mortgage\") on the Property;"
+   },
+   {
+    "page": 2,
+    "text": "...LOANCORE 2021-CRE6 ISSUER LTD., a Cayman Islands exempted company (together with its successors and assigns, hereinafter referred to as \"Assignee\") having an address c/o LoanCore Capital, 55 Railroad Avenue, Suite 100, Greenwich, Connecticut 06830, successor-in-interest to LoanCore Capital Credit REIT LLC, a Delaware limited liability company (\"Original Assignee\")."
+   },
+   {
+    "page": 2,
+    "text": "WHEREAS, Assignor is the owner of leasehold title to that certain parcel of real property (the \"Premises\") described in Exhibit A attached hereto..."
+   },
+   {
+    "page": 5,
+    "text": "8. Termination. Assignee, by the acceptance of this Assignment, agrees that when all of the Debt shall have been paid in full, this Assignment shall terminate, and Assignee shall execute and deliver to Assignor, upon such termination such instruments of termination or re-assignment and Uniform Commercial Code termination statements, all without recourse and without any representation or warranty whatsoever, as shall be reasonably requested by Assignor."
+   },
+   {
+    "page": 6,
+    "text": "14. Successors and Assigns. Assignor may not assign its rights under this Assignment except as permitted under the Loan Agreement."
+   },
+   {
+    "page": 7,
+    "text": "16. Exculpation. It is expressly agreed that recourse against Assignor for failure to perform and observe its obligations contained in this Assignment shall be limited as and to the extent provided in Section 10.1 of the Loan Agreement."
+   },
+   {
+    "page": 7,
+    "text": "19. Amendment and Restatement. This Assignment amends and restates in its entirety that certain Assignment of Leases and Rents made by Assignor to Original Assignee, dated as of July 7, 2022, and recorded on July 8, 2022, as Document Number RP-2022-353647 in the Official Public Records of Harris County, Texas, as assigned to LCC Warehouse I LLC, a Delaware limited liability company, pursuant to that certain Assignment of Assignment of Leases and Rents made by Original Assignee to LCC Warehouse I LLC, dated as of July 25, 2022, and recorded on August 8, 2022, as Document Number RP-2022-400888 in the Official Public Records of Harris County, Texas, as further assigned to LoanCore CRE Seller LLC, a Delaware limited liability company, pursuant to that certain Assignment of Assignment of Leases and Rents made by LCC Warehouse I LLC to LoanCore CRE Seller LLC, dated as of January 25, 2023, and recorded on February 9, 2023, as Document Number RP-2023-45302 in the Official Public Records of Harris County, Texas, and as further assigned to Assignee pursuant to that certain Assignment of Assignment of Leases and Rents made by LoanCore CRE Seller LLC to Assignee, dated as of January 25, 2023, and recorded on February 27, 2023, as Document Number RP-2023-67045 in the Official Public Records of Harris County, Texas (collectively, the \"Original Assignment\"), which Original Assignment is of no further force or effect."
+   },
+   {
+    "page": 8,
+    "text": "BENEFICIARY: LOANCORE 2021-CRE6 ISSUER LTD., a Cayman Islands exempted company By: Situs Holdings, LLC, solely in its capacity as special servicer By: [signature] Name: Henry J Bieber Title: Director"
+   },
+   {
+    "page": 11,
+    "text": "EXHIBIT A Legal Description Unrestricted Reserve \"A\", Block 1, of Dwell at Lake Houston, an addition in Harris County, Texas, according to the map or plat thereof recorded in/under Film Code No. 692396 of the Map Records of Harris County, Texas."
+   },
+   {
+    "page": 12,
+    "text": "RP-2025-72638 # Pages 12 03/03/2025 07:34 AM e-Filed & e-Recorded in the Official Public Records of HARRIS COUNTY TENESHIA HUDSPETH COUNTY CLERK Fees $65.00"
+   }
+  ]
+ }
+]

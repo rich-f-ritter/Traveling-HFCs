@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Traveling HFC/PFC Census — Per-Property Record",
+  "description": "One record per multifamily property held in a public-corporation tax-exemption structure. Derived from the kit's per-property data model (02_identification-playbook.md) and the Sarah instrument-extraction schema. Every substantive field carries a source; unknowns are recorded as null with a gap note rather than omitted.",
+  "type": "object",
+  "required": ["census_id", "property", "sponsor", "classification", "provenance"],
+  "properties": {
+    "census_id": {"type": "string", "description": "Stable id, TX-<marketId>-<propertyId>"},
+    "confidence": {"type": "string", "enum": ["seed", "single-source", "cross-validated", "deep-dive"]},
+    "property": {
+      "type": "object",
+      "properties": {
+        "name": {"type": ["string", "null"]},
+        "aka": {"type": "array", "items": {"type": "string"}},
+        "address": {"type": ["string", "null"]},
+        "city": {"type": ["string", "null"]},
+        "county": {"type": ["string", "null"]},
+        "zip": {"type": ["string", "null"]},
+        "cad_account": {"type": ["string", "null"], "description": "Appraisal-district account number"},
+        "units": {"type": ["integer", "null"]},
+        "year_built": {"type": ["integer", "null"]},
+        "status": {"type": ["string", "null"], "description": "Completed / Under Construction / Planned"}
+      }
+    },
+    "sponsor": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "species": {"type": "string", "enum": ["HFC", "PFC", "HA", "UNKNOWN"]},
+        "statute": {"type": "string", "description": "Ch.394 / Ch.303 / HA (Ch.392)"},
+        "home_jurisdiction": {"type": ["string", "null"]},
+        "home_county": {"type": ["string", "null"]},
+        "role_on_property": {"type": ["string", "null"], "description": "Ground Leasor / Additional owner / Primary Owner"}
+      }
+    },
+    "partners": {"type": "array", "items": {"type": "string"}, "description": "Private developer/operator partners"},
+    "classification": {
+      "type": "object",
+      "properties": {
+        "tier": {"type": ["integer", "null"], "description": "1=HFC 2027-cliff, 2=PFC grandfathered, 3=housing authority"},
+        "traveling": {"type": "string", "enum": ["yes", "no", "unknown"]},
+        "structure_confirmed": {"type": "string", "enum": ["fee-flip-groundlease", "other", "unconfirmed", "not-exemption-structure"]},
+        "affordability_source": {"type": ["string", "null"], "description": "structure / LIHTC / none — LIHTC carve-out excludes from HFC conditions"},
+        "in_target_set": {"type": ["boolean", "null"], "description": "true if this is a 'going away' deal per its regime"}
+      }
+    },
+    "structure_dates": {
+      "type": "object",
+      "properties": {
+        "mou_date": {"type": ["string", "null"]},
+        "swd_to_sponsor_date": {"type": ["string", "null"]},
+        "ground_lease_date": {"type": ["string", "null"]},
+        "ground_lease_term_years": {"type": ["integer", "null"]},
+        "recording_refs": {"type": "array", "items": {"type": "string"}},
+        "recording_batch_note": {"type": ["string", "null"]}
+      }
+    },
+    "exemption": {
+      "type": "object",
+      "properties": {
+        "first_exempt_tax_year": {"type": ["integer", "null"]},
+        "appraised_value": {"type": ["number", "null"]},
+        "annual_exemption_value_est": {"type": ["number", "null"], "description": "Estimated annual ad valorem taxes foregone"},
+        "taxing_units": {"type": ["integer", "null"]}
+      }
+    },
+    "covenant": {
+      "type": "object",
+      "properties": {
+        "set_aside_pct": {"type": ["string", "null"]},
+        "ami_band": {"type": ["string", "null"]},
+        "meets_hb21_formula": {"type": ["boolean", "null"]}
+      }
+    },
+    "kill_analysis": {
+      "type": "object",
+      "properties": {
+        "regime": {"type": ["string", "null"], "description": "HB21 §13(i) / HB21 §13(e) / HB2071 grandfather / HA-specific"},
+        "captured_9_1_2025": {"type": ["boolean", "null"], "description": "HFC-owned out-of-jurisdiction on 9/1/2025 (§13(i))"},
+        "host_resolutions_adopted": {"type": ["boolean", "null"]},
+        "audit_filed_tdhca": {"type": ["string", "null"], "enum": ["yes", "no", "unknown", null]},
+        "recent_capital_event": {"type": ["string", "null"], "description": "sale/refi/majority transfer date -> §13(e) early death"},
+        "kill_date_estimate": {"type": ["string", "null"]},
+        "kill_date_basis": {"type": ["string", "null"]}
+      }
+    },
+    "loan": {
+      "type": "object",
+      "properties": {
+        "lender_or_servicer": {"type": ["string", "null"]},
+        "securitization": {"type": ["string", "null"]},
+        "maturity": {"type": ["string", "null"]},
+        "distress_flag": {"type": ["string", "null"]},
+        "note": {"type": ["string", "null"], "description": "public-record only: expect gaps; note where a gated source would be needed"}
+      }
+    },
+    "litigation_flags": {"type": "array", "items": {"type": "string"}},
+    "instrument_extractions": {"type": "array", "description": "Per-recorded-document extractions (Sarah-schema); populated in deep dives only", "items": {"type": "object"}},
+    "gaps": {"type": "array", "items": {"type": "string"}, "description": "Known-missing fields and the (gated) channel that would fill them"},
+    "provenance": {
+      "type": "array",
+      "description": "One entry per sourced fact: {field, value, source_url_or_portal, retrieved, confidence}",
+      "items": {
+        "type": "object",
+        "properties": {
+          "field": {"type": "string"},
+          "source": {"type": "string"},
+          "retrieved": {"type": ["string", "null"]},
+          "note": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}
