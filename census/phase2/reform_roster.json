@@ -1,0 +1,65 @@
+[
+  {
+    "type": "sponsor",
+    "name": "Pleasanton Housing Finance Corporation",
+    "county": "Atascosa (home); deal property in Parker",
+    "source_url": "https://www.texasattorneygeneral.gov/sites/default/files/request-files/request/2024/RQ0566KP.pdf",
+    "context": "Named in AG opinion request RQ-0566-KP (House Committee on Urban Affairs, 10/2/2024) as the archetype 'traveling HFC.' The request quotes a proposed Memorandum of Understanding between Pleasanton HFC and developer Elevate CIG for an existing multifamily development in Weatherford (Parker Co.) - HFC to take fee title then grant a 99-yr ground lease to a partnership of the HFC, developer and investor, claiming 100% tax exemption. ALREADY IN ROSTER (Tier 1)."
+  },
+  {
+    "type": "developer",
+    "name": "Elevate CIG",
+    "county": "Parker (property location); developer domicile not stated",
+    "source_url": "https://www.texasattorneygeneral.gov/sites/default/files/request-files/request/2024/RQ0566KP.pdf",
+    "context": "NEW private partner. Record owner of the Weatherford (Parker Co.) multifamily property that is the subject of the Pleasanton HFC MOU cited in RQ-0566-KP. Would convey to Pleasanton HFC and lease back via a 99-yr ground lease. Not previously in our sponsor/partner roster."
+  },
+  {
+    "type": "property",
+    "name": "Weatherford multifamily development (unnamed complex, Pleasanton HFC / Elevate CIG MOU)",
+    "county": "Parker",
+    "source_url": "https://www.texasattorneygeneral.gov/sites/default/files/request-files/request/2024/RQ0566KP.pdf",
+    "context": "NEW property. Existing multifamily project in Weatherford, TX (Parker Co.) named in RQ-0566-KP as the concrete example of Pleasanton HFC's out-of-jurisdiction template. Complex name not given in the request; deal was a 'proposed' MOU (may be prospective). Pleasanton is ~450 mi south in Atascosa Co."
+  },
+  {
+    "type": "sponsor",
+    "name": "Cameron County Housing Finance Corporation",
+    "county": "Cameron (home); deal property in Bexar",
+    "source_url": "https://www.prnewswire.com/news-releases/affordable-housing-coalition-files-lawsuit-over-unconstitutional-housing-reform-302551454.html",
+    "context": "The Brownsville/Cameron Co. HFC behind the Willowbend Apartments deal in San Antonio (Bexar Co.) that anchors the TWHC v. Bexar AD constitutional challenge. Post WB Apartments LLC is described as a joint venture between entities created by CCHFC. Also the target of the Williamson County suit TWHC moved to intervene in. ALREADY IN ROSTER (Tier 1)."
+  },
+  {
+    "type": "property",
+    "name": "Willowbend Apartments (Post WB Apartments, LLC)",
+    "county": "Bexar",
+    "source_url": "https://therealdeal.com/texas/2025/09/09/lawsuit-challenges-texas-housing-reform-law/",
+    "context": "NEW property. 8330 Potranco Road, San Antonio, TX 78251. Co-plaintiff in TWHC v. Bexar Appraisal District (HB 21 constitutional challenge, Cameron Co. Dist. Ct., filed 9/9/2025). LA-based Post Investment Group ground-leases the property from a Cameron County HFC entity for the 394 tax exemption. Bexar AD moved to strip the exemption, triggering the suit."
+  },
+  {
+    "type": "developer",
+    "name": "Post Investment Group (Jason Post) / Post WB Apartments, LLC",
+    "county": "Bexar (property); Los Angeles, CA (developer HQ)",
+    "source_url": "https://therealdeal.com/texas/2025/09/09/lawsuit-challenges-texas-housing-reform-law/",
+    "context": "NEW private partner. Los Angeles-based owner/operator (principal Jason Post) of Willowbend Apartments; partnered with the Brownsville (Cameron County) HFC for tax-exempt status. Post WB Apartments, LLC is the property-owning plaintiff LLC and co-plaintiff with TWHC in the HB 21 challenge."
+  },
+  {
+    "type": "developer",
+    "name": "Waterford Property Company (John Drachman)",
+    "county": "not stated (Texas operations; CA-based firm)",
+    "source_url": "https://therealdeal.com/texas/2025/09/09/lawsuit-challenges-texas-housing-reform-law/",
+    "context": "NEW private partner. Developer named in coverage of the TWHC HB 21 challenge (co-founder John Drachman quoted). Active in Texas HFC/workforce-housing sale-leaseback deals; a repeat private partner type across the census. Specific Texas properties not enumerated in the source."
+  },
+  {
+    "type": "sponsor",
+    "name": "Corpus Christi Housing Authority (W.H.O. Program)",
+    "county": "Nueces",
+    "source_url": "https://saveworkforcehousing.com/",
+    "context": "NEW sponsor LEAD (not in our roster). The saveworkforcehousing.com campaign defends the Corpus Christi Housing Authority's 'Workforce Housing Opportunity' (W.H.O.) program covering ~13 apartment complexes; Nueces County Commissioners are funding a lawsuit alleging Open Meetings Act violations. Ch. 392 housing authority (no statutory 2027 cliff) but a workforce-housing sponsor worth a Phase-3 sweep. Individual complexes not listed on the page."
+  },
+  {
+    "type": "property",
+    "name": "Bay Pointe Apartments (APTBP, LLC) - INTERVENOR, not an HFC deal",
+    "county": "Harris/Chambers (Baytown)",
+    "source_url": "https://blackchronicle.com/southwest/texas/filing-links-texas-lawmakers-company-to-litigation-over-hb-21/",
+    "context": "CONTEXT ONLY - not a census sponsor. Baytown apartment complex owned by APTBP, LLC, whose registered agent/owner is Rep. Gary Gates (R-Richmond), an HB 21 co-sponsor and co-signer of RQ-0566-KP. APTBP intervened in TWHC v. Bexar AD via 'Concerned Property Tax Payers of Texas' ON THE PRO-HB21 side, arguing it pays full property tax while HFC deals get 100% exemptions. A tax-paying competitor, not a traveling-HFC property."
+  }
+]
