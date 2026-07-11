@@ -1,0 +1,360 @@
+rank,name,city,county,sponsor,units,appraised_value,tax_at_stake,current_status,kill_date
+1,JEFFERSON PROMENADE II,Irving,Dallas,Pecos Housing Finance Corporation,433,101520700.0,2882254,billed_now,2027-01-01
+2,INNOVA,Dallas,Dallas,Pecos Housing Finance Corporation,430,113950000.0,2537336,billed_now,2027-01-01
+3,"LIFE AT JACKSON SQUARE, THE  [NOB HILL]",Houston,Harris,Pecos Housing Finance Corporation,1326,101204487.0,2327703,unknown,2027-01-01
+4,,Austin,Travis,Pleasanton Housing Finance Corporation,,96626183,2222402,unknown,2027-01-01
+5,Monarch Pass Apartment Homes,Fort Worth,Tarrant,Cameron County Housing Finance Corporation,,96000000,2219789,exempt_at_2027_risk,2027-01-01
+6,,Austin,Travis,La Villa Housing Finance Corporation,,92960000,2138080,unknown,2027-01-01
+7,4 Corners Apartments,Frisco,Denton,Pleasanton Housing Finance Corporation,,88899643.0,2044692,unknown,2027-01-01
+8,Montgomery at Watters Creek,Allen,Collin,Garland Housing Finance Corporation,370,87659189.0,2016161,unknown,2027-01-01
+9,LAS COLINAS HEIGHTS,Irving,Dallas,Cameron County Housing Finance Corporation,513,87210000.0,1865492,billed_now,2027-01-01
+10,Oak Forest I & II Apartments,Lewisville,Denton,Cameron County Housing Finance Corporation,,77527500.0,1783132,unknown,2027-01-01
+11,MARQUIS AT PARK CENTRAL,Dallas,Dallas,Pleasanton Housing Finance Corporation,308,76010140.0,1777178,billed_now,2027-01-01
+12,VILLAGE AT BELLAIRE,Houston,Harris,Maverick County Housing Finance Corporation,580,76500000.0,1759500,unknown,2027-01-01
+13,JEFFERSON VINE,Grand Prairie,Dallas,Pecos Housing Finance Corporation,380,76000000.0,1715138,billed_now,2027-01-01
+14,BROADSTONE MEMORIAL PARK,Houston,Harris,Pleasanton Housing Finance Corporation,356,74431715.0,1711929,unknown,2027-01-01
+15,Oak Park,Euless,Tarrant,Cameron County Housing Finance Corporation,608,81900000,1678680,exempt_at_2027_risk,2027-01-01
+16,Jefferson Fossil Creek,Haltom City,Tarrant,Pecos Housing Finance Corporation,,73200000,1678234,exempt_at_2027_risk,2027-01-01
+17,ARBORSTONE II   CORAL CREEK APTS,Dallas,Dallas,Pecos Housing Finance Corporation,536,75000000.0,1670032,billed_now,2027-01-01
+18,The Sydney,Mansfield,Tarrant,Pleasanton Housing Finance Corporation,354,70900000,1651247,exempt_at_2027_risk,2027-01-01
+19,BAYOU PARK,Houston,Harris,La Villa Housing Finance Corporation,688,71644005.0,1647812,unknown,2027-01-01
+20,,Austin,Travis,Pleasanton Housing Finance Corporation,,71490000,1644270,unknown,2027-01-01
+21,TEAK APTS,Dallas,Dallas,La Villa Housing Finance Corporation,316,73000000.0,1625498,billed_now,2027-01-01
+22,,Austin,Travis,Pleasanton Housing Finance Corporation,,70610000,1624030,unknown,2027-01-01
+23,KENDRICK,Dallas,Dallas,Pecos Housing Finance Corporation,405,68850000.0,1609768,billed_now,2027-01-01
+24,THE LOFT APARTMENT OF ADDISON,Addison,Dallas,Garland Housing Finance Corporation,353,75044080.0,1602949,billed_now,2027-01-01
+25,Durrington Ridge,San Antonio,Bexar,Pleasanton Housing Finance Corporation,398,69000000.0,1564557,exempt_at_2027_risk,2027-01-01
+26,Carson at Twin Creeks,Allen,Collin,Pecos Housing Finance Corporation,374,67847411.0,1560490,unknown,2027-01-01
+27,Stillwater Crystal Springs Apts,Fort Worth,Tarrant,Pecos Housing Finance Corporation,387,67300000,1556164,billed_now,already (pre-2027)
+28,Cortland Riverside,Fort Worth,Tarrant,Pleasanton Housing Finance Corporation,374,65400000,1555984,billed_now,already (pre-2027)
+29,,Austin,Travis,Pleasanton Housing Finance Corporation,,67080619,1542854,unknown,2027-01-01
+30,EQUINOX ON THE PARK,Garland,Dallas,Pleasanton Housing Finance Corporation,338,64000000.0,1532621,billed_now,2027-01-01
+31,,Austin,Travis,Edcouch Community Housing Finance Corporation,,66522813,1530025,unknown,2027-01-01
+32,Woodland Landings,Magnolia,Montgomery,Pleasanton Housing Finance Corporation,,66000000.0,1518000,unknown,2027-01-01
+33,One90 Frankford,Dallas,Denton,Garland Housing Finance Corporation,,65285915.0,1501576,unknown,2027-01-01
+34,The Dawnson at Berksire,Fort Worth,Tarrant,Pleasanton Housing Finance Corporation,,66500000,1474691,exempt_at_2027_risk,2027-01-01
+35,JEFFERSON AT MONTFORT APT,Dallas,Dallas,La Villa Housing Finance Corporation,336,66082800.0,1471472,billed_now,2027-01-01
+36,The Riley,Richardson,Collin,Garland Housing Finance Corporation,269,62918060.0,1447115,unknown,2027-01-01
+37,JEFFERSON AT MONTFORT II,Dallas,Dallas,La Villa Housing Finance Corporation,326,64116050.0,1427678,billed_now,2027-01-01
+38,KADE,Dallas,Dallas,Pecos Housing Finance Corporation,348,64000000.0,1425094,billed_now,2027-01-01
+39,Twin Creeks Crossing I Apartments,Allen,Collin,La Villa Housing Finance Corporation,347,60528188.0,1392148,unknown,2027-01-01
+40,Jefferson North Collins,Arlington,Tarrant,Pecos Housing Finance Corporation,344,68000000,1382338,exempt_at_2027_risk,2027-01-01
+41,The Sovereign,Fort Worth,Tarrant,Maverick County Housing Finance Corporation,,60500000,1379630,exempt_at_2027_risk,2027-01-01
+42,,Austin,Travis,Pleasanton Housing Finance Corporation,,59499999,1368500,unknown,2027-01-01
+43,The Retreat,Corpus Christi,Nueces,Cameron County Housing Finance Corporation,,59491032,1368294,exempt_at_2027_risk,2027-01-01
+44,RANCHO MIRAGE,Irving,Dallas,Pecos Housing Finance Corporation,310,65086730.0,1348128,billed_now,2027-01-01
+45,The Sarah at Lake Houston,Humble,Harris,Pleasanton Housing Finance Corporation,350,58104208.0,1336397,unknown,2027-01-01
+46,Twin Creeks Crossing II Apartments,Allen,Collin,La Villa Housing Finance Corporation,330,57575594.0,1324239,unknown,2027-01-01
+47,THE EMERSON,Dallas,Dallas,Pecos Housing Finance Corporation,486,56303680.0,1316425,billed_now,2027-01-01
+48,Sterling at Oak Hills,San Antonio,Bexar,Maverick County Housing Finance Corporation,330,57000000.0,1305399,exempt_at_2027_risk,2027-01-01
+49,VILLAS AT HERMANN PARK,Houston,Harris,Maverick County Housing Finance Corporation,320,56518927.0,1299935,unknown,2027-01-01
+50,Royal Sienna Plantation,Missouri City,Fort Bend,Pleasanton Housing Finance Corporation,330,56475767.0,1298943,unknown,2027-01-01
+51,PEARCE ON THE LAKE APARTMENTS,Webster,Harris,Pecos Housing Finance Corporation,440,55870649.0,1285025,unknown,2027-01-01
+52,Sterling Point Apartments,Houston,Harris,Pecos Housing Finance Corporation,921,55124704.0,1267868,unknown,2027-01-01
+53,LA COSTA VILLA,Dallas,Dallas,Maverick County Housing Finance Corporation,260,53840380.0,1258831,billed_now,2027-01-01
+54,,Austin,Travis,Cameron County Housing Finance Corporation,,54710000,1258330,unknown,2027-01-01
+55,Dalian 151,San Antonio,Bexar,Cameron County Housing Finance Corporation,360,54500000.0,1248145,exempt_at_2027_risk,2027-01-01
+56,SPRINGS AT GRAND PRAIRIE,Grand Prairie,Dallas,Pleasanton Housing Finance Corporation,276,54898400.0,1238925,billed_now,2027-01-01
+57,Rocklyn Apartments,Fort Worth,Tarrant,Pleasanton Housing Finance Corporation,272,53400000,1234758,exempt_at_2027_risk,2027-01-01
+58,HIGHBANK,Houston,Harris,Maverick County Housing Finance Corporation,284,53302049.0,1225947,unknown,2027-01-01
+59,Arden at Corinth,Corinth,Denton,Pecos Housing Finance Corporation,,53292148.0,1225719,unknown,2027-01-01
+60,Nova Apartments,San Antonio,Bexar,Pleasanton Housing Finance Corporation,412,53500000.0,1225243,exempt_at_2027_risk,2027-01-01
+61,ESTATES AT CYPRESS  [POINT AT CYPRESS WOODS],Cypress,Harris,Pecos Housing Finance Corporation,530,52900000.0,1216700,unknown,2027-01-01
+62,Neuhaus Lake Worth Apts,Lake Worth,Tarrant,Pleasanton Housing Finance Corporation,,54700000,1212436,billed_now,already (pre-2027)
+63,REPUBLIC WEST APARTMENTS,Garland,Dallas,Pecos Housing Finance Corporation,410,50090050.0,1199516,billed_now,2027-01-01
+64,THE EVERLY,Dallas,Dallas,Pecos Housing Finance Corporation,420,51234870.0,1197912,billed_now,2027-01-01
+65,REDFORD,Houston,Harris,Edcouch Community Housing Finance Corporation,856,52012761.0,1196294,unknown,2027-01-01
+66,THE ABBOTT,Dallas,Dallas,Pecos Housing Finance Corporation,332,53500000.0,1191290,billed_now,2027-01-01
+67,Dalian Monterrey Village,San Antonio,Bexar,Cameron County Housing Finance Corporation,360,51500000.0,1179440,exempt_at_2027_risk,2027-01-01
+68,The Chloe,Kyle,Hays,Pleasanton Housing Finance Corporation,342,51000000.0,1173000,unknown,2027-01-01
+69,Alma Hub 121 Apartments,McKinney,Collin,Maverick County Housing Finance Corporation,286,50321895.0,1157404,unknown,2027-01-01
+70,Northpoint Villas,Fort Worth,Tarrant,Pleasanton Housing Finance Corporation,,49600000,1131068,exempt_at_2027_risk,2027-01-01
+71,,Austin,Travis,Pecos Housing Finance Corporation,,49080000,1128840,unknown,2027-01-01
+72,380 Villas,McKinney,Collin,Cameron County Housing Finance Corporation,220,48859852.0,1123777,unknown,2027-01-01
+73,WATERFORD GROVE,Houston,Harris,Edcouch Community Housing Finance Corporation,546,48096012.0,1106208,unknown,2027-01-01
+74,GROVE EAST APARTMENTS,Humble,Harris,Pleasanton Housing Finance Corporation,324,48078455.0,1105804,unknown,2027-01-01
+75,LIVE OAKS AT THE BRANCH,Dallas,Dallas,La Villa Housing Finance Corporation,196,49500000.0,1102221,billed_now,2027-01-01
+76,BRIAR FOREST LOFTS,Houston,Harris,Pecos Housing Finance Corporation,352,47900000.0,1101700,unknown,2027-01-01
+77,The Dayton,Plano,Collin,Pecos Housing Finance Corporation,389,47324508.0,1088464,unknown,2027-01-01
+78,PRESTON GREENS,Dallas,Dallas,Pecos Housing Finance Corporation,257,47204360.0,1085700,unknown,2027-01-01
+79,Tides at Lewisville,Lewisville,Denton,Cameron County Housing Finance Corporation,,47185908.0,1085276,unknown,2027-01-01
+80,AVALON 8801,Irving,Dallas,Pecos Housing Finance Corporation,212,47000000.0,1081000,unknown,2027-01-01
+81,SKYLAR POINTE APTS,Houston,Harris,Edcouch Community Housing Finance Corporation,449,46758694.0,1075450,unknown,2027-01-01
+82,Knowlton Apartment Homes,Mesquite,Dallas,Pecos Housing Finance Corporation,412,46500000.0,1069500,unknown,2026-06-03
+83,Parchaus,Little Elm,Denton,Garland Housing Finance Corporation,,45784159.0,1053036,unknown,2027-01-01
+84,Island Villa,Corpus Christi,Nueces,Cameron County Housing Finance Corporation,,45621255,1049289,exempt_at_2027_risk,2027-01-01
+85,ROWLETT STATION APTS BLDG 1 & 2,Rowlett,Dallas,Pleasanton Housing Finance Corporation,224,45615890.0,1049165,unknown,2027-01-01
+86,MONTORO APARTMENTS,Irving,Dallas,Cameron County Housing Finance Corporation,324,48600000.0,1039593,billed_now,2027-01-01
+87,Landmark At Crowley,Crowley,Tarrant,Maverick County Housing Finance Corporation,,45000000,1035000,unknown,already (pre-2027)
+88,Montfair at The Woodlands,The Woodlands,Montgomery,Maverick County Housing Finance Corporation,310,44750000.0,1029250,unknown,2027-01-01
+89,BELMONT,Grand Prairie,Dallas,Pleasanton Housing Finance Corporation,260,44720000.0,1028560,unknown,2027-01-01
+90,,Austin,Travis,Pecos Housing Finance Corporation,,44650000,1026950,unknown,2027-01-01
+91,THE PIERPONT,Spring,Harris,Pleasanton Housing Finance Corporation,354,44500000.0,1023500,unknown,2027-01-01
+92,THE HOLDEN,Carrollton,Dallas,Pecos Housing Finance Corporation,320,44400000.0,1021200,unknown,2027-01-01
+93,Grove at Sterling Ridge,The Woodlands,Montgomery,Maverick County Housing Finance Corporation,,44000000.0,1012000,unknown,2027-01-01
+94,PRESIDIUM VALLEY VIEW,Farmers Branch,Dallas,Pleasanton Housing Finance Corporation,338,43500000.0,1000500,unknown,2027-01-01
+95,Bluffs at Vista Ridge Apartments,Lewisville,Denton,Cameron County Housing Finance Corporation,272,43486332.0,1000186,unknown,2027-01-01
+96,THE EVERLY,Dallas,Dallas,Pecos Housing Finance Corporation,354,43439470.0,999108,unknown,2027-01-01
+97,,Manor,Travis,Pleasanton Housing Finance Corporation,,43340000,996820,unknown,2027-01-01
+98,Highland Ridge,San Antonio,Bexar,Cameron County Housing Finance Corporation,736,42500000.0,977500,unknown,2027-01-01
+99,Oasis,San Antonio,Bexar,Pleasanton Housing Finance Corporation,260,42500000.0,977500,unknown,2027-01-01
+100,GABLES UPTOWN TOWER,Dallas,Dallas,Maverick County Housing Finance Corporation,196,42343390.0,973898,unknown,2027-01-01
+101,Emmit Luxury Apts,Haltom City,Tarrant,Pecos Housing Finance Corporation,,41860000,962780,unknown,already (pre-2027)
+102,BRIARCREST APTS,Carrollton,Dallas,Pecos Housing Finance Corporation,238,47450990.0,958358,billed_now,2027-01-01
+103,THE FUSE AT PARK ROW,Houston,Harris,Pecos Housing Finance Corporation,318,41000000.0,943000,unknown,2027-01-01
+104,Live Oak Apartments,Cleburne,Johnson,Pecos Housing Finance Corporation,,40929120,941370,billed_now,2027-01-01
+105,Vine on North Park,Grapevine,Tarrant,Pecos Housing Finance Corporation,,40900000,940700,unknown,already (pre-2027)
+106,The Falls The Oaks,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,40700000,936100,unknown,2027-01-01
+107,THE RALEIGH,Mesquite,Dallas,Pecos Housing Finance Corporation,264,40680000.0,935640,unknown,2027-01-01
+108,Maxwell Townhomes,San Antonio,Bexar,Edcouch Community Housing Finance Corporation,314,40500000.0,931500,unknown,2027-01-01
+109,Timberhill Commons,Leon Valley,Bexar,Pecos Housing Finance Corporation,,40500000.0,931500,unknown,2027-01-01
+110,LBJ STATION PARKING GARAGE,Dallas,Dallas,Cameron County Housing Finance Corporation,249,40375000.0,928625,unknown,2027-01-01
+111,The Blake Apartments,Dallas,Dallas,Pecos Housing Finance Corporation,309,40177090.0,924073,unknown,2026-04-07
+112,Melville Apartments,Dallas,Dallas,Pecos Housing Finance Corporation,356,40000000.0,920000,unknown,2027-01-01
+113,VILLAGE ON THE GREEN,Dallas,Dallas,Pecos Housing Finance Corporation,202,39200000.0,901600,unknown,2027-01-01
+114,PINES AT WOODCREEK,Houston,Harris,Pleasanton Housing Finance Corporation,330,39110163.0,899534,unknown,2027-01-01
+115,MARIPOSA VILLA APTS HOMES,Dallas,Dallas,Pecos Housing Finance Corporation,216,39000000.0,897000,unknown,2027-01-01
+116,The Beckham Apartments,Dallas,Dallas,Pecos Housing Finance Corporation,260,38923350.0,895237,unknown,2026-04-07
+117,DEVON ON NORTHGATE,Irving,Dallas,Edcouch Community Housing Finance Corporation,260,38883930.0,894330,unknown,2027-01-01
+118,ENCLAVE CYPRESS APARTMENTS (PLACE  AT CYPRESS PARK,Houston,Harris,Pecos Housing Finance Corporation,384,38730282.0,890796,unknown,2027-01-01
+119,Mag and May Apts,Fort Worth,Tarrant,Maverick County Housing Finance Corporation,,38700000,890100,unknown,2027-01-01
+120,The Lodge in San Marcos,San Marcos,Hays,Pleasanton Housing Finance Corporation,258,38600000.0,887800,unknown,2027-01-01
+121,Meadow Ridge,Fort Worth,Tarrant,Edcouch Community Housing Finance Corporation,,38600000,887800,unknown,2027-01-01
+122,INFINITY ON YORKTOWN,Dallas,Dallas,Edcouch Community Housing Finance Corporation,226,38500000.0,885500,unknown,2027-01-01
+123,The Bernard Apartments,Dallas,Dallas,Pecos Housing Finance Corporation,314,38342570.0,881879,unknown,2026-04-07
+124,Larkin,McKinney,Collin,Pecos Housing Finance Corporation,240,38218870.0,879034,unknown,2027-01-01
+125,THE ABIGAIL,Desoto,Dallas,Pecos Housing Finance Corporation,198,38000000.0,874000,unknown,2027-01-01
+126,Vantage at Plum Creek Apartments,Kyle,Hays,Pleasanton Housing Finance Corporation,,38000000.0,874000,unknown,2027-01-01
+127,Amalfi (informal),League City,Galveston,Cameron County Housing Finance Corporation,,38000000,874000,exempt_at_2027_risk,2027-01-01
+128,Westley Apts,Arlington,Tarrant,Pecos Housing Finance Corporation,,37800000,869400,unknown,already (pre-2027)
+129,Lost Spurs Ranch Apts,Fort Worth,Tarrant,Maverick County Housing Finance Corporation,,37300000,857900,unknown,already (pre-2027)
+130,DEDICATED CONSERVATION EASEMET/ESCARPMENT,Dallas,Dallas,Pecos Housing Finance Corporation,196,37129080.0,853969,unknown,2027-01-01
+131,Tides At North Arlington,Arlington,Tarrant,Pleasanton Housing Finance Corporation,,37100000,853300,unknown,already (pre-2027)
+132,,Austin,Travis,Pecos Housing Finance Corporation,,37000000,851000,unknown,2027-01-01
+133,TIDES ON PARK LANE,Dallas,Dallas,Cameron County Housing Finance Corporation,343,36325970.0,835497,unknown,2027-01-01
+134,Western Station At Fossil Creek,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,36200000,832600,unknown,2027-01-01
+135,RETREAT AT STAFFORD APARTMENTS,Stafford,Harris,Cameron County Housing Finance Corporation,264,35829071.0,824069,unknown,
+136,Villas at River Park West,Richmond,Fort Bend,Pleasanton Housing Finance Corporation,252,35725441.0,821685,unknown,2027-01-01
+137,Jovie Belterra Apartments,Dripping Springs,Hays,Edcouch Community Housing Finance Corporation,150,35500000.0,816500,unknown,2027-01-01
+138,ANTHEM,Mesquite,Dallas,Pleasanton Housing Finance Corporation,241,35358560.0,813247,unknown,2027-01-01
+139,,Austin,Travis,Cameron County Housing Finance Corporation,,35270000,811210,unknown,2027-01-01
+140,The Bentley Apartments,Dallas,Dallas,Pecos Housing Finance Corporation,284,35269050.0,811188,unknown,2026-04-07
+141,Sagamore Apartment Homes,Benbrook,Tarrant,Pecos Housing Finance Corporation,,35200000,809600,unknown,already (pre-2027)
+142,GREENS OF HICKORY TRAIL,Dallas,Dallas,Pecos Housing Finance Corporation,250,35000000.0,805000,unknown,2027-01-01
+143,Elliot Windsprint Apts,Arlington,Tarrant,Edcouch Community Housing Finance Corporation,,34600000,795800,unknown,already (pre-2027)
+144,Hathaway at Willow Bend,Plano,Collin,Pecos Housing Finance Corporation,229,34500000.0,793500,unknown,2026-06-24
+145,infinity on the landing,Fort Worth,Tarrant,Edcouch Community Housing Finance Corporation,,33500000,770500,unknown,2027-01-01
+146,GREENTREE APTS,Carrollton,Dallas,Garland Housing Finance Corporation,237,33439520.0,769109,unknown,2027-01-01
+147,SPANISH CREEK APTS-TXA19950410,Dallas,Dallas,La Villa Housing Finance Corporation,302,33220000.0,764060,unknown,2027-01-01
+148,,Decatur,Wise,Pecos Housing Finance Corporation,,33072098,760658,billed_now,2027-01-01
+149,Palencia Apartments,Dallas,Collin,Maverick County Housing Finance Corporation,281,32936817.0,757547,unknown,2027-01-01
+150,THE ARGYLE APARTMENTS,Houston,Harris,Pecos Housing Finance Corporation,344,32841926.0,755364,unknown,2027-01-01
+151,Cedar At River Legacy Park,Arlington,Tarrant,Pleasanton Housing Finance Corporation,,32800000,754400,unknown,already (pre-2027)
+152,HOLLISTER PLACE,Houston,Harris,Pecos Housing Finance Corporation,260,32589009.0,749547,unknown,2027-01-01
+153,Encore Crossing,Corpus Christi,Nueces,Cameron County Housing Finance Corporation,,32585507,749467,exempt_at_2027_risk,2027-01-01
+154,The Hudson,North Richland Hills,Tarrant,Pecos Housing Finance Corporation,,32500000,747500,unknown,already (pre-2027)
+155,ARIA AT ROLLINGBROOK,Baytown,Harris,Cameron County Housing Finance Corporation,240,32381475.0,744774,unknown,2027-01-01
+156,Remi Apartments,White Settlement,Tarrant,Pecos Housing Finance Corporation,,32000000,736000,unknown,already (pre-2027)
+157,Tides On Randol Mill Apts,Fort Worth,Tarrant,Pleasanton Housing Finance Corporation,,32000000,736000,unknown,already (pre-2027)
+158,Cedar Point Apts,Arlington,Tarrant,Pecos Housing Finance Corporation,,31900000,733700,unknown,2027-01-01
+159,Hills At Ironhorse,North Richland Hills,Tarrant,Pecos Housing Finance Corporation,,31600000,726800,unknown,already (pre-2027)
+160,Siena Round Rock,Round Rock,Williamson,Cameron County Housing Finance Corporation,198,31000000.0,713000,unknown,2027-01-01
+161,CASA VALLEY APTS,Irving,Dallas,Pecos Housing Finance Corporation,151,30652500.0,705008,unknown,2027-01-01
+162,LEGACY AT WESTCHASE,Houston,Harris,La Villa Housing Finance Corporation,324,30077057.0,691772,unknown,2027-01-01
+163,THE HUXLEY,Garland,Dallas,Pecos Housing Finance Corporation,236,30000000.0,690000,unknown,2027-01-01
+164,Retreat at 3737,Dallas,Denton,Pecos Housing Finance Corporation,,29950000.0,688850,unknown,2027-01-01
+165,WYTHE APTS (2018 RENO),Irving,Dallas,Pecos Housing Finance Corporation,248,29850000.0,686550,unknown,2027-01-01
+166,PARAMOUNT APARTMENTS (THE PLACE AT BARKER CYPRESS),Houston,Harris,Pecos Housing Finance Corporation,264,29615481.0,681156,unknown,2027-01-01
+167,The Baxter Apartments,Dallas,Dallas,Pecos Housing Finance Corporation,270,29537650.0,679366,unknown,2026-04-07
+168,THE MARION,Dallas,Dallas,Pecos Housing Finance Corporation,326,29446970.0,677280,unknown,2027-01-01
+169,Parkwyn,North Richland Hills,Tarrant,Pecos Housing Finance Corporation,,29300000,673900,unknown,already (pre-2027)
+170,CIMARRON  PARKWAY  APARTMENTS,Katy,Harris,Pecos Housing Finance Corporation,272,28932886.0,665456,unknown,2027-01-01
+171,CAROUSEL COURT/LOW HOUSING,Dallas,Dallas,La Villa Housing Finance Corporation,278,28877680.0,664187,unknown,2027-01-01
+172,INFINITY ON THE OAKS,Dallas,Dallas,Cameron County Housing Finance Corporation,208,28500000.0,655500,unknown,2027-01-01
+173,BARRETT APARTMENT HOMES,Garland,Dallas,Pecos Housing Finance Corporation,200,28500000.0,655500,unknown,2027-01-01
+174,AVAYA STEEPLECHASE   [LANDINGS AT STEEPLECHASE],Houston,Harris,Pecos Housing Finance Corporation,290,28349523.0,652039,unknown,2027-01-01
+175,DEVON ON NORTHGATE PH 2,Irving,Dallas,Edcouch Community Housing Finance Corporation,188,28116070.0,646670,unknown,2027-01-01
+176,Athena,Benbrook,Tarrant,Pecos Housing Finance Corporation,,27600000,634800,unknown,already (pre-2027)
+177,Vistas Two 52,San Antonio,Bexar,Pecos Housing Finance Corporation,252,27000000.0,621000,unknown,2027-01-01
+178,TIDES OF LAWLER EAST,Dallas,Dallas,Pecos Housing Finance Corporation,220,27000000.0,621000,unknown,2027-01-01
+179,HOLLYVIEW,Houston,Harris,Pecos Housing Finance Corporation,324,26778775.0,615912,unknown,2027-01-01
+180,TOWNSHIP APARTMENTS,Humble,Harris,Pecos Housing Finance Corporation,300,26727168.0,614725,unknown,2027-01-01
+181,Adriane,Wylie,Collin,Pecos Housing Finance Corporation,180,26575673.0,611240,unknown,2027-01-01
+182,HOLBROOK,Dallas,Dallas,Pecos Housing Finance Corporation,232,26295380.0,604794,unknown,2027-01-01
+183,HOLBROOK,Dallas,Dallas,Pecos Housing Finance Corporation,232,26295160.0,604789,unknown,2027-01-01
+184,FIREWHEEL TOWN VILLAGE SENIOR LIVING,Garland,Dallas,Pleasanton Housing Finance Corporation,154,26200000.0,602600,unknown,2027-01-01
+185,Encore Crossing II,Corpus Christi,Nueces,Cameron County Housing Finance Corporation,,26084832,599951,exempt_at_2027_risk,2027-01-01
+186,Solara,San Antonio,Bexar,Cameron County Housing Finance Corporation,285,26000000.0,598000,unknown,2027-01-01
+187,Sorrento (informal),League City,Galveston,Cameron County Housing Finance Corporation,,25900000,595700,exempt_at_2027_risk,2027-01-01
+188,Luxe @ Lewisville,Lewisville,Denton,Pecos Housing Finance Corporation,,25700295.0,591107,unknown,2027-01-01
+189,Spring Pointe Apartments,Richardson,Collin,Cameron County Housing Finance Corporation,208,25558696.0,587850,unknown,2027-01-01
+190,THE ABRAM,Garland,Dallas,Pecos Housing Finance Corporation,144,25500000.0,586500,unknown,2027-01-01
+191,The Woodlands,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,25500000,586500,unknown,already (pre-2027)
+192,Tides at Eastchase,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,25500000,586500,unknown,already (pre-2027)
+193,WINDHDAM CREST,Dallas,Dallas,Pleasanton Housing Finance Corporation,196,25082420.0,576896,unknown,2027-01-01
+194,WESTWOOD APTS,Dallas,Dallas,Pecos Housing Finance Corporation,187,25071420.0,576643,unknown,2027-01-01
+195,CASA BELLA (2019 RENO),Dallas,Dallas,Pecos Housing Finance Corporation,176,25000000.0,575000,unknown,2027-01-01
+196,AVA WEST I,Dallas,Dallas,Edcouch Community Housing Finance Corporation,272,25000000.0,575000,unknown,2027-01-01
+197,THE CHARLIE,Dallas,Dallas,Pecos Housing Finance Corporation,314,24500000.0,563500,unknown,2027-01-01
+198,BROADMEAD AT THE MED,Houston,Harris,Pecos Housing Finance Corporation,235,24350727.0,560067,unknown,2027-01-01
+199,KINGS COVE,Humble,Harris,La Villa Housing Finance Corporation,192,24222040.0,557107,unknown,2027-01-01
+200,Vero Sade,Rosenberg,Fort Bend,Maverick County Housing Finance Corporation,310,24000000.0,552000,unknown,2027-01-01
+201,Bridge Hollow Apartments,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,24000000,552000,unknown,2027-01-01
+202,The Current,New Braunfels,Comal,La Villa Housing Finance Corporation,,23701350,545131,billed_now,2027-01-01
+203,Trailside,San Antonio,Bexar,Pleasanton Housing Finance Corporation,240,23520000.0,540960,unknown,2027-01-01
+204,Residences at Medical,San Antonio,Bexar,Cameron County Housing Finance Corporation,276,23500000.0,540500,unknown,2027-01-01
+205,Brixton Apartments,San Antonio,Bexar,Pecos Housing Finance Corporation,384,23500000.0,540500,unknown,2027-01-01
+206,RESIDENCES 2727,Houston,Harris,Pecos Housing Finance Corporation,171,23201514.0,533635,unknown,2027-01-01
+207,The Junction at 7760,Dallas,Collin,Pecos Housing Finance Corporation,297,22642344.0,520774,unknown,2027-01-01
+208,BRIDGEWATER,Tomball,Harris,Pecos Housing Finance Corporation,206,22393342.0,515047,unknown,2027-01-01
+209,Seville,San Antonio,Bexar,Pecos Housing Finance Corporation,200,22000000.0,506000,unknown,2027-01-01
+210,AVA NORTH,Dallas,Dallas,Edcouch Community Housing Finance Corporation,248,22000000.0,506000,unknown,2027-01-01
+211,,Lake Jackson,Brazoria,Cameron County Housing Finance Corporation,,21996610,505922,exempt_at_2027_risk,2027-01-01
+212,Summit at Henderson Pass,San Antonio,Bexar,Pleasanton Housing Finance Corporation,228,21791110.0,501196,unknown,2027-01-01
+213,FOREST HILLS APTS,Dallas,Dallas,Pleasanton Housing Finance Corporation,216,21500000.0,494500,unknown,2027-01-01
+214,Flats On Mill,Fort Worth,Tarrant,La Villa Housing Finance Corporation,,21300000,489900,unknown,already (pre-2027)
+215,DELAFIELD VILLAS-TXA20050340,Dallas,Dallas,Maverick County Housing Finance Corporation,204,21218660.0,488029,unknown,2027-01-01
+216,the carmin,Arlington,Tarrant,La Villa Housing Finance Corporation,,21100000,485300,unknown,already (pre-2027)
+217,1505 Exchange,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,21000000,483000,unknown,already (pre-2027)
+218,THE BROOKMOORE (59% OCCUPIED),Dallas,Dallas,La Villa Housing Finance Corporation,152,20927220.0,481326,unknown,2027-01-01
+219,Taylor Commons Apts.,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,20800000,478400,unknown,already (pre-2027)
+220,RIVIERIA,Dallas,Dallas,Pleasanton Housing Finance Corporation,247,20750000.0,477250,unknown,2027-01-01
+221,ESTRELLA  AT KIEST (ALL BILLS),Dallas,Dallas,Cameron County Housing Finance Corporation,232,20533930.0,472280,unknown,2027-01-01
+222,5300 Village Ln Apts,Fort Worth,Tarrant,Cameron County Housing Finance Corporation,,20100000,462300,unknown,2027-01-01
+223,SPANISH PUEBLO,Dallas,Dallas,La Villa Housing Finance Corporation,128,20041330.0,460951,unknown,2027-01-01
+224,AVA WEST II,Dallas,Dallas,Edcouch Community Housing Finance Corporation,200,20000000.0,460000,unknown,2027-01-01
+225,PROVIDENCE AT CHAMPIONS,Houston,Harris,La Villa Housing Finance Corporation,288,19956294.0,458995,unknown,2027-01-01
+226,Med West,San Antonio,Bexar,Pleasanton Housing Finance Corporation,131,19900000.0,457700,unknown,2027-01-01
+227,CHASE PLACE,Dallas,Dallas,La Villa Housing Finance Corporation,125,19375000.0,445625,unknown,2027-01-01
+228,PROVIDENCE AT HEIGHTS,Houston,Harris,La Villa Housing Finance Corporation,196,19068846.0,438583,unknown,2027-01-01
+229,Legacy Riverside Senior Living,Fort Worth,Tarrant,Garland Housing Finance Corporation,,19038359,437882,unknown,2027-01-01
+230,TURTLE POINTE,Houston,Harris,La Villa Housing Finance Corporation,280,18729290.0,430774,unknown,2027-01-01
+231,ESTERA LEASING OFFICE,Dallas,Dallas,Pecos Housing Finance Corporation,100,18720440.0,430570,unknown,2027-01-01
+232,5 Fifty,San Antonio,Bexar,La Villa Housing Finance Corporation,204,18500000.0,425500,unknown,2027-01-01
+233,500 FLATS (woodridge),Fort Worth,Tarrant,La Villa Housing Finance Corporation,,18400000,423200,unknown,already (pre-2027)
+234,Lawson,Benbrook,Tarrant,Pecos Housing Finance Corporation,,18200000,418600,unknown,already (pre-2027)
+235,ANDORA,Dallas,Dallas,La Villa Housing Finance Corporation,136,18128980.0,416967,unknown,2027-01-01
+236,,Houston,Harris,Pleasanton Housing Finance Corporation,289,18121375.0,416792,unknown,2027-01-01
+237,Decker Apartment Homes,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,18100000,416300,unknown,already (pre-2027)
+238,Sierra Gardens,Fort Worth,Tarrant,Cameron County Housing Finance Corporation,,18100000,416300,unknown,already (pre-2027)
+239,GREENTREE APARTMENTS PHASE II,Carrollton,Dallas,Garland Housing Finance Corporation,128,18060480.0,415391,unknown,2027-01-01
+240,AVA APARTMENTS,Dallas,Dallas,Edcouch Community Housing Finance Corporation,160,18000000.0,414000,unknown,2027-01-01
+241,Local Dripping Springs (Lot 2 of 3 CAD accounts),Dripping Springs,Hays,Edcouch Community Housing Finance Corporation,,18000000.0,414000,unknown,2027-01-01
+242,,Austin,Travis,Pecos Housing Finance Corporation,,17990000,413770,unknown,2027-01-01
+243,,Austin,Travis,Cameron County Housing Finance Corporation,,17772480,408767,unknown,2027-01-01
+244,REDSTONE VISTA APARTMENTS,Houston,Harris,Pecos Housing Finance Corporation,274,17431573.0,400926,unknown,2027-01-01
+245,,Austin,Travis,Pecos Housing Finance Corporation,,17398449,400164,unknown,2027-01-01
+246,Leander Apt Homes,Benbrook,Tarrant,Pecos Housing Finance Corporation,,17300000,397900,unknown,already (pre-2027)
+247,,Austin,Travis,Pecos Housing Finance Corporation,,17294194,397766,unknown,2027-01-01
+248,COURTNEY PLACE (ECU),Dallas,Dallas,La Villa Housing Finance Corporation,115,17136470.0,394139,unknown,2027-01-01
+249,ESTARA,Dallas,Dallas,Pecos Housing Finance Corporation,116,17073560.0,392692,unknown,2027-01-01
+250,COURTNEY PLACE (ECU),Dallas,Dallas,La Villa Housing Finance Corporation,106,17063360.0,392457,unknown,2027-01-01
+251,Elevate at Huebner Grove,San Antonio,Bexar,La Villa Housing Finance Corporation,210,17000000.0,391000,unknown,2027-01-01
+252,,Denton,Denton,Pecos Housing Finance Corporation,,16902935.0,388768,unknown,2027-01-01
+253,PORTICO KIRBY,Houston,Harris,Pleasanton Housing Finance Corporation,263,16838245.0,387280,unknown,2027-01-01
+254,,Pflugerville,Travis,Edcouch Community Housing Finance Corporation,,16802944,386468,unknown,2027-01-01
+255,Oaks of North Dallas Apartments,Dallas,Collin,Cameron County Housing Finance Corporation,168,16760321.0,385487,unknown,2027-01-01
+256,PARK AT FALLBROOK   [FALLBROOK PARK],Houston,Harris,Cameron County Housing Finance Corporation,280,16519991.0,379960,unknown,2027-01-01
+257,The Ryan Apts,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,16200000,372600,unknown,2027-01-01
+258,Alamo Residences at Spurs Lane,San Antonio,Bexar,Maverick County Housing Finance Corporation,120,15889210.0,365452,unknown,2027-01-01
+259,4804 Haverwood Apartments,Dallas,Collin,Cameron County Housing Finance Corporation,180,15751585.0,362286,unknown,2027-01-01
+260,WYNDHAM ON THE CREEK,Dallas,Dallas,Pecos Housing Finance Corporation,151,15600000.0,358800,unknown,2027-01-01
+261,RANCH AT CHAMPIONS  (CHAMPIONS WOODS),Houston,Harris,Pecos Housing Finance Corporation,186,15389303.0,353954,unknown,2027-01-01
+262,THE CROSSINGS AT BERKELEY SQUARE,Houston,Harris,Cameron County Housing Finance Corporation,152,15241474.0,350554,unknown,2027-01-01
+263,Dylan East Fort Worth,Fort Worth,Tarrant,Cameron County Housing Finance Corporation,,15200000,349600,unknown,2027-01-01
+264,Flats At Brentwood,Fort Worth,Tarrant,Pleasanton Housing Finance Corporation,,15100000,347300,unknown,2027-01-01
+265,SPANISH PUEBLO APARTMENTS,Dallas,Dallas,La Villa Housing Finance Corporation,96,15070980.0,346633,unknown,2027-01-01
+266,CHASE PLACE,Dallas,Dallas,La Villa Housing Finance Corporation,81,14842150.0,341369,unknown,2027-01-01
+267,STERLING POINTII,Houston,Harris,Pecos Housing Finance Corporation,258,14619580.0,336250,unknown,2027-01-01
+268,ADIRA APARTMENTS,Dallas,Dallas,Pecos Housing Finance Corporation,164,14500000.0,333500,unknown,2027-01-01
+269,VISTA RIDGE ORIGINALLY RIDGLEA HILLS,Duncanville,Dallas,Pecos Housing Finance Corporation,158,14500000.0,333500,unknown,2027-01-01
+270,Stella,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,14500000,333500,unknown,already (pre-2027)
+271,51 TEN TOWNHOMES,Houston,Harris,Pecos Housing Finance Corporation,256,14169736.0,325904,unknown,2027-01-01
+272,REPUBLIC WEST APARTMENTS (114 UNITS),Garland,Dallas,Pecos Housing Finance Corporation,114,14160290.0,325687,unknown,2027-01-01
+273,Melia,San Antonio,Bexar,Pecos Housing Finance Corporation,300,14057700.0,323327,unknown,2027-01-01
+274,Oaks of North Dallas Apartments,Dallas,Collin,Cameron County Housing Finance Corporation,144,14002575.0,322059,unknown,2027-01-01
+275,Oaks of North Dallas Apartments,Dallas,Collin,Cameron County Housing Finance Corporation,144,13788728.0,317141,unknown,2027-01-01
+276,Porterwood Apartments,Porter,Montgomery,Pecos Housing Finance Corporation,136,13650000.0,313950,unknown,2027-01-01
+277,MESA RIDGE VILLAGE EAST ((ECU 49% VACANT)),Dallas,Dallas,La Villa Housing Finance Corporation,140,13566350.0,312026,unknown,2027-01-01
+278,LAKEWAY PLACE,Garland,Dallas,Pecos Housing Finance Corporation,148,13565710.0,312011,unknown,2027-01-01
+279,HAYSON CREEK,Houston,Harris,La Villa Housing Finance Corporation,236,13456324.0,309495,unknown,2027-01-01
+280,BEVERLY AT SHADOW LAKE APTS,Houston,Harris,Pleasanton Housing Finance Corporation,624,13380636.0,307755,unknown,2027-01-01
+281,Casa Villa,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,13300000,305900,unknown,already (pre-2027)
+282,TESSA AT KATY,Katy,Harris,Pleasanton Housing Finance Corporation,329,12299612.0,282891,unknown,2027-01-01
+283,ROLLINGWOOD,Houston,Harris,Pecos Housing Finance Corporation,211,11910618.0,273944,unknown,2027-01-01
+284,AVENUE M AT 1620 OAK TREE,Houston,Harris,Pecos Housing Finance Corporation,90,11152055.0,256497,unknown,2027-01-01
+285,Local Dripping Springs (Lot 1 of 3 CAD accounts),Dripping Springs,Hays,Edcouch Community Housing Finance Corporation,,11000000.0,253000,unknown,2027-01-01
+286,,Austin,Travis,Pleasanton Housing Finance Corporation,,11000000,253000,unknown,2027-01-01
+287,TURTLE POINTE,Houston,Harris,La Villa Housing Finance Corporation,152,10661350.0,245211,unknown,2027-01-01
+288,AVENUE M APARTMENTS,Houston,Harris,Pecos Housing Finance Corporation,75,10569630.0,243101,unknown,2027-01-01
+289,Willow Bend,San Antonio,Bexar,Cameron County Housing Finance Corporation,250,9200000.0,211600,unknown,2027-01-01
+290,Tara,San Antonio,Bexar,Edcouch Community Housing Finance Corporation,234,9012040.0,207277,unknown,2027-01-01
+291,CORTLAND WEST CHAMPIONS [B2-LAND],Houston,Harris,Pleasanton Housing Finance Corporation,336,8984116.0,206635,unknown,2027-01-01
+292,,Austin,Travis,Pleasanton Housing Finance Corporation,,8556152,196791,unknown,2027-01-01
+293,,Austin,Travis,Pleasanton Housing Finance Corporation,,7880000,181240,unknown,2027-01-01
+294,CORTLAND WEST CHAMPIONS   [TRADEWINDS],Houston,Harris,Pleasanton Housing Finance Corporation,374,7842778.0,180384,unknown,2027-01-01
+295,LANDMARK AT LAKE VILLAGE EAST - 60 UNITS,Garland,Dallas,Edcouch Community Housing Finance Corporation,60,7820160.0,179864,unknown,2027-01-01
+296,TIDES ON MCCALLUM NORTH,Dallas,Dallas,Pecos Housing Finance Corporation,68,7685200.0,176760,unknown,2027-01-01
+297,LANDMARK AT LAKE VILLAGE EAST - 57 UNITS,Garland,Dallas,Edcouch Community Housing Finance Corporation,57,7302600.0,167960,unknown,2027-01-01
+298,,Port Arthur,Jefferson,Cameron County Housing Finance Corporation,,7035256,161811,exempt_at_2027_risk,2027-01-01
+299,VISTA AT WESTCHASE APARTMENTS,Houston,Harris,Maverick County Housing Finance Corporation,240,6969600.0,160301,unknown,2027-01-01
+300,,Austin,Travis,Pecos Housing Finance Corporation,,6925604,159289,unknown,2027-01-01
+301,SPHINX AT FIJI LOFTS,Dallas,Dallas,Cameron County Housing Finance Corporation,32,6755030.0,155366,unknown,2027-01-01
+302,SPHINX AT FIJI LOFTS,Dallas,Dallas,Cameron County Housing Finance Corporation,32,6741050.0,155044,unknown,2027-01-01
+303,SPHINX AT FIJI LOFTS,Dallas,Dallas,Cameron County Housing Finance Corporation,30,6736940.0,154950,unknown,2027-01-01
+304,SPHINX AT FIJI LOFTS,Dallas,Dallas,Cameron County Housing Finance Corporation,30,6726590.0,154712,unknown,2027-01-01
+305,LANDMARK AT LAKE VILLAGE EAST - 54 UNITS,Garland,Dallas,Edcouch Community Housing Finance Corporation,54,6604800.0,151910,unknown,2027-01-01
+306,SOMMERALL STATION APARTMENTS,Houston,Harris,Pleasanton Housing Finance Corporation,368,6528380.0,150153,unknown,2027-01-01
+307,DONOVAN VILLAGE,Houston,Harris,Pecos Housing Finance Corporation,78,6360920.0,146301,unknown,2027-01-01
+308,Northridge Manor,Beaumont,Jefferson,Cameron County Housing Finance Corporation,,6051221,139178,exempt_at_2027_risk,2027-01-01
+309,MASON PARK APARTMENTS,Katy,Harris,Pleasanton Housing Finance Corporation,312,5662800.0,130244,unknown,2027-01-01
+310,ROYAL SPRING APARTMENTS,Spring,Harris,Pleasanton Housing Finance Corporation,351,5453710.0,125435,unknown,2027-01-01
+311,CRAWFORD AT GRAND MORTON,Katy,Harris,Pleasanton Housing Finance Corporation,336,5227864.0,120241,unknown,2027-01-01
+312,,Austin,Travis,Pecos Housing Finance Corporation,,5227200,120226,unknown,2027-01-01
+313,,Austin,Travis,La Villa Housing Finance Corporation,,4808600,110598,unknown,2027-01-01
+314,Little Bend Manor,Hitchcock,Galveston,Cameron County Housing Finance Corporation,,4781750,109980,exempt_at_2027_risk,2027-01-01
+315,FAWN RIDGE VILLAGE EAST (ECU 49% VACANT),Dallas,Dallas,La Villa Housing Finance Corporation,48,4736270.0,108934,unknown,2027-01-01
+316,Savannah at Gateway Senior Apartments,Plano,Collin,Garland Housing Finance Corporation,,4654168.0,107046,unknown,2027-01-01
+317,DOMINION SQUARE AT OAK FOREST APARTMENTS,Houston,Harris,Pleasanton Housing Finance Corporation,136,4355220.0,100170,unknown,2027-01-01
+318,STATION,Houston,Harris,Pecos Housing Finance Corporation,60,4259107.0,97959,unknown,2027-01-01
+319,Azora Ranch,Fort Worth,Tarrant,Pecos Housing Finance Corporation,,4180000,96140,unknown,already (pre-2027)
+320,REPUBLIC WEST APARTMENTS (32 UNITS),Garland,Dallas,Pecos Housing Finance Corporation,32,3976950.0,91470,unknown,2027-01-01
+321,REPUBLIC WEST APARTMENTS (30 UNITS),Garland,Dallas,Pecos Housing Finance Corporation,30,3818300.0,87821,unknown,2027-01-01
+322,SHENANDOAH WOODS  APARTMENTS,Houston,Harris,Pecos Housing Finance Corporation,232,3791593.0,87207,unknown,2027-01-01
+323,THE CROSSINGS AT ST CHARLES PLACE,Houston,Harris,Cameron County Housing Finance Corporation,48,3786384.0,87087,unknown,2027-01-01
+324,LANDMARK AT LAKE VILLAGE EAST - 28 UNITS,Garland,Dallas,Edcouch Community Housing Finance Corporation,28,3776670.0,86863,unknown,2027-01-01
+325,REPUBLIC WEST APARTMENTS (30 UNITS),Garland,Dallas,Pecos Housing Finance Corporation,30,3765030.0,86596,unknown,2027-01-01
+326,LANDMARK AT LAKE VILLAGE EAST - 28 UNITS,Garland,Dallas,Edcouch Community Housing Finance Corporation,28,3744420.0,86122,unknown,2027-01-01
+327,LANDMARK AT LAKE VILLAGE EAST - 28 UNITS,Garland,Dallas,Edcouch Community Housing Finance Corporation,28,3744420.0,86122,unknown,2027-01-01
+328,REPUBLIC WEST APARTMENTS (30 UNITS),Garland,Dallas,Pecos Housing Finance Corporation,31,3729500.0,85778,unknown,2027-01-01
+329,TIDES AT LAKE VILLAGE - 32 UNITS,Garland,Dallas,Edcouch Community Housing Finance Corporation,32,3693300.0,84946,unknown,2027-01-01
+330,LAKE JUNE VILLAGE,Dallas,Dallas,Cameron County Housing Finance Corporation,100,3585000.0,82455,unknown,2027-01-01
+331,SUMMIT AT NORTH MACGREGOR ARMS,Houston,Harris,Cameron County Housing Finance Corporation,64,3540078.0,81422,unknown,
+332,SPHINX AT FUJI LOFTS,Dallas,Dallas,Cameron County Housing Finance Corporation,312,3388990.0,77947,unknown,2027-01-01
+333,SPHINX AT FIJI LOFTS,Dallas,Dallas,Cameron County Housing Finance Corporation,16,3385300.0,77862,unknown,2027-01-01
+334,SPHINX AT FIJI LOFTS,Dallas,Dallas,Cameron County Housing Finance Corporation,16,3378330.0,77702,unknown,2027-01-01
+335,SPHINX AT FIJI LOFTS,Dallas,Dallas,Cameron County Housing Finance Corporation,16,3372160.0,77560,unknown,2027-01-01
+336,SPHINX AT FIJI LOFTS,Dallas,Dallas,Cameron County Housing Finance Corporation,16,3371880.0,77553,unknown,2027-01-01
+337,Riverbend at Clear Creek Point Lot 9,League City,Galveston,Cameron County Housing Finance Corporation,,3371030,77534,billed_now,
+338,FAWN RIDGE VILLAGE EAST (ECU 49% VACANT),Dallas,Dallas,La Villa Housing Finance Corporation,32,3157520.0,72623,unknown,2027-01-01
+339,LANDMARK AT LAKE VILLAGE EAST - 20 UNITS,Garland,Dallas,Edcouch Community Housing Finance Corporation,20,2577220.0,59276,unknown,2027-01-01
+340,REPUBLIC WEST APARTMENTS (18 UNITS),Garland,Dallas,Pecos Housing Finance Corporation,18,2300900.0,52921,unknown,2027-01-01
+341,,Austin,Travis,Pleasanton Housing Finance Corporation,,2222475,51117,unknown,2027-01-01
+342,LANDMARK AT LAKE VILLAGE NORTH (24 UNITS),Garland,Dallas,Pecos Housing Finance Corporation,24,2156220.0,49593,unknown,2027-01-01
+343,WATERMARK AT BAYTOWN APARTMENTS,Baytown,Harris,Pecos Housing Finance Corporation,290,2080295.0,47847,unknown,2027-01-01
+344,Riverbend at Clear Creek Point Lot 10,League City,Galveston,Cameron County Housing Finance Corporation,,1860390,42789,billed_now,
+345,LANDMARK AT LAKE VILLAGE EAST - 14 UNITS,Garland,Dallas,Edcouch Community Housing Finance Corporation,14,1841150.0,42346,unknown,2027-01-01
+346,Cypress Edge (fmr Langtry Village),New Braunfels,Comal,Pecos Housing Finance Corporation,,1313990,30222,billed_now,2027-01-01
+347,ASPENWOOD APARTMENTS,Houston,Harris,Pecos Housing Finance Corporation,208,1304620.0,30006,unknown,2027-01-01
+348,Mission Villas,San Antonio,Bexar,Pecos Housing Finance Corporation,176,932350.0,21444,unknown,2027-01-01
+349,,Austin,Travis,Edcouch Community Housing Finance Corporation,,528372,12153,unknown,2027-01-01
+350,Chicory Court (informal),Galveston,Galveston,Cameron County Housing Finance Corporation,,472930,10877,exempt_at_2027_risk,2027-01-01
+351,"Local Dripping Springs (Lot 3 of 3 CAD accounts -- small parcel, likely retail/amenity pad)",Dripping Springs,Hays,Edcouch Community Housing Finance Corporation,,458050.0,10535,unknown,2027-01-01
+352,0 Blue Mound Rd,Fort Worth,Tarrant,Pleasanton Housing Finance Corporation,,451037,10374,unknown,2027-01-01
+353,GROVE EAST APARTMENTS,Humble,Harris,Pleasanton Housing Finance Corporation,,303260.0,6975,unknown,2027-01-01
+354,Lofts At Grand Prairie (vacant land),Grand Prairie,Tarrant,Cameron County Housing Finance Corporation,,288117,6627,unknown,already (pre-2027)
+355,MONTABELLA AT OAK FOREST,Houston,Harris,Pleasanton Housing Finance Corporation,,187996.0,4324,unknown,2027-01-01
+356,,Dallas,Collin,Pecos Housing Finance Corporation,,99461.0,2288,unknown,2027-01-01
+357,,Dallas,Collin,Maverick County Housing Finance Corporation,,70276.0,1616,unknown,2027-01-01
+358,,Allen,Collin,La Villa Housing Finance Corporation,,6338.0,146,unknown,2027-01-01
+359,,Houston,Harris,Pleasanton Housing Finance Corporation,,5072.0,117,unknown,2027-01-01

@@ -1,0 +1,396 @@
+[
+  {
+    "census_id": "TX-LIT-0001",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Jefferson North Collins Apartments (aka Zenith Apartments)",
+      "aka": ["Zenith Apartments", "Jefferson North Collins"],
+      "address": null,
+      "city": "Arlington",
+      "county": "Tarrant",
+      "zip": null,
+      "cad_account": "42642581",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Primary Owner"
+    },
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": 1700000,
+      "taxing_units": null
+    },
+    "litigation_flags": [
+      "Arlington v. Pecos/Pleasanton/Maverick/La Villa HFCs 15-25-00111-CV / 02-25-00475-CV (TRO won by Arlington on this property)",
+      "Tarrant County ARB 28-site / $974M back-assessment petition (filed 5/28/2025)"
+    ],
+    "gaps": ["Exact appraised value (portal gated); unit count; address", "annual_exemption_value_est is reported combined lost taxes/yr, not appraised value"],
+    "provenance": [
+      {"field": "owner/entity", "source": "sponsors/pecos-ha.md; TAD Site 800053142 https://www.tad.org/property?account=42642581", "retrieved": "2026-07-11", "note": "Site Class APTExempt; owner = Pecos Housing Finance Corporation"},
+      {"field": "annual_exemption_value_est", "source": "sponsors/pecos-ha.md (CBS Texas I-Team, ~$1.7M/yr combined lost taxes)", "retrieved": "2026-07-11", "note": null},
+      {"field": "litigation", "source": "https://app.midpage.ai/document/pecos-housing-finance-corporation-pleasanton-11090156 ; https://www.cbsnews.com/texas/news/arlington-wins-restraining-order-small-town-cost-millions/", "retrieved": "2026-07-11", "note": null}
+    ]
+  },
+  {
+    "census_id": "TX-LIT-0002",
+    "confidence": "single-source",
+    "property": {
+      "name": "The Hathaway",
+      "aka": [],
+      "address": null,
+      "city": "Plano",
+      "county": "Collin",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": null
+    },
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "exemption": {"first_exempt_tax_year": null, "appraised_value": null, "annual_exemption_value_est": null, "taxing_units": null},
+    "litigation_flags": ["Named in Plano council member Shelby Williams' Pecos HFC exposure (Collin CAD scrutiny)"],
+    "gaps": ["Appraised value; address; units; CAD account"],
+    "provenance": [
+      {"field": "name/sponsor", "source": "sponsors/pecos-ha.md; https://shelbyhwilliams.com/the-pecos-housing-finance-corporation-is-costing-taxpayers-millions-of-dollars/", "retrieved": "2026-07-11", "note": "One of Pecos HFC's two Plano deals (Hathaway + Dayton)"}
+    ]
+  },
+  {
+    "census_id": "TX-LIT-0003",
+    "confidence": "single-source",
+    "property": {
+      "name": "The Dayton",
+      "aka": [],
+      "address": null,
+      "city": "Plano",
+      "county": "Collin",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": null
+    },
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "exemption": {"first_exempt_tax_year": null, "appraised_value": null, "annual_exemption_value_est": null, "taxing_units": null},
+    "litigation_flags": ["Named in Plano council member Shelby Williams' Pecos HFC exposure (Collin CAD scrutiny)"],
+    "gaps": ["Appraised value; address; units; CAD account"],
+    "provenance": [
+      {"field": "name/sponsor", "source": "sponsors/pecos-ha.md; https://shelbyhwilliams.com/the-pecos-housing-finance-corporation-is-costing-taxpayers-millions-of-dollars/", "retrieved": "2026-07-11", "note": "One of Pecos HFC's two Plano deals (Hathaway + Dayton)"}
+    ]
+  },
+  {
+    "census_id": "TX-LIT-0004",
+    "confidence": "single-source",
+    "property": {
+      "name": "Kendrick Apartments",
+      "aka": [],
+      "address": "7324 Skillman Street",
+      "city": "Dallas",
+      "county": "Dallas",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": ["S2 Capital"],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "exemption": {"first_exempt_tax_year": null, "appraised_value": null, "annual_exemption_value_est": null, "taxing_units": null},
+    "litigation_flags": ["Cited in Hays County / Pecos HFC coverage as example sale-leaseback (Pecos HFC + S2 Capital)"],
+    "gaps": ["Appraised value; units; CAD account"],
+    "provenance": [
+      {"field": "name/address/sponsor/partner", "source": "https://therealdeal.com/texas/austin/2025/04/30/hays-county-sues-housing-finance-corporations/", "retrieved": "2026-07-11", "note": "Northeast Dallas; sale-leaseback; owned by S2 Capital since 2022"}
+    ]
+  },
+  {
+    "census_id": "TX-LIT-0005",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "The Ranch at Sienna",
+      "aka": [],
+      "address": "8811 Sienna Springs Boulevard",
+      "city": "Missouri City",
+      "county": "Fort Bend",
+      "zip": "77459",
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Maverick County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Eagle Pass",
+      "home_county": "Maverick",
+      "role_on_property": "Primary Owner"
+    },
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "exemption": {"first_exempt_tax_year": null, "appraised_value": null, "annual_exemption_value_est": null, "taxing_units": null},
+    "litigation_flags": ["City of Missouri City v. Maverick County HFC (Fort Bend Dist. Ct.; TRO + temporary/permanent injunction; ultra vires Ch.394); Original Petition filed 1/24/2025"],
+    "gaps": ["Appraised value; units; which Fort Bend district court (task cites 268th); whether acquisition completed post-5/28/2025 (would trigger outright bar)"],
+    "provenance": [
+      {"field": "name/address/sponsor/litigation", "source": "https://www.epbusinessjournal.com/2025/03/maverick-county-housing-finance-corporation-sued-by-city-of-missouri-city-texas/", "retrieved": "2026-07-11", "note": "Within Missouri City limits; Maverick County HFC acquiring; petition + TRO filed 1/24/2025"}
+    ]
+  },
+  {
+    "census_id": "TX-LIT-0006",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Ravella at Sienna (Ravella at Sienna Plantation)",
+      "aka": ["Ravella at Sienna Plantation"],
+      "address": "5330 Sienna Parkway",
+      "city": "Missouri City",
+      "county": "Fort Bend",
+      "zip": "77459",
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Fort Bend County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Fort Bend County",
+      "home_county": "Fort Bend",
+      "role_on_property": null
+    },
+    "classification": {
+      "tier": 1,
+      "traveling": "unknown",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": null
+    },
+    "exemption": {"first_exempt_tax_year": null, "appraised_value": null, "annual_exemption_value_est": null, "taxing_units": null},
+    "litigation_flags": ["Missouri City filed suit July 2024; Fort Bend County HFC DROPPED the acquisition after suit (project abandoned)"],
+    "gaps": ["Whether deal ever closed (it was abandoned); NOTE: this is a DIFFERENT entity (Fort Bend County HFC) than the Maverick County HFC / Ranch at Sienna deal; property is Missouri-City-addressed but outside city limits"],
+    "provenance": [
+      {"field": "name/address/sponsor/litigation", "source": "https://www.houstonpublicmedia.org/articles/housing/2024/07/15/492742/fort-bend-housing-corporation-drops-affordable-housing-project-after-missouri-city-files-suit/", "retrieved": "2026-07-11", "note": "Fort Bend County HFC (NOT Maverick) dropped acquisition after Missouri City suit; Ravella has Missouri City address but is outside city limits"}
+    ]
+  },
+  {
+    "census_id": "TX-LIT-0007",
+    "confidence": "single-source",
+    "property": {
+      "name": "Enclave La Frontera",
+      "aka": [],
+      "address": null,
+      "city": "Round Rock",
+      "county": "Williamson",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "SH130 Municipal Management District No.1 (Austin ETJ)",
+      "home_county": "Travis",
+      "role_on_property": "Primary Owner"
+    },
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": false
+    },
+    "exemption": {"first_exempt_tax_year": null, "appraised_value": null, "annual_exemption_value_est": null, "taxing_units": null},
+    "litigation_flags": ["TEHPFC (Enclave La Frontera) v. Williamson Central Appraisal District, Cause 24-1698-C395 (395th Dist. Ct.); related TEHPFC v. Williamson CAD 24-0022-C395"],
+    "gaps": ["Appraised value; units; exact address; city (Round Rock inferred - La Frontera is a Round Rock mixed-use district)"],
+    "provenance": [
+      {"field": "name/sponsor/litigation", "source": "sponsors/texas-essential-housing-pfc.md; https://trellis.law/case/48491/24-0022-c395/texas-essential-housing-public-facility-corporation-vs-williamson-central-appraisal-district", "retrieved": "2026-07-11", "note": "PFC-side suit contesting CAD treatment of out-of-area exemption; Tier 2 (no 2027 cliff)"}
+    ]
+  },
+  {
+    "census_id": "TX-LIT-0008",
+    "confidence": "single-source",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "San Marcos",
+      "county": "Hays",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": null
+    },
+    "classification": {"tier": 1, "traveling": "yes", "structure_confirmed": "fee-flip-groundlease", "affordability_source": "structure", "in_target_set": true},
+    "exemption": {"first_exempt_tax_year": null, "appraised_value": null, "annual_exemption_value_est": null, "taxing_units": null},
+    "litigation_flags": ["City of San Marcos and Hays County v. Pecos HFC & Pleasanton HFC, Cause 25-1185-DCB (207th Dist. Ct., Hays Co.); TRO; ~$227-230M countywide at stake, ~$500K/yr county loss; filed 4/30/2025"],
+    "gaps": ["Specific property name/address/value NOT itemized in public reporting; Hays suit names San Marcos + Kyle properties held by Pecos and/or Pleasanton HFC - per-property split unconfirmed", "Seed has a single Hays row for Pecos (recap 03/25; partners Nome Capital, Pensam)"],
+    "provenance": [
+      {"field": "litigation/value", "source": "https://therealdeal.com/texas/austin/2025/04/30/hays-county-sues-housing-finance-corporations/; https://www.kvue.com/article/news/local/hays-county/hays-county-affordable-housing-land-taxes-tro/269-5df93cb2-7cb4-479f-807c-50f1b587ecd5; https://www.pleasantonexpress.com/news/hays-county-officials-seek-to-halt-pleasanton-hfc-tax-exemptions-as-state-scrutiny-intensifies/article_bfd12b26-3d73-417b-9ecf-e8b2581eeab1.html", "retrieved": "2026-07-11", "note": "Placeholder for unnamed San Marcos Pecos deal; ~$227M is countywide across both HFCs and both cities"}
+    ]
+  },
+  {
+    "census_id": "TX-LIT-0009",
+    "confidence": "single-source",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "Kyle",
+      "county": "Hays",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": null
+    },
+    "classification": {"tier": 1, "traveling": "yes", "structure_confirmed": "fee-flip-groundlease", "affordability_source": "structure", "in_target_set": true},
+    "exemption": {"first_exempt_tax_year": null, "appraised_value": null, "annual_exemption_value_est": null, "taxing_units": null},
+    "litigation_flags": ["City of San Marcos and Hays County v. Pecos HFC & Pleasanton HFC, Cause 25-1185-DCB (207th Dist. Ct., Hays Co.); TRO; ~$227-230M countywide"],
+    "gaps": ["Specific property name/address/value NOT itemized in reporting; Pleasanton seed shows 4 Hays rows (Kyle, San Marcos)"],
+    "provenance": [
+      {"field": "litigation", "source": "https://www.kxan.com/news/local/hays/hays-county-files-temporary-restraining-order-against-housing-group-over-tax-loophole/; sponsors/pleasanton-hfc.md", "retrieved": "2026-07-11", "note": "Placeholder for unnamed Kyle Pleasanton deal(s); Pleasanton seed has 4 Hays rows"}
+    ]
+  },
+  {
+    "census_id": "TX-LIT-0010",
+    "confidence": "single-source",
+    "property": {
+      "name": null,
+      "aka": ["Lake Worth property (unnamed in appellate record)"],
+      "address": null,
+      "city": "Lake Worth",
+      "county": "Tarrant",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": null
+    },
+    "classification": {"tier": 1, "traveling": "yes", "structure_confirmed": "fee-flip-groundlease", "affordability_source": "structure", "in_target_set": true},
+    "exemption": {"first_exempt_tax_year": null, "appraised_value": null, "annual_exemption_value_est": null, "taxing_units": null},
+    "litigation_flags": ["Pleasanton HFC v. City of Lake Worth 15-25-00110-CV / 02-25-00474-CV; TI granted 6/3/2025 (348th Dist. Ct., 348-364430-25); appeal DISMISSED for want of prosecution 1/15/2026 - injunction STANDS; TAD enjoined from granting exemption"],
+    "gaps": ["Property name/address/value not stated in appellate record; Lake Worth is ~302mi from Pleasanton per record"],
+    "provenance": [
+      {"field": "litigation", "source": "sponsors/pleasanton-hfc.md; https://app.midpage.ai/document/pleasanton-housing-finance-corporation-a-11090152; https://law.justia.com/cases/texas/second-court-of-appeals/2026/02-25-00474-cv.html", "retrieved": "2026-07-11", "note": "Lead Pleasanton injunction; abandoned on appeal so TI stands"}
+    ]
+  },
+  {
+    "census_id": "TX-LIT-0011",
+    "confidence": "single-source",
+    "property": {
+      "name": null,
+      "aka": ["Haltom City property (Pecos HFC)"],
+      "address": null,
+      "city": "Haltom City",
+      "county": "Tarrant",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": null
+    },
+    "classification": {"tier": 1, "traveling": "yes", "structure_confirmed": "fee-flip-groundlease", "affordability_source": "structure", "in_target_set": true},
+    "exemption": {"first_exempt_tax_year": null, "appraised_value": null, "annual_exemption_value_est": null, "taxing_units": null},
+    "litigation_flags": ["Haltom City v. Pecos HFC; injunction GRANTED 6/3/2025 (348th Dist. Ct., Tarrant) barring Pecos HFC purchases/exemptions in Haltom City and enjoining TAD from granting; appeals 15-25-00112-CV / 02-25-00476-CV (Pecos HFC v. City of Haltom City)"],
+    "gaps": ["Specific property name/address/value not surfaced in public reporting"],
+    "provenance": [
+      {"field": "litigation", "source": "sponsors/pecos-ha.md; https://app.midpage.ai/document/pecos-housing-finance-corporation-a-11090155; https://law.justia.com/cases/texas/second-court-of-appeals/2026/02-25-00476-cv.html", "retrieved": "2026-07-11", "note": "Injunction 6/3/2025; appeal disposition per curiam 1/15/2026"}
+    ]
+  }
+]

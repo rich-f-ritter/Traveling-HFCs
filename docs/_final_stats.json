@@ -1,0 +1,17 @@
+{
+  "records": 458,
+  "distinct_complexes_est": 420,
+  "with_cad_account": 429,
+  "expansions_raw": 126,
+  "total_appraised": 12761864272.0,
+  "tier1_records": 388,
+  "tier2_records": 41,
+  "tier3_records": 29,
+  "tier1_appraised": 11165514010.0,
+  "tier1_tax_at_stake": 256029994.0,
+  "billed_now_records": 32,
+  "billed_now_tax": 41715997.0,
+  "atrisk_records": 25,
+  "atrisk_tax": 26517688.0,
+  "total_annual_tax_at_stake": 256029994.0
+}

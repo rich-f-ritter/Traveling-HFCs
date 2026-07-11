@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Abacus Alamo Ranch",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Bexar",
+    "address": "11788 Culebra Road, San Antonio, TX 78253",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Alma Apartments",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing Public Facility Corporation",
+    "tier": 2,
+    "county": "Travis",
+    "address": "9220 N. Interstate 35, Austin, TX 78753",
+    "audit_year_received": "2025",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Arboretum Oaks",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing Public Facility Corporation",
+    "tier": 2,
+    "county": "Travis",
+    "address": "9617 Great Hills Trl., Austin, TX 78759",
+    "audit_year_received": "2025",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Centro Studio Homes",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Travis",
+    "address": "824 Camino La Costa, Austin, TX 78752",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Domain Town Center",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Harris",
+    "address": "7100 Uvalde Rd, Houston, TX 77049",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Enclave at La Frontera",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Williamson",
+    "address": "2800 La Frontera Blvd, Round Rock, TX 78681",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Hedge I Apartments",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing Public Facility Corporation",
+    "tier": 2,
+    "county": "Travis",
+    "address": "8210 N. Interstate 35, Austin, TX 78753",
+    "audit_year_received": "2025",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Hedge II Apartments",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing Public Facility Corporation",
+    "tier": 2,
+    "county": "Travis",
+    "address": "8210 N. Interstate 35, Austin, TX 78753",
+    "audit_year_received": "2025",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Lakecrest",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Harris",
+    "address": "1944 Katy Ford Bend Rd, Katy, TX 77493",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Lakeside at La Frontera",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Williamson",
+    "address": "941 Hesters Crossing Rd, Round Rock, TX 78681",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Legends Lakeline",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Williamson",
+    "address": "9725 N Lake Creek Pky, Austin, TX 78717",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Legends at Lake Creek",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Williamson",
+    "address": "10015 Lake Creek Pkwy, Austin, TX 78729",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Lively at Gilbert",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Travis",
+    "address": "7000 Gilbert Road, Manor, TX 78653",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Regatta Bay",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Harris",
+    "address": "2555 Repsdorph Rd, Seabrook, TX 77586",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "The Atlee",
+    "sponsor": "Texas Essential Housing Public Facility Corporation",
+    "sponsor_as_listed": "Texas Essential Housing PFC",
+    "tier": 2,
+    "county": "Bexar",
+    "address": "402 Holland Ave, San Antonio, TX 78212",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Allora Gosling",
+    "sponsor": "Houston Housing Authority",
+    "sponsor_as_listed": "Houston Housing Authority",
+    "tier": 3,
+    "county": "Harris",
+    "address": "22103 Gosling Rd, Spring, TX 77389",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Birchway Perry Road",
+    "sponsor": "Houston Housing Authority",
+    "sponsor_as_listed": "Houston Housing Authority",
+    "tier": 3,
+    "county": "Harris",
+    "address": "13611 Perry Rd, Houston, TX 77070",
+    "audit_year_received": "2025",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Caroline at Memorial",
+    "sponsor": "Houston Housing Authority",
+    "sponsor_as_listed": "Houston Housing Authority",
+    "tier": 3,
+    "county": "Harris",
+    "address": "15635 Memorial Drive, Houston, TX 77079",
+    "audit_year_received": "2025",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Milano Apartments",
+    "sponsor": "Houston Housing Authority",
+    "sponsor_as_listed": "Houston Housing Authority",
+    "tier": 3,
+    "county": "Harris",
+    "address": "2500 Woodland Park Dr, Houston, TX 77077",
+    "audit_year_received": "2025",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Collin Creek",
+    "sponsor": "Plano Housing Authority",
+    "sponsor_as_listed": "Plano Housing Authority",
+    "tier": 3,
+    "county": "Collin",
+    "address": "2301 Pebble Vale Dr, Plano, TX 75075",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Latitude",
+    "sponsor": "Plano Housing Authority",
+    "sponsor_as_listed": "Plano Housing Authority",
+    "tier": 3,
+    "county": "Collin",
+    "address": "601 Patton Blvd, Plano, TX 75075",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Summers Crossing",
+    "sponsor": "Plano Housing Authority",
+    "sponsor_as_listed": "Plano Housing Authority",
+    "tier": 3,
+    "county": "Collin",
+    "address": "1500 Preston Rd., Plano, TX 75093",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Avalon at Chase Oaks",
+    "sponsor": "Plano Housing Authority (via Plano Public Facility Corporation)",
+    "sponsor_as_listed": "Plano Public Facility Corporation",
+    "tier": 3,
+    "county": "Collin",
+    "address": "801 Legacy Drive, Plano, TX 75023",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Bel Air 16th",
+    "sponsor": "Plano Housing Authority (via Plano Public Facility Corporation)",
+    "sponsor_as_listed": "Plano Public Facilities Corporation",
+    "tier": 3,
+    "county": "Collin",
+    "address": "651 W 16th St., Plano, TX 75075",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Bel Air Oaks",
+    "sponsor": "Plano Housing Authority (via Plano Public Facility Corporation)",
+    "sponsor_as_listed": "Plano Public Facilities Corporation",
+    "tier": 3,
+    "county": "Collin",
+    "address": "700 W Plano Parkway, Plano, TX 75074",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Enclave Gateway",
+    "sponsor": "Plano Housing Authority (via Plano Public Facility Corporation)",
+    "sponsor_as_listed": "Plano Public Facilities Corporation",
+    "tier": 3,
+    "county": "Collin",
+    "address": "3201 Wynwood Drive, Plano, TX 75074",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Fountains at Steeplechase",
+    "sponsor": "Plano Housing Authority (via Plano Public Facility Corporation)",
+    "sponsor_as_listed": "Plano Public Facilities Corporation",
+    "tier": 3,
+    "county": "Collin",
+    "address": "7301 Alma Drive, Plano, TX 75025",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Jada Legacy Central",
+    "sponsor": "Plano Housing Authority (via Plano Public Facility Corporation)",
+    "sponsor_as_listed": "Plano Public Facilities Corporation",
+    "tier": 3,
+    "county": "Collin",
+    "address": "6501 Excellence Way, Plano, TX 75023",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Opal Legacy Central",
+    "sponsor": "Plano Housing Authority (via Plano Public Facility Corporation)",
+    "sponsor_as_listed": "Plano Public Facilities Corporation",
+    "tier": 3,
+    "county": "Collin",
+    "address": "6500 Excellence Way, Plano, TX 75023",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  },
+  {
+    "name": "Thornbury at Chase Oaks",
+    "sponsor": "Plano Housing Authority (via Plano Public Facility Corporation)",
+    "sponsor_as_listed": "Plano Public Facility Corporation",
+    "tier": 3,
+    "county": "Collin",
+    "address": "7101 Chase Oaks Blvd, Plano, TX 75025",
+    "audit_year_received": "2024",
+    "source_url": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/PFC-Reported-Devs_1.xlsx"
+  }
+]

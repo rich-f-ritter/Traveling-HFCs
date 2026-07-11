@@ -6481,7 +6481,7 @@
     },
     "exemption": {
       "first_exempt_tax_year": null,
-      "appraised_value": 0,
+      "appraised_value": null,
       "annual_exemption_value_est": null,
       "taxing_units": 10
     },
@@ -6516,6 +6516,7 @@
     "instrument_extractions": [],
     "gaps": [
       "bucket-paired within Pecos Housing Finance Corporation+CYPRESS (descending appraised value; 2 seed row(s) vs 2 HCAD candidate(s) in bucket)",
+      "HCAD lists this account's value as 'All Values Pending' in the 2025 certified extract (recent acquisition/split still mid-processing) \u2014 appraised_value could not be populated from this data pull.",
       "HCAD 2025 certified roll shows this account fully TAXABLE (state class B1/C2, county taxable_val = appraised_val, no exemption posted) despite sponsor-of-record ownership. Cause (application pending, non-filing of \u00a7394.9027 TDHCA compliance audit, denial, or litigation) not determinable from the roll alone.",
       "annual_exemption_value_est not computed \u2014 would require applying each taxing unit's adopted TY2025/26 rate (not pulled in this pass) to the appraised value.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot; would require differencing against HCAD's prior-year (2024 and earlier) certified exports (available free via the same Pdata portal)."
@@ -6826,7 +6827,7 @@
     },
     "exemption": {
       "first_exempt_tax_year": null,
-      "appraised_value": 0,
+      "appraised_value": null,
       "annual_exemption_value_est": null,
       "taxing_units": 8
     },
@@ -6861,6 +6862,7 @@
     "instrument_extractions": [],
     "gaps": [
       "bucket-paired within Pecos Housing Finance Corporation+HOUSTON (descending appraised value; 24 seed row(s) vs 26 HCAD candidate(s) in bucket)",
+      "HCAD lists this account's value as 'All Values Pending' in the 2025 certified extract (recent acquisition/split still mid-processing) \u2014 appraised_value could not be populated from this data pull.",
       "HCAD 2025 certified roll shows this account fully TAXABLE (state class B1/C2, county taxable_val = appraised_val, no exemption posted) despite sponsor-of-record ownership. Cause (application pending, non-filing of \u00a7394.9027 TDHCA compliance audit, denial, or litigation) not determinable from the roll alone.",
       "annual_exemption_value_est not computed \u2014 would require applying each taxing unit's adopted TY2025/26 rate (not pulled in this pass) to the appraised value.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot; would require differencing against HCAD's prior-year (2024 and earlier) certified exports (available free via the same Pdata portal)."
@@ -6941,7 +6943,7 @@
     },
     "exemption": {
       "first_exempt_tax_year": null,
-      "appraised_value": 0,
+      "appraised_value": null,
       "annual_exemption_value_est": null,
       "taxing_units": 8
     },
@@ -6976,6 +6978,7 @@
     "instrument_extractions": [],
     "gaps": [
       "bucket-paired within Pecos Housing Finance Corporation+HOUSTON (descending appraised value; 24 seed row(s) vs 26 HCAD candidate(s) in bucket)",
+      "HCAD lists this account's value as 'All Values Pending' in the 2025 certified extract (recent acquisition/split still mid-processing) \u2014 appraised_value could not be populated from this data pull.",
       "HCAD 2025 certified roll shows this account fully TAXABLE (state class B1/C2, county taxable_val = appraised_val, no exemption posted) despite sponsor-of-record ownership. Cause (application pending, non-filing of \u00a7394.9027 TDHCA compliance audit, denial, or litigation) not determinable from the roll alone.",
       "annual_exemption_value_est not computed \u2014 would require applying each taxing unit's adopted TY2025/26 rate (not pulled in this pass) to the appraised value.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot; would require differencing against HCAD's prior-year (2024 and earlier) certified exports (available free via the same Pdata portal)."
@@ -10099,7 +10102,7 @@
     },
     "exemption": {
       "first_exempt_tax_year": null,
-      "appraised_value": 0,
+      "appraised_value": null,
       "annual_exemption_value_est": null,
       "taxing_units": 10
     },
@@ -10136,6 +10139,7 @@
       "Discovered via HCAD owner-name sweep (bucket: Pecos Housing Finance Corporation + Houston) beyond the seed's row count for this sponsor+city bucket \u2014 not independently confirmed against any seed row, litigation filing, or news source.",
       "annual_exemption_value_est not computed.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot.",
+      "HCAD lists this account's value as 'All Values Pending' in the 2025 certified extract \u2014 appraised_value could not be populated.",
       "HCAD 2025 certified roll shows this account fully TAXABLE despite sponsor-of-record ownership."
     ],
     "provenance": [
@@ -10287,7 +10291,7 @@
     },
     "exemption": {
       "first_exempt_tax_year": null,
-      "appraised_value": 0,
+      "appraised_value": null,
       "annual_exemption_value_est": null,
       "taxing_units": 8
     },
@@ -10324,6 +10328,7 @@
       "Discovered via HCAD owner-name sweep (bucket: Pecos Housing Finance Corporation + Houston) beyond the seed's row count for this sponsor+city bucket \u2014 not independently confirmed against any seed row, litigation filing, or news source.",
       "annual_exemption_value_est not computed.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot.",
+      "HCAD lists this account's value as 'All Values Pending' in the 2025 certified extract \u2014 appraised_value could not be populated.",
       "HCAD 2025 certified roll shows this account fully TAXABLE despite sponsor-of-record ownership."
     ],
     "provenance": [
@@ -10568,7 +10573,7 @@
     },
     "exemption": {
       "first_exempt_tax_year": null,
-      "appraised_value": 0,
+      "appraised_value": 0.0,
       "annual_exemption_value_est": null,
       "taxing_units": 9
     },
@@ -10754,7 +10759,7 @@
     },
     "exemption": {
       "first_exempt_tax_year": null,
-      "appraised_value": 0,
+      "appraised_value": null,
       "annual_exemption_value_est": null,
       "taxing_units": 8
     },
@@ -10789,7 +10794,8 @@
     "gaps": [
       "Discovered via HCAD owner-name sweep (bucket: Maverick County Housing Finance Corporation + Houston) beyond the seed's row count for this sponsor+city bucket \u2014 not independently confirmed against any seed row, litigation filing, or news source.",
       "annual_exemption_value_est not computed.",
-      "first_exempt_tax_year not determinable from a single-year roll snapshot."
+      "first_exempt_tax_year not determinable from a single-year roll snapshot.",
+      "HCAD lists this account's value as 'All Values Pending' in the 2025 certified extract \u2014 appraised_value could not be populated."
     ],
     "provenance": [
       {
@@ -11313,7 +11319,7 @@
     },
     "exemption": {
       "first_exempt_tax_year": null,
-      "appraised_value": 0,
+      "appraised_value": null,
       "annual_exemption_value_est": null,
       "taxing_units": 8
     },
@@ -11348,6 +11354,7 @@
       "Discovered via HCAD owner-name sweep (bucket: Pleasanton Housing Finance Corporation + Houston) beyond the seed's row count for this sponsor+city bucket \u2014 not independently confirmed against any seed row, litigation filing, or news source.",
       "annual_exemption_value_est not computed.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot.",
+      "HCAD lists this account's value as 'All Values Pending' in the 2025 certified extract \u2014 appraised_value could not be populated.",
       "HCAD 2025 certified roll shows this account fully TAXABLE despite sponsor-of-record ownership."
     ],
     "provenance": [
@@ -11406,7 +11413,7 @@
     },
     "exemption": {
       "first_exempt_tax_year": null,
-      "appraised_value": 0,
+      "appraised_value": null,
       "annual_exemption_value_est": null,
       "taxing_units": 9
     },
@@ -11441,6 +11448,7 @@
       "Discovered via HCAD owner-name sweep (bucket: Pleasanton Housing Finance Corporation + Houston) beyond the seed's row count for this sponsor+city bucket \u2014 not independently confirmed against any seed row, litigation filing, or news source.",
       "annual_exemption_value_est not computed.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot.",
+      "HCAD lists this account's value as 'All Values Pending' in the 2025 certified extract \u2014 appraised_value could not be populated.",
       "HCAD 2025 certified roll shows this account fully TAXABLE despite sponsor-of-record ownership."
     ],
     "provenance": [
@@ -11499,7 +11507,7 @@
     },
     "exemption": {
       "first_exempt_tax_year": null,
-      "appraised_value": 0,
+      "appraised_value": 0.0,
       "annual_exemption_value_est": null,
       "taxing_units": 8
     },
