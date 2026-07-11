@@ -1,0 +1,1300 @@
+[
+  {
+    "census_id": "TX-43-1479",
+    "property_name": "JEFFERSON PROMENADE II",
+    "city": "Irving",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "322422200A0020000",
+    "appraised_value": 101520700.0,
+    "units": 433,
+    "isd": "Irving ISD",
+    "combined_tax_rate": 0.0283908,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Irving 0.589100 + Irving ISD 1.015900 + Dallas College 0.106575 + Parkland 0.212000 + Dallas Co URD (DCURD, Las Colinas) 0.700000",
+    "annual_foregone_tax_est": 2882253.89,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": "Carries DCURD (Dallas County Utility & Reclamation District, Las Colinas/Valley Ranch) 0.70/$100 -- pushes rate well above peers"
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1005",
+    "property_name": "INNOVA",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "002006001801D0000",
+    "appraised_value": 113950000.0,
+    "units": 430,
+    "isd": "Dallas ISD",
+    "combined_tax_rate": 0.0222671,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Dallas ISD 0.993835 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 2537336.05,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-38-2135",
+    "property_name": "Monarch Pass Apartment Homes",
+    "city": "Fort Worth",
+    "county": "Tarrant",
+    "sponsor": "Cameron County Housing Finance Corporation",
+    "cad_account": "4981812",
+    "appraised_value": 96000000,
+    "units": null,
+    "isd": "Fort Worth ISD",
+    "combined_tax_rate": 0.0231228,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Fort Worth 0.670000 + Fort Worth ISD 1.178800 (TRWD ~0.026 omitted)",
+    "annual_foregone_tax_est": 2219788.8,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2023,
+    "gaps": [
+      "units not confirmed from free public listings/litigation; left null (TAD does not publish unit counts).",
+      "combined_tax_rate is core (County+College+JPS+City+ISD) and omits Tarrant Regional Water District (~0.026/$100) shown as an extra TAD taxing unit -- estimate is ~1% conservative."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": "ISD determined via apartments.com/Zillow (4500 Campus Dr, 76119, FWISD)"
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1496",
+    "property_name": "LAS COLINAS HEIGHTS",
+    "city": "Irving",
+    "county": "Dallas",
+    "sponsor": "Cameron County Housing Finance Corporation",
+    "cad_account": "32065600000010000",
+    "appraised_value": 87210000.0,
+    "units": 513,
+    "isd": "Irving ISD",
+    "combined_tax_rate": 0.0213908,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Irving 0.589100 + Irving ISD 1.015900 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1865491.67,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1104",
+    "property_name": "MARQUIS AT PARK CENTRAL",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "007731000A0020000",
+    "appraised_value": 76010140.0,
+    "units": 308,
+    "isd": "Richardson ISD",
+    "combined_tax_rate": 0.0233808,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Richardson ISD 1.105200 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1777177.88,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1153801",
+    "property_name": "JEFFERSON VINE",
+    "city": "Grand Prairie",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "28103730010020000",
+    "appraised_value": 76000000.0,
+    "units": 380,
+    "isd": "Grand Prairie ISD",
+    "combined_tax_rate": 0.0225676,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Grand Prairie 0.660000 + Grand Prairie ISD 1.062687 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1715137.6,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-TARRANT-1",
+    "property_name": "Oak Park",
+    "city": "Euless",
+    "county": "Tarrant",
+    "sponsor": "Cameron County Housing Finance Corporation",
+    "cad_account": "2054183; 2054191; 7049498",
+    "appraised_value": 81900000,
+    "units": 608,
+    "isd": "Hurst-Euless-Bedford ISD",
+    "combined_tax_rate": 0.0204967,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Euless 0.557290 + HEB ISD 1.028900",
+    "annual_foregone_tax_est": 1678679.73,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2024,
+    "gaps": [],
+    "sources": [
+      {
+        "field": "units",
+        "source": "apartmentfinder.com (608 units, built 1978) -- CONFLICTS w/ Redfin; low confidence",
+        "note": null
+      },
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": null
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-38-1307454",
+    "property_name": "Jefferson Fossil Creek",
+    "city": "Haltom City",
+    "county": "Tarrant",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "43027850",
+    "appraised_value": 73200000,
+    "units": null,
+    "isd": "Birdville ISD",
+    "combined_tax_rate": 0.0229267,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Haltom City 0.743991 + Birdville ISD 1.085200",
+    "annual_foregone_tax_est": 1678234.44,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2025,
+    "gaps": [
+      "units not confirmed from free public listings/litigation; left null (TAD does not publish unit counts)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": null
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1043",
+    "property_name": "ARBORSTONE II   CORAL CREEK APTS",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "006938000A01A0000",
+    "appraised_value": 75000000.0,
+    "units": 536,
+    "isd": "Dallas ISD",
+    "combined_tax_rate": 0.0222671,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Dallas ISD 0.993835 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1670032.5,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-TARRANT-4",
+    "property_name": "The Sydney",
+    "city": "Mansfield",
+    "county": "Tarrant",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "42662484",
+    "appraised_value": 70900000,
+    "units": 354,
+    "isd": "Mansfield ISD",
+    "combined_tax_rate": 0.0232898,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Mansfield 0.639000 + Mansfield ISD 1.226500",
+    "annual_foregone_tax_est": 1651246.82,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2025,
+    "gaps": [],
+    "sources": [
+      {
+        "field": "units",
+        "source": "apartments.com/HAR (354 units, built 2021)",
+        "note": null
+      },
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": null
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-4278",
+    "property_name": "TEAK APTS",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "La Villa Housing Finance Corporation",
+    "cad_account": "005403000A0010000",
+    "appraised_value": 73000000.0,
+    "units": 316,
+    "isd": "Dallas ISD",
+    "combined_tax_rate": 0.0222671,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Dallas ISD 0.993835 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1625498.3,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1065",
+    "property_name": "KENDRICK",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "008125000501D0000",
+    "appraised_value": 68850000.0,
+    "units": 405,
+    "isd": "Richardson ISD",
+    "combined_tax_rate": 0.0233808,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Richardson ISD 1.105200 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1609768.08,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-DALLAS-25",
+    "property_name": "THE LOFT APARTMENT OF ADDISON",
+    "city": "Addison",
+    "county": "Dallas",
+    "sponsor": "Garland Housing Finance Corporation",
+    "cad_account": "104500000A0010000",
+    "appraised_value": 75044080.0,
+    "units": 353,
+    "isd": "Dallas ISD",
+    "combined_tax_rate": 0.0213601,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + Town of Addison 0.608100 + Dallas ISD 0.993835 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1602949.05,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-387177",
+    "property_name": "Durrington Ridge",
+    "city": "San Antonio",
+    "county": "Bexar",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "1352388",
+    "appraised_value": 69000000.0,
+    "units": 398,
+    "isd": "North East ISD",
+    "combined_tax_rate": 0.02267474,
+    "combined_tax_rate_breakdown": "non-ISD stack + North East ISD 0.982200",
+    "annual_foregone_tax_est": 1564557.06,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2025,
+    "gaps": [],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "Bexar County Tax Assessor-Collector 2025 Official Tax Rates (bexar.org/4032) + BCAD 2025 rate chart (bcad.org) + per-account BCAD portal (bexar.trueautomation.com/clientdb, cid=110); TY2025 adopted rates",
+        "note": "TY2025 rate applied to TY2026 appraised value = $1,564,557 (matches existing county file). Agent notes true TY2025 bill on TY2025 value ($70M) was $1,587,232."
+      },
+      {
+        "field": "units, appraised_value, first_exempt_tax_year",
+        "source": "BCAD per-account portal (bexar.trueautomation.com/clientdb, cid=110); units from DBA field; first fully-exempt year from TY2022-26 tax-history toggle",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-38-2188",
+    "property_name": "Stillwater Crystal Springs Apts",
+    "city": "Fort Worth",
+    "county": "Tarrant",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "42699604",
+    "appraised_value": 67300000,
+    "units": 387,
+    "isd": "Fort Worth ISD",
+    "combined_tax_rate": 0.0231228,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Fort Worth 0.670000 + Fort Worth ISD 1.178800 (TRWD ~0.026 omitted)",
+    "annual_foregone_tax_est": 1556164.44,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / no 11.11 on file per TAD -- fully taxable now; 'annual_foregone_tax_est' is the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "combined_tax_rate is core (County+College+JPS+City+ISD) and omits Tarrant Regional Water District (~0.026/$100) shown as an extra TAD taxing unit -- estimate is ~1% conservative."
+    ],
+    "sources": [
+      {
+        "field": "units",
+        "source": "multifamilybiz/prnewswire (387-unit, River District, 76114, FWISD)",
+        "note": null
+      },
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": null
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-38-1047",
+    "property_name": "Cortland Riverside",
+    "city": "Fort Worth",
+    "county": "Tarrant",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "42220791; 42220783",
+    "appraised_value": 65400000,
+    "units": 374,
+    "isd": "Eagle Mountain-Saginaw ISD",
+    "combined_tax_rate": 0.0237918,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Fort Worth 0.670000 + Eagle Mountain-Saginaw ISD 1.245700 (TRWD + 1 more omitted; TAD=7 units)",
+    "annual_foregone_tax_est": 1555983.72,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / no 11.11 on file per TAD -- fully taxable now; 'annual_foregone_tax_est' is the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "combined_tax_rate is core (County+College+JPS+City+ISD) and omits Tarrant Regional Water District (~0.026/$100) shown as an extra TAD taxing unit -- estimate is ~1% conservative."
+    ],
+    "sources": [
+      {
+        "field": "units",
+        "source": "apartmentfinder (374 units, built 2019, 76137); EMS ISD per Chisholm Trail HS zone",
+        "note": null
+      },
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": null
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1385",
+    "property_name": "EQUINOX ON THE PARK",
+    "city": "Garland",
+    "county": "Dallas",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "26174700010010000",
+    "appraised_value": 64000000.0,
+    "units": 338,
+    "isd": "Garland ISD",
+    "combined_tax_rate": 0.0239472,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Garland 0.689746 + Garland ISD 1.170900 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1532620.8,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-38-1402209",
+    "property_name": "The Dawnson at Berksire",
+    "city": "Fort Worth",
+    "county": "Tarrant",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "42729627",
+    "appraised_value": 66500000,
+    "units": null,
+    "isd": "Northwest ISD",
+    "combined_tax_rate": 0.0221758,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Fort Worth 0.670000 + Northwest ISD 1.084100 (TRWD ~0.026 omitted)",
+    "annual_foregone_tax_est": 1474690.7,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2026,
+    "gaps": [
+      "units not confirmed from free public listings/litigation; left null (TAD does not publish unit counts).",
+      "combined_tax_rate is core (County+College+JPS+City+ISD) and omits Tarrant Regional Water District (~0.026/$100) shown as an extra TAD taxing unit -- estimate is ~1% conservative."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": "ISD determined via apartments.com (V.R. Eaton HS/CW Worthington MS zone = Northwest ISD, 76131); NISD rate from nisdtx.org -- Nov-2025 VATRE caveat"
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1116",
+    "property_name": "JEFFERSON AT MONTFORT APT",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "La Villa Housing Finance Corporation",
+    "cad_account": "008166000B01B0000",
+    "appraised_value": 66082800.0,
+    "units": 336,
+    "isd": "Dallas ISD",
+    "combined_tax_rate": 0.0222671,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Dallas ISD 0.993835 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1471472.32,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1340126",
+    "property_name": "JEFFERSON AT MONTFORT II",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "La Villa Housing Finance Corporation",
+    "cad_account": "008166000F01B0000",
+    "appraised_value": 64116050.0,
+    "units": 326,
+    "isd": "Dallas ISD",
+    "combined_tax_rate": 0.0222671,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Dallas ISD 0.993835 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1427678.5,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1071",
+    "property_name": "KADE",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "005703004A0010000",
+    "appraised_value": 64000000.0,
+    "units": 348,
+    "isd": "Dallas ISD",
+    "combined_tax_rate": 0.0222671,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Dallas ISD 0.993835 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1425094.4,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-38-2481",
+    "property_name": "Jefferson North Collins",
+    "city": "Arlington",
+    "county": "Tarrant",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "42642581",
+    "appraised_value": 68000000,
+    "units": 344,
+    "isd": "Arlington ISD",
+    "combined_tax_rate": 0.0203285,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Arlington 0.476466 + Arlington ISD 1.092900",
+    "annual_foregone_tax_est": 1382338.0,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2025,
+    "gaps": [],
+    "sources": [
+      {
+        "field": "units",
+        "source": "har.com/IPA Texas (344 units, built 2021)",
+        "note": null
+      },
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": null
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-38-2748",
+    "property_name": "The Sovereign",
+    "city": "Fort Worth",
+    "county": "Tarrant",
+    "sponsor": "Maverick County Housing Finance Corporation",
+    "cad_account": "41652207",
+    "appraised_value": 60500000,
+    "units": null,
+    "isd": "Keller ISD",
+    "combined_tax_rate": 0.0228038,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Fort Worth 0.670000 + Keller ISD 1.146900 (TRWD ~0.026 omitted)",
+    "annual_foregone_tax_est": 1379629.9,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2025,
+    "gaps": [
+      "units not confirmed from free public listings/litigation; left null (TAD does not publish unit counts).",
+      "combined_tax_rate is core (County+College+JPS+City+ISD) and omits Tarrant Regional Water District (~0.026/$100) shown as an extra TAD taxing unit -- estimate is ~1% conservative."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": "ISD determined via sovereignkeller.com / 76244 = Keller ISD"
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1495",
+    "property_name": "RANCHO MIRAGE",
+    "city": "Irving",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "32023410000020000",
+    "appraised_value": 65086730.0,
+    "units": 310,
+    "isd": "Carrollton-Farmers Branch ISD",
+    "combined_tax_rate": 0.0207128,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Irving 0.589100 + CFB ISD 0.948100 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1348128.42,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1089",
+    "property_name": "THE EMERSON",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "0080690B0001A0000",
+    "appraised_value": 56303680.0,
+    "units": 486,
+    "isd": "Richardson ISD",
+    "combined_tax_rate": 0.0233808,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Richardson ISD 1.105200 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1316425.08,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-2718",
+    "property_name": "Sterling at Oak Hills",
+    "city": "San Antonio",
+    "county": "Bexar",
+    "sponsor": "Maverick County Housing Finance Corporation",
+    "cad_account": "1254484",
+    "appraised_value": 57000000.0,
+    "units": 330,
+    "isd": "Northside ISD",
+    "combined_tax_rate": 0.02290174,
+    "combined_tax_rate_breakdown": "non-ISD stack + Northside ISD 1.004900",
+    "annual_foregone_tax_est": 1305399.18,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2025,
+    "gaps": [],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "Bexar County Tax Assessor-Collector 2025 Official Tax Rates (bexar.org/4032) + BCAD 2025 rate chart (bcad.org) + per-account BCAD portal (bexar.trueautomation.com/clientdb, cid=110); TY2025 adopted rates",
+        "note": "TY2025 rate x TY2026 value = $1,305,399. True TY2025 bill on TY2025 value ($57.5M) was $1,316,850."
+      },
+      {
+        "field": "units, appraised_value, first_exempt_tax_year",
+        "source": "BCAD per-account portal (bexar.trueautomation.com/clientdb, cid=110); units from DBA field; first fully-exempt year from TY2022-26 tax-history toggle",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-3448",
+    "property_name": "LA COSTA VILLA",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "Maverick County Housing Finance Corporation",
+    "cad_account": "007731000A0010000",
+    "appraised_value": 53840380.0,
+    "units": 260,
+    "isd": "Richardson ISD",
+    "combined_tax_rate": 0.0233808,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Richardson ISD 1.105200 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1258831.16,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1707",
+    "property_name": "Dalian 151",
+    "city": "San Antonio",
+    "county": "Bexar",
+    "sponsor": "Cameron County Housing Finance Corporation",
+    "cad_account": "1248651",
+    "appraised_value": 54500000.0,
+    "units": 360,
+    "isd": "Northside ISD",
+    "combined_tax_rate": 0.02290174,
+    "combined_tax_rate_breakdown": "non-ISD stack + Northside ISD 1.004900",
+    "annual_foregone_tax_est": 1248144.83,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2025,
+    "gaps": [],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "Bexar County Tax Assessor-Collector 2025 Official Tax Rates (bexar.org/4032) + BCAD 2025 rate chart (bcad.org) + per-account BCAD portal (bexar.trueautomation.com/clientdb, cid=110); TY2025 adopted rates",
+        "note": "TY2025 = TY2026 value ($54.5M); figure is exact TY2025 bill."
+      },
+      {
+        "field": "units, appraised_value, first_exempt_tax_year",
+        "source": "BCAD per-account portal (bexar.trueautomation.com/clientdb, cid=110); units from DBA field; first fully-exempt year from TY2022-26 tax-history toggle",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1225449",
+    "property_name": "SPRINGS AT GRAND PRAIRIE",
+    "city": "Grand Prairie",
+    "county": "Dallas",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "220334900A0010000",
+    "appraised_value": 54898400.0,
+    "units": 276,
+    "isd": "Grand Prairie ISD",
+    "combined_tax_rate": 0.0225676,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Grand Prairie 0.660000 + Grand Prairie ISD 1.062687 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1238925.13,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-38-1225261",
+    "property_name": "Rocklyn Apartments",
+    "city": "Fort Worth",
+    "county": "Tarrant",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "42402920; 42402938; 42402946",
+    "appraised_value": 53400000,
+    "units": 272,
+    "isd": "Fort Worth ISD",
+    "combined_tax_rate": 0.0231228,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Fort Worth 0.670000 + Fort Worth ISD 1.178800 (TRWD ~0.026 omitted)",
+    "annual_foregone_tax_est": 1234757.52,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2026,
+    "gaps": [
+      "combined_tax_rate is core (County+College+JPS+City+ISD) and omits Tarrant Regional Water District (~0.026/$100) shown as an extra TAD taxing unit -- estimate is ~1% conservative."
+    ],
+    "sources": [
+      {
+        "field": "units",
+        "source": "apartmentfinder/HAR (272 units, built 2019, 76102, FWISD; some list 274)",
+        "note": null
+      },
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": null
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1709",
+    "property_name": "Nova Apartments",
+    "city": "San Antonio",
+    "county": "Bexar",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "1117284",
+    "appraised_value": 53500000.0,
+    "units": 412,
+    "isd": "Northside ISD",
+    "combined_tax_rate": 0.02290174,
+    "combined_tax_rate_breakdown": "non-ISD stack + Northside ISD 1.004900",
+    "annual_foregone_tax_est": 1225243.09,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2025,
+    "gaps": [],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "Bexar County Tax Assessor-Collector 2025 Official Tax Rates (bexar.org/4032) + BCAD 2025 rate chart (bcad.org) + per-account BCAD portal (bexar.trueautomation.com/clientdb, cid=110); TY2025 adopted rates",
+        "note": "TY2025 rate x TY2026 value = $1,225,243. True TY2025 bill on higher TY2025 value ($58.75M) was $1,345,477 (value fell 9.8% by TY2026)."
+      },
+      {
+        "field": "units, appraised_value, first_exempt_tax_year",
+        "source": "BCAD per-account portal (bexar.trueautomation.com/clientdb, cid=110); units from DBA field; first fully-exempt year from TY2022-26 tax-history toggle",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-38-1495418",
+    "property_name": "Neuhaus Lake Worth Apts",
+    "city": "Lake Worth",
+    "county": "Tarrant",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "43008758",
+    "appraised_value": 54700000,
+    "units": null,
+    "isd": "Lake Worth ISD",
+    "combined_tax_rate": 0.0221652,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Lake Worth 0.497841 + Lake Worth ISD 1.255200",
+    "annual_foregone_tax_est": 1212436.44,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / no 11.11 on file per TAD -- fully taxable now; 'annual_foregone_tax_est' is the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "units not confirmed from free public listings/litigation; left null (TAD does not publish unit counts)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": null
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1415",
+    "property_name": "REPUBLIC WEST APARTMENTS",
+    "city": "Garland",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "26178370010010000",
+    "appraised_value": 50090050.0,
+    "units": 410,
+    "isd": "Garland ISD",
+    "combined_tax_rate": 0.0239472,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Garland 0.689746 + Garland ISD 1.170900 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1199516.45,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1094",
+    "property_name": "THE EVERLY",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "0080700A000010100",
+    "appraised_value": 51234870.0,
+    "units": 420,
+    "isd": "Richardson ISD",
+    "combined_tax_rate": 0.0233808,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Richardson ISD 1.105200 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1197912.25,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1092",
+    "property_name": "THE ABBOTT",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "007209000A0040000",
+    "appraised_value": 53500000.0,
+    "units": 332,
+    "isd": "Dallas ISD",
+    "combined_tax_rate": 0.0222671,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Dallas ISD 0.993835 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1191289.85,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-BEXAR-3",
+    "property_name": "Dalian Monterrey Village",
+    "city": "San Antonio",
+    "county": "Bexar",
+    "sponsor": "Cameron County Housing Finance Corporation",
+    "cad_account": "1207284",
+    "appraised_value": 51500000.0,
+    "units": 360,
+    "isd": "Northside ISD",
+    "combined_tax_rate": 0.02290174,
+    "combined_tax_rate_breakdown": "non-ISD stack + Northside ISD 1.004900",
+    "annual_foregone_tax_est": 1179439.61,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2025,
+    "gaps": [],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "Bexar County Tax Assessor-Collector 2025 Official Tax Rates (bexar.org/4032) + BCAD 2025 rate chart (bcad.org) + per-account BCAD portal (bexar.trueautomation.com/clientdb, cid=110); TY2025 adopted rates",
+        "note": "TY2025 = TY2026 value ($51.5M); figure is exact TY2025 bill."
+      },
+      {
+        "field": "units, appraised_value, first_exempt_tax_year",
+        "source": "BCAD per-account portal (bexar.trueautomation.com/clientdb, cid=110); units from DBA field; first fully-exempt year from TY2022-26 tax-history toggle",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-38-1215326",
+    "property_name": "Northpoint Villas",
+    "city": "Fort Worth",
+    "county": "Tarrant",
+    "sponsor": "Pleasanton Housing Finance Corporation",
+    "cad_account": "41410475",
+    "appraised_value": 49600000,
+    "units": null,
+    "isd": "Keller ISD",
+    "combined_tax_rate": 0.0228038,
+    "combined_tax_rate_breakdown": "Tarrant Co 0.186200 + TCC 0.112280 + JPS 0.165000 + City of Fort Worth 0.670000 + Keller ISD 1.146900 (TRWD ~0.026 omitted)",
+    "annual_foregone_tax_est": 1131068.48,
+    "currently_exempt": "yes",
+    "currently_exempt_note": "Exemption currently in effect; 'annual_foregone_tax_est' = tax that will be foregone (or restored to rolls at the 1/1/2027 HB21 cliff).",
+    "first_exempt_tax_year": 2025,
+    "gaps": [
+      "units not confirmed from free public listings/litigation; left null (TAD does not publish unit counts).",
+      "combined_tax_rate is core (County+College+JPS+City+ISD) and omits Tarrant Regional Water District (~0.026/$100) shown as an extra TAD taxing unit -- estimate is ~1% conservative."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "TY2025 Tarrant consolidated tax-rate table (tad.org, via keytitlegroupdfw.com 2025-TARRANT-Property-Tax-Rates.pdf); Northwest ISD from nisdtx.org. Core rate = County+College+JPS+City+ISD",
+        "note": "ISD determined via zillow (8100 N Riverside Dr, Summerfields, 76137 = Keller ISD); units listed '35' is units-available not total -- left null"
+      },
+      {
+        "field": "appraised_value, currently_exempt (11.11 status)",
+        "source": "tad.org per-account page (Exemptions/Special Appraisal section); TY2026 appraised value",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-496",
+    "property_name": "LIVE OAKS AT THE BRANCH",
+    "city": "Dallas",
+    "county": "Dallas",
+    "sponsor": "La Villa Housing Finance Corporation",
+    "cad_account": "005403000B0010000",
+    "appraised_value": 49500000.0,
+    "units": 196,
+    "isd": "Dallas ISD",
+    "combined_tax_rate": 0.0222671,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Dallas 0.698800 + Dallas ISD 0.993835 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1102221.45,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-43-1599",
+    "property_name": "MONTORO APARTMENTS",
+    "city": "Irving",
+    "county": "Dallas",
+    "sponsor": "Cameron County Housing Finance Corporation",
+    "cad_account": "32441150000000000",
+    "appraised_value": 48600000.0,
+    "units": 324,
+    "isd": "Irving ISD",
+    "combined_tax_rate": 0.0213908,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Irving 0.589100 + Irving ISD 1.015900 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 1039592.88,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-37-1294",
+    "property_name": "BRIARCREST APTS",
+    "city": "Carrollton",
+    "county": "Dallas",
+    "sponsor": "Pecos Housing Finance Corporation",
+    "cad_account": "14006580000000000",
+    "appraised_value": 47450990.0,
+    "units": 238,
+    "isd": "Carrollton-Farmers Branch ISD",
+    "combined_tax_rate": 0.0201968,
+    "combined_tax_rate_breakdown": "Dallas Co 0.215500 + City of Carrollton 0.537500 + CFB ISD 0.948100 + Dallas College 0.106575 + Parkland 0.212000",
+    "annual_foregone_tax_est": 958358.15,
+    "currently_exempt": "no",
+    "currently_exempt_note": "EXEMPTION STRIPPED / not on TY2026 DCAD roll -- carried at full taxable value; 'annual_foregone_tax_est' is therefore the tax now being BILLED, not a future loss.",
+    "first_exempt_tax_year": null,
+    "gaps": [
+      "first_exempt_tax_year not determinable from DCAD roll (no prior-year exempt value posted; account carried taxable)."
+    ],
+    "sources": [
+      {
+        "field": "combined_tax_rate",
+        "source": "DCAD 2025 Ad Valorem Tax Rates PDF (dallascad.org, rev 11/5/2025) + Dallas County Tax Office Truth-in-Taxation (dallascounty.org/departments/tax/tax-rates.php) + per-account DCAD AcctDetailCom.aspx jurisdiction table; TY2025 adopted rates",
+        "note": null
+      },
+      {
+        "field": "units, appraised_value, currently_exempt",
+        "source": "DCAD 2026 appraisal roll bulk export (dallascad.org DataProducts.aspx); units from COM_DETAIL; TY2026 taxable=appraised (no exemption in effect)",
+        "note": null
+      }
+    ]
+  }
+]
