@@ -1,12 +1,12 @@
 # Census Master — Running Rollup (interim, unverified)
 
-*Consolidated from: bexar, collin, dallas, denton, fortbend, hays, montgomery, smallbundle, tarrant, williamson. This is a live interim cut — the Opus verify pass and the remaining counties (incl. Harris) are not yet folded in.*
+*Consolidated from: bexar, collin, dallas, denton, fortbend, harris, hays, montgomery, smallbundle, tarrant, travis, williamson. This is a live interim cut — the Opus verify pass and the remaining counties (incl. Harris) are not yet folded in.*
 
-- **Total property records:** 317
-- **With a CAD account #:** 301
-- **Off-seed expansions (found beyond the Matrix list):** 100
-- **Total appraised value captured:** $9.57B
-- **Already-closed capital events (§13(e) early deaths):** 18
+- **Total property records:** 458
+- **With a CAD account #:** 429
+- **Off-seed expansions (found beyond the Matrix list):** 126
+- **Total appraised value captured:** $12.76B
+- **Already-closed capital events (§13(e) early deaths):** 75
 
 ## By county
 
@@ -14,6 +14,8 @@
 |---|---|---|
 | Dallas | 132 | $3.89B |
 | Tarrant | 60 | $2.02B |
+| Harris | 107 | $2.00B |
+| Travis | 34 | $1.19B |
 | Bexar | 31 | $891.3M |
 | Collin | 22 | $728.6M |
 | Denton | 16 | $647.5M |
@@ -35,25 +37,25 @@
 
 | Tier | Records | Appraised value |
 |---|---|---|
-| 1 — HFC (2027 cliff) | 278 | $8.44B |
-| 2 — PFC (grandfathered) | 25 | $774.4M |
-| 3 — Housing authority | 14 | $358.7M |
+| 1 — HFC (2027 cliff) | 388 | $11.17B |
+| 2 — PFC (grandfathered) | 41 | $1.18B |
+| 3 — Housing authority | 29 | $412.4M |
 
 ## By sponsor
 
 | Sponsor | Records | Appraised value |
 |---|---|---|
-| Pecos Housing Finance Corporation | 108 | $3.39B |
-| Pleasanton Housing Finance Corporation | 39 | $1.54B |
-| Cameron County Housing Finance Corporation | 51 | $1.35B |
-| La Villa Housing Finance Corporation | 28 | $717.0M |
-| Texas Essential Housing Public Facility Corporation | 21 | $658.8M |
-| Maverick County Housing Finance Corporation | 16 | $567.9M |
-| Edcouch Community Housing Finance Corporation | 27 | $452.8M |
+| Pecos Housing Finance Corporation | 150 | $4.37B |
+| Pleasanton Housing Finance Corporation | 71 | $2.35B |
+| Cameron County Housing Finance Corporation | 60 | $1.57B |
+| Texas Essential Housing Public Facility Corporation | 37 | $1.07B |
+| La Villa Housing Finance Corporation | 39 | $1.02B |
+| Maverick County Housing Finance Corporation | 23 | $761.2M |
+| Edcouch Community Housing Finance Corporation | 36 | $683.5M |
 | Garland Housing Finance Corporation | 9 | $411.9M |
 | Rosenberg Housing Authority | 8 | $267.9M |
+| Houston Housing Authority | 20 | $106.5M |
 | Denton Public Facility Corporation | 2 | $60.4M |
-| Houston Housing Authority | 5 | $52.8M |
 | Premier Denton Public Facility Corporation | 1 | $40.9M |
 | Plano Housing Authority | 1 | $38.0M |
 | Renaissance Courts Public Facility Corporation | 1 | $14.2M |
@@ -64,26 +66,26 @@
 |---|---|---|---|---|---|---|
 | INNOVA | Dallas | Dallas | Pecos  HFC | $114.0M | 2027-01-01 | litigation |
 | JEFFERSON PROMENADE II | Irving | Dallas | Pecos  HFC | $101.5M | 2027-01-01 | litigation |
+| LIFE AT JACKSON SQUARE, THE  [NOB HILL] | Houston | Harris | Pecos  HFC | $101.2M | 2027-01-01 | §13(e) sold, litigation |
+| ? | Austin | Travis | Pleasanton  HFC | $96.6M | 2027-01-01 | §13(e) sold |
 | Monarch Pass Apartment Homes | Fort Worth | Tarrant | Cameron County  HFC | $96.0M | 2027-01-01 | litigation |
+| ? | Austin | Travis | La Villa  HFC | $93.0M | 2027-01-01 | §13(e) sold |
 | 4 Corners Apartments | Frisco | Denton | Pleasanton  HFC | $88.9M | 2027-01-01 | litigation |
 | Montgomery at Watters Creek | Allen | Collin | Garland  HFC | $87.7M | 2027-01-01 |  |
 | LAS COLINAS HEIGHTS | Irving | Dallas | Cameron County  HFC | $87.2M | 2027-01-01 | litigation |
 | Oak Park | Euless | Tarrant | Cameron County  HFC | $81.9M | 2027-01-01 | litigation |
 | Oak Forest I & II Apartments | Lewisville | Denton | Cameron County  HFC | $77.5M | 2027-01-01 | litigation |
+| VILLAGE AT BELLAIRE | Houston | Harris | Maverick County  HFC | $76.5M | 2027-01-01 | litigation |
 | MARQUIS AT PARK CENTRAL | Dallas | Dallas | Pleasanton  HFC | $76.0M | 2027-01-01 | litigation |
 | JEFFERSON VINE | Grand Prairie | Dallas | Pecos  HFC | $76.0M | 2027-01-01 | litigation |
 | THE LOFT APARTMENT OF ADDISON | Addison | Dallas | Garland  HFC | $75.0M | 2027-01-01 | litigation |
 | ARBORSTONE II   CORAL CREEK APTS | Dallas | Dallas | Pecos  HFC | $75.0M | 2027-01-01 | litigation |
+| BROADSTONE MEMORIAL PARK | Houston | Harris | Pleasanton  HFC | $74.4M | 2027-01-01 | litigation |
 | Jefferson Fossil Creek | Haltom City | Tarrant | Pecos  HFC | $73.2M | 2027-01-01 | litigation |
 | TEAK APTS | Dallas | Dallas | La Villa  HFC | $73.0M | 2027-01-01 | litigation |
+| BAYOU PARK | Houston | Harris | La Villa  HFC | $71.6M | 2027-01-01 | litigation |
+| ? | Austin | Travis | Pleasanton  HFC | $71.5M | 2027-01-01 | §13(e) sold |
 | The Sydney | Mansfield | Tarrant | Pleasanton  HFC | $70.9M | 2027-01-01 | litigation |
+| ? | Austin | Travis | Pleasanton  HFC | $70.6M | 2027-01-01 | §13(e) sold |
 | Durrington Ridge | San Antonio | Bexar | Pleasanton  HFC | $69.0M | 2027-01-01 | litigation |
 | KENDRICK | Dallas | Dallas | Pecos  HFC | $68.8M | 2027-01-01 | litigation |
-| Jefferson North Collins | Arlington | Tarrant | Pecos  HFC | $68.0M | 2027-01-01 | litigation |
-| Carson at Twin Creeks | Allen | Collin | Pecos  HFC | $67.8M | 2027-01-01 |  |
-| Stillwater Crystal Springs Apts | Fort Worth | Tarrant | Pecos  HFC | $67.3M | already (pre-2027) | litigation |
-| The Dawnson at Berksire | Fort Worth | Tarrant | Pleasanton  HFC | $66.5M | 2027-01-01 | litigation |
-| JEFFERSON AT MONTFORT APT | Dallas | Dallas | La Villa  HFC | $66.1M | 2027-01-01 | litigation |
-| Woodland Landings | Magnolia | Montgomery | Pleasanton  HFC | $66.0M | 2027-01-01 | litigation |
-| Cortland Riverside | Fort Worth | Tarrant | Pleasanton  HFC | $65.4M | already (pre-2027) | litigation |
-| One90 Frankford | Dallas | Denton | Garland  HFC | $65.3M | 2027-01-01 | litigation |

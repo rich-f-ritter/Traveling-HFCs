@@ -71,7 +71,6 @@
     "instrument_extractions": [],
     "gaps": [
       "HCAD RECLASSIFICATION FLAG: seed labels this sponsor 'Cameron County Housing Authority' (Ch.392, Tier 3), but the matched HCAD account's registered mailing address (1327 E Washington Ave PMB 110, Harlingen TX) is IDENTICAL to the mailing address used by >10 confirmed 'Cameron County Housing Finance Corporation' (Ch.394, Tier 1) accounts elsewhere in this same HCAD sweep, and NO account anywhere in the Harris roll carries the owner name spelled out in full as 'Cameron County Housing Authority' (San Benito/Brownsville). Owner-name field for this account is truncated ('CAMERON COUNTY HOUSING' / 'THE CAMERON COUNTY HOUSING') so it cannot be read directly, but the address match strongly suggests this is actually the HFC sibling, not the HA -- mirroring the Pecos HA/HFC mislabel Phase 1 already resolved. This directly addresses Phase 1's flagged 'Cameron County HA entity-identity gap' for Harris County's 2 rows. Treated here as Tier 1/HFC/2027-cliff on this evidence, pending formal deed-level confirmation (Method 3).",
-      "",
       "annual_exemption_value_est not computed \u2014 would require applying each taxing unit's adopted TY2025/26 rate (not pulled in this pass) to the appraised value.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot; would require differencing against HCAD's prior-year (2024 and earlier) certified exports (available free via the same Pdata portal)."
     ],
@@ -180,7 +179,6 @@
     "instrument_extractions": [],
     "gaps": [
       "HCAD RECLASSIFICATION FLAG: seed labels this sponsor 'Cameron County Housing Authority' (Ch.392, Tier 3), but the matched HCAD account's registered mailing address (1327 E Washington Ave PMB 110, Harlingen TX) is IDENTICAL to the mailing address used by >10 confirmed 'Cameron County Housing Finance Corporation' (Ch.394, Tier 1) accounts elsewhere in this same HCAD sweep, and NO account anywhere in the Harris roll carries the owner name spelled out in full as 'Cameron County Housing Authority' (San Benito/Brownsville). Owner-name field for this account is truncated ('CAMERON COUNTY HOUSING' / 'THE CAMERON COUNTY HOUSING') so it cannot be read directly, but the address match strongly suggests this is actually the HFC sibling, not the HA -- mirroring the Pecos HA/HFC mislabel Phase 1 already resolved. This directly addresses Phase 1's flagged 'Cameron County HA entity-identity gap' for Harris County's 2 rows. Treated here as Tier 1/HFC/2027-cliff on this evidence, pending formal deed-level confirmation (Method 3).",
-      "",
       "HCAD 2025 certified roll shows this account fully TAXABLE (state class B1/C2, county taxable_val = appraised_val, no exemption posted) despite sponsor-of-record ownership. Cause (application pending, non-filing of \u00a7394.9027 TDHCA compliance audit, denial, or litigation) not determinable from the roll alone.",
       "annual_exemption_value_est not computed \u2014 would require applying each taxing unit's adopted TY2025/26 rate (not pulled in this pass) to the appraised value.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot; would require differencing against HCAD's prior-year (2024 and earlier) certified exports (available free via the same Pdata portal)."
@@ -1743,7 +1741,7 @@
     "census_id": "TX-63-1155169",
     "confidence": "cross-validated",
     "property": {
-      "name": "ALEXIS APARTMENTS",
+      "name": "Alexis Apartments",
       "aka": [],
       "address": "4604 CYPRESSWOOD DR",
       "city": "Spring",
@@ -1812,7 +1810,6 @@
     ],
     "instrument_extractions": [],
     "gaps": [
-      "",
       "annual_exemption_value_est not computed \u2014 would require applying each taxing unit's adopted TY2025/26 rate (not pulled in this pass) to the appraised value.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot; would require differencing against HCAD's prior-year (2024 and earlier) certified exports (available free via the same Pdata portal)."
     ],
@@ -4834,8 +4831,10 @@
     "census_id": "TX-63-7604",
     "confidence": "cross-validated",
     "property": {
-      "name": "STERLING POINT",
-      "aka": [],
+      "name": "Sterling Point Apartments",
+      "aka": [
+        "Milagro Apartments (merged into Sterling Point per seed sale_comment)"
+      ],
       "address": "6550 HILLCROFT ST",
       "city": "Houston",
       "county": "Harris",
@@ -4907,7 +4906,6 @@
     ],
     "instrument_extractions": [],
     "gaps": [
-      "",
       "HCAD 2025 certified roll shows this account fully TAXABLE (state class B1/C2, county taxable_val = appraised_val, no exemption posted) despite sponsor-of-record ownership. Cause (application pending, non-filing of \u00a7394.9027 TDHCA compliance audit, denial, or litigation) not determinable from the roll alone.",
       "annual_exemption_value_est not computed \u2014 would require applying each taxing unit's adopted TY2025/26 rate (not pulled in this pass) to the appraised value.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot; would require differencing against HCAD's prior-year (2024 and earlier) certified exports (available free via the same Pdata portal)."
@@ -8697,8 +8695,10 @@
     "census_id": "TX-62-919380",
     "confidence": "cross-validated",
     "property": {
-      "name": null,
-      "aka": [],
+      "name": "The Sarah at Lake Houston",
+      "aka": [
+        "Dwell at Lake Houston"
+      ],
       "address": "17571 W LAKE HOUSTON PKY",
       "city": "Humble",
       "county": "Harris",
@@ -8768,7 +8768,7 @@
     ],
     "instrument_extractions": [],
     "gaps": [
-      "",
+      "VALIDATION SPECIMEN (kit/05_case-study_sarah-at-lake-houston.md): this HCAD land account (1416560010001, mailto=Pleasanton Housing Finance Corp) still shows full TAXABLE value ($58,104,208, state class B1) on both the 2025 certified and 2026 preliminary rolls, not the exempt status described in the case study. The companion improvement account (1416560010002, 'LAND*1416560010001'/'IMPS*1416560010002' cross-reference in the legal-description fields) is classified X1 (exempt) but carries NO posted value ('All Values Pending') and its owner-of-record field still reads 'SARAH AT LAKE HOUSTON SPE LLC' (the pre-HFC borrower entity) rather than the sponsor, in both vintages. This demonstrates a real lag between HCAD's account-level roll processing and the underlying tax-office billing/exemption action documented in the case study (Oct-2025 $1,020,960 retroactive credit); the case study's $65.7M assessment and $1.38M/yr exemption figures (sourced from the deal's T12) should be treated as authoritative over this account's HCAD roll snapshot. This pattern \u2014 sponsor-of-record visible on a land/parent account while an improvement/child account lags under the prior owner name \u2014 should be assumed present on other properties in this sweep too, meaning owner-name-only searches likely UNDERCOUNT total appraised value for some properties (captures land only).",
       "HCAD 2025 certified roll shows this account fully TAXABLE (state class B1/C2, county taxable_val = appraised_val, no exemption posted) despite sponsor-of-record ownership. Cause (application pending, non-filing of \u00a7394.9027 TDHCA compliance audit, denial, or litigation) not determinable from the roll alone.",
       "annual_exemption_value_est not computed \u2014 would require applying each taxing unit's adopted TY2025/26 rate (not pulled in this pass) to the appraised value.",
       "first_exempt_tax_year not determinable from a single-year roll snapshot; would require differencing against HCAD's prior-year (2024 and earlier) certified exports (available free via the same Pdata portal)."
