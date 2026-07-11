@@ -12,7 +12,20 @@
     "tier": 1,
     "property_count": 58,
     "traveling_count_seed": 58,
-    "classification_status": "SEED_GUESS_UNVERIFIED"
+    "best_independent_count": 68,
+    "best_independent_count_source": "Pleasanton Express",
+    "classification_status": "CONFIRMED_TIER1_HFC_CH394",
+    "classification_confidence": "high",
+    "profile": "sponsors/pleasanton-hfc.md",
+    "kill_regime": "HB21 Ch.394 s13(i) 2027 cliff; s13(e) early on capital events; s394.9027 audit-forfeiture; multiple standing injunctions",
+    "kill_date_est": "2027-01-01",
+    "litigation": [
+      "2nd COA 02-25-00474-CV (Lake Worth) - PHFC appeal dismissed want-of-prosecution 2026-01-15; TI stands",
+      "2nd COA 02-25-00475-CV (Arlington/Fort Worth) - PHFC/La Villa/Maverick appeals dismissed 2026-01-15; Pecos survives",
+      "14th COA 14-25-00695-CV (Missouri City/Sienna) - PHFC appeal voluntarily dismissed 2025-10-28; TI stands",
+      "Hays County/San Marcos v. PHFC & Pecos HFC (25-1185-DCB) - Hays CAD TRO; $227M at stake",
+      "AG RQ-0566-KP (10/2/2024) pending/unissued; RQ-0596-KP (Bettencourt) declined 2025-06-03"
+    ]
   },
   {
     "name": "Cameron County Housing Finance Corporation, The",
