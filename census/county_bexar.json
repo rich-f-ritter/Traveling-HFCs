@@ -1,0 +1,3126 @@
+[
+  {
+    "census_id": "TX-NEW-BEXAR-1",
+    "confidence": "single-source",
+    "property": {
+      "name": "Residences at Medical",
+      "aka": [],
+      "address": "2502 Babcock Rd, San Antonio, TX 78240",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78240",
+      "cad_account": "487392",
+      "units": 276,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Primary Owner (fee, per BCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 23500000.0,
+      "annual_exemption_value_est": 538190.89,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 25-row Bexar seed; discovered via BCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'CAMERON' / property id 487392, Property.aspx?cid=110&prop_id=487392",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 487392",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 487392",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1675",
+    "confidence": "single-source",
+    "property": {
+      "name": "Willow Bend",
+      "aka": [],
+      "address": "8330 Potranco Rd, San Antonio, TX 78251",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78251",
+      "cad_account": "1129457, 1039279",
+      "units": 250,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [
+      "Post Investment Group"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 75 year unsubordinated net ground lease held by The Cameron County Housing Finance Corporation, which expires 03/01/2080."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2024,
+      "appraised_value": 9200000.0,
+      "annual_exemption_value_est": 210696.01,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": "2023-03-29",
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Inferred: BCAD's DBA tag 'WILLOW BEND (250 UNITS) (AH)' (AH = affordable-housing marker) aligns with seed's affordable='All' flag and 75-yr ground-lease/2023-03-29 sale recorded for this seed row (partner Post Investment Group). Not confirmed via an independent deed or news source -- treat as medium confidence."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'CAMERON' / property id 1129457, Property.aspx?cid=110&prop_id=1129457",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1129457",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Inferred: BCAD's DBA tag 'WILLOW BEND (250 UNITS) (AH)' (AH = affordable-housing marker) aligns with seed's affordable='All' flag and 75-yr ground-lease/2023-03-29 sale recorded for this seed row (partner Post Investment Group). Not confirmed via an independent deed or news source -- treat as medium confidence."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 1129457",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1707",
+    "confidence": "single-source",
+    "property": {
+      "name": "Dalian 151",
+      "aka": [],
+      "address": "10018 Ingram Rd, San Antonio, TX 78245",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78245",
+      "cad_account": "1248651",
+      "units": 360,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Dalian Development"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 54500000.0,
+      "annual_exemption_value_est": 1248144.83,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Cameron County HFC's BCAD portfolio in Bexar includes TWO Dalian-branded complexes (Dalian 151 and Dalian Monterrey Village); the seed tracks only one Dalian-partnered property (partner: Dalian Development). Assigned here to Dalian 151 as a best-effort pick -- could equally be Dalian Monterrey Village (see TX-NEW-BEXAR expansion). Not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'CAMERON' / property id 1248651, Property.aspx?cid=110&prop_id=1248651",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1248651",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Cameron County HFC's BCAD portfolio in Bexar includes TWO Dalian-branded complexes (Dalian 151 and Dalian Monterrey Village); the seed tracks only one Dalian-partnered property (partner: Dalian Development). Assigned here to Dalian 151 as a best-effort pick -- could equally be Dalian Monterrey Village (see TX-NEW-BEXAR expansion). Not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 1248651",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-614",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Solara",
+      "aka": [],
+      "address": "11710 Parliament St, San Antonio, TX 78213",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78213",
+      "cad_account": "609239",
+      "units": 285,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [
+      "LoanCore Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 26000000.0,
+      "annual_exemption_value_est": 589543.24,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": "2024-12-24",
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": "LoanCore Capital",
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": "2024 foreclosure auction (GVA default) per The Real Deal",
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'CAMERON' / property id 609239, Property.aspx?cid=110&prop_id=609239",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 609239",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "CONFIRMED: The Real Deal (therealdeal.com, 'GVA lender takes distressed apartment complex for $21M at auction', 2024-03-15) reports LoanCore Capital took the 285-unit Solara complex (11710 Parliament St, San Antonio) at foreclosure auction in March 2024 after GVA's default; seed's sale_comment records Cameron County HFC added to the ownership group as operating partner in 12/2024, consistent with a post-foreclosure HFC exemption structure added by the new owner."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 609239",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-BEXAR-2",
+    "confidence": "single-source",
+    "property": {
+      "name": "Highland Ridge",
+      "aka": [],
+      "address": "1700 Jackson Keller Rd, San Antonio, TX 78213",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78213",
+      "cad_account": "489629",
+      "units": 736,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Primary Owner (fee, per BCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 42500000.0,
+      "annual_exemption_value_est": 963676.45,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 25-row Bexar seed; discovered via BCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'CAMERON' / property id 489629, Property.aspx?cid=110&prop_id=489629",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 489629",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 489629",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-BEXAR-3",
+    "confidence": "single-source",
+    "property": {
+      "name": "Dalian Monterrey Village",
+      "aka": [],
+      "address": "10102 Ingram Rd, San Antonio, TX 78245",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78245",
+      "cad_account": "1207284",
+      "units": 360,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Primary Owner (fee, per BCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 51500000.0,
+      "annual_exemption_value_est": 1179439.61,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 25-row Bexar seed; discovered via BCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'CAMERON' / property id 1207284, Property.aspx?cid=110&prop_id=1207284",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1207284",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 1207284",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1237",
+    "confidence": "single-source",
+    "property": {
+      "name": "Maxwell Townhomes",
+      "aka": [],
+      "address": "11146 Vance Jackson Rd, San Antonio, TX 78230",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78230",
+      "cad_account": "641263",
+      "units": 314,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Edcouch Community Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Edcouch",
+      "home_county": "Hidalgo",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "CBRE Investment Management - REO"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Edcouch Community Housing Finance Corporation, which expires 03/31/2124."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 40500000.0,
+      "annual_exemption_value_est": 927520.48,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Low confidence, aggregate-count based (3 BCAD-confirmed Edcouch Bexar properties vs. 4 seed rows -- one seed row has no BCAD match, see TX-61-531). Tentatively paired with seed partner 'CBRE Investment Management - REO' on the theory that a distressed/REO transfer correlates with Maxwell Townhomes' anomalous BCAD history (never granted exemption through TY2026, unlike every other property in this county file). Not independently confirmed.",
+      "BCAD shows NO exemption granted as of TY2026 despite sponsor's Bexar-owner-of-record status (portal's own 'Values' label used here to mean fully taxable / no exemption code on file). Flag for audit-status follow-up (TDHCA \u00a7394.9027 / \u00a7303.0426)."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'EDCOUCH' / property id 641263, Property.aspx?cid=110&prop_id=641263",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 641263",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Low confidence, aggregate-count based (3 BCAD-confirmed Edcouch Bexar properties vs. 4 seed rows -- one seed row has no BCAD match, see TX-61-531). Tentatively paired with seed partner 'CBRE Investment Management - REO' on the theory that a distressed/REO transfer correlates with Maxwell Townhomes' anomalous BCAD history (never granted exemption through TY2026, unlike every other property in this county file). Not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 641263",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1653",
+    "confidence": "single-source",
+    "property": {
+      "name": "Tara",
+      "aka": [],
+      "address": "Broadway St, San Antonio, TX 78209",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78209",
+      "cad_account": "1446279",
+      "units": 234,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Edcouch Community Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Edcouch",
+      "home_county": "Hidalgo",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "CBRE Investment Management"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Edcouch Community Housing Finance Corporation, which expires 04/30/2124."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 9012040.0,
+      "annual_exemption_value_est": 202092.64,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Low confidence, aggregate-count based; paired with seed partner 'CBRE Investment Management' arbitrarily among the 3 unmatched BCAD/seed pairs. Not independently confirmed.",
+      "BCAD shows NO exemption granted as of TY2026 despite sponsor's Bexar-owner-of-record status (portal's own 'Values' label used here to mean fully taxable / no exemption code on file). Flag for audit-status follow-up (TDHCA \u00a7394.9027 / \u00a7303.0426)."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'EDCOUCH' / property id 1446279, Property.aspx?cid=110&prop_id=1446279",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1446279",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Low confidence, aggregate-count based; paired with seed partner 'CBRE Investment Management' arbitrarily among the 3 unmatched BCAD/seed pairs. Not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 1446279",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1757",
+    "confidence": "single-source",
+    "property": {
+      "name": "Acadia on the Lake",
+      "aka": [],
+      "address": "4031 Thousand Oaks Dr, San Antonio, TX 78217",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78217",
+      "cad_account": "642630",
+      "units": 304,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Edcouch Community Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Edcouch",
+      "home_county": "Hidalgo",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Orion Real Estate Partners"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Edcouch Community Housing Finance Corporation, which expires 02/01/2124."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": null,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Low confidence, aggregate-count based; paired with seed partner 'Orion Real Estate Partners' arbitrarily. Not independently confirmed.",
+      "Exemption present in TY2026 but the portal's TY2022 floor did not resolve a clean first fully-exempt year (e.g. account newly created); see year-by-year detail in provenance note."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'EDCOUCH' / property id 642630, Property.aspx?cid=110&prop_id=642630",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 642630",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Low confidence, aggregate-count based; paired with seed partner 'Orion Real Estate Partners' arbitrarily. Not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 642630",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-250",
+    "confidence": "single-source",
+    "property": {
+      "name": "Elevate at Huebner Grove",
+      "aka": [],
+      "address": "11500 Huebner Rd, San Antonio, TX 78230",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78230",
+      "cad_account": "565843",
+      "units": 210,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "La Villa Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "La Villa",
+      "home_county": "Hidalgo",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by La Villa Housing Finance Corporation, which expires 04/30/2124."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 17000000.0,
+      "annual_exemption_value_est": 389329.58,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Seed's sole La Villa Bexar row lists no partner (empty partners array), so there is no matching signal at all. Arbitrarily paired with Elevate at Huebner Grove; could equally be 5 Fifty (see TX-NEW-BEXAR expansion). BCAD shows La Villa HFC holds 2 distinct Bexar complexes vs. the seed's 1."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'LA' / property id 565843, Property.aspx?cid=110&prop_id=565843",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 565843",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Seed's sole La Villa Bexar row lists no partner (empty partners array), so there is no matching signal at all. Arbitrarily paired with Elevate at Huebner Grove; could equally be 5 Fifty (see TX-NEW-BEXAR expansion). BCAD shows La Villa HFC holds 2 distinct Bexar complexes vs. the seed's 1."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 565843",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-BEXAR-4",
+    "confidence": "single-source",
+    "property": {
+      "name": "5 Fifty",
+      "aka": [],
+      "address": "550 Heimer Rd, San Antonio, TX 78232",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78232",
+      "cad_account": "646352",
+      "units": 204,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "La Villa Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "La Villa",
+      "home_county": "Hidalgo",
+      "role_on_property": "Primary Owner (fee, per BCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 18500000.0,
+      "annual_exemption_value_est": 419482.69,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 25-row Bexar seed; discovered via BCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'LA' / property id 646352, Property.aspx?cid=110&prop_id=646352",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 646352",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 646352",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-2718",
+    "confidence": "single-source",
+    "property": {
+      "name": "Sterling at Oak Hills",
+      "aka": [],
+      "address": "7714 Louis Pasteur Dr, San Antonio, TX 78229",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78229",
+      "cad_account": "1254484",
+      "units": 330,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Maverick County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Eagle Pass",
+      "home_county": "Maverick",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "AHV Communities"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Maverick County Housing Finance Corporation, which expires 12/01/2123."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 57000000.0,
+      "annual_exemption_value_est": 1305399.18,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches (2 seed rows = 2 BCAD accounts). Paired with seed partner 'AHV Communities' arbitrarily; specific pairing vs. Alamo Residences at Spurs Lane / Marble Capital not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'MAVERICK' / property id 1254484, Property.aspx?cid=110&prop_id=1254484",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1254484",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches (2 seed rows = 2 BCAD accounts). Paired with seed partner 'AHV Communities' arbitrarily; specific pairing vs. Alamo Residences at Spurs Lane / Marble Capital not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 1254484",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1394163",
+    "confidence": "single-source",
+    "property": {
+      "name": "Alamo Residences at Spurs Lane",
+      "aka": [],
+      "address": "1 Spurs Lane, San Antonio, TX 78240",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78240",
+      "cad_account": "1395697",
+      "units": 120,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Maverick County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Eagle Pass",
+      "home_county": "Maverick",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Marble Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Maverick County Housing Finance Corporation, which expires 01/01/2123."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 15889210.0,
+      "annual_exemption_value_est": 363890.56,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches. Paired with seed partner 'Marble Capital' arbitrarily; not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'MAVERICK' / property id 1395697, Property.aspx?cid=110&prop_id=1395697",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1395697",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches. Paired with seed partner 'Marble Capital' arbitrarily; not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 1395697",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-2092",
+    "confidence": "single-source",
+    "property": {
+      "name": "Melia",
+      "aka": [],
+      "address": "3434 Oakdale St, San Antonio, TX 78229",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78229",
+      "cad_account": "522684, 522690",
+      "units": 300,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Austin Capital Advisors"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Pecos Housing Authority, which expires 04/30/2124."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 14057700.0,
+      "annual_exemption_value_est": 318754.69,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. suit (~$230M)",
+      "Tarrant ARB 5-yr back-assessment ($974M/28 sites)",
+      "TWHC HB21 constitutional challenge (Cameron Co., filed 9/9/2025)",
+      "NOT independently confirmed as named in the Bexar Appraisal District 27-complex/$26M suit (Sandoval) -- that suit's press coverage names Maverick, Cameron, Pleasanton, La Villa, Edcouch only"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches (6 seed = 6 BCAD). Paired with seed partner 'Austin Capital Advisors' arbitrarily among the 5 non-Leon-Valley Pecos properties; not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PECOS' / property id 522684, Property.aspx?cid=110&prop_id=522684",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 522684",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches (6 seed = 6 BCAD). Paired with seed partner 'Austin Capital Advisors' arbitrarily among the 5 non-Leon-Valley Pecos properties; not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 522684",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1487",
+    "confidence": "single-source",
+    "property": {
+      "name": "Seville",
+      "aka": [],
+      "address": "13330 Blanco Rd, San Antonio, TX 78216",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78216",
+      "cad_account": "639271",
+      "units": 200,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "DiversyFund"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 22000000.0,
+      "annual_exemption_value_est": 498844.28,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. suit (~$230M)",
+      "Tarrant ARB 5-yr back-assessment ($974M/28 sites)",
+      "TWHC HB21 constitutional challenge (Cameron Co., filed 9/9/2025)",
+      "NOT independently confirmed as named in the Bexar Appraisal District 27-complex/$26M suit (Sandoval) -- that suit's press coverage names Maverick, Cameron, Pleasanton, La Villa, Edcouch only"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches. Paired with seed partner 'DiversyFund' arbitrarily; not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PECOS' / property id 639271, Property.aspx?cid=110&prop_id=639271",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 639271",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches. Paired with seed partner 'DiversyFund' arbitrarily; not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 639271",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-557312",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Timberhill Commons",
+      "aka": [],
+      "address": "5072 Timberhill, Leon Valley, TX 78238",
+      "city": "Leon Valley",
+      "county": "Bexar",
+      "zip": "78238",
+      "cad_account": "1300448, 1444456",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Dreamstone Investments"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 40500000.0,
+      "annual_exemption_value_est": 928917.72,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. suit (~$230M)",
+      "Tarrant ARB 5-yr back-assessment ($974M/28 sites)",
+      "TWHC HB21 constitutional challenge (Cameron Co., filed 9/9/2025)",
+      "NOT independently confirmed as named in the Bexar Appraisal District 27-complex/$26M suit (Sandoval) -- that suit's press coverage names Maverick, Cameron, Pleasanton, La Villa, Edcouch only"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Unit count not published on BCAD's DBA field or in the free listing sources checked; left null."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PECOS' / property id 1300448, Property.aspx?cid=110&prop_id=1300448",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1300448",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "CONFIRMED via unique city match: seed row TX-61-557312 is the only Pecos HFC Bexar property located in Leon Valley (not San Antonio proper); BCAD's only Pecos HFC account at a Leon Valley address is Timberhill Commons (5072 Timberhill, Leon Valley TX 78238)."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1746",
+    "confidence": "single-source",
+    "property": {
+      "name": "Vistas Two 52",
+      "aka": [],
+      "address": "3787 Perrin Central Blvd, San Antonio, TX 78217",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78217",
+      "cad_account": "595581",
+      "units": 252,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "REEP Equity"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 27000000.0,
+      "annual_exemption_value_est": 612217.98,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. suit (~$230M)",
+      "Tarrant ARB 5-yr back-assessment ($974M/28 sites)",
+      "TWHC HB21 constitutional challenge (Cameron Co., filed 9/9/2025)",
+      "NOT independently confirmed as named in the Bexar Appraisal District 27-complex/$26M suit (Sandoval) -- that suit's press coverage names Maverick, Cameron, Pleasanton, La Villa, Edcouch only"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches. Paired with seed partner 'REEP Equity' arbitrarily; not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PECOS' / property id 595581, Property.aspx?cid=110&prop_id=595581",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 595581",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches. Paired with seed partner 'REEP Equity' arbitrarily; not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 595581",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-384",
+    "confidence": "single-source",
+    "property": {
+      "name": "Mission Villas",
+      "aka": [],
+      "address": "247 W Dickson Ave, San Antonio, TX 78214",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78214",
+      "cad_account": "1444640",
+      "units": 176,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [
+      "Texsun Holdings"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 932350.0,
+      "annual_exemption_value_est": 23707.53,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": "2025-01-13",
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. suit (~$230M)",
+      "Tarrant ARB 5-yr back-assessment ($974M/28 sites)",
+      "TWHC HB21 constitutional challenge (Cameron Co., filed 9/9/2025)",
+      "NOT independently confirmed as named in the Bexar Appraisal District 27-complex/$26M suit (Sandoval) -- that suit's press coverage names Maverick, Cameron, Pleasanton, La Villa, Edcouch only"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches. Seed rows TX-61-384 and TX-61-1321 share the same partner (Texsun Holdings) and the same sale_date (2025-01-13) -- likely two Matrix DB entries tied to the same transaction/sponsor relationship. Split arbitrarily across Mission Villas and Brixton Apartments; not independently confirmed.",
+      "BCAD shows NO exemption granted as of TY2026 despite sponsor's Bexar-owner-of-record status (portal's own 'Values' label used here to mean fully taxable / no exemption code on file). Flag for audit-status follow-up (TDHCA \u00a7394.9027 / \u00a7303.0426)."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PECOS' / property id 1444640, Property.aspx?cid=110&prop_id=1444640",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1444640",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches. Seed rows TX-61-384 and TX-61-1321 share the same partner (Texsun Holdings) and the same sale_date (2025-01-13) -- likely two Matrix DB entries tied to the same transaction/sponsor relationship. Split arbitrarily across Mission Villas and Brixton Apartments; not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 1444640",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1321",
+    "confidence": "single-source",
+    "property": {
+      "name": "Brixton Apartments",
+      "aka": [],
+      "address": "2555 NE Loop 410, San Antonio, TX 78217",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78217",
+      "cad_account": "500195, 1444659",
+      "units": 384,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Primary Owner"
+    },
+    "partners": [
+      "Texsun Holdings"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 23500000.0,
+      "annual_exemption_value_est": 532856.4,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": "2025-01-13",
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025)",
+      "Arlington 15-25-00111-CV",
+      "Hays Co. suit (~$230M)",
+      "Tarrant ARB 5-yr back-assessment ($974M/28 sites)",
+      "TWHC HB21 constitutional challenge (Cameron Co., filed 9/9/2025)",
+      "NOT independently confirmed as named in the Bexar Appraisal District 27-complex/$26M suit (Sandoval) -- that suit's press coverage names Maverick, Cameron, Pleasanton, La Villa, Edcouch only"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: See note on TX-61-384 (Mission Villas) -- same partner/date, split arbitrarily. Not independently confirmed.",
+      "BCAD shows NO exemption granted as of TY2026 despite sponsor's Bexar-owner-of-record status (portal's own 'Values' label used here to mean fully taxable / no exemption code on file). Flag for audit-status follow-up (TDHCA \u00a7394.9027 / \u00a7303.0426)."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PECOS' / property id 500195, Property.aspx?cid=110&prop_id=500195",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 500195",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "See note on TX-61-384 (Mission Villas) -- same partner/date, split arbitrarily. Not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 500195",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-387177",
+    "confidence": "single-source",
+    "property": {
+      "name": "Durrington Ridge",
+      "aka": [],
+      "address": "21915 N US Hwy 281, San Antonio, TX 78258",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78258",
+      "cad_account": "1352388",
+      "units": 398,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Leuven Group",
+      "Ascenda Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 69000000.0,
+      "annual_exemption_value_est": 1564557.06,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches (6 seed = 6 BCAD). Paired with seed partners 'Leuven Group'/'Ascenda Capital' arbitrarily; not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PLEASANTON' / property id 1352388, Property.aspx?cid=110&prop_id=1352388",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1352388",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches (6 seed = 6 BCAD). Paired with seed partners 'Leuven Group'/'Ascenda Capital' arbitrarily; not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 1352388",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1709",
+    "confidence": "single-source",
+    "property": {
+      "name": "Nova Apartments",
+      "aka": [],
+      "address": "14200 Vance Jackson Rd, San Antonio, TX 78249",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78249",
+      "cad_account": "1117284",
+      "units": 412,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Ascendant Capital Partners"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Pleasanton Housing Finance Corporation, which expires 01/01/2124."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 53500000.0,
+      "annual_exemption_value_est": 1225243.09,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches. Paired with seed partner 'Ascendant Capital Partners' arbitrarily (seed has two Pleasanton rows with this same partner, TX-61-1709 and TX-61-1175498); not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PLEASANTON' / property id 1117284, Property.aspx?cid=110&prop_id=1117284",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1117284",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches. Paired with seed partner 'Ascendant Capital Partners' arbitrarily (seed has two Pleasanton rows with this same partner, TX-61-1709 and TX-61-1175498); not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 1117284",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1175498",
+    "confidence": "single-source",
+    "property": {
+      "name": "Med West",
+      "aka": [],
+      "address": "7139 Wurzbach Rd, San Antonio, TX 78240",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78240",
+      "cad_account": "1284640",
+      "units": 131,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Ascendant Capital Partners"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Pleasanton Housing Finance Corporation, which expires 12/01/2123."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 19900000.0,
+      "annual_exemption_value_est": 455744.63,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: See note on TX-61-1709 (Nova Apartments) -- same partner, split arbitrarily. Not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PLEASANTON' / property id 1284640, Property.aspx?cid=110&prop_id=1284640",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1284640",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "See note on TX-61-1709 (Nova Apartments) -- same partner, split arbitrarily. Not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "Free apartment-listing aggregator (apartments.com / apartmentfinder.com / har.com), cross-referenced by address",
+        "retrieved": "2026-07-11",
+        "note": "BCAD's own DBA field did not publish a unit count for this account; unit count sourced from public listing sites instead."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-533",
+    "confidence": "single-source",
+    "property": {
+      "name": "Summit at Henderson Pass",
+      "aka": [],
+      "address": "16465 Henderson Pass, San Antonio, TX 78232",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78232",
+      "cad_account": "606514",
+      "units": 228,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Cottonwood Residential"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 21791110.0,
+      "annual_exemption_value_est": 494107.75,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches. Paired with seed partner 'Cottonwood Residential' arbitrarily; not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PLEASANTON' / property id 606514, Property.aspx?cid=110&prop_id=606514",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 606514",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches. Paired with seed partner 'Cottonwood Residential' arbitrarily; not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 606514",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-659",
+    "confidence": "single-source",
+    "property": {
+      "name": "Oasis",
+      "aka": [],
+      "address": "6023 UTSA Blvd, San Antonio, TX 78249",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78249",
+      "cad_account": "1193224",
+      "units": 260,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "DB Capital Management"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Pleasanton Housing Finance Corporation, which expires 12/01/2123."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2026,
+      "appraised_value": 42500000.0,
+      "annual_exemption_value_est": 973323.95,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches. Paired with seed partner 'DB Capital Management' arbitrarily; not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PLEASANTON' / property id 1193224, Property.aspx?cid=110&prop_id=1193224",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1193224",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches. Paired with seed partner 'DB Capital Management' arbitrarily; not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 1193224",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1955",
+    "confidence": "single-source",
+    "property": {
+      "name": "Trailside",
+      "aka": [],
+      "address": "8120 Mainland Dr, San Antonio, TX 78240",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78240",
+      "cad_account": "685075",
+      "units": 240,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Palladius Capital Management"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Pleasanton Housing Finance Corporation, which expires 02/01/2124."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 23520000.0,
+      "annual_exemption_value_est": 538648.92,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i): HFC-owned multifamily property outside the sponsor's home jurisdiction on 9/1/2025 loses its ad valorem exemption effective 1/1/2027, absent a qualifying host-jurisdiction resolution. \u00a713(e) triggers an earlier loss of exemption on any sale, refinancing, or majority-ownership transfer of the property/SPE after enactment -- see kill_analysis.recent_capital_event for any such event on record in the seed."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. [sponsor HFC] -- Chief Appraiser Rogelio Sandoval suit seeking to return ~27 Bexar apartment complexes (~$26M+ in exempted value) to the tax rolls (News4SanAntonio, 'Legal battle over \"traveling housing agencies\" and property taxes', accessed 2026-07-11); sponsor is named in press coverage of this suit. Specific complex-level plaintiff exhibit list not published in free sources -- this property is flagged as a likely/possible member of that 27-complex set, not confirmed by name."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Aggregate count matches. Paired with seed partner 'Palladius Capital Management' arbitrarily; not independently confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'PLEASANTON' / property id 685075, Property.aspx?cid=110&prop_id=685075",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 685075",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Aggregate count matches. Paired with seed partner 'Palladius Capital Management' arbitrarily; not independently confirmed."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 685075",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-374106",
+    "confidence": "single-source",
+    "property": {
+      "name": "Abacus Alamo Ranch",
+      "aka": [],
+      "address": "11788 Culebra Rd, San Antonio, TX 78253",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78253",
+      "cad_account": "1304106",
+      "units": 320,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Ascendant Capital Partners"
+    ],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 02/03/2122."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2024,
+      "appraised_value": 61095110.0,
+      "annual_exemption_value_est": 1122021.47,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 grandfather (Ch.303 PFC) -- no HB21 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "HB21 is HFC-only and does not reach Ch.303 PFCs. TEHPFC unwinds only on an event: 99-yr ground-lease term, capital event (sale/refi), \u00a7303.0426 audit failure, or a successful CAD/AG challenge (cf. TEHPFC v. Williamson CAD; AG KP-0437). No fixed statutory kill date."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "TEHPFC v. Williamson CAD 24-0022-C395 & 24-1698-C395",
+      "AG opinion request KP-0437",
+      "Not named in the Bexar Appraisal District HFC suit (that suit targets Ch.394 HFCs; TEHPFC is a Ch.303 PFC, a different statutory regime)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Seed-row-to-BCAD-account pairing unconfirmed: Inferred by elimination: seed's 3 TEHPFC Bexar partners are Ascendant Capital Partners, Brixton Capital, and Lynd Management Group. Brixton Capital's own site confirms it manages The Atlee, and Lynd.com confirms it manages Copper Mill, leaving Ascendant Capital Partners as the remaining partner for the remaining named BCAD complex, Abacus Alamo Ranch. Not independently confirmed (Ascendant's web presence does not mention Abacus Alamo Ranch directly)."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'TEXAS' / property id 1304106, Property.aspx?cid=110&prop_id=1304106",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1304106",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "Inferred by elimination: seed's 3 TEHPFC Bexar partners are Ascendant Capital Partners, Brixton Capital, and Lynd Management Group. Brixton Capital's own site confirms it manages The Atlee, and Lynd.com confirms it manages Copper Mill, leaving Ascendant Capital Partners as the remaining partner for the remaining named BCAD complex, Abacus Alamo Ranch. Not independently confirmed (Ascendant's web presence does not mention Abacus Alamo Ranch directly)."
+      },
+      {
+        "field": "property.units",
+        "source": "Free apartment-listing aggregator (apartments.com / apartmentfinder.com / har.com), cross-referenced by address",
+        "retrieved": "2026-07-11",
+        "note": "BCAD's own DBA field did not publish a unit count for this account; unit count sourced from public listing sites instead."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-1521",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Atlee",
+      "aka": [],
+      "address": "402 Holland Ave, San Antonio, TX 78212",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78212",
+      "cad_account": "369472, 369485, 369492",
+      "units": 144,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Brixton Capital"
+    ],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 04/01/2122."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2024,
+      "appraised_value": 11441855.0,
+      "annual_exemption_value_est": 279235.5,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 grandfather (Ch.303 PFC) -- no HB21 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "HB21 is HFC-only and does not reach Ch.303 PFCs. TEHPFC unwinds only on an event: 99-yr ground-lease term, capital event (sale/refi), \u00a7303.0426 audit failure, or a successful CAD/AG challenge (cf. TEHPFC v. Williamson CAD; AG KP-0437). No fixed statutory kill date."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "TEHPFC v. Williamson CAD 24-0022-C395 & 24-1698-C395",
+      "AG opinion request KP-0437",
+      "Not named in the Bexar Appraisal District HFC suit (that suit targets Ch.394 HFCs; TEHPFC is a Ch.303 PFC, a different statutory regime)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'TEXAS' / property id 369472, Property.aspx?cid=110&prop_id=369472",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 369472",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "CONFIRMED: Brixton Capital's own website (brixtoncapital.com/property/the-atlee) lists 'The Atlee Apartment Community' at 402 Holland Ave, San Antonio -- matches BCAD's ATLEE parcels exactly."
+      },
+      {
+        "field": "property.units",
+        "source": "Free apartment-listing aggregator (apartments.com / apartmentfinder.com / har.com), cross-referenced by address",
+        "retrieved": "2026-07-11",
+        "note": "BCAD's own DBA field did not publish a unit count for this account; unit count sourced from public listing sites instead."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-BEXAR-5",
+    "confidence": "single-source",
+    "property": {
+      "name": "Alaro",
+      "aka": [],
+      "address": "7310 Culebra Commons, San Antonio, TX 78250",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78250",
+      "cad_account": "1390520",
+      "units": 248,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Primary Owner (fee, per BCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2023,
+      "appraised_value": 54461070.0,
+      "annual_exemption_value_est": 1247253.27,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 grandfather (Ch.303 PFC) -- no HB21 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "HB21 is HFC-only and does not reach Ch.303 PFCs. TEHPFC unwinds only on an event: 99-yr ground-lease term, capital event (sale/refi), \u00a7303.0426 audit failure, or a successful CAD/AG challenge (cf. TEHPFC v. Williamson CAD; AG KP-0437). No fixed statutory kill date."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "TEHPFC v. Williamson CAD 24-0022-C395 & 24-1698-C395",
+      "AG opinion request KP-0437",
+      "Not named in the Bexar Appraisal District HFC suit (that suit targets Ch.394 HFCs; TEHPFC is a Ch.303 PFC, a different statutory regime)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 25-row Bexar seed; discovered via BCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'TEXAS' / property id 1390520, Property.aspx?cid=110&prop_id=1390520",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1390520",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "property.units",
+        "source": "Free apartment-listing aggregator (apartments.com / apartmentfinder.com / har.com), cross-referenced by address",
+        "retrieved": "2026-07-11",
+        "note": "BCAD's own DBA field did not publish a unit count for this account; unit count sourced from public listing sites instead."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-457",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Copper Mill",
+      "aka": [],
+      "address": "5827 NW Loop 410, San Antonio, TX 78238",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78238",
+      "cad_account": "617253",
+      "units": 342,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Lynd Management Group"
+    ],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Texas Essential Housing Public Facility Corporation, which expires 06/05/2122."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2024,
+      "appraised_value": 35500000.0,
+      "annual_exemption_value_est": 813011.77,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 grandfather (Ch.303 PFC) -- no HB21 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "HB21 is HFC-only and does not reach Ch.303 PFCs. TEHPFC unwinds only on an event: 99-yr ground-lease term, capital event (sale/refi), \u00a7303.0426 audit failure, or a successful CAD/AG challenge (cf. TEHPFC v. Williamson CAD; AG KP-0437). No fixed statutory kill date."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "TEHPFC v. Williamson CAD 24-0022-C395 & 24-1698-C395",
+      "AG opinion request KP-0437",
+      "Not named in the Bexar Appraisal District HFC suit (that suit targets Ch.394 HFCs; TEHPFC is a Ch.303 PFC, a different statutory regime)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'TEXAS' / property id 617253, Property.aspx?cid=110&prop_id=617253",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 617253",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      },
+      {
+        "field": "census_id (seed-row pairing)",
+        "source": "data/seed_properties.json + web search cross-reference",
+        "retrieved": "2026-07-11",
+        "note": "CONFIRMED: Lynd.com property page (lynd.com/properties/206-Apartment-5827-Northwest-Loop-410-San-Antonio-TX-Texas-78238) and a TDHCA HFC/PFC monitoring letter addressed to 'Lynd Management Group' re: 'Copper Mill (Lynd Living Parc 410 Apartments, LLC)' both identify Copper Mill, 5827 NW Loop 410, as a Lynd Management Group asset -- matches BCAD exactly."
+      },
+      {
+        "field": "property.units",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- DBA/'Doing Business As' field on the search-results row for prop_id 617253",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-BEXAR-6",
+    "confidence": "single-source",
+    "property": {
+      "name": "410 Probandt",
+      "aka": [],
+      "address": "410 Probandt St, San Antonio, TX 78204",
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": "78204",
+      "cad_account": "1399472",
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Primary Owner (fee, per BCAD)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": null
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2024,
+      "appraised_value": 5517690.0,
+      "annual_exemption_value_est": 134657.79,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 grandfather (Ch.303 PFC) -- no HB21 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "HB21 is HFC-only and does not reach Ch.303 PFCs. TEHPFC unwinds only on an event: 99-yr ground-lease term, capital event (sale/refi), \u00a7303.0426 audit failure, or a successful CAD/AG challenge (cf. TEHPFC v. Williamson CAD; AG KP-0437). No fixed statutory kill date."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no CMBS/CLO surveillance data pulled for this county pass."
+    },
+    "litigation_flags": [
+      "TEHPFC v. Williamson CAD 24-0022-C395 & 24-1698-C395",
+      "AG opinion request KP-0437",
+      "Not named in the Bexar Appraisal District HFC suit (that suit targets Ch.394 HFCs; TEHPFC is a Ch.303 PFC, a different statutory regime)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "Not present in the 25-row Bexar seed; discovered via BCAD owner-name sweep for sponsor name (Method 2, kit/02_identification-playbook.md). Genuine expansion candidate.",
+      "Unit count not published on BCAD's DBA field or in the free listing sources checked; left null."
+    ],
+    "provenance": [
+      {
+        "field": "property.cad_account, property.address, exemption.appraised_value",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- owner search 'TEXAS' / property id 1399472, Property.aspx?cid=110&prop_id=1399472",
+        "retrieved": "2026-07-11",
+        "note": "Bexar CAD free public owner-name and account search."
+      },
+      {
+        "field": "exemption.first_exempt_tax_year, exemption history",
+        "source": "bcad.org (Bexar CAD owner-name search, bexar.trueautomation.com/clientdb, cid=110) -- Property.aspx tax-year toggle (TY2022-TY2026), prop_id 1399472",
+        "retrieved": "2026-07-11",
+        "note": "Derived from year-by-year 'Taxes w/Current Exemptions' vs 'Taxes w/o Exemptions' totals; first year both amounts converge to ~$0 taken as first fully-exempt tax year."
+      }
+    ]
+  },
+  {
+    "census_id": "TX-61-531",
+    "confidence": "seed",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "San Antonio",
+      "county": "Bexar",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Edcouch Community Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Edcouch",
+      "home_county": "Hidalgo",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Pennybacker Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [],
+      "recording_batch_note": "The property is subject to a 99 year unsubordinated net ground lease held by Edcouch Community Housing Finance Corporation, which expires 05/31/2124."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) cliff applies per sponsor tier (Edcouch Community HFC, Ch.394); BCAD account not located to independently verify current exemption status -- see gaps."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Public-record only; no BCAD account located for this seed row."
+    },
+    "litigation_flags": [
+      "Bexar Appraisal District v. Edcouch Community HFC -- sponsor named in the ~27-complex/$26M Sandoval suit (News4SanAntonio); this specific property not confirmed on the (unpublished) plaintiff list."
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "BCAD owner-name search for 'EDCOUCH' / 'EDCOUCH COMMUNITY HOUSING FINANCE' returned only 3 distinct Edcouch-owned Bexar accounts (Maxwell Townhomes, Tara, Acadia on the Lake); this seed row (partner: Pennybacker Capital) could not be matched to a 4th BCAD account. Possible explanations: divested/exited since the Matrix snapshot, exemption/ownership recorded under an unindexed name variant, or a Matrix data artifact. Unresolved.",
+      "property.name, address, cad_account, units, appraised_value, exemption status all unknown -- BCAD owner search under 'EDCOUCH' returned only 3 distinct accounts, all assigned to other seed rows in this county file."
+    ],
+    "provenance": [
+      {
+        "field": "existence of this seed row",
+        "source": "data/seed_properties.json (Matrix apartment database extract)",
+        "retrieved": "2026-07-11",
+        "note": "Seed row only; BCAD cross-reference attempted and failed to find a 4th Edcouch-owned Bexar account."
+      }
+    ]
+  }
+]
