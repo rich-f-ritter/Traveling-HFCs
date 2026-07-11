@@ -1,0 +1,560 @@
+[
+  {
+    "census_id": "TX-36-2088",
+    "confidence": "single-source",
+    "property": {
+      "name": "Legends Lake Creek",
+      "aka": [],
+      "address": "10015 Lake Creek Pkwy",
+      "city": "Austin",
+      "county": "Williamson",
+      "zip": "78729",
+      "cad_account": "R392272",
+      "units": 170,
+      "year_built": 2000,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Lynd Management Group"
+    ],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure (seed-labeled 'Partial')",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "S7228 - Maconda Park East Sec 1 Resub Blk A Resub Lt 2 Blk A, BLOCK A, Lot 2-B, ACRES 14.257"
+      ],
+      "recording_batch_note": "Seed: 99-yr unsubordinated net ground lease held by TEH PFC, expires 06/02/2122."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 40750000.0,
+      "annual_exemption_value_est": 0.0,
+      "taxing_units": 7
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 (Ch.303 PFC) -- NO 2027 cliff (HB21 is HFC-only)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "Event-driven: 99-yr ground-lease term, capital event, Sec.303.0426 audit failure, or CAD/AG challenge (per Phase-1 Tier-2 treatment). No property-specific litigation found for this address (distinguish from Enclave/Lakeside at La Frontera, which ARE named in active Williamson CAD litigation -- see those records)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [
+      "AG KP-0437 (sponsor-wide, not property-specific)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "No active exemption record found in WCAD's 'Exemptions' open-data table for this property; assessed value equals full market value on the certified 2025 roll -- property currently FULLY TAXABLE despite TEH PFC ownership, consistent with the broader pattern (Dallas census) of sponsor-owned parcels not actually carrying an exemption on the current roll.",
+      "Only 3 TEH PFC-owned properties were found on WCAD's full-county owner sweep, against 4 TEH PFC seed rows for Williamson (2 Round Rock, 2 Austin) -- this record is matched to the sole Austin-area TEH PFC parcel found; the other Austin seed row (TX-36-2231) has no remaining WCAD candidate (see that record).",
+      "170-unit count is from a Lynd Management Group property listing (lynd.com), not from WCAD (which does not publish unit counts in its open-data layers)."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/legalDescription/appraised_value",
+        "source": "WCAD Open Data (Socrata), data.wcad.org -- 'Owner' (bbia-wsxs) and 'Property - Certified' (ai3c-c9pf) datasets, free public official WCAD portal",
+        "retrieved": "2026-07-11",
+        "note": "propertyid 210842, quickrefid R392272; totalpropmktvalue=$40,750,000; neighborhooddesc='Apartment Complex-Lakeline Area'"
+      },
+      {
+        "field": "property.name/units",
+        "source": "WebSearch: lynd.com property page '170-Apartment-10015-Lake-Creek-Parkway-Austin-Texas-78729' (Legends Lake Creek)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "exemption (none found)",
+        "source": "WCAD Open Data (Socrata), data.wcad.org -- 'Owner' (bbia-wsxs) and 'Property - Certified' (ai3c-c9pf) datasets, free public official WCAD portal 'Exemptions' dataset (nbn7-h4pp)",
+        "retrieved": "2026-07-11",
+        "note": "Query for propertyid 210842 returned zero active-exemption rows"
+      },
+      {
+        "field": "sponsor/tier/kill_regime",
+        "source": "data/sponsors.json (PHASE1_VERIFIED, Texas Essential Housing Public Facility Corporation) and docs/phase1_verdict.md",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id/role/partners/ground_lease_comment",
+        "source": "data/seed_properties.json (market_id 36, property_id 2088)",
+        "retrieved": "2026-07-11",
+        "note": "Best-effort match: seed row is the only Austin-city TEH PFC seed row paired to the sole Austin-area WCAD candidate"
+      }
+    ]
+  },
+  {
+    "census_id": "TX-36-2231",
+    "confidence": "seed",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "Austin",
+      "county": "Williamson",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Lynd Management Group"
+    ],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "none (seed-labeled 'None')",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [],
+      "recording_batch_note": "Seed: 99-yr unsubordinated net ground lease held by TEH PFC, expires 06/20/2122."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 (Ch.303 PFC) -- NO 2027 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "Event-driven per Phase-1 Tier-2 treatment; cannot refine further without a confirmed property match."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [
+      "AG KP-0437 (sponsor-wide)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "NOT MATCHED: WCAD's full-county owner sweep for 'TEXAS ESSENTIAL HOUSING PUBLIC FACILITY CORPORATION' returned exactly 3 properties (Legends Lake Creek, Enclave at La Frontera, Lakeside at La Frontera) -- all 3 are accounted for by the other 3 Williamson seed rows. No 4th TEH PFC-owned Williamson property could be found on the current (2026-07) WCAD roll.",
+      "Possible explanations (unconfirmed): this seed row duplicates one of the other 3 physical properties under a second internal property_id; the deal has not closed/recorded; or the parcel was sold/transferred out of TEH PFC ownership before this data pull. Would need Method 3 (Williamson Co. Clerk deed index) or a TDHCA PFC filing cross-check to resolve.",
+      "No CAD account, address, appraised value, or exemption status could be sourced -- record retained at seed level only."
+    ],
+    "provenance": [
+      {
+        "field": "all base fields",
+        "source": "data/seed_properties.json (market_id 36, property_id 2231)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "negative-match search",
+        "source": "WCAD Open Data (Socrata), data.wcad.org -- 'Owner' (bbia-wsxs) and 'Property - Certified' (ai3c-c9pf) datasets, free public official WCAD portal (owner-name search 'TEXAS ESSENTIAL')",
+        "retrieved": "2026-07-11",
+        "note": "Exactly 3 properties returned county-wide; all 3 accounted for by other seed rows"
+      }
+    ]
+  },
+  {
+    "census_id": "TX-36-1968",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Enclave at La Frontera",
+      "aka": [],
+      "address": "2800 La Frontera Blvd",
+      "city": "Round Rock",
+      "county": "Williamson",
+      "zip": "78681",
+      "cad_account": "R401785",
+      "units": 411,
+      "year_built": 2001,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Lynd Management Group"
+    ],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure (seed-labeled 'None')",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "S7319 - La Frontera Sec 4, BLOCK J, Lot 1, ACRES 11.738"
+      ],
+      "recording_batch_note": "Seed: 99-yr unsubordinated net ground lease held by TEH PFC, expires 05/01/2122."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 68000000.0,
+      "annual_exemption_value_est": 0.0,
+      "taxing_units": 7
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 (Ch.303 PFC) -- NO 2027 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "Event-driven; this specific property is under ACTIVE LITIGATION (Williamson CAD exemption dispute, case 24-1698-C395 names 'Enclave La Frontera' directly), which is the real near-term unwind vector for this record, not a statutory date."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [
+      "TEHPFC v. Williamson CAD, Cause No. 24-1698-C395 (395th Judicial District Court, Williamson Co.) -- 'Texas Essential Housing Public Facility Corporation Enclave La Frontera vs. Williamson Central Appraisal District' -- names THIS property directly (Trellis/court docket)",
+      "TEHPFC v. Williamson CAD, Cause No. 24-0022-C395 (395th Judicial District Court) -- companion/broader TEH PFC exemption dispute",
+      "AG KP-0437 (sponsor-wide)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "No active exemption record found in WCAD's 'Exemptions' dataset; assessed value = full market value on the certified 2025 roll -- FULLY TAXABLE currently, which is consistent with (and likely the direct subject of) the pending Williamson CAD exemption litigation.",
+      "Seed row pairing to this specific address vs. the other Round Rock parcel (TX-36-2017, Lakeside at La Frontera) is a best-effort match by city+sponsor (both Round Rock, both 99-yr ground leases with near-identical seed language) -- NOT independently distinguished by ground-lease expiry date or deed reference. This record was chosen for the Enclave pairing because Enclave is the property independently confirmed by name in the 24-1698-C395 docket; the other seed row is paired to Lakeside by elimination.",
+      "411-unit count and 2001 build year are from Lynd Management Group's own listing/apartments.com, not WCAD (which does not publish unit counts)."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/legalDescription/appraised_value",
+        "source": "WCAD Open Data (Socrata), data.wcad.org -- 'Owner' (bbia-wsxs) and 'Property - Certified' (ai3c-c9pf) datasets, free public official WCAD portal",
+        "retrieved": "2026-07-11",
+        "note": "propertyid 217320, quickrefid R401785; totalpropmktvalue=$68,000,000; neighborhooddesc='Apartment Complex-west Round Rock'"
+      },
+      {
+        "field": "property.name/units/year_built",
+        "source": "WebSearch: lynd.com 'Enclave at La Frontera' listing; apartmentfinder.com (built 2001, 411 units, 3 stories)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "litigation_flags (24-1698-C395)",
+        "source": "WebSearch: trellis.law case page 'Texas Essential Housing Public Facility Corporation Enclave La Frontera vs. Williamson Central Appraisal District', 395th Judicial District Court, Judge Ryan D. Larson; counsel Blake Wilson Stribling (TEHPFC) / Eric J.R. Nichols (WCAD)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "exemption (none found)",
+        "source": "WCAD Open Data (Socrata), data.wcad.org -- 'Owner' (bbia-wsxs) and 'Property - Certified' (ai3c-c9pf) datasets, free public official WCAD portal 'Exemptions' dataset (nbn7-h4pp)",
+        "retrieved": "2026-07-11",
+        "note": "Query for propertyid 217320 returned zero active-exemption rows"
+      },
+      {
+        "field": "sponsor/tier/kill_regime",
+        "source": "data/sponsors.json (PHASE1_VERIFIED, Texas Essential Housing Public Facility Corporation)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id/role/partners/ground_lease_comment",
+        "source": "data/seed_properties.json (market_id 36, property_id 1968)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-36-2017",
+    "confidence": "single-source",
+    "property": {
+      "name": "Lakeside at La Frontera",
+      "aka": [],
+      "address": "941 Hesters Crossing Rd",
+      "city": "Round Rock",
+      "county": "Williamson",
+      "zip": "78681",
+      "cad_account": "R417224",
+      "units": 366,
+      "year_built": 2002,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Texas Essential Housing Public Facility Corporation",
+      "species": "PFC",
+      "statute": "Ch.303",
+      "home_jurisdiction": "Austin (SH130 corridor)",
+      "home_county": "Travis",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Lynd Management Group"
+    ],
+    "classification": {
+      "tier": 2,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure (seed-labeled 'None')",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "S7707 - La Frontera Sec 3b Lts 2&5 Blk D Amended, BLOCK D, Lot 2, ACRES 10.414"
+      ],
+      "recording_batch_note": "Seed: 99-yr unsubordinated net ground lease held by TEH PFC, expires 04/20/2122."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 64000000.0,
+      "annual_exemption_value_est": 0.0,
+      "taxing_units": 7
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB2071 (Ch.303 PFC) -- NO 2027 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "Event-driven; located in the same La Frontera master-planned area as the actively-litigated Enclave property (24-1698-C395) -- likely within scope of the broader 24-0022-C395 TEH PFC v. Williamson CAD dispute, though not independently confirmed as a named party to either docket from free sources."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [
+      "TEHPFC v. Williamson CAD, Cause No. 24-0022-C395 (possible/unconfirmed -- see gaps)",
+      "AG KP-0437 (sponsor-wide)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "No active exemption record found in WCAD's 'Exemptions' dataset; assessed value = full market value on the certified 2025 roll -- FULLY TAXABLE currently.",
+      "Seed row pairing (TX-36-2017 vs. TX-36-1968) to this address vs. Enclave at La Frontera is a best-effort match by elimination (see TX-36-1968's gap note) -- NOT independently verified.",
+      "Not independently confirmed whether this specific property (vs. only Enclave) is a named party to case 24-0022-C395 or 24-1698-C395 -- court-docket text was not fetched in full from a free source this pass.",
+      "366-unit count and 2002 build year are from third-party listing sites (apartments.com, rentcafe.com), not WCAD."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/legalDescription/appraised_value",
+        "source": "WCAD Open Data (Socrata), data.wcad.org -- 'Owner' (bbia-wsxs) and 'Property - Certified' (ai3c-c9pf) datasets, free public official WCAD portal",
+        "retrieved": "2026-07-11",
+        "note": "propertyid 229181, quickrefid R417224; totalpropmktvalue=$64,000,000; neighborhooddesc='Apartment Complex-west Round Rock'"
+      },
+      {
+        "field": "property.name/units/year_built",
+        "source": "WebSearch: lynd.com 'Lakeside at La Frontera' listing; apartments.com (built 2002, 366 units, 3 stories)",
+        "retrieved": "2026-07-11",
+        "note": "Property management shown as Roscoe Properties on some current listings -- operator may differ from title-holder (TEH PFC), normal for this structure"
+      },
+      {
+        "field": "exemption (none found)",
+        "source": "WCAD Open Data (Socrata), data.wcad.org -- 'Owner' (bbia-wsxs) and 'Property - Certified' (ai3c-c9pf) datasets, free public official WCAD portal 'Exemptions' dataset (nbn7-h4pp)",
+        "retrieved": "2026-07-11",
+        "note": "Query for propertyid 229181 returned zero active-exemption rows"
+      },
+      {
+        "field": "sponsor/tier/kill_regime",
+        "source": "data/sponsors.json (PHASE1_VERIFIED, Texas Essential Housing Public Facility Corporation)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id/role/partners/ground_lease_comment",
+        "source": "data/seed_properties.json (market_id 36, property_id 2017)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-WILLIAMSON-1",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Siena Round Rock",
+      "aka": [],
+      "address": "6531 County Road 110",
+      "city": "Round Rock",
+      "county": "Williamson",
+      "zip": "78665",
+      "cad_account": "R599112",
+      "units": 198,
+      "year_built": 2021,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Cameron County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Harlingen",
+      "home_county": "Cameron",
+      "role_on_property": "Ground Leasor / fee owner"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "S12286 - SIENA SEC 30, Lot 1, ACRES 13.677"
+      ],
+      "recording_batch_note": "Named directly in Williamson County's March 2025 suit against Cameron County HFC (TRO). Acquisition timing not independently dated from free sources -- current WCAD roll shows Cameron County HFC as 100% owner of record."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 31000000.0,
+      "annual_exemption_value_est": 0.0,
+      "taxing_units": 8
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) 2027-01-01 + \u00a713(e) capital-event",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff applies as the primary/backstop date, but this property's REAL near-term unwind vector is the active Williamson County lawsuit (TRO granted ~early March 2025) alleging Cameron County HFC exploited the out-of-jurisdiction exemption loophole -- a court order could force divestiture well before 2027."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [
+      "Williamson County v. Cameron County Housing Finance Corporation (TRO granted ~early March 2025, Williamson Co. district court) -- Siena Round Rock named directly as one of two target properties (the other being 'The Sommery', 5540 Sofia Pl, Round Rock -- see gaps, that acquisition does NOT appear to have closed)",
+      "Bexar AD suit (27 complexes/$26M) -- sponsor-wide",
+      "TWHC HB21 constitutional challenge (Cameron Co., 9/9/2025) -- sponsor-wide"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "NEW EXPANSION property: not present in data/seed_properties.json's 4 Williamson seed rows (which are all Texas Essential Housing PFC). Discovered via a full-county WCAD owner-name sweep for '%HOUSING FINANCE%'/'%PUBLIC FACILITY%'/'%HOUSING AUTHORITY%' plus explicit per-sponsor prefix checks.",
+      "No active exemption record found in WCAD's 'Exemptions' dataset; assessed value = full market value on the certified 2025 roll -- FULLY TAXABLE currently, notwithstanding Cameron County HFC ownership.",
+      "'The Sommery' (5540 Sofia Pl, Round Rock, TX 78665) is reported alongside Siena Round Rock as a second target of Williamson County's suit (Texas Standard, 2025-03-11), but WCAD's current roll shows the fee owner of record for that parcel as 'SOMMERY LOT 2 LP', NOT Cameron County HFC -- the anticipated acquisition appears not to have closed (possibly halted by the March-2025 TRO). NOT included as a census record because current public ownership does not support Cameron County HFC ownership; noted here per the task's litigation-tracking instruction only.",
+      "Exact acquisition/recording date of the Siena Round Rock ground lease/SWD not confirmed from free sources -- would need Method 3 (Williamson Co. Clerk deed index) to date precisely and confirm the 9/1/2025 out-of-jurisdiction capture and 5/28/2025 outright-bar tests.",
+      "198-unit count and 2021 build year are from apartments.com/umovefree.com listings, not WCAD."
+    ],
+    "provenance": [
+      {
+        "field": "existence/owner/cad_account/appraised_value/legalDescription",
+        "source": "WCAD Open Data (Socrata), data.wcad.org -- 'Owner' (bbia-wsxs) and 'Property - Certified' (ai3c-c9pf) datasets, free public official WCAD portal",
+        "retrieved": "2026-07-11",
+        "note": "propertyid 423385, quickrefid R599112, ownerpropertynumber R-14-2499-3000-0001; totalpropmktvalue=$31,000,000; neighborhooddesc='Apartment Complex-hutto'; mailing address 1327 E Washington Ave PMB#110, Harlingen TX 78550 (Cameron County HFC)"
+      },
+      {
+        "field": "property.name/units/year_built",
+        "source": "WebSearch: apartments.com/sienaroundrockapartments.com/umovefree.com listings for 'Siena Round Rock, 6531 County Road 110' (built 2021, 198 units, 3 stories)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "litigation_flags (Williamson County suit)",
+        "source": "WebSearch/WebFetch: Texas Standard, 'Why is a border county's affordable housing unit buying property near Austin?', published 2025-03-11 (texasstandard.org)",
+        "retrieved": "2026-07-11",
+        "note": "TRO granted 'last week' relative to article date; names Siena Round Rock and The Sommery; quotes County Judge Bill Gravell"
+      },
+      {
+        "field": "The Sommery non-match",
+        "source": "WCAD Open Data (Socrata), data.wcad.org -- 'Owner' (bbia-wsxs) and 'Property - Certified' (ai3c-c9pf) datasets, free public official WCAD portal (query for situsaddress LIKE '%SOFIA PL%', propertyid 425651)",
+        "retrieved": "2026-07-11",
+        "note": "Owner of record = SOMMERY LOT 2 LP, mailing address 6034 W Courtyard Dr Ste 288, Austin TX -- not Cameron County HFC"
+      },
+      {
+        "field": "exemption (none found)",
+        "source": "WCAD Open Data (Socrata), data.wcad.org -- 'Owner' (bbia-wsxs) and 'Property - Certified' (ai3c-c9pf) datasets, free public official WCAD portal 'Exemptions' dataset (nbn7-h4pp)",
+        "retrieved": "2026-07-11",
+        "note": "Query for propertyid 423385 returned zero active-exemption rows"
+      },
+      {
+        "field": "sponsor/tier/kill_regime",
+        "source": "data/sponsors.json (PHASE1_VERIFIED, Cameron County Housing Finance Corporation) and docs/phase1_verdict.md",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  }
+]

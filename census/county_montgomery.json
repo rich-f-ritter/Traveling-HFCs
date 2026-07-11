@@ -1,0 +1,677 @@
+[
+  {
+    "census_id": "TX-62-4408",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Avaya Kingwood",
+      "aka": [
+        "Virtual Living at Kingwood",
+        "Northpark Reserve (MCAD legal-description AKA)"
+      ],
+      "address": "25710 Loop 494",
+      "city": "Kingwood",
+      "county": "Montgomery",
+      "zip": "77339",
+      "cad_account": "0004050100903",
+      "units": null,
+      "year_built": 2014,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Houston Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Houston",
+      "home_county": "Harris",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "Catalyst Equity Partners"
+    ],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "none (seed-labeled 'None'; property markets as conventional/market-rate under Asset Living management per public listings)",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "A0405 - OWEN MARY, TRACT 9-D (AKA NORTHPARK RESERVE #2014057509), ACRES 12.83"
+      ],
+      "recording_batch_note": "Seed: 'In 04/25 the property was recapitalized with an unrecorded sale that added Houston Housing Authority to the ownership group. The 04/22 sale price is unconfirmed.' Ground lease per seed expires 05/01/2124 (99-yr, unsubordinated net)."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 34400000.0,
+      "annual_exemption_value_est": 847579.07,
+      "taxing_units": 7
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392 Sec.392.005) -- NO statutory 2027 cliff (HB21/HB2071 do not reach Ch.392)",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": "2025-04 recapitalization added HHA to ownership group (seed sale_comment; unrecorded sale)",
+      "kill_date_estimate": null,
+      "kill_date_basis": "No statutory cliff; unwind only via ultra vires challenge, Sec.392.005(c) affordability-condition dispute, or litigation (event-driven, per Phase-1 verdict)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched -- out of reach of free CAD/tax-office/court sources this pass."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "units count not found in free MCAD/ACT sources (neither publishes unit counts); third-party listing sites did not return a confirmed unit count for this specific address.",
+      "PRORATED-EXXV exemption code (Montgomery Co. Tax Office jurisdiction detail) indicates the exemption began partway through TY2025; exact effective date not published -- only the tax year is confirmable from this free source.",
+      "annual_exemption_value_est is a modeled estimate: (current taxable-portion levy) x (exempt value / taxable value), using actweb.acttax.com's 2025 jurisdiction table; not an official TDHCA/CAD-published foregone-tax figure."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/legalDescription/year_built",
+        "source": "MCAD Tax Parcel View (ArcGIS FeatureServer, services1.arcgis.com/PRoAPGnMSUqvTrzq/arcgis/rest/services/Tax_Parcel_view/FeatureServer/0), free public GIS layer sourced from Montgomery CAD",
+        "retrieved": "2026-07-11",
+        "note": "pid 432360, pYear 2026; ownerName=HOUSTON HOUSING AUTHORITY"
+      },
+      {
+        "field": "property.name (aka)",
+        "source": "WebSearch: usdoh.org, avayakingwood.com, apartments.com listings for 25710 Loop 494 / TX-494 Loop, Kingwood/Porter TX",
+        "retrieved": "2026-07-11",
+        "note": "Also listed as 'Virtual Living at Kingwood'"
+      },
+      {
+        "field": "exemption.appraised_value/taxing_units/exemption code",
+        "source": "Montgomery County Tax Office (Appraisal & Collection Technologies) actweb.acttax.com/act_webdev/montgomery -- free public owner-name search + account detail + jurisdiction/exemption breakdown (Account 0004050100903, CAD Ref R432360)",
+        "retrieved": "2026-07-11",
+        "note": "Gross Value $34,400,000; Exemptions: PRORATED-EXXV; Current Tax Levy $302,481.74 (jurisdiction detail: 7 taxing units)"
+      },
+      {
+        "field": "exemption.first_exempt_tax_year",
+        "source": "Montgomery County Tax Office (Appraisal & Collection Technologies) actweb.acttax.com/act_webdev/montgomery -- free public owner-name search + account detail + jurisdiction/exemption breakdown",
+        "retrieved": "2026-07-11",
+        "note": "Inferred from 'PRORATED-EXXV' flag on the TY2025 jurisdiction table (prorated = exemption began during the tax year)"
+      },
+      {
+        "field": "sponsor/tier/kill_regime",
+        "source": "data/sponsors.json (PHASE1_VERIFIED, Houston Housing Authority)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id/role/partners/ground_lease_comment/sale_comment",
+        "source": "data/seed_properties.json (market_id 62, property_id 4408)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-62-940094",
+    "confidence": "seed",
+    "property": {
+      "name": null,
+      "aka": [],
+      "address": null,
+      "city": "Spring",
+      "county": "Montgomery",
+      "zip": null,
+      "cad_account": null,
+      "units": null,
+      "year_built": null,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Houston Housing Authority",
+      "species": "HA",
+      "statute": "Ch.392",
+      "home_jurisdiction": "Houston",
+      "home_county": "Harris",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Civitas Capital Group"
+    ],
+    "classification": {
+      "tier": 3,
+      "traveling": "yes",
+      "structure_confirmed": "unconfirmed",
+      "affordability_source": "structure (seed-labeled 'Partial')",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [],
+      "recording_batch_note": "Seed: 99-yr unsubordinated net ground lease held by Houston Housing Authority, expires 06/08/2122."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": null,
+      "annual_exemption_value_est": null,
+      "taxing_units": null
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HA-specific (Ch.392) -- no statutory 2027 cliff",
+      "captured_9_1_2025": false,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": null,
+      "kill_date_basis": "No statutory cliff (Ch.392); event-driven only."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [],
+    "instrument_extractions": [],
+    "gaps": [
+      "NOT FOUND in Montgomery free sources this pass: an 'HOUSTON HOUSING AUTHORITY' owner-name search on the Montgomery County Tax Office (actweb.acttax.com) returned exactly 1 match statewide-prefix (the Kingwood/Avaya account, TX-62-4408) -- no second HHA-owned account exists on Montgomery's certified roll. MCAD's Tax_Parcel_view GIS layer sweep (owner LIKE '%HOUSING AUTHORITY%') likewise returned only the Kingwood parcel plus the unrelated local Montgomery County Housing Authority.",
+      "Spring, TX addresses commonly straddle the Harris/Montgomery county line; this parcel may in fact be sited in Harris County despite the seed's 'Montgomery' county tag, or the ground-lease deal may not have resulted in a Montgomery-recorded fee-title change under the Houston Housing Authority name. Could not be resolved from Montgomery-county free sources -- would need a Harris County (HCAD) cross-check or Method 3 (county clerk deed search) to confirm or rule out.",
+      "No CAD account, address, appraised value, or exemption status could be sourced -- record retained at seed level only."
+    ],
+    "provenance": [
+      {
+        "field": "all base fields",
+        "source": "data/seed_properties.json (market_id 62, property_id 940094)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "negative-match search",
+        "source": "Montgomery County Tax Office (Appraisal & Collection Technologies) actweb.acttax.com/act_webdev/montgomery -- free public owner-name search + account detail + jurisdiction/exemption breakdown (owner-name prefix search 'HOUSTON HOUSING AUTHORITY')",
+        "retrieved": "2026-07-11",
+        "note": "1 matches total statewide-prefix -- Kingwood only"
+      },
+      {
+        "field": "negative-match search",
+        "source": "MCAD Tax Parcel View (ArcGIS FeatureServer, services1.arcgis.com/PRoAPGnMSUqvTrzq/arcgis/rest/services/Tax_Parcel_view/FeatureServer/0), free public GIS layer sourced from Montgomery CAD",
+        "retrieved": "2026-07-11",
+        "note": "county-wide ownerName sweep for HOUSING AUTHORITY/HOUSING FINANCE/PUBLIC FACILITY found only 1 Houston HA parcel (Kingwood)"
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-3939",
+    "confidence": "single-source",
+    "property": {
+      "name": "Grove at Sterling Ridge",
+      "aka": [
+        "Woodlands Parkway Apartments (MCAD legal-description AKA)"
+      ],
+      "address": "6900 Lake Woodlands Dr",
+      "city": "The Woodlands",
+      "county": "Montgomery",
+      "zip": "77382",
+      "cad_account": "0004990000129",
+      "units": null,
+      "year_built": 2004,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Maverick County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Eagle Pass",
+      "home_county": "Maverick",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "29th Street Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "none (seed-labeled 'None')",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "A0499 - SMITH ALEX, TRACT 1F1-A (AKA WOODLANDS PARKWAY APARTMENTS RESERVE A), ACRES 13.573"
+      ],
+      "recording_batch_note": "Seed: 99-yr unsubordinated net ground lease held by Maverick County HFC, expires 01/31/2124."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 44000000.0,
+      "annual_exemption_value_est": 0.0,
+      "taxing_units": 7
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) 2027-01-01 + \u00a713(e) capital-event",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff. NOTE: Maverick County HFC was chartered 6/24/2024 -- deals straddle the 5/28/2025 \u00a7394.031(c)-(d) outright-bar line; exact acquisition date for this specific parcel not independently confirmed from free sources (see gaps)."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [
+      "Missouri City v. Maverick County HFC (Fort Bend 268th, TRO) -- sponsor-wide, not property-specific",
+      "Bexar AD suit (sponsor-wide)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "This Montgomery Co. Tax Office / MCAD account is currently FULLY TAXABLE -- Exemptions field is blank and the jurisdiction-detail table shows $0.00 Exemption Value against the full $44,000,000 market value (Current Tax Levy $417,824 charged and paid for TY2025). No ad valorem exemption is in effect despite Maverick County HFC being the owner of record.",
+      "Seed row pairing to this specific address vs. the other Woodlands parcel (TX-63-2255, 10851 Montfair Dr) is a best-effort bucket assignment by role (this record = 'Ground Leasor', matched to the address with the classic ground-lease legal-description AKA) -- NOT independently verified via a recorded deed/ground-lease instrument. Method 3 (Montgomery Co. Clerk grantor/grantee index) would be needed to confirm which seed row maps to which street address.",
+      "units count not published by free MCAD/ACT sources; not independently confirmed via web search for this specific address (site currently marketed as 'Grove at Sterling Ridge').",
+      "Exact acquisition date vs. the 5/28/2025 \u00a7394.031 outright-bar threshold not confirmed."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/legalDescription/year_built/exemption(none)",
+        "source": "MCAD Tax Parcel View (ArcGIS FeatureServer, services1.arcgis.com/PRoAPGnMSUqvTrzq/arcgis/rest/services/Tax_Parcel_view/FeatureServer/0), free public GIS layer sourced from Montgomery CAD",
+        "retrieved": "2026-07-11",
+        "note": "pid 321375"
+      },
+      {
+        "field": "exemption.appraised_value/taxing_units/exemption(=none)",
+        "source": "Montgomery County Tax Office (Appraisal & Collection Technologies) actweb.acttax.com/act_webdev/montgomery -- free public owner-name search + account detail + jurisdiction/exemption breakdown (Account 0004990000129, CAD Ref R321375)",
+        "retrieved": "2026-07-11",
+        "note": "Gross Value $44,000,000; Exemptions: None; Current Tax Levy $417,824 (jurisdiction detail: 7 taxing units, Exemption Value $0.00)"
+      },
+      {
+        "field": "property.name (current + aka)",
+        "source": "WebSearch: rent.com/apartmentlist.com listing 'Grove at Sterling Ridge, 6900 Lake Woodlands Dr, The Woodlands, TX'",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "sponsor/tier/kill_regime",
+        "source": "data/sponsors.json (PHASE1_VERIFIED, Maverick County Housing Finance Corporation)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id/role/partners/ground_lease_comment",
+        "source": "data/seed_properties.json (market_id 63, property_id 3939)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-2255",
+    "confidence": "single-source",
+    "property": {
+      "name": "Montfair at The Woodlands",
+      "aka": [
+        "Evergreen at Sterling Ridge (current marketing name)",
+        "Alexan Sterling Ridge Apt (MCAD legal-description AKA, original name)"
+      ],
+      "address": "10851 Montfair Dr",
+      "city": "The Woodlands",
+      "county": "Montgomery",
+      "zip": "77382",
+      "cad_account": "0097169900700",
+      "units": 310,
+      "year_built": 2007,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Maverick County Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Eagle Pass",
+      "home_county": "Maverick",
+      "role_on_property": "Additional owner"
+    },
+    "partners": [
+      "29th Street Capital"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "other",
+      "affordability_source": "none (seed-labeled 'None')",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "S971699 - WDLNDS STERLING RIDGE VIL CENTER 02 (AMENDING PLAT NO 1), RES B-3 (AKA ALEXAN STERLING RIDGE APT P#2008028589), ACRES 11.056"
+      ],
+      "recording_batch_note": "Seed: 'In 01/25 the property was recapitalized with an undisclosed sale that added Maverick County Housing Finance Corporation to the ownership group. The 02/21 sale price is estimated from SEC/GSE documentation at time of loan.' 29th Street Capital's own release dates its acquisition of the operating asset to 10/27/2022, prior to the HFC overlay."
+    },
+    "exemption": {
+      "first_exempt_tax_year": null,
+      "appraised_value": 44750000.0,
+      "annual_exemption_value_est": 0.0,
+      "taxing_units": 7
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) 2027-01-01 + \u00a713(e) capital-event",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": "2025-01 recapitalization added Maverick County HFC to ownership group (seed sale_comment; undisclosed sale)",
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff. Maverick chartered 6/24/2024; seed dates this specific recap to 01/2025 (pre-5/28/2025), so \u00a7394.031(c)-(d) outright-bar likely does not apply -- but not independently confirmed from a recorded instrument."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [
+      "Missouri City v. Maverick County HFC (Fort Bend 268th, TRO) -- sponsor-wide, not property-specific",
+      "Bexar AD suit (sponsor-wide)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "This Montgomery Co. Tax Office / MCAD account is currently FULLY TAXABLE -- Exemptions field is blank and the jurisdiction-detail table shows $0.00 Exemption Value against the full $44,750,000 market value (Current Tax Levy $424,946 charged and paid for TY2025). No ad valorem exemption is in effect despite Maverick County HFC being an owner of record -- consistent with this being a recent (01/2025) recapitalization where an exemption application may still be pending.",
+      "Seed row pairing to this specific address vs. the other Woodlands parcel (TX-63-3939, 6900 Lake Woodlands Dr) is a best-effort bucket assignment (this record = 'Additional owner', no ground-lease language in the seed row, matched to the address whose legal description shows a post-hoc AKA rather than an original ground-lease platting) -- NOT independently verified via a recorded deed. Method 3 would be needed to confirm.",
+      "310-unit count is from a 29th Street Capital press release describing its own 2022 acquisition of the operating asset, not from MCAD/ACT (which do not publish unit counts) -- treat as a strong but indirect corroboration, not a CAD-sourced figure."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/legalDescription/year_built/exemption(none)",
+        "source": "MCAD Tax Parcel View (ArcGIS FeatureServer, services1.arcgis.com/PRoAPGnMSUqvTrzq/arcgis/rest/services/Tax_Parcel_view/FeatureServer/0), free public GIS layer sourced from Montgomery CAD",
+        "retrieved": "2026-07-11",
+        "note": "pid 362927"
+      },
+      {
+        "field": "exemption.appraised_value/taxing_units/exemption(=none)",
+        "source": "Montgomery County Tax Office (Appraisal & Collection Technologies) actweb.acttax.com/act_webdev/montgomery -- free public owner-name search + account detail + jurisdiction/exemption breakdown (Account 0097169900700, CAD Ref R362927)",
+        "retrieved": "2026-07-11",
+        "note": "Gross Value $44,750,000; Exemptions: None; Current Tax Levy $424,946 (jurisdiction detail: 7 taxing units, Exemption Value $0.00)"
+      },
+      {
+        "field": "property.name/units (current + aka)",
+        "source": "WebSearch: 29sc.com press release '29SC Acquires 310-Unit The Woodlands Property'; har.com/apartmentratings.com listings for 'Evergreen at Sterling Ridge, 10851 W Montfair Blvd'",
+        "retrieved": "2026-07-11",
+        "note": "Built 2008 per 29SC release vs. imprvActualYearBuilt=2007 per MCAD -- normal actual-vs-effective-year variance"
+      },
+      {
+        "field": "sponsor/tier/kill_regime",
+        "source": "data/sponsors.json (PHASE1_VERIFIED, Maverick County Housing Finance Corporation)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id/role/partners/sale_comment",
+        "source": "data/seed_properties.json (market_id 63, property_id 2255)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-63-4733",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Woodland Landings",
+      "aka": [],
+      "address": "5402 FM 1488",
+      "city": "Magnolia",
+      "county": "Montgomery",
+      "zip": "77355",
+      "cad_account": "0005460004200",
+      "units": null,
+      "year_built": 2013,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pleasanton Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pleasanton",
+      "home_county": "Atascosa",
+      "role_on_property": "Ground Leasor"
+    },
+    "partners": [
+      "Hilltop Residential"
+    ],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure (seed-labeled 'None')",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": 99,
+      "recording_refs": [
+        "A0546 - TAYLOR THOMAS, TRACT 41, 42, ACRES 19.347"
+      ],
+      "recording_batch_note": "Seed: 99-yr unsubordinated net ground lease held by Pleasanton HFC, expires 03/08/2124."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 66000000.0,
+      "annual_exemption_value_est": 857529.85,
+      "taxing_units": 5
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) 2027-01-01 + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff; Pleasanton HFC's appeals abandoned statewide (per Phase-1) -- no property-specific injunction found for this Montgomery parcel."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [
+      "15-25-00110/-00111-CV (sponsor-wide, appeals abandoned)",
+      "Hays Co. 25-1185-DCB TRO (sponsor-wide)"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "units count not published by free MCAD/ACT sources; not independently confirmed via web search for this specific address.",
+      "PRORATED-EXXV exemption code indicates the exemption began partway through TY2025; the exact effective/recording date of the Pleasanton HFC acquisition is not confirmable from these free sources.",
+      "annual_exemption_value_est is a modeled estimate (current taxable-portion levy x exempt/taxable ratio, from actweb.acttax.com's 2025 jurisdiction table), not an official published figure."
+    ],
+    "provenance": [
+      {
+        "field": "property.address/cad_account/legalDescription/year_built",
+        "source": "MCAD Tax Parcel View (ArcGIS FeatureServer, services1.arcgis.com/PRoAPGnMSUqvTrzq/arcgis/rest/services/Tax_Parcel_view/FeatureServer/0), free public GIS layer sourced from Montgomery CAD",
+        "retrieved": "2026-07-11",
+        "note": "pid 54015; ownerName=PLEASANTON HOUSING FINANCE CORPORATION; exemptions=EX-XV"
+      },
+      {
+        "field": "property.name",
+        "source": "WebSearch: livehilltop.com Hilltop Residential communities list (Woodland Landings, 5402 FM 1488, Magnolia TX 77355)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "exemption.appraised_value/taxing_units/first_exempt_tax_year",
+        "source": "Montgomery County Tax Office (Appraisal & Collection Technologies) actweb.acttax.com/act_webdev/montgomery -- free public owner-name search + account detail + jurisdiction/exemption breakdown (Account 0005460004200, CAD Ref R54015; jurisdiction detail report)",
+        "retrieved": "2026-07-11",
+        "note": "Gross Value $66,000,000; Exemptions: PRORATED-EXXV; Exemption Value $54,246,575 / Taxable Value $11,753,425 across 5 jurisdictions (Lone Star College, Magnolia ISD, Montgomery Co ESD10, Montgomery Co Hospital Dist, Montgomery County); Current Tax Levy $185,798.14"
+      },
+      {
+        "field": "sponsor/tier/kill_regime",
+        "source": "data/sponsors.json (PHASE1_VERIFIED, Pleasanton Housing Finance Corporation)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "census_id/role/partners/ground_lease_comment",
+        "source": "data/seed_properties.json (market_id 63, property_id 4733)",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  },
+  {
+    "census_id": "TX-NEW-MONTGOMERY-1",
+    "confidence": "cross-validated",
+    "property": {
+      "name": "Porterwood Apartments",
+      "aka": [
+        "Porterwood Apartments by BH (former management-branded name)"
+      ],
+      "address": "24270 FM 1314 Rd",
+      "city": "Porter",
+      "county": "Montgomery",
+      "zip": "77365",
+      "cad_account": "0004250002900",
+      "units": 136,
+      "year_built": 1984,
+      "status": "Completed"
+    },
+    "sponsor": {
+      "name": "Pecos Housing Finance Corporation",
+      "species": "HFC",
+      "statute": "Ch.394",
+      "home_jurisdiction": "Pecos",
+      "home_county": "Reeves",
+      "role_on_property": "Ground Leasor / fee owner (land)"
+    },
+    "partners": [],
+    "classification": {
+      "tier": 1,
+      "traveling": "yes",
+      "structure_confirmed": "fee-flip-groundlease",
+      "affordability_source": "structure",
+      "in_target_set": true
+    },
+    "structure_dates": {
+      "mou_date": null,
+      "swd_to_sponsor_date": null,
+      "ground_lease_date": null,
+      "ground_lease_term_years": null,
+      "recording_refs": [
+        "A0425 PERKINS ERASTUS, TRACT 29, ACRES 4.820"
+      ],
+      "recording_batch_note": "MCAD's parcel/GIS view still attributes the improvement segment (state class B1, 'IMP ONLY', legal desc '(PORTERWOOD APTS)') to 'PORTERWOOD APARTMENTS LLC' -- a fee-flip/ground-lease bifurcation where Pecos HFC holds the land account (0004250002900) and the operating LLC's name persists on the improvement segment in MCAD's GIS attribution even though the Tax Office's billing record shows Pecos HFC as owner of the full account including the improvement value."
+    },
+    "exemption": {
+      "first_exempt_tax_year": 2025,
+      "appraised_value": 13650000.0,
+      "annual_exemption_value_est": 240104.15,
+      "taxing_units": 6
+    },
+    "covenant": {
+      "set_aside_pct": null,
+      "ami_band": null,
+      "meets_hb21_formula": null
+    },
+    "kill_analysis": {
+      "regime": "HB21 \u00a713(i) 2027-01-01 + \u00a713(e)",
+      "captured_9_1_2025": true,
+      "host_resolutions_adopted": null,
+      "audit_filed_tdhca": "unknown",
+      "recent_capital_event": null,
+      "kill_date_estimate": "2027-01-01",
+      "kill_date_basis": "HB21 \u00a713(i) statutory cliff -- Pecos HFC is Ch.394 (reclassified from 'Housing Authority' per Phase-1 verdict); Tarrant ARB / Haltom City / Hays Co. litigation is sponsor-wide, not property-specific to this Montgomery parcel."
+    },
+    "loan": {
+      "lender_or_servicer": null,
+      "securitization": null,
+      "maturity": null,
+      "distress_flag": null,
+      "note": "Not researched."
+    },
+    "litigation_flags": [
+      "Haltom City v. Pecos HFC (injunction 6/3/2025) -- sponsor-wide, not property-specific",
+      "Tarrant ARB $974M/28 sites -- sponsor-wide",
+      "TWHC HB21 constitutional challenge -- sponsor-wide"
+    ],
+    "instrument_extractions": [],
+    "gaps": [
+      "NEW EXPANSION property discovered via owner-name search on actweb.acttax.com (prefix 'PECOS HOUSING FINANCE'), not present in data/seed_properties.json's 5 Montgomery seed rows -- Pecos HFC's Montgomery footprint was previously unrecorded in the seed.",
+      "PRORATED-EXXV exemption code indicates the exemption began partway through TY2025; exact acquisition/recording date not confirmable from these free sources -- would need a Method-3 (Montgomery Co. Clerk) deed search to date the SWD/ground-lease precisely.",
+      "annual_exemption_value_est is a modeled estimate (see methodology note on other Montgomery records), not an official published figure.",
+      "The MCAD GIS layer's improvement-segment ownerName ('PORTERWOOD APARTMENTS LLC') appears stale/unsynced relative to the Tax Office's current billing owner (Pecos HFC) -- flagged rather than silently reconciled."
+    ],
+    "provenance": [
+      {
+        "field": "existence/owner/cad_account",
+        "source": "Montgomery County Tax Office (Appraisal & Collection Technologies) actweb.acttax.com/act_webdev/montgomery -- free public owner-name search + account detail + jurisdiction/exemption breakdown (owner-name prefix search 'PECOS HOUSING FINANCE'; Account 0004250002900, CAD Ref R50753)",
+        "retrieved": "2026-07-11",
+        "note": "1 matches; Gross Value $13,650,000; Exemptions: PRORATED-EXXV"
+      },
+      {
+        "field": "exemption jurisdiction detail/first_exempt_tax_year/taxing_units",
+        "source": "Montgomery County Tax Office (Appraisal & Collection Technologies) actweb.acttax.com/act_webdev/montgomery -- free public owner-name search + account detail + jurisdiction/exemption breakdown jurisdiction detail report for Account 0004250002900",
+        "retrieved": "2026-07-11",
+        "note": "Exemption Value $10,246,849 / Taxable Value $3,403,151 across 6 jurisdictions; Current Tax Levy $79,742.63"
+      },
+      {
+        "field": "property.name/units/year_built (improvement segment)",
+        "source": "MCAD Tax Parcel View (ArcGIS FeatureServer, services1.arcgis.com/PRoAPGnMSUqvTrzq/arcgis/rest/services/Tax_Parcel_view/FeatureServer/0), free public GIS layer sourced from Montgomery CAD",
+        "retrieved": "2026-07-11",
+        "note": "pid 50753; ownerName on this GIS segment = PORTERWOOD APARTMENTS LLC (see structure_dates note); legal desc '(PORTERWOOD APTS), IMP ONLY'; imprvActualYearBuilt=1984"
+      },
+      {
+        "field": "property.name/units (corroboration)",
+        "source": "WebSearch: apartments.com/porterwoodapartments.com listings for 24270 FM 1314 Rd, Porter TX 77365 (136 units, built 1984)",
+        "retrieved": "2026-07-11",
+        "note": null
+      },
+      {
+        "field": "sponsor/tier/kill_regime",
+        "source": "data/sponsors.json (PHASE1_VERIFIED, Pecos Housing Finance Corporation) and docs/phase1_verdict.md",
+        "retrieved": "2026-07-11",
+        "note": null
+      }
+    ]
+  }
+]
