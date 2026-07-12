@@ -7809,7 +7809,7 @@
     "lender_source": "No free source discloses a lender/loan for this account. Same HCAD/County-Clerk access blockers as elsewhere in this batch.",
     "lender_gap": true,
     "year_built_source": "Batch value (2006) matches independent listings (apartments.com, rentcafe.com, corporatehousing.com, retrieved 2026-07-12), which also agree on 264 units / 3 stories.",
-    "owner_group": "Leste"
+    "owner_group": "Leste Group"
   },
   {
     "census_id": "TX-62-4386",
@@ -10113,7 +10113,7 @@
     "lender_source": "SEC EDGAR, Amerant Bancorp Inc. Form 8-K, Exhibit 99.1 investor presentation (https://www.sec.gov/Archives/edgar/data/1734342/000173434224000004/form8-kdraft11624_final.htm, filed 2024-01-16, retrieved 2026-07-12): 'Agreement to sell $401 million in outstanding balance of Houston-based multifamily loan portfolio ... Consists of 20 performing Commercial Real Estate loans.' Exhibit 10.1, the Asset Sale Agreement (https://www.sec.gov/Archives/edgar/data/1734342/000173434224000004/exhibit101assetsaleagree.htm, retrieved 2026-07-12), explicitly names 'Mason Park Apartments' among the Loans subject to a swap-lien release provision (Section 7.5), confirming it was one of the named Schedule A loans; Schedule A itself (loan-level detail including buyer identity and per-loan amount) is marked 'INTENTIONALLY OMITTED' from the public exhibit. Effective Date of the sale agreement: 2024-01-12.",
     "lender_gap": true,
     "year_built_source": "Connect CRE (https://www.connectcre.com/stories/mason-park-delivers-on-jobs-schools-and-lifestyle-amenities/, retrieved 2026-07-12) and Yardi Matrix listing both describe a 2008 completion ('the 312-unit apartment complex was built in 2008'); batch value is 2007 (one year off, likely reflecting start-of-construction vs. completion) -- discrepancy noted, not corrected given only a single source pinning 2008.",
-    "owner_group": "Ownership chain unclear: Brixton Capital is confirmed as the 2021 buyer"
+    "owner_group": "Brick Street Capital"
   },
   {
     "census_id": "TX-63-2664",
@@ -10149,7 +10149,7 @@
     "lender_source": "SEC EDGAR, Amerant Bancorp Inc. 8-K Exhibit 10.1 Asset Sale Agreement (https://www.sec.gov/Archives/edgar/data/1734342/000173434224000004/exhibit101assetsaleagree.htm, filed 2024-01-16, retrieved 2026-07-12): 'Broadstone Memorial Park' is explicitly named in Section 7.5 alongside Mason Park Apartments (this batch) as one of the Loans subject to the swap-lien release provision, confirming Amerant Bank held this loan through the 2024-01-12 sale. SEC EDGAR, SPT Real Estate Capital, LLC ABS-15G Exhibit 99.1, KPMG LLP Agreed-Upon Procedures report re: STWD 2025-FL4 (https://www.sec.gov/Archives/edgar/data/1782832/000153949725002843/n5391_x1exh99-1.htm, filed 2025-11-03, retrieved 2026-07-12), lists 'Broadstone Memorial Park' among the named Mortgage Assets/Collateral Interests in the STWD 2025-FL4 CRE CLO pool.",
     "lender_gap": false,
     "year_built_source": "Multiple independent listings (apartments.com/Zillow via https://www.zillow.com/apartments/houston-tx/broadstone-memorial-park/BqrC8p/, Redfin https://www.redfin.com/TX/Houston/Broadstone-Memorial-Park/apartment/183792276, and Trulia, all retrieved 2026-07-12) consistently state the community was built in 2021 -- two years later than batch's 2019. Corrected to 2021 given the consistency across three independent listing sources.",
-    "owner_group": "county_harris.json seed hints 'Post Investment Group"
+    "owner_group": "Post Investment Group"
   },
   {
     "census_id": "TX-62-1170459",
@@ -11517,7 +11517,7 @@
     "lender_source": "Berkadia press release, https://www.berkadia.com/news/berkadia-arranges-the-sale-and-financing-of-two-trophy-quality-multifamily-properties-for-undercover-billionaire-grant-cardone-ceo-of-cardone-capital/ (retrieved 2026-07-12): 'Cincinnati-based Eagle Realty Group, on behalf of Western & Southern Financial Group, originated the loan ... six-year term, with three years interest only at a fixed rate, and a floating rate thereafter.' This financed Cardone Capital's Sept. 2021 acquisition of the two-property 'Heights Collection' (this property + 15th Street Flats) -- IT PREDATES and is not connected to the 3/11/2025 Pleasanton HFC conveyance; no free source confirms whether/how this loan was assumed, refinanced, or paid off at the time of the HFC flip.",
     "lender_gap": false,
     "year_built_source": "Batch value (HCAD 2025 certified Property Data Export per census/county_harris.json) cross-checked against multiple current listings (Apartment Finder, RentCafe, Apartments.com, all retrieved 2026-07-12, e.g. https://www.apartments.com/10x-heights-waterworks-houston-tx/x4rj5lq/), which show a split -- some list 2019, most current listings show 2020 for the same 8-story, 309-unit building. Per project convention the HCAD/batch structural-record value (2018) is retained as authoritative; flagging the 2-year spread across secondary sources as an unresolved discrepancy.",
-    "owner_group": "Grant Cardone"
+    "owner_group": "Cardone Capital"
   },
   {
     "census_id": "TX-NEW-HARRIS-18",
@@ -11553,7 +11553,7 @@
     "lender_source": "Berkadia press release, https://www.berkadia.com/news/berkadia-arranges-the-sale-and-financing-of-two-trophy-quality-multifamily-properties-for-undercover-billionaire-grant-cardone-ceo-of-cardone-capital/ (retrieved 2026-07-12), and REBusinessOnline, https://rebusinessonline.com/berkadia-arranges-sale-financing-of-two-houston-multifamily-properties-totaling-646-units/ (retrieved 2026-07-12). Financed Cardone Capital's Sept. 2021 acquisition; predates and is not connected to the 3/11/2025 Pleasanton HFC conveyance -- no free source confirms post-flip financing status.",
     "lender_gap": false,
     "year_built_source": "Batch value (HCAD 2025 certified Property Data Export per census/county_harris.json) cross-checked against multiple current listings (retrieved 2026-07-12), which show a split: some report 2020, one detailed profile (South Florida Agent Magazine's coverage of the Cardone deal) states the building 'was completed in 2021.' Per project convention the HCAD/batch structural-record value (2019) is retained as authoritative; the up-to-2-year spread across secondary sources is flagged as an unresolved discrepancy, plausibly reflecting construction-completion vs. certificate-of-occupancy/stabilization date differences.",
-    "owner_group": "Grant Cardone"
+    "owner_group": "Cardone Capital"
   },
   {
     "census_id": "TX-NEW-HARRIS-19",
@@ -11589,7 +11589,7 @@
     "lender_source": "No Deed of Trust is recorded in the Harris County Clerk index adjacent to the 12/6/2024 conveyance, and no news, press release, or SEC EDGAR full-text hit (search terms 'ApexOne Heights', 'Heights Houston Owner' -- zero relevant hits, retrieved 2026-07-12) names a lender or loan amount for either ApexOne's Sept. 2021 acquisition or the 2024 HFC conveyance.",
     "lender_gap": true,
     "year_built_source": "Batch value (HCAD 2025 certified Property Data Export per census/county_harris.json) cross-checked against multiple current listings (Zillow, Apartments.com, all retrieved 2026-07-12), which state the 375-unit, 4-story community was built in 2020 -- a one-year discrepancy. Per project convention the HCAD/batch structural-record value (2019) is retained as authoritative.",
-    "owner_group": "ApexOne Investment Partners. Confirmed via ApexOne's own website"
+    "owner_group": "ApexOne Investment Partners"
   },
   {
     "census_id": "TX-36-1273141",

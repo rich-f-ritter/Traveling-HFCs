@@ -49,7 +49,30 @@ ALIASES = {
     "Madera Companies": ["madera companies", "madera residential", "madera"],
     "Landmark Companies": ["landmark companies", "landmark cos", "landmark"],
     "Trammell Crow Residential": ["trammell crow residential", "high street residential"],
+    "Cardone Capital": ["cardone capital", "grant cardone"],
+    "Leste Group": ["leste group", "leste"],
 }
+
+# Firm vocabulary for the fallback substring pass (used only when the programmatic
+# cut yields something junky). Longest names first so specific matches win.
+VOCAB = sorted(set(list(ALIASES.keys()) + [
+    "Post Investment Group", "Ashland Greene Capital", "Sphinx Development Corporation",
+    "Strategic Realty Holdings", "Palladius Capital Management", "Polaris Real Estate Partners",
+    "Pennybacker Capital", "TriArc Real Estate Partners", "29th Street Capital", "ShainRealty Capital",
+    "Aspen Oak Capital Partners", "Brick Street Capital", "Cypress Equity Investments",
+    "Blackstone Real Estate Income Trust", "Abacus Capital Group", "ApexOne Investment Partners",
+    "SevenSeas Holdings", "Avid Realty Partners", "Citadel Real Estate Group", "DB Capital Management",
+    "Bixby Bridge Capital", "Western Wealth Capital", "Drever Capital Management", "Continental Properties",
+    "Knightvest Residential", "Sovereign Properties", "WAK Management", "AHV Communities",
+    "Hilltop Residential", "Ashcroft Capital", "TruAmerica Multifamily", "AIC Capital", "SHIR Capital",
+    "Wilson Capital", "Brixton Capital", "Nitya Capital", "S2 Capital", "Tides Equities", "REEP Equity",
+    "Magma Equities", "Cienda Partners", "Sahara Equity", "WindMass Capital", "Presidium", "JPI",
+    "Cottonwood Group", "GVA", "TTI Capital", "Vaquero Ventures", "OHT Partners", "Kairoi Residential",
+    "Sunrise Capital", "Sunsail Capital", "Dalian Development", "MetLife Investment Management",
+]), key=lambda s: -len(s))
+
+JUNK = re.compile(r"\.json|seed hint|ownership chain|confirmed via|is confirmed|unclear|see notes|"
+                  r"see lender|per dcad|no free source|not asserted|not independently", re.I)
 
 
 def _cut(s):
@@ -75,8 +98,18 @@ def canon(s):
             low = s.lower()
     if any(low.startswith(b) for b in BLANKISH):
         return ""
+    raw = s
     s = _cut(s).strip().strip(".").strip()
     s = re.sub(r"\s+(LLC|L\.L\.C\.|Inc\.?|Corp\.?|Ltd\.?|LP|L\.P\.)$", "", s, flags=re.I).strip()
+    # if the cut left junk (a mid-sentence description rather than a firm name),
+    # fall back to detecting a known firm anywhere in the raw string.
+    if not s or JUNK.search(s) or len(s) > 45:
+        for firm in VOCAB:
+            if re.search(r"\b" + re.escape(firm) + r"\b", raw, re.I):
+                s = firm
+                break
+        else:
+            return "" if (not s or JUNK.search(s)) else s
     if not s or s.lower() in BLANKISH or len(s) <= 1:
         return ""
     # alias merge

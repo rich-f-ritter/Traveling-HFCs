@@ -1,0 +1,464 @@
+{
+ "TX-61-1675": {
+  "lat": 29.447530627347,
+  "lon": -98.65189908733,
+  "source": "census",
+  "matched": "8330 POTRANCO RD, SAN ANTONIO, TX, 78251"
+ },
+ "TX-61-1707": {
+  "lat": 29.435901346712,
+  "lon": -98.660620117669,
+  "source": "census",
+  "matched": "10018 INGRAM RD, SAN ANTONIO, TX, 78245"
+ },
+ "TX-NEW-BEXAR-3": {
+  "lat": 29.434692131227,
+  "lon": -98.661237559567,
+  "source": "census",
+  "matched": "10102 INGRAM RD, SAN ANTONIO, TX, 78245"
+ },
+ "TX-61-2718": {
+  "lat": 29.508778053863,
+  "lon": -98.569470495773,
+  "source": "census",
+  "matched": "7714 LOUIS PASTEUR DR, SAN ANTONIO, TX, 78229"
+ },
+ "TX-61-1746": {
+  "lat": 29.53761308547,
+  "lon": -98.418065660886,
+  "source": "census",
+  "matched": "3787 PERRIN CENTRAL BLVD, SAN ANTONIO, TX, 78217"
+ },
+ "TX-61-387177": {
+  "lat": 29.646034632709,
+  "lon": -98.452004923669,
+  "source": "census",
+  "matched": "21915 US HWY 281, SAN ANTONIO, TX, 78258"
+ },
+ "TX-61-1709": {
+  "lat": 29.577037889654,
+  "lon": -98.586212620749,
+  "source": "census",
+  "matched": "14200 VANCE JACKSON RD, SAN ANTONIO, TX, 78249"
+ },
+ "TX-61-659": {
+  "lat": 29.57906823443,
+  "lon": -98.604745555169,
+  "source": "census",
+  "matched": "6023 UTSA BLVD, SAN ANTONIO, TX, 78249"
+ },
+ "TX-61-1955": {
+  "lat": 29.515634871597,
+  "lon": -98.633566762427,
+  "source": "census",
+  "matched": "8120 MAINLAND DR, SAN ANTONIO, TX, 78240"
+ },
+ "TX-37-8332": {
+  "lat": 33.2056959,
+  "lon": -96.6070094,
+  "source": "nominatim",
+  "matched": "Throckmorton Street, McKinney, Collin County, Texas, 75069, United States"
+ },
+ "TX-37-1228308": {
+  "lat": 33.083987721287,
+  "lon": -96.684141951684,
+  "source": "census",
+  "matched": "1280 MONTGOMERY DR, ALLEN, TX, 75013"
+ },
+ "TX-37-4164": {
+  "lat": 33.11545249051,
+  "lon": -96.68984019874,
+  "source": "census",
+  "matched": "1090 W EXCHANGE PKWY, ALLEN, TX, 75013"
+ },
+ "TX-37-1180": {
+  "lat": 32.992638891779,
+  "lon": -96.767991203142,
+  "source": "census",
+  "matched": "17817 COIT RD, DALLAS, TX, 75252"
+ },
+ "TX-37-369642": {
+  "lat": 33.137335786881,
+  "lon": -96.707025086818,
+  "source": "census",
+  "matched": "7201 HENNEMAN WAY, MCKINNEY, TX, 75070"
+ },
+ "TX-37-3204": {
+  "lat": 33.208914622959,
+  "lon": -96.640921936096,
+  "source": "census",
+  "matched": "2301 W WHITE AVE, MCKINNEY, TX, 75071"
+ },
+ "TX-37-4378": {
+  "lat": 33.104759754823,
+  "lon": -96.680441234196,
+  "source": "census",
+  "matched": "659 JUNCTION DR, ALLEN, TX, 75013"
+ },
+ "TX-NEW-COLLIN-3": {
+  "lat": 33.000385767383,
+  "lon": -96.697597365818,
+  "source": "census",
+  "matched": "3551 WILSHIRE WAY, RICHARDSON, TX, 75082"
+ },
+ "TX-NEW-COLLIN-4": {
+  "lat": 33.120471766917,
+  "lon": -96.686900749282,
+  "source": "census",
+  "matched": "1301 BRAY CENTRAL DR, ALLEN, TX, 75013"
+ },
+ "TX-43-592": {
+  "lat": 32.917352798623,
+  "lon": -96.747430270678,
+  "source": "census",
+  "matched": "8997 VANTAGE POINT DR, DALLAS, TX, 75243"
+ },
+ "TX-43-3829": {
+  "lat": 32.770906561449,
+  "lon": -96.833705198246,
+  "source": "census",
+  "matched": "660 YORKTOWN ST, DALLAS, TX, 75208"
+ },
+ "TX-37-1116": {
+  "lat": 32.9445146,
+  "lon": -96.8115101,
+  "source": "nominatim",
+  "matched": "Building 10, 14332, Montfort Drive, Dallas, Dallas County, Texas, 75254, United States"
+ },
+ "TX-37-4241": {
+  "lat": 32.84236581002,
+  "lon": -96.763907462235,
+  "source": "census",
+  "matched": "4646 AMESBURY DR, DALLAS, TX, 75206"
+ },
+ "TX-37-4277": {
+  "lat": 32.842711908229,
+  "lon": -96.765230175845,
+  "source": "census",
+  "matched": "4606 AMESBURY DR, DALLAS, TX, 75206"
+ },
+ "TX-37-4278": {
+  "lat": 32.842397563587,
+  "lon": -96.764301919055,
+  "source": "census",
+  "matched": "4601 AMESBURY DR, DALLAS, TX, 75206"
+ },
+ "TX-43-1340126": {
+  "lat": 32.943345685727,
+  "lon": -96.810017429339,
+  "source": "census",
+  "matched": "5711 PRESTON OAKS RD, DALLAS, TX, 75254"
+ },
+ "TX-43-3448": {
+  "lat": 32.916471934628,
+  "lon": -96.772476102152,
+  "source": "census",
+  "matched": "12500 MERIT DR, DALLAS, TX, 75251"
+ },
+ "TX-43-1005": {
+  "lat": 32.810277039525,
+  "lon": -96.789113513222,
+  "source": "census",
+  "matched": "2781 N CARROLL AVE, DALLAS, TX, 75204"
+ },
+ "TX-37-3624": {
+  "lat": 32.638709817803,
+  "lon": -96.86562063322,
+  "source": "census",
+  "matched": "8609 OLD HICKORY TRL, DALLAS, TX, 75237"
+ },
+ "TX-37-1173": {
+  "lat": 32.932959530641,
+  "lon": -96.821654194613,
+  "source": "census",
+  "matched": "5301 ALPHA RD, DALLAS, TX, 75240"
+ },
+ "TX-43-1153801": {
+  "lat": 32.7583200615,
+  "lon": -96.977027062439,
+  "source": "census",
+  "matched": "1225 NE 20TH ST, GRAND PRAIRIE, TX, 75050"
+ },
+ "TX-43-1479": {
+  "lat": 32.8733869,
+  "lon": -96.9337872,
+  "source": "nominatim",
+  "matched": "Promenade Parkway, Irving, Dallas County, Texas, 75062, United States"
+ },
+ "TX-43-1324461": {
+  "lat": 32.730333240498,
+  "lon": -96.910030382749,
+  "source": "census",
+  "matched": "1531 DUNCANVILLE RD, DALLAS, TX, 75211"
+ },
+ "TX-37-1092": {
+  "lat": 32.749872568538,
+  "lon": -96.898752459776,
+  "source": "census",
+  "matched": "4599 W DAVIS ST, DALLAS, TX, 75211"
+ },
+ "TX-43-1071": {
+  "lat": 32.825145839922,
+  "lon": -96.824915760975,
+  "source": "census",
+  "matched": "3301 HUDNALL ST, DALLAS, TX, 75235"
+ },
+ "TX-43-1225449": {
+  "lat": 32.679303033988,
+  "lon": -97.029917581367,
+  "source": "census",
+  "matched": "2136 SARA JANE PKWY, GRAND PRAIRIE, TX, 75052"
+ },
+ "TX-37-1385": {
+  "lat": 32.971794664132,
+  "lon": -96.664956760296,
+  "source": "census",
+  "matched": "6200 N SHILOH RD, GARLAND, TX, 75044"
+ },
+ "TX-37-1104": {
+  "lat": 32.918223735103,
+  "lon": -96.769727472907,
+  "source": "census",
+  "matched": "7900 CHURCHILL WAY, DALLAS, TX, 75251"
+ },
+ "TX-37-1358481": {
+  "lat": 32.925203976127,
+  "lon": -96.841086270607,
+  "source": "census",
+  "matched": "4040 VALLEY VIEW LN, FARMERS BRANCH, TX, 75244"
+ },
+ "TX-NEW-DALLAS-7": {
+  "lat": 32.745739590314,
+  "lon": -96.799862984814,
+  "source": "census",
+  "matched": "303 AVE A, DALLAS, TX, 75203"
+ },
+ "TX-NEW-DALLAS-25": {
+  "lat": 32.968535535855,
+  "lon": -96.829955120321,
+  "source": "census",
+  "matched": "4800 KELLER SPRINGS RD, ADDISON, TX, 75001"
+ },
+ "TX-NEW-DALLAS-34": {
+  "lat": 32.774241671301,
+  "lon": -96.6806907601,
+  "source": "census",
+  "matched": "8200 HOYLE AVE, DALLAS, TX, 75227"
+ },
+ "TX-NEW-DALLAS-50": {
+  "lat": 32.793366167661,
+  "lon": -96.628616059912,
+  "source": "census",
+  "matched": "2145 US HWY 80 E, MESQUITE, TX, 75150"
+ },
+ "TX-NEW-DALLAS-51": {
+  "lat": 32.904811847326,
+  "lon": -96.567810671678,
+  "source": "census",
+  "matched": "3601 MELCER DR, ROWLETT, TX, 75088"
+ },
+ "TX-43-2669": {
+  "lat": 32.998776524771,
+  "lon": -96.971240448307,
+  "source": "census",
+  "matched": "625 E VISTA RIDGE MALL DR, LEWISVILLE, TX, 75067"
+ },
+ "TX-63-3158": {
+  "lat": 29.560773596826,
+  "lon": -95.710324874987,
+  "source": "census",
+  "matched": "21811 WILDWOOD PARK, RICHMOND, TX, 77469"
+ },
+ "TX-NEW-FORTBEND-1": {
+  "lat": 29.525209385348,
+  "lon": -95.535239415412,
+  "source": "census",
+  "matched": "5222 AVALON PT, MISSOURI CITY, TX, 77459"
+ },
+ "TX-63-403": {
+  "lat": 29.634617689921,
+  "lon": -95.545332669496,
+  "source": "census",
+  "matched": "12700 STAFFORD RD, STAFFORD, TX, 77477"
+ },
+ "TX-62-4386": {
+  "lat": 29.760917173523,
+  "lon": -94.980251728672,
+  "source": "census",
+  "matched": "1700 ROLLINGBROOK DR, BAYTOWN, TX, 77521"
+ },
+ "TX-63-3909": {
+  "lat": 29.923503507393,
+  "lon": -95.492093358777,
+  "source": "census",
+  "matched": "10155 BAMMEL N HOUSTON, HOUSTON, TX, 77086"
+ },
+ "TX-63-2840": {
+  "lat": 29.709986149172,
+  "lon": -95.382883344614,
+  "source": "census",
+  "matched": "6301 ALMEDA RD, HOUSTON, TX, 77021"
+ },
+ "TX-63-393758": {
+  "lat": 29.68528435865,
+  "lon": -95.454510408872,
+  "source": "census",
+  "matched": "8877 FRANKWAY DR, HOUSTON, TX, 77096"
+ },
+ "TX-63-4079": {
+  "lat": 29.754475108353,
+  "lon": -95.62128110291,
+  "source": "census",
+  "matched": "13202 BRIAR FOREST DR, HOUSTON, TX, 77077"
+ },
+ "TX-63-2940": {
+  "lat": 29.788408619939,
+  "lon": -95.631914241173,
+  "source": "census",
+  "matched": "14220 PARK ROW DR, HOUSTON, TX, 77084"
+ },
+ "TX-63-4053": {
+  "lat": 29.858508295063,
+  "lon": -95.505062477619,
+  "source": "census",
+  "matched": "6565 HOLLISTER ST, HOUSTON, TX, 77040"
+ },
+ "TX-62-3511": {
+  "lat": 29.793094102756,
+  "lon": -95.68820139134,
+  "source": "census",
+  "matched": "1800 BARKER CYPRESS RD, HOUSTON, TX, 77084"
+ },
+ "TX-63-2765": {
+  "lat": 29.966991238326,
+  "lon": -95.590542943306,
+  "source": "census",
+  "matched": "11111 GRANT RD, CYPRESS, TX, 77429"
+ },
+ "TX-63-389916": {
+  "lat": 29.782941688158,
+  "lon": -95.782554140884,
+  "source": "census",
+  "matched": "150 COBIA DR, KATY, TX, 77494"
+ },
+ "TX-63-1096762": {
+  "lat": 29.783889677668,
+  "lon": -95.747523610801,
+  "source": "census",
+  "matched": "222 MASON CREEK DR, KATY, TX, 77450"
+ },
+ "TX-63-2664": {
+  "lat": 29.778669232575,
+  "lon": -95.430912557868,
+  "source": "census",
+  "matched": "7655 WASHINGTON AVE, HOUSTON, TX, 77007"
+ },
+ "TX-62-1170459": {
+  "lat": 29.9487517,
+  "lon": -95.3578858,
+  "source": "nominatim",
+  "matched": "Aldine Westfield Road, Houston, Harris County, Texas, 77338, United States"
+ },
+ "TX-62-4440": {
+  "lat": 29.934140439636,
+  "lon": -95.254424736901,
+  "source": "census",
+  "matched": "9300 N SAM HOUSTON PKWY E, HUMBLE, TX, 77396"
+ },
+ "TX-63-3007": {
+  "lat": 29.7857853,
+  "lon": -95.8243956,
+  "source": "city-centroid",
+  "matched": "Katy, Fort Bend County, Texas, United States"
+ },
+ "TX-63-8262": {
+  "lat": 29.69848195567,
+  "lon": -95.418260902625,
+  "source": "census",
+  "matched": "7550 KIRBY DR, HOUSTON, TX, 77030"
+ },
+ "TX-63-393756": {
+  "lat": 29.731005495119,
+  "lon": -95.599858919648,
+  "source": "census",
+  "matched": "3030 SHADOWBRIAR DR, HOUSTON, TX, 77082"
+ },
+ "TX-63-2717": {
+  "lat": 29.949693011156,
+  "lon": -95.546805235519,
+  "source": "census",
+  "matched": "12330 N GESSNER DR, HOUSTON, TX, 77064"
+ },
+ "TX-62-4478": {
+  "lat": 30.0983993,
+  "lon": -95.446446,
+  "source": "nominatim",
+  "matched": "Springwoods Village Parkway, Springwood, Spring, Harris County, Texas, 77389, United States"
+ },
+ "TX-63-3697": {
+  "lat": 29.951365036152,
+  "lon": -95.547200069531,
+  "source": "census",
+  "matched": "12331 N GESSNER DR, HOUSTON, TX, 77064"
+ },
+ "TX-62-919380": {
+  "lat": 29.976337040316,
+  "lon": -95.170805977116,
+  "source": "census",
+  "matched": "17571 W LAKE HOUSTON PKWY, HUMBLE, TX, 77346"
+ },
+ "TX-63-1171213": {
+  "lat": 30.04930936563,
+  "lon": -95.494931053062,
+  "source": "census",
+  "matched": "4910 SPRING CYPRESS RD, SPRING, TX, 77379"
+ },
+ "TX-NEW-HARRIS-11": {
+  "lat": 29.67634531718,
+  "lon": -95.455092543653,
+  "source": "census",
+  "matched": "9701 MEYER FOREST DR, HOUSTON, TX, 77096"
+ },
+ "TX-NEW-HARRIS-16": {
+  "lat": 29.874479880266,
+  "lon": -95.654847891812,
+  "source": "census",
+  "matched": "6777 SOMMERALL DR, HOUSTON, TX, 77084"
+ },
+ "TX-NEW-HARRIS-17": {
+  "lat": 29.80391514651,
+  "lon": -95.406247559193,
+  "source": "census",
+  "matched": "515 W 20TH ST, HOUSTON, TX, 77008"
+ },
+ "TX-NEW-HARRIS-18": {
+  "lat": 29.796340539068,
+  "lon": -95.409936407501,
+  "source": "census",
+  "matched": "1414 N SHEPHERD DR, HOUSTON, TX, 77008"
+ },
+ "TX-NEW-HARRIS-19": {
+  "lat": 29.77295346396,
+  "lon": -95.387814196454,
+  "source": "census",
+  "matched": "2770 SUMMER ST, HOUSTON, TX, 77007"
+ },
+ "TX-36-186": {
+  "lat": 29.893120238602,
+  "lon": -97.902813323685,
+  "source": "census",
+  "matched": "1975 AQUARENA SPRINGS DR, SAN MARCOS, TX, 78666"
+ },
+ "TX-36-1128394": {
+  "lat": 30.028322713703,
+  "lon": -97.854528677358,
+  "source": "census",
+  "matched": "3400 KYLE CROSSING, KYLE, TX, 78640"
+ },
+ "TX-63-2255": {
+  "lat": 30.193433938937,
+  "lon": -95.586604343346,
+  "source": "census",
+  "matched": "10851 E MONTFAIR BLVD, THE WOODLANDS, TX, 77382"
+ }
+}
