@@ -35,7 +35,7 @@ COLUMNS = [
     ("Exemption Status", "exemption_status", 15, "text"),
     ("Appraised Value", "appraised_value", 16, "money"),
     ("First Exempt Yr", "first_exempt_year", 12, "year"),
-    ("Private Partner — Group", "private_partner_parent", 26, "text"),
+    ("Private Partner — Owner", "owner_group", 26, "text"),
     ("Private Partner — Seller SPE", "private_partner_spe", 30, "text"),
     ("Lender", "lender", 26, "text"),
     ("Loan Amount", "lender_loan_amount", 15, "money"),
@@ -43,6 +43,7 @@ COLUMNS = [
     ("Litigation", "litigation", 30, "wrap"),
     ("CAD Account", "cad_account", 18, "text"),
     ("Confidence", "confidence", 13, "text"),
+    ("Owner — as researched (detail)", "private_partner_parent", 34, "wrap"),
     ("Partner Source", "private_partner_source", 28, "wrap"),
     ("Lender Source", "lender_source", 28, "wrap"),
     ("Year Built Source", "year_built_source", 22, "wrap"),
@@ -142,6 +143,7 @@ def build_summary(wb):
     by_tier = defaultdict(lambda: [0, 0.0])
     by_sponsor = defaultdict(lambda: [0, 0.0])
     by_county = defaultdict(lambda: [0, 0.0])
+    by_owner = defaultdict(lambda: [0, 0.0])
     total = 0.0
     for r in DATA:
         v = r.get("appraised_value")
@@ -150,6 +152,8 @@ def build_summary(wb):
         by_tier[r.get("tier")][0] += 1; by_tier[r.get("tier")][1] += v
         by_sponsor[r.get("sponsor")][0] += 1; by_sponsor[r.get("sponsor")][1] += v
         by_county[r.get("county")][0] += 1; by_county[r.get("county")][1] += v
+        owner = r.get("owner_group") or "(unidentified)"
+        by_owner[owner][0] += 1; by_owner[owner][1] += v
 
     def block(title, d, r0, keyorder=None):
         ws.cell(r0, 1, title).font = Font(bold=True, size=12)
@@ -172,7 +176,9 @@ def build_summary(wb):
                 2: "Tier 2 — PFC (Ch.303), grandfathered (no cliff)",
                 3: "Tier 3 — Housing authority (Ch.392), no statutory cliff"}
     r = block("By Tier", {tier_lbl.get(k, k): v for k, v in by_tier.items()}, 4)
-    r = block("By Sponsor", by_sponsor, r)
+    owner_order = [k for k, _ in sorted(by_owner.items(), key=lambda kv: (-kv[1][0], -kv[1][1]))]
+    r = block("By Owner / Private Partner (normalized) — ranked by # of properties", by_owner, r, owner_order)
+    r = block("By Sponsor (HFC/PFC)", by_sponsor, r)
     block("By County", by_county, r)
     for ci, w in enumerate([46, 14, 20], 1):
         ws.column_dimensions[get_column_letter(ci)].width = w
