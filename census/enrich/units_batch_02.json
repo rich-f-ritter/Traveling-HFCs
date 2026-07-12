@@ -1,0 +1,86 @@
+[
+ {
+  "census_id": "TX-38-1111",
+  "resolved_name": "The Hills at Ironhorse",
+  "units": 238,
+  "units_source": "https://www.apartments.com/the-hills-at-ironhorse-north-richland-hills-tx/p82vw8s/",
+  "notes": "Apartments.com Property Information states '238 units/2 stories, Built in 1984' — CAD year_built (1983) is a 1-year discrepancy, same address (6424 Iron Horse/Industrial Park Blvd, North Richland Hills)."
+ },
+ {
+  "census_id": "TX-38-1307454",
+  "resolved_name": "Jefferson Fossil Creek",
+  "units": 386,
+  "units_source": "https://rebusinessonline.com/jpi-receives-construction-financing-for-386-unit-multifamily-project-in-haltom-city-texas/",
+  "notes": "REBusinessOnline (developer press coverage) confirms JPI's 'Jefferson Fossil Creek' in Haltom City is a 386-unit project; JPI's own community page (jpi.com/communities/jefferson-fossil-creek/) confirms the name but was JS-gated for direct unit-count scraping. Apartment listing sites (apartments.com/zillow) only show current-vacancy counts ('24 available', '39 available'), not total — those were NOT used. Distinguished from a separate, unrelated JPI Haltom City project ('Jefferson Drove', 343 units, 6200 Baker Blvd)."
+ },
+ {
+  "census_id": "TX-38-1506024",
+  "resolved_name": "Range West",
+  "units": 261,
+  "units_source": "https://www.apartments.com/range-west-saginaw-tx/m3h1r5k/",
+  "notes": "Apartments.com Property Information states '261 units/3 stories, Built in 2025' — matches CAD year_built exactly. Address on listing (701 Saginaw Square Blvd / 701 N Saginaw Blvd) matches the '701 SAGINAW SQUARE BLVD' half of the two-parcel census address; '0 SAGINAW SQUARE BLVD' appears to be a companion/undeveloped parcel of the same community."
+ },
+ {
+  "census_id": "TX-38-2280",
+  "resolved_name": "Taylor Commons",
+  "units": 224,
+  "units_source": "https://www.apartments.com/taylor-commons-fort-worth-tx/x8em7pm/",
+  "notes": "Apartments.com Property Information states '224 units/2 stories, Built in 1979' — matches CAD year_built exactly. One secondary source (operator's own taylorcommons.com marketing copy) said '223 units across six floor plans'; treated the structured apartments.com figure as authoritative and the 223 as marketing-copy noise."
+ },
+ {
+  "census_id": "TX-38-2533",
+  "resolved_name": null,
+  "units": null,
+  "units_source": null,
+  "notes": "UNIDENTIFIED. Row has no name, no address, and empty owner_group — only city (Roanoke, TX) and sponsor (Maverick County Housing Finance Corporation) to go on. Extensive search could not tie any specific Roanoke apartment property to Maverick County HFC: (1) tried tad.org account search — no hit; (2) reviewed 'traveling HFC' news coverage (CBS Texas I-Team, Eagle Pass Business Journal, candysdirt.com, Texas Housers HB21 coverage) — none names a Roanoke property, only Missouri City (The Ranch at Sienna) and Lake Worth (Neuhaus Lake Worth) deals tied to Maverick/Pleasanton HFC; (3) checked a related lawsuit doc (Pecos/Pleasanton/Maverick/La Villa HFCs v. City of Arlington) — only names the Lake Worth property; (4) checked Community Impact's Roanoke development roundup — only finds an unrelated senior-living project (Watermere on Oak Street, Integrated Real Estate Group, no HFC tie). No free source could identify the specific parcel. Genuinely unfound — do not guess."
+ },
+ {
+  "census_id": "TX-38-383621",
+  "resolved_name": "Tides at Eastchase",
+  "units": 340,
+  "units_source": "https://www.apartments.com/tides-at-eastchase-fort-worth-tx/zg3v4vx/",
+  "notes": "Apartments.com Property Information states '340 units/3 stories' — built year matches CAD (1984). Address (8900 Randol Mill Rd, Fort Worth) matches exactly."
+ },
+ {
+  "census_id": "TX-38-865",
+  "resolved_name": "Leander (Leander Apartment Homes)",
+  "units": 168,
+  "units_source": "https://www.rentcafe.com/apartments/tx/benbrook/leander/default.aspx",
+  "notes": "RentCafe states '168 apartments in the community'; corroborated by Apartments.com Property Information ('168 units/2 stories, Built in 1980' — matches CAD year_built exactly). Available-unit counts on other listing sites (31, 35) are current vacancy, not total — not used."
+ },
+ {
+  "census_id": "TX-NEW-TARRANT-4",
+  "resolved_name": "The Sydney",
+  "units": 354,
+  "units_source": "https://www.apartments.com/the-sydney-mansfield-tx/dzyqytk/",
+  "notes": "Apartments.com Property Information states '354 units/3 stories', built 2021 — matches CAD year_built exactly. Other listing-site snippets showing '33' or '42' units were per-floorplan/availability counts, not total — not used. Property participates in an 'Essential Housing Program' (reduced rents for households <$81,520 income), consistent with a PFC/HFC-sponsored deal."
+ },
+ {
+  "census_id": "TX-36-1357295",
+  "resolved_name": "The Grand at Manor",
+  "units": 271,
+  "units_source": "https://www.apartments.com/the-grand-at-manor-manor-tx/ghkfh7w/",
+  "notes": "Identified by address (10700 Genome Dr, Manor, TX) — name was null in batch. Apartments.com Property Information states '271 units/3 stories'; built year matches CAD (2022-ish, listing says built 2021, 1-year discrepancy). Managed by 'Presidium Property Mgmt', confirming owner_group match."
+ },
+ {
+  "census_id": "TX-36-1527161",
+  "resolved_name": "The Lively at Gilbert",
+  "units": 372,
+  "units_source": "https://www.apartments.com/lively-at-gilbert-austin-tx/3rvmj5f/",
+  "notes": "Identified by address (7100 Gilbert Rd; census also lists a companion parcel 7200 Gilbert Rd, Manor, TX — multi-parcel community) — name was null in batch. Apartments.com Property Information states '372 units/3 stories' (page shows 'Built in 2026', vs CAD year_built 2025 — likely reflects final phase completion/lease-up date rather than CAD's initial-construction year; same address, treated as same property). Could not independently corroborate unit count via Civicap Partners' own portfolio page (livelyatgilbert.com and civicap.com/portfolio did not list a total-unit figure; civicap.com/portfolio does not currently list this property by name). Available-unit counts elsewhere (15, 18) are current vacancy, not total."
+ },
+ {
+  "census_id": "TX-36-377618",
+  "resolved_name": "Hillside on Cannon (formerly Cannon Oaks)",
+  "units": 230,
+  "units_source": "https://yieldpro.com/2022/05/truamerica-multifamily-acquires-230-unit-apartment-community-in-austin-texas/",
+  "notes": "Identified by address (2302 E William Cannon Dr, Austin) — name was null in batch. Yield PRO (trade press) reports TruAmerica Multifamily's 2022 acquisition of 'Cannon Oaks,' a 230-apartment community at this address (built 2003, vs CAD year_built 2001 — 2-year discrepancy, same property), confirming owner_group. Property has since been renamed 'Hillside on Cannon'; corroborated by Apartments.com Property Information, which independently states '230 units/3 stories' for Hillside on Cannon at the same address."
+ },
+ {
+  "census_id": "TX-NEW-TRAVIS-4",
+  "resolved_name": "The Shoal",
+  "units": 143,
+  "units_source": "https://www.apartments.com/the-shoal-austin-tx/y6tv6er/",
+  "notes": "Identified by address (827 W 12th St, Austin) — name was null in batch. Apartments.com Property Information states '143 units/8 stories', built 2022 — matches CAD year_built exactly. Could not corroborate the 'La Villa Housing Finance Corporation' sponsor tie via any free source (no press release or filing found linking La Villa HFC to this specific address), but the unit count itself is well-supported by the listing."
+ }
+]

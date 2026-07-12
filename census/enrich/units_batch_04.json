@@ -1,0 +1,86 @@
+[
+ {
+  "census_id": "TX-38-1154934",
+  "resolved_name": "Remi Apartment Homes",
+  "units": 255,
+  "units_source": "https://www.apartments.com/remi-apartment-homes-white-settlement-tx/3hzykre/ (listing states \"255 units/3 stories\")",
+  "notes": "Address and city match exactly (704 Dale Ln, White Settlement, TX 76108). Listing site also shows built 2017 vs CAD year_built 2016 (minor discrepancy, same property)."
+ },
+ {
+  "census_id": "TX-38-1357393",
+  "resolved_name": "Tides on Randol Mill / Tides on Randol East (formerly Prescott Park Apartment Homes)",
+  "units": 354,
+  "units_source": "https://www.apartments.com/tides-on-randol-east-fort-worth-tx/g610prx/ (listing states \"354 units/3 stories\")",
+  "notes": "Address 8951 Randol Mill Rd, Fort Worth matches one of the batch's two parcel addresses (8900 Cottonwood Village Dr is the adjacent second parcel of the same community). Listed built 1984, matching CAD year_built. Property has been rebranded multiple times (Prescott Park / Tides on Randol East); 354-unit figure is consistent across apartments.com and search-result corroboration."
+ },
+ {
+  "census_id": "TX-38-1550",
+  "resolved_name": "Cedars at River Legacy Park",
+  "units": 296,
+  "units_source": "https://www.apartments.com/cedars-at-river-legacy-park-arlington-tx/84gqqw0/ (listing states \"296 units/3 stories\")",
+  "notes": "Address 903 Ashford Ln, Arlington matches exactly; owner_group Tides Equities matches. Note: an AI search summary of the same site initially reported 290 units, but the direct page fetch confirms 296 units/3 stories -- used the direct-fetch figure."
+ },
+ {
+  "census_id": "TX-38-2289",
+  "resolved_name": "Lost Spurs Ranch Apartments",
+  "units": 240,
+  "units_source": "https://www.apartments.com/lost-spurs-ranch-apartments-roanoke-tx/xxcnhgm/ (listing states \"240 units/3 stories\", built 2001)",
+  "notes": "Address 13450 Alta Vista Rd matches exactly; listing shows city as Roanoke, TX (a Fort Worth-metro suburb) rather than Fort Worth as in the batch -- same property, just a different postal city designation. Could not independently corroborate Magma Equities as current owner from free sources, but address/year_built (2001) match is exact."
+ },
+ {
+  "census_id": "TX-38-2699",
+  "resolved_name": "Flats at Brentwood",
+  "units": 180,
+  "units_source": "https://www.apartments.com/flats-at-brentwood-fort-worth-tx/78n453z/ (listing states \"180 units/2 stories\", built 1970)",
+  "notes": "Listing address is 2100 E Loop 820, Fort Worth vs batch's 2188 E Loop 820 -- same community/name, built 1970 matches CAD year_built exactly; the differing house number likely reflects a different building/leasing-office entrance on the same multi-building parcel."
+ },
+ {
+  "census_id": "TX-38-818",
+  "resolved_name": "Azora Ranch Apartments",
+  "units": 270,
+  "units_source": "https://www.rentcafe.com/apartments/tx/fort-worth/azora-ranch-apartments/default.aspx (\"270 apartments in the community\")",
+  "notes": "Address 3665 Marine Creek Pkwy, Fort Worth matches exactly. Note: a Zillow/aggregator search snippet gave a conflicting low figure (17 units), which is clearly a data error (likely reflecting only currently-listed/available units on some aggregator); rentcafe.com's direct total-unit statement (270, across ~10 buildings) was used instead as the more reliable figure."
+ },
+ {
+  "census_id": "TX-38-923",
+  "resolved_name": "Summit at Unique Gardens Apartments (identified via address cluster on Village Ln)",
+  "units": 136,
+  "units_source": "https://www.yardimatrix.com/property-types/multifamily/fortworth/summit-at-unique-gardens-5388-village-lane-tx-76119--33583 (\"total number of 136 units\"); corroborated by https://www.apartmentfinder.com/Texas/Fort-Worth-Apartments/Summit-At-Unique-Gardens-Apartments-wyx2nfk (built 1981, 136 units, 1 story)",
+  "notes": "MODERATE CONFIDENCE MATCH: batch lists four parcel addresses (5200/5221/5300/5301 Village Ln) for this multi-building Fort Worth complex, but the only identifiable named apartment community on Village Ln in Fort Worth (76119) is Summit at Unique Gardens at 5388 Village Ln -- a single-story, low-income/affordable community. Built-1981 vs CAD year_built 1980 is a close match. Could not confirm via any source that 5388 Village Ln is the same parcel cluster as 5200-5301 Village Ln (no CAD/tad.org access to verify parcel grouping), so treat this identification/unit count as tentative."
+ },
+ {
+  "census_id": "TX-36-1155680",
+  "resolved_name": "Camille Farms (formerly The Sage at 1825 / Sage Cottages / The Place at 1825)",
+  "units": 455,
+  "units_source": "https://www.apartmentfinder.com/Texas/Pflugerville-Apartments/Camille-Farms-Apartments-tsrzjyc (\"built in 2001 ... 455 units\"); acquisition context: https://rejournals.com/mc-companies-purchases-455-unit-the-sage-development-in-pflugerville/",
+  "notes": "Address 15835 Foothill Farms Loop, Pflugerville confirmed exactly via apartments.com. MC Companies (owner_group match) acquired this as two adjacent parcels (\"The Sage at 1825\" + \"Sage Cottages\") totaling 455 units combined and rebranded first as The Place at 1825, now Camille Farms; the 455 figure is the WHOLE-COMMUNITY total across both parcels, not a single sub-parcel -- flagging per task instructions since this is a multi-parcel address situation."
+ },
+ {
+  "census_id": "TX-36-1403",
+  "resolved_name": null,
+  "units": null,
+  "units_source": null,
+  "notes": "COULD NOT IDENTIFY. 12704 Harris Branch Pkwy resolves in Redfin/Trulia/HAR.com/RE-MAX property records to a 1,392 sq ft single dwelling built 2006 on a 12.23-acre lot (listed variously as Austin 78754 / Manor 78653), not to any named apartment community on any listing site (apartments.com, rentcafe, apartmentfinder, zillow, etc. all return no exact match). Nearby similarly-named complexes (Harris Branch Apartments at 12435 Dessau Rd; Harris Branch Senior Living at 12433 Dessau Rd / 12433 Harris Branch Pkwy) are at different addresses and do not resolve to 12704. No Pecos Housing Finance Corporation press release or TDHCA bond filing naming this address was found via free search. Left null per task rules rather than guessing -- possible explanations include a recently acquired/renamed property not yet indexed by listing sites, or a CAD/geocoding mismatch for a large parcel."
+ },
+ {
+  "census_id": "TX-36-1549620",
+  "resolved_name": "The Enclave",
+  "units": 90,
+  "units_source": "https://polaris-lp.com/polaris-real-estate-partners-buys-90-unit-multifamily-property/ (\"a 90 unit stabilized multifamily asset ... situated on 2.39 acres in rapidly gentrifying south Austin\" on Stassney Lane); corroborated by https://www.multifamilybiz.com/pressreleases/16325/polaris_real_estate_partners_completes_acquisition...",
+  "notes": "Address 1005 W Stassney Ln, Austin matches; owner_group Polaris Real Estate Partners matches the acquiring entity in the press release directly (acquired July 2023). Also listed on Trulia as 'The Enclave Apartments, 1005 W Stassney Ln'."
+ },
+ {
+  "census_id": "TX-36-535",
+  "resolved_name": "Arboretum Oaks",
+  "units": 252,
+  "units_source": "https://www.rentcafe.com/apartments/tx/austin/arboretum-oaks0/default.aspx (\"252 apartments in the community\" across 24 buildings, address 9617 Great Hills Trail, Austin, TX 78759)",
+  "notes": "Address matches exactly; property managed by Embrey Management Services, matching batch owner_group 'Embrey'. A secondary search snippet gave 250 units; used the rentcafe direct-page figure (252) as more authoritative."
+ },
+ {
+  "census_id": "TX-NEW-TRAVIS-6",
+  "resolved_name": "The Orion",
+  "units": 384,
+  "units_source": "https://polaris-lp.com/portfolio/ (Polaris Real Estate Partners portfolio page lists 'The Orion: 384 units' among its Austin, TX holdings); corroborated by https://www.zumper.com/apartment-buildings/p10519/the-orion-austin-tx (property at 3101 Shoreline Dr, Austin, TX 78728)",
+  "notes": "Address 3101 Shoreline Dr, Austin matches the Orion listing exactly; owner_group Polaris Real Estate Partners confirmed via its own portfolio page. Note: Polaris also owns an unrelated Austin property called 'Polaris on the Park' at 1710-1720 Woodward St (242 units) -- do not confuse the two; that one is not at this address."
+ }
+]
