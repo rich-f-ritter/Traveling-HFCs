@@ -460,5 +460,173 @@
   "lon": -95.586604343346,
   "source": "census",
   "matched": "10851 E MONTFAIR BLVD, THE WOODLANDS, TX, 77382"
+ },
+ "TX-38-818": {
+  "lat": 32.8268833,
+  "lon": -97.3850423,
+  "source": "nominatim",
+  "matched": "Marine Creek Parkway, Fort Worth, Tarrant County, Texas, 76106, United States"
+ },
+ "TX-38-1047": {
+  "lat": 32.852943869523,
+  "lon": -97.301906799868,
+  "source": "census",
+  "matched": "6032 TRAVERTINE LN, FORT WORTH, TX, 76137"
+ },
+ "TX-38-2188": {
+  "lat": 32.7555,
+  "lon": -97.3308,
+  "source": "city-centroid",
+  "matched": "Fort Worth, TX (approx)"
+ },
+ "TX-38-2289": {
+  "lat": 32.9751137,
+  "lon": -97.2817257,
+  "source": "nominatim",
+  "matched": "13450, Alta Vista Road, Fort Worth, Tarrant County, Texas, 76178, United States"
+ },
+ "TX-38-2481": {
+  "lat": 32.769771573571,
+  "lon": -97.102904607907,
+  "source": "census",
+  "matched": "735 WASHINGTON DR, ARLINGTON, TX, 76011"
+ },
+ "TX-38-2606": {
+  "lat": 32.729461292269,
+  "lon": -97.328147609539,
+  "source": "census",
+  "matched": "300 W MORPHY ST, FORT WORTH, TX, 76104"
+ },
+ "TX-38-2748": {
+  "lat": 32.8947406,
+  "lon": -97.2699367,
+  "source": "nominatim",
+  "matched": "5301, North Tarrant Parkway, Fort Worth, Tarrant County, Texas, 76244, United States"
+ },
+ "TX-38-1154678": {
+  "lat": 32.9484025,
+  "lon": -97.3050942,
+  "source": "nominatim",
+  "matched": "North Riverside Drive, Fort Worth, Tarrant County, Texas, 76178, United States"
+ },
+ "TX-38-1154934": {
+  "lat": 32.752681473545,
+  "lon": -97.476057104034,
+  "source": "census",
+  "matched": "704 DALE LN, WHITE SETTLEMENT, TX, 76108"
+ },
+ "TX-38-1184276": {
+  "lat": 32.56669399105,
+  "lon": -97.367195692589,
+  "source": "census",
+  "matched": "305 FM 1187, CROWLEY, TX, 76036"
+ },
+ "TX-38-1215326": {
+  "lat": 32.8890755,
+  "lon": -97.3049169,
+  "source": "nominatim",
+  "matched": "8100, North Riverside Drive, Fort Worth, Tarrant County, Texas, 76137, United States"
+ },
+ "TX-38-1225261": {
+  "lat": 32.764828381847,
+  "lon": -97.32955975529,
+  "source": "census",
+  "matched": "637 SAMUELS AVE, FORT WORTH, TX, 76102"
+ },
+ "TX-38-1307454": {
+  "lat": 32.844670471336,
+  "lon": -97.290218347601,
+  "source": "census",
+  "matched": "5500 N BEACH ST, HALTOM CITY, TX, 76137"
+ },
+ "TX-38-1402209": {
+  "lat": 32.912361582001,
+  "lon": -97.350745267067,
+  "source": "census",
+  "matched": "9632 BERKSHIRE LAKE BLVD, FORT WORTH, TX, 76131"
+ },
+ "TX-38-1483823": {
+  "lat": 32.861007321042,
+  "lon": -97.309718253345,
+  "source": "census",
+  "matched": "3391 WESTERN CENTER BLVD, FORT WORTH, TX, 76137"
+ },
+ "TX-38-1495418": {
+  "lat": 32.815651450339,
+  "lon": -97.422222232084,
+  "source": "census",
+  "matched": "6201 AZLE AVE, LAKE WORTH, TX, 76135"
+ },
+ "TX-NEW-TARRANT-4": {
+  "lat": 32.5703467,
+  "lon": -97.0816715,
+  "source": "nominatim",
+  "matched": "401, North State Highway 360, Britton, Mansfield, Tarrant County, Texas, 76063, United States"
+ },
+ "TX-36-528": {
+  "lat": 30.403334640631,
+  "lon": -97.6997194018,
+  "source": "census",
+  "matched": "12113 METRIC BLVD, AUSTIN, TX, 78758"
+ },
+ "TX-36-1345319": {
+  "lat": 30.2672,
+  "lon": -97.7431,
+  "source": "city-centroid",
+  "matched": "Austin, TX (approx)"
+ },
+ "TX-NEW-TRAVIS-3": {
+  "lat": 30.277342594866,
+  "lon": -97.63685055629,
+  "source": "census",
+  "matched": "5301 DECKER LN, AUSTIN, TX, 78724"
+ },
+ "TX-36-927014": {
+  "lat": 30.409852486397,
+  "lon": -97.850871288916,
+  "source": "census",
+  "matched": "7655 N FM 620 RD, AUSTIN, TX, 78726"
+ },
+ "TX-36-1194": {
+  "lat": 30.220575711768,
+  "lon": -97.706178467514,
+  "source": "census",
+  "matched": "2405 MONTOPOLIS DR, AUSTIN, TX, 78741"
+ },
+ "TX-36-377618": {
+  "lat": 30.186942609624,
+  "lon": -97.759800475208,
+  "source": "census",
+  "matched": "2302 E WILLIAM CANNON DR, AUSTIN, TX, 78744"
+ },
+ "TX-36-375983": {
+  "lat": 30.374840481497,
+  "lon": -97.728964885189,
+  "source": "census",
+  "matched": "9111 RESEARCH SVC RD, AUSTIN, TX, 78758"
+ },
+ "TX-36-568": {
+  "lat": 30.39770733695,
+  "lon": -97.679515492029,
+  "source": "census",
+  "matched": "12101 N LAMAR BLVD, AUSTIN, TX, 78753"
+ },
+ "TX-36-1526": {
+  "lat": 30.375130200559,
+  "lon": -97.72952231925,
+  "source": "census",
+  "matched": "9127 RESEARCH SVC RD, AUSTIN, TX, 78758"
+ },
+ "TX-36-1838": {
+  "lat": 30.2116577,
+  "lon": -97.6672865,
+  "source": "nominatim",
+  "matched": "Spirit of Texas Drive, Austin, Travis County, Texas, 78742, United States"
+ },
+ "TX-36-1357295": {
+  "lat": 30.3505856,
+  "lon": -97.5645713,
+  "source": "nominatim",
+  "matched": "The Grand at Manor leasing office, 10700, Genome Drive, Manor, Travis County, Texas, 78653, United States"
  }
 }
