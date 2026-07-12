@@ -1,0 +1,86 @@
+[
+ {
+  "census_id": "TX-38-1154678",
+  "resolved_name": "Legacy Riverside Senior Living",
+  "units": 264,
+  "units_source": "https://www.multihousingnews.com/legacy-multifamily-jv-lands-29m-loan-for-texas-affordable-project/ (Multi-Housing News: '$28.9 million in financing for the 264-unit Legacy Riverside Senior Living Community ... located just off Interstate 35W at 8050 N. Riverside Drive'; address matches census record exactly)",
+  "notes": "Under-construction LIHTC senior (55+) property, Garland HFC sponsor. Note: a separate, unrelated Pleasanton-HFC-owned apartment site 'Northpoint Villas' sits nearby at 8100 N Riverside Dr (TAD acct 41410475) - not to be confused with this property."
+ },
+ {
+  "census_id": "TX-38-1314388",
+  "resolved_name": null,
+  "units": null,
+  "units_source": null,
+  "notes": "Could not identify. No name/address given; only clue is city=Burleson + sponsor=Pleasanton Housing Finance Corporation. Pulled Tarrant Appraisal District's full owner-name export for 'PLEASANTON' (https://www.tad.org/search-results?searchType=OwnerName&query=PLEASANTON) which lists all 13 Pleasanton-HFC-owned apartment sites in Tarrant County: Flats at Brentwood & Northpoint Villas (Fort Worth), Cortland Riverside (Fort Worth), Rocklyn Apartments (Fort Worth), The Dawnson at Berkshire (Fort Worth), Tides on Randol Mill (Fort Worth), Cedar at River Legacy Park (Arlington), Tides at North Arlington (Arlington), Neuhaus Lake Worth Apts (Lake Worth), The Sydney (Mansfield) - none are in Burleson. A TAD Property-City search for BURLESON (all types) also returned no HFC-owned/APT-Exempt parcels. Possible the record is misattributed to Burleson, the deed hasn't recorded yet, or it's held under a different named entity. Do not guess; needs a human with paid record access (CoStar/deed index) or direct contact with Pleasanton HFC (108 Second St, Pleasanton, TX 78064)."
+ },
+ {
+  "census_id": "TX-38-1510",
+  "resolved_name": "Dylan (Dylan East Fort Worth)",
+  "units": 122,
+  "units_source": "https://multifamilyadvisors.com/properties/dylan/ (Fluellen-Hoover Multifamily Group broker listing: 'Units: 122', ~87% two/three-bedroom mix)",
+  "notes": "Address on census record (2324 Meadowbrook Gardens Dr) is one of several street fronts for this community; leasing/marketing address is 2333 Escalante Ave, Fort Worth 76112 (thedylantx.com, apartments.com). Could not find a matching TAD account under this address (attempted TAD accounts near Meadowbrook Dr resolved to unrelated commercial parcels), so unit count relies solely on the broker listing; apartments.com/umovefree list floorplans but omit a total-unit figure."
+ },
+ {
+  "census_id": "TX-38-2281",
+  "resolved_name": "The Falls & Oaks (The Falls / Oak Village)",
+  "units": 408,
+  "units_source": "https://fortworthbusiness.com/real-estate/marcu-millichap-sells-apartment-complex-in-fort-worth/ ('408-unit apartment complex in Fort Worth sold'); corroborated by LinkedIn post 'DIJ Properties Acquires The Falls and Oak Village in Fort Worth, Texas' (www.linkedin.com/pulse/dij-properties-acquires-falls-oak-village-fort-worth-texas-diaz) which breaks it down as The Falls = 256 units (built 1976) + Oak Village = 152 units (built 1980) = 408 total",
+  "notes": "TAD account 03435024 (https://www.tad.org/property?account=03435024, exported via tad.org/export/property-pdf) confirms property identity: Site Name 'THE FALLS THE OAKS', 2 parcels, owner Pecos Housing Finance Corporation, built 1974 - matches census record's owner_group/sponsor and dual-address exactly, but the TAD record itself has no living-units field. Other listing aggregators (apartmentfinder.com, umovefree.com) gave inconsistent 240/410-unit figures for the same address - 408 from the two independent sale/acquisition sources is treated as most reliable for the whole-community total."
+ },
+ {
+  "census_id": "TX-38-2606",
+  "resolved_name": "Mag & May Apts",
+  "units": 240,
+  "units_source": "https://www.apartmenthomeliving.com/apartment-finder/Mag-May-Fort-Worth-TX-76104-7172376 ('built in 2019 and has 5 stories with 240 units')",
+  "notes": "TAD account 42332301 (tad.org/property?account=42332301) confirms identity: Site Name 'Mag and May Apts', address 300 W Morphy St, owner 'Maverick County Finance Corporation' - matches census sponsor (Maverick County HFC) exactly. Marketing address is 315 W Magnolia Ave (same parcel/site, corner of Magnolia & Morphy)."
+ },
+ {
+  "census_id": "TX-38-740",
+  "resolved_name": "1505 Exchange (The Madeleine)",
+  "units": 256,
+  "units_source": "https://www.forrent.com/tx/fort-worth/1505-exchange-apartments/qkvg3jx ('256 units / 2 stories'); corroborated by https://www.trulia.com/building/1505-exchange-apartments-1505-homedale-dr-fort-worth-tx-76112-1001679892",
+  "notes": "TAD account 04402324 (tad.org/property?account=04402324) confirms identity: Site Name '1505 EXCHANGE', owner 'PECOS HOUSING FINANCE CORPORATION' - matches census sponsor exactly. Property has since been rebranded 'The Madeleine' by current management/ownership."
+ },
+ {
+  "census_id": "TX-38-867",
+  "resolved_name": "Sagamore Apartment Homes",
+  "units": 400,
+  "units_source": "https://www.apartmentfinder.com/Texas/Benbrook-Apartments/Sagamore-Apartment-Homes-Apartments-0ln8463 ('built in 1982 and has 2 stories with 400 units')",
+  "notes": "Cross-checked against a second aggregator listing (apartmenthomeliving-style summary returned via apartments.com search) which independently states the same '2 stories, 400 units' figure. Could not locate the TAD account (searches for 5644 River Walk Dr / 5643 Bellaire Dr S returned unrelated Benbrook parcels)."
+ },
+ {
+  "census_id": "TX-NEW-TARRANT-5",
+  "resolved_name": "Chaparral Apartments",
+  "units": 135,
+  "units_source": "https://www.umovefree.com/Apartment/chaparral-apartments-fort-worth-tx/ (property details table: 'Units 135')",
+  "notes": "Marketing address 6520 Red Sierra Dr, Fort Worth (same community as 1817 E Loop 820). Could not confirm via TAD - the account number surfaced by search engines for this address (6508928) actually resolves to an unrelated Mobil gas station parcel at 100 E Loop 820, so no CAD cross-check was possible; relying on the single listing-site source."
+ },
+ {
+  "census_id": "TX-36-1395069",
+  "resolved_name": "Timbercreek Apartments",
+  "units": 198,
+  "units_source": "https://www.rentcafe.com/apartments/tx/austin/timbercreek-apartments-1/default.aspx ('198 apartments in the community', 10 buildings, 3-4 stories)",
+  "notes": "Identified via address 614 S 1st St, Austin (Bouldin Creek neighborhood). Year built (1972) matches census record exactly, corroborating the identification. A stray '14 units' figure appeared in one AI search summary but is not attested on any source page and was discarded."
+ },
+ {
+  "census_id": "TX-36-1527165",
+  "resolved_name": "Centro Studio Homes",
+  "units": 306,
+  "units_source": "https://www.zumper.com/apartment-buildings/p443907/centro-studio-homes-st-johns-austin-tx (property details: 306 units)",
+  "notes": "Identified via address 824 Camino La Costa, Austin; managed by Firmus Management, matches census owner_group 'Firmus Equity Partners'. Property is a former hotel converted to apartment/studio-home use (TDLR filing TABS2019004515 references 'Interior remodel to existing hotel lobby to apartment leasing center' at this address, but that filing itself does not state a unit count). Single-source figure (306); worth a second check if higher confidence is needed."
+ },
+ {
+  "census_id": "TX-36-528",
+  "resolved_name": "The Park at Walnut Creek (formerly Madison at Walnut Creek)",
+  "units": 342,
+  "units_source": "https://www.apartments.com/the-park-at-walnut-creek-austin-tx/wb7rp7k/ ('342 units/3 stories', built 1994)",
+  "notes": "Identified via address 12113 Metric Blvd, Austin (Gracy Woods neighborhood); built-year (1994) closely matches census record (1995). Formerly branded 'Madison at Walnut Creek'; currently managed by CAF (same management family referenced as owner in sibling census row TX-NEW-TRAVIS-5)."
+ },
+ {
+  "census_id": "TX-NEW-TRAVIS-5",
+  "resolved_name": "The Morgan",
+  "units": 504,
+  "units_source": "https://www.apartments.com/the-morgan-austin-tx/k39r1db/ ('Built in 1984' with '504 units/3 stories')",
+  "notes": "Identified via address 1801 Wells Branch Pky, Austin; built year (1984) matches census record exactly. Owner_group 'Joint venture of CAF Companies' is consistent with CAF's other Austin holdings. Note an earlier AI search summary of a different apartments.com unit-detail page miscalculated '72 units' from a partial floor breakdown; the property's own summary page states 504 units, which is used here."
+ }
+]
