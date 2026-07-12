@@ -1,0 +1,79 @@
+[
+ {
+  "census_id": "TX-38-1215326",
+  "resolved_name": "Northpoint Villas",
+  "units": 276,
+  "units_source": "https://www.yardimatrix.com/property-types/multifamily/fortworth/northpoint-villas-8100-riverside-drive-tx-76137--33958",
+  "notes": "Yardi Matrix states '276 units', built 2008, at 8100 North Riverside Drive, Fort Worth, TX 76137 — address matches CAD exactly. RentCafe's own listing page (rentcafe.com/apartments/tx/fort-worth/northpoint-villas) corroborates: '12 buildings, 3 stories per building' consistent with 276 units (307,596 sq ft total / 276 units ≈ 1,114 sq ft avg, within the 842-1,264 sq ft unit-size range). Year built (2008) is 1 year off CAD's 2009 — same property, minor data variance. Ignored a stray '35 units'/'33 available' figure surfaced in one search snippet, which does not match any primary listing page and is likely a scraper artifact."
+ },
+ {
+  "census_id": "TX-38-1483823",
+  "resolved_name": "Western Station at Fossil Creek",
+  "units": 202,
+  "units_source": "https://www.apartments.com/western-station-apartments-fort-worth-tx/k3pbll8/",
+  "notes": "Apartments.com Property Information states 'Built in 1998' and '202 units/3 stories'. Confirmed same complex as CAD's '3391 Western Center Blvd' address via Trulia listing (trulia.com/building/western-station-3391-western-center-blvd-fort-worth-tx-76137-1001679455), which uses that exact address for 'Western Station'; the property's marketing/leasing address is 6700 Sandshell Blvd (large complex with multiple street frontages). Year built (1998) is 1 year off CAD's 1997 — same property, minor data variance."
+ },
+ {
+  "census_id": "TX-38-2135",
+  "resolved_name": "Monarch Pass Apartment Homes",
+  "units": 784,
+  "units_source": "https://www.apartments.com/monarch-pass-fort-worth-tx/fcedkhv/",
+  "notes": "Apartments.com Property Information states '784 Units, 2 Stories, Built in 1983' — year built matches CAD exactly. Address (4500 Campus Dr, Fort Worth, TX 76119) matches exactly. Independently corroborated by ApartmentHomeLiving.com and ApartmentFinder.com (both also state 784 units). Sanity-checked against LoopNet's building size for this parcel (APN 04981812): 661,238 sq ft / 784 units ≈ 843 sq ft/unit, consistent with the community's stated 614-1,077 sq ft floorplan range on a 38.8-acre site. Ignored conflicting low counts ('20 units' current-availability figures from RentCafe/Zillow, which are vacancy counts, not the total)."
+ },
+ {
+  "census_id": "TX-38-2304",
+  "resolved_name": "Flats on Mill",
+  "units": 192,
+  "units_source": "https://www.apartments.com/flats-on-mill-fort-worth-tx/hwn0qz3/",
+  "notes": "Apartments.com Property Information states 'Built in 1984' and '192 units/2 stories' — year built matches CAD exactly. Address (8925 Randol Mill Rd, Fort Worth, TX 76120) matches exactly."
+ },
+ {
+  "census_id": "TX-38-2811",
+  "resolved_name": "Sierra Gardens",
+  "units": 235,
+  "units_source": "https://www.yardimatrix.com/property-types/multifamily/fortworth/sierra-gardens-2200-taxco-road-tx-76116--34066",
+  "notes": "Yardi Matrix states '235 apartment dwelling units', built 1969, at 2200 Taxco Road, Fort Worth, TX 76116 — 1 year off CAD's 1968, same property. Corroborated by an ApartmentFinder.com search-result summary also stating 235 units/3 stories/built 1969. CAD batch address lists three parcels for this community (2006 Taxco Rd; 2200 Ridgmar Plz; 2200 Taxco Rd); 235 is treated as the whole-community total. Note: a separately-aggregated Zillow/Redfin/Rent.com listing labeled 'Sierra Gardens - Bricktown' at the same 2200 Taxco Rd address states only 63 units — this appears to be a partial/sub-building slice from a listing aggregator, not the whole community, and was not used."
+ },
+ {
+  "census_id": "TX-38-856",
+  "resolved_name": "0 Blue Mound Rd (unbuilt/planned parcel)",
+  "units": null,
+  "units_source": null,
+  "notes": "No apartment listing exists for this address because there is no building yet. TAD account 42721201 (per census/county_tarrant.json, TX-38-856) shows situs address literally '0 BLUE MOUND RD', status 'Planned', appraised value $451,037 (land only, no improvement value), deed to Pleasanton HFC dated 2025-01-27 under a 99-year ground lease — consistent with a not-yet-constructed site. Confirmed via https://www.tad.org/property?account=42721201 (fetched via curl w/ browser UA; page shows blank improvement/living-unit fields). Searched for any Blue Mound Rd Fort Worth development tied to owner_group (blank) or partner 'BrightSpire Capital' — no matching press release or listing found among several existing complexes along Blue Mound Rd (Presidium Revelstoke, HPI's 829-unit project at Bonds Ranch/Blue Mound, etc.), none of which match this parcel. Genuinely unfound because the community does not yet exist; do not guess."
+ },
+ {
+  "census_id": "TX-NEW-TARRANT-1",
+  "resolved_name": "Oak Park",
+  "units": 608,
+  "units_source": "https://www.apartments.com/oak-park-euless-tx/f0f49jt/",
+  "notes": "Apartments.com Property Information states 'Built in 1978' and '608 units across 3 stories' at 1350 N Main St, Euless, TX 76039 — year built matches CAD exactly. Batch lists three addresses (106 E Ash Ln; 1350 N Main St; 1390 N Main St); confirmed 106 E Ash Ln is part of the same 'Oak Park' community (same on-site manager/phone per texas.realest-us.org listing, and a Texas HFC/TDHCA dataset entry names a phase as 'Oak Park III Apartments' at 106 E Ash Ln) — 608 is treated as the whole-community total across all phases/addresses."
+ },
+ {
+  "census_id": "TX-36-1228395",
+  "resolved_name": "The Jovie at Pflugerville (aka Jolie Pflugerville)",
+  "units": 182,
+  "units_source": "https://wilson-capital.com/portfolio/the-jovie/",
+  "notes": "Owner's own portfolio page (Wilson Capital) states 'The Jovie at Pflugerville', 182 total units, at 1305 E Wells Branch Pkwy, Pflugerville, TX 78660 — address matches CAD exactly and owner_group matches exactly ('Wilson Capital'). Corroborated by Apartments.com ('182 units across 4 stories'). Listing name is inconsistently rendered across sites as 'Jolie Pflugerville' (Apartments.com/Zillow) vs 'Jovie Pflugerville' (RentCafe/HAR) — same community either way. Year built: sources say 'completed 2023', 2 years off CAD's 2021 — treated as the same property (minor data variance, not flagged as a mismatch given the exact address+owner match)."
+ },
+ {
+  "census_id": "TX-36-1508",
+  "resolved_name": "Array",
+  "units": 369,
+  "units_source": "https://www.disruptequity.com/disrupt-equity-acquires-a-369-unit-apartment-community-in-austin-tx/",
+  "notes": "Operator press release (Disrupt Equity) confirms acquisition of 'Array', a 369-unit Class B+ community at 2101 Burton Dr, Austin, TX 78741 — address matches CAD exactly. Corroborated by Apartments.com Property Information: '2 stories with 369 units, built in 1973' (2 years off CAD's 1971 — same property, minor variance)."
+ },
+ {
+  "census_id": "TX-36-1875",
+  "resolved_name": "The Axel (formerly Northgate Hills)",
+  "units": 415,
+  "units_source": "https://www.apartments.com/the-axel-austin-tx/9xjj1n5/",
+  "notes": "Apartments.com Property Information states 'Built in 1984' and '415 units/3 stories' at 9024 Northgate Blvd, Austin, TX 78758 — address matches CAD exactly; year built is 2 years off CAD's 1982 (same property, minor variance). RentCafe's listing URL slug ('northgate-hills0') indicates a prior name 'Northgate Hills', now rebranded 'The Axel' — same community. Ignored a conflicting 'Redfin: 26 units' figure, which is a current-listing/for-sale-unit count, not the community total."
+ },
+ {
+  "census_id": "TX-NEW-TRAVIS-1",
+  "resolved_name": "Alma Apartments",
+  "units": 171,
+  "units_source": "https://www.apartments.com/alma-apartments-austin-tx/cltsjxd/",
+  "notes": "Apartments.com Property Information states '171 units/3 stories, Built in 2022' at 9220 N Interstate 35, Austin, TX 78753 — address matches CAD exactly. Owner_group match corroborated: SHIR Capital's own press coverage (rebusinessonline.com and shircapital.com news items) describes 'Alma Apartments' as a SHIR Capital project in Austin that opened in 2024 with ~172 units (rounding-level agreement with the 171-unit listing figure). Year built discrepancy is large — CAD lists 2010 vs. listings' 2022/2024 — plausibly because SHIR Capital specializes in adaptive-reuse/redevelopment projects (per their other Austin project 'Veer', a former hotel conversion); this may be a substantial redevelopment/rebuild of an older 2010 structure at the same address rather than a mismatch. Flagging the year gap but treating unit count as reliable given the exact address + owner match."
+ }
+]
