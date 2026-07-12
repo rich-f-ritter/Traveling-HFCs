@@ -1,0 +1,86 @@
+[
+ {
+  "census_id": "TX-38-1179",
+  "resolved_name": "Casa Villa (Casa Villas Apartment Homes)",
+  "units": 126,
+  "units_source": "https://www.apartments.com/casa-villas-fort-worth-tx/md1hgkk/ (Property Information: \"126 units/3 stories\"; address 6130 Oakland Hills Dr, Fort Worth, TX 76112 matches exactly)",
+  "notes": "Built 1984 per listing, matches task year_built."
+ },
+ {
+  "census_id": "TX-38-1402209",
+  "resolved_name": "The Dawson at Berkshire",
+  "units": 340,
+  "units_source": "https://www.apartments.com/the-dawson-at-berkshire-fort-worth-tx/7wrnxdw/ (Property Information: \"340 units/4 stories\"; address 9632 Berkshire Lake Blvd, Fort Worth, TX 76131 matches exactly)",
+  "notes": "Task lists name as 'The Dawnson at Berksire' (typo); correct name is The Dawson at Berkshire. Listing states built 2022 vs task year_built 2021 - close, likely same property (lease-up timing)."
+ },
+ {
+  "census_id": "TX-38-1661",
+  "resolved_name": "Decker Apartment Homes",
+  "units": 216,
+  "units_source": "https://www.apartments.com/decker-apartment-homes-fort-worth-tx/3ht11rf/ (Property Information: \"216 units/2 stories\"; address 6351 Vega Dr, Fort Worth, TX 76133 matches exactly)",
+  "notes": "Some secondary aggregator snippets showed a conflicting '22 units' figure, but the direct apartments.com property page (primary source) clearly states 216 units/2 stories, which was used."
+ },
+ {
+  "census_id": "TX-38-2293",
+  "resolved_name": "The Ryan Apartments",
+  "units": 200,
+  "units_source": "https://www.apartments.com/the-ryan-fort-worth-tx/knwtlpc/ (Property Information: \"200 units/3 stories\"; address 6051 Bridge St, Fort Worth, TX 76112 matches exactly; built 1984 matches task year_built)",
+  "notes": "No explicit 'Cottonwood Group' branding found on listing pages, but address and year built match task record exactly."
+ },
+ {
+  "census_id": "TX-38-2732",
+  "resolved_name": "Meadow Ridge Apartments",
+  "units": 484,
+  "units_source": "https://www.apartments.com/meadow-ridge-apartments-fort-worth-tx/pt4pwgt/ and https://www.apartmenthomeliving.com/apartment-finder/Meadow-Ridge-Apartments-Fort-Worth-TX-76116-1836289 (both state 484 units, built 1980, 2 stories)",
+  "notes": "Address discrepancy: task lists 3001 W Normandale St; all listing sources give 3101 W Normandale St (built 1980, matching task year_built exactly). Treated as the same property / likely a digit transposition in source CAD data."
+ },
+ {
+  "census_id": "TX-38-850",
+  "resolved_name": "500 Flats (Woodridge Apartments)",
+  "units": 248,
+  "units_source": "https://goodlifehp.com/portfolio/500-flats-woodridge-apartments/ (owner's own portfolio page: \"Built in 1982, 500 flats is a 248-unit garden-style apartment community, located in Fort Worth, Texas\"); corroborated by https://www.apartments.com/500-flats-fort-worth-tx/85n9jg0/",
+  "notes": "Owner-group match confirmed directly (Good Life Housing Partners' own site), high confidence. Built 1982 matches task year_built exactly."
+ },
+ {
+  "census_id": "TX-38-931",
+  "resolved_name": "Bridge Hollow Apartments (now marketed as The Brittany)",
+  "units": 280,
+  "units_source": "https://www.apartments.com/the-brittany-fort-worth-tx/nl7wtkp/ (Property Information: \"280 units/3 stories\"; address 5801 Bridge St, Fort Worth, TX 76112 matches exactly)",
+  "notes": "Property has been rebranded from Bridge Hollow to The Brittany at the same address; multiple listing aggregators (Yelp, Zumper, Zillow, Trulia) still cross-reference both names for 5801 Bridge St."
+ },
+ {
+  "census_id": "TX-36-1179",
+  "resolved_name": "Sage Hill Apartment Homes (formerly Seventytwo27)",
+  "units": 160,
+  "units_source": "https://www.apartments.com/seventytwo27-austin-tx/b1v32y9/ (Property Information: \"160 units/3 stories\"; address 7227 Hwy 290 E, Austin, TX 78723 matches exactly; built 1984 matches task year_built)",
+  "notes": "Identified by address only (task name was null). Community has been rebranded multiple times (Seventytwo27, now Sage Hill); Yelp lists a prior 'SEVENTYTWO 27 APARTMENTS' as closed at the same address, confirming continuity."
+ },
+ {
+  "census_id": "TX-36-1417384",
+  "resolved_name": "Waterford Studios",
+  "units": 125,
+  "units_source": "https://www.rentcafe.com/apartments/tx/austin/waterford-studios0/default.aspx (\"125 apartments in the community\"); corroborated by https://www.rentable.co/austin-tx/waterford-studios (\"Total Unit Count: 125\")",
+  "notes": "Identified by address only (task name was null; owner_group Presidium). Address 9013 United Dr, Austin, TX 78758 matches exactly. Do NOT confuse with 'Presidium Waterford' (a separate, newer 283-unit property at 9127 Research Blvd, built 2023) - different address, different property."
+ },
+ {
+  "census_id": "TX-36-1604",
+  "resolved_name": "Casa Hills at 290 (aka Val Dor II)",
+  "units": 178,
+  "units_source": "https://www.apartments.com/casa-hills-at-290-austin-tx/lcd676f/ and https://www.apartmentfinder.com/Texas/Austin-Apartments/Val-Dor-II-Apartments-tbd836b (both state 178 units; apartments.com AI summary states built 1970, matching task year_built exactly; apartmentfinder page states built 1972, 2 stories)",
+  "notes": "Identified by address only (task name was null). Address 1500 Reagan Hill Dr, Austin, TX 78752 matches exactly. Built-year match (1970) to task record gives high confidence in identification despite the property having two marketing names."
+ },
+ {
+  "census_id": "TX-36-568",
+  "resolved_name": "The Langdon at Walnut Park",
+  "units": 277,
+  "units_source": "https://www.rentcafe.com/apartments/tx/austin/langdon-at-walnut-park/default.aspx (\"277 apartments in the community\" across \"15 buildings\"); corroborated by https://www.apartments.com/the-langdon-at-walnut-park-austin-tx/233pv78/",
+  "notes": "Identified by address only (task name was null). Address 12101 N Lamar Blvd, Austin, TX 78753 matches exactly. Property name itself derives from owner 'Langdon Street Capital', giving very high confidence in the match. Listings state built 2018 vs task year_built 2017 - close, likely lease-up completion year."
+ },
+ {
+  "census_id": "TX-NEW-TRAVIS-7",
+  "resolved_name": null,
+  "units": null,
+  "units_source": null,
+  "notes": "UNRESOLVED. Address 1600 S Pleasant Valley Rd, Austin, TX 78741 (owner_group Presidium) currently has NO existing operating apartment community per free sources checked. LoopNet's property record for this parcel (APN 285506) explicitly lists 'Land Use: Vacant land', 5.63 acres. Presidium/Davies Collaborative have a proposed 'Presidium Pleasant Valley' / '1600 Pleasant Valley' redevelopment planned for two 7-story buildings totaling 585 units, but the site plan has expired and the project shows as 'Not Active' (source: https://www.zabalist.com/site-plans/11579542 and https://www.daviescollaborative.com/project/1600-pleasant-valley). This does not match the task's year_built=1984, which suggests an older structure once stood on/near this parcel; no listing, filing, or CAD source found for that structure under this address. Could not confirm whether task's year_built/owner refer to a demolished prior property or a data linkage error. Recommend a follow-up check against Travis CAD (TCAD) historical records or TDHCA bond filings under 'Pecos Housing... Pleasanton Housing Finance Corporation' for a 1984-built complex near this address."
+ }
+]

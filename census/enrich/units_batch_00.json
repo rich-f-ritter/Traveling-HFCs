@@ -1,0 +1,86 @@
+[
+ {
+  "census_id": "TX-38-1046",
+  "resolved_name": "Palace of Arlington (The Palace)",
+  "units": 280,
+  "units_source": "https://www.apartmentfinder.com/Texas/Arlington-Apartments/Palace-Apartments-z1353bx",
+  "notes": "Apartments.com and ApartmentFinder both confirm 280 units, 2 stories, built 1971 (CAD year_built is 1970 — 1-year discrepancy, same property; address, city match exactly)."
+ },
+ {
+  "census_id": "TX-38-1225261",
+  "resolved_name": "Rocklyn at Samuels Ave",
+  "units": 274,
+  "units_source": "https://www.apartments.com/rocklyn-at-samuels-ave-fort-worth-tx/qd8bjxx/",
+  "notes": "Apartments.com and ApartmentFinder both state '274 units/5 stories'; one secondary source (RentCafe snippet) said 272, treated as noise. Listing says built 2020 vs CAD year_built 2019 (1-year discrepancy, same property/address)."
+ },
+ {
+  "census_id": "TX-38-1487",
+  "resolved_name": "Elliot Windsprint Apartments",
+  "units": 288,
+  "units_source": "https://www.apartments.com/elliot-windsprint-arlington-tx/3lb8zsg/",
+  "notes": "Apartments.com states '288 units/2 stories, Built in 1983' — matches CAD year_built (1983) exactly. Acquired by Ashcroft Capital per PR Newswire release (https://www.prnewswire.com/news-releases/ashcroft-capital-announces-acquisitions-of-elliot-windsprint-and-halston-park-central-301454244.html), corroborating owner_group."
+ },
+ {
+  "census_id": "TX-38-2158",
+  "resolved_name": "The Stella",
+  "units": 200,
+  "units_source": "https://www.apartments.com/the-stella-fort-worth-tx/e454jcn/",
+  "notes": "Apartments.com states '2 stories with 200 units,' built 1979 — matches CAD year_built (1979) exactly."
+ },
+ {
+  "census_id": "TX-38-2407",
+  "resolved_name": "The Hudson",
+  "units": 240,
+  "units_source": "https://www.apartmentfinder.com/Texas/North-Richland-Hills-Apartments/The-Hudson-Apartments-tlnkv08",
+  "notes": "240 units, built 1985 — matches CAD year_built (1985) exactly. owner_group was blank in batch; not independently confirmed."
+ },
+ {
+  "census_id": "TX-38-2869",
+  "resolved_name": "Tides at North Arlington (aka The Washington Apartment Homes, formerly Presidents Corner Apartments)",
+  "units": 436,
+  "units_source": "https://www.apartments.com/the-washington-apartment-homes-arlington-tx/ggk1byz/",
+  "notes": "Apartments.com states '436 units across 2 stories,' built 1978 — matches CAD year_built (1978) exactly; tidesatnortharlington.com now redirects to thewashingtontx.com (rebrand under new ownership/management), confirming the site identity. Batch address lists two parcels (2201 Presidents Corner Dr; 707 Washington Dr) — this is one whole multi-building community spanning both; the 436-unit figure is the whole-community total, not a per-parcel count."
+ },
+ {
+  "census_id": "TX-38-862",
+  "resolved_name": "Athena Apartment Homes",
+  "units": 288,
+  "units_source": "https://www.apartmentfinder.com/Texas/Benbrook-Apartments/Athena-Apartment-Homes-Apartments-5vwrnrq",
+  "notes": "Apartments.com and ApartmentFinder both state '2 stories with 288 units,' built 1980 — matches CAD year_built (1980) exactly. Listings show address as 5513 Crosscreek Ln vs batch's 5524 Crosscreek Ln (odd/even side of same street) — same property, confirmed via owner (Ashland Greene Capital acquisition press release at ashlandgreenecapital.com) and exact year-built match."
+ },
+ {
+  "census_id": "TX-NEW-TARRANT-2",
+  "resolved_name": "Lofts at Grand Prairie (planned development)",
+  "units": 676,
+  "units_source": "https://www.wbpropertygroup.com/portfolio/grand-prairie",
+  "notes": "WB Property Group's own portfolio page describes a 'future two-phase ground up development of 676 luxury multifamily units' (Phase I: 352 units, Phase II: 324 units) on a 26-acre site at this address. Site is vacant land as of data collection (matches batch's year_built: null and '(vacant land)' name) — 676 is the PLANNED total, not existing units; project has not broken ground per available sources."
+ },
+ {
+  "census_id": "TX-36-1314832",
+  "resolved_name": "The Hedge Apartments",
+  "units": 227,
+  "units_source": "https://www.apartments.com/hedge-apartments-austin-tx/0xdqd13/",
+  "notes": "Identified via address match (8300 N Interstate 35) and owner_group match (SHIR Capital / 'Shir Capital' property management). Apartments.com states '3 stories with 227 units.' The second batch address (8216 N Interstate Hwy 35) is confirmed to be a leasing/unit listing within the same Hedge Apartments community, not a separate property (per Redfin/ApartmentGuide listings for that address referencing 'The Hedge'). Apartments.com lists 'Built 2022,' which conflicts with CAD year_built 1980 — likely reflects a gut renovation/rebrand year (SHIR Capital is known for renovating older micro-unit properties in this corridor); flagging discrepancy, not treated as a different property given exact address/owner match."
+ },
+ {
+  "census_id": "TX-36-1510489",
+  "resolved_name": "Flats on Shady Lane",
+  "units": 290,
+  "units_source": "https://www.umovefree.com/post/flats-on-shady-lane-austin",
+  "notes": "290 newly constructed units (15 income-restricted at 60% MFI) at 1125 Shady Ln, developer Barton Creek Capital — matches owner_group exactly. Corroborated by Austin Monitor (https://austinmonitor.com/stories/2019/04/flats-on-shady-lane-gets-final-approval/), which reported the site plan's final approval in April 2019. Project expected completion 2026, matching CAD year_built (2026) — property may be newly delivered or still finishing construction as of the current date; unit count is the total planned/approved units."
+ },
+ {
+  "census_id": "TX-36-370218",
+  "resolved_name": "Tides at South Lamar (formerly Artisan at South Lamar)",
+  "units": 217,
+  "units_source": "https://therealdeal.com/new-york/2022/01/14/tides-equities-snags-another-texas-multifamily-property/",
+  "notes": "The Real Deal reports Tides Equities paid $43M for the '217-unit complex' at 3622 Menchaca Road in Oct 2021, matching owner_group exactly. Corroborated by ApartmentFinder listing (217 units, 3622 Menchaca Rd) though that source lists built 1983 vs CAD year_built 1977 (minor discrepancy, same property per address/owner match). Batch's second address (3506 Menchaca Rd) is the same whole-community garden complex's other street frontage/parcel, not a separate property — 217 is the whole-community total."
+ },
+ {
+  "census_id": "TX-NEW-TRAVIS-2",
+  "resolved_name": "VEER Apartments",
+  "units": 174,
+  "units_source": "https://www.apartments.com/veer-apartments-austin-tx/m0qxy3k/",
+  "notes": "Exact address match (7928 Gessner Dr) and owner_group match (SHIR Capital / 'Shir Capital' management). Apartments.com states '4-story apartment community' with 174 units. Listing shows 'Built 2024,' conflicting with CAD year_built 1986 — same renovation/rebrand pattern as sibling SHIR Capital property Hedge Apartments (see TX-36-1314832); flagging discrepancy but treating as same property given address/owner match."
+ }
+]
