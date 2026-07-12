@@ -1,0 +1,79 @@
+[
+ {
+  "census_id": "TX-38-1184276",
+  "resolved_name": "Landmark at Crowley",
+  "units": 267,
+  "units_source": "https://www.apartments.com/landmark-at-crowley-crowley-tx/rve4jv1/",
+  "notes": "Apartments.com Property Information states 'Built in 2022' and '267 units/3 stories'. Address (305 W FM 1187, Crowley, TX 76036) matches CAD exactly. Listing year built is 1 year off CAD's 2021 — same property, minor data variance."
+ },
+ {
+  "census_id": "TX-38-1456",
+  "resolved_name": "The Carmin",
+  "units": 188,
+  "units_source": "https://www.apartments.com/the-carmin-arlington-tx/85s93m2/",
+  "notes": "Apartments.com Property Information states 'Built in 1983' and '188 units/3 stories' — year built matches CAD exactly. Community's leasing/mailing address is 711 Brentford Pl, while CAD parcel address is 723 Brentford Pl; confirmed 723 Brentford Pl Unit ### exists as an in-community building address (via fastbackgroundcheck.com listing), so this is the same whole-community complex, not a different property."
+ },
+ {
+  "census_id": "TX-38-1744",
+  "resolved_name": "Parkwyn Townhomes",
+  "units": 241,
+  "units_source": "https://www.apartments.com/parkwyn-townhomes-north-richland-hills-tx/v4emtxd/",
+  "notes": "Apartments.com Property Information states 'Built in 1969' and '241 units/2 stories' — year built matches CAD exactly. Address (4401 Glenview Ct) matches exactly."
+ },
+ {
+  "census_id": "TX-38-2295",
+  "resolved_name": "Vine on North Park",
+  "units": 216,
+  "units_source": "https://www.apartments.com/vine-on-north-park-grapevine-tx/6nnj1ts/",
+  "notes": "Apartments.com Property Information states 'Built in 1985' and '216 units/2 stories' — year built matches CAD exactly. Address (601 [N] Park Blvd, Grapevine) matches."
+ },
+ {
+  "census_id": "TX-38-2748",
+  "resolved_name": "The Sovereign",
+  "units": 322,
+  "units_source": "https://www.apartments.com/the-sovereign-fort-worth-tx/695ynlt/",
+  "notes": "Apartments.com Property Information states 'Built in 2015' and '322 units/3 stories' — 1 year off CAD's 2014, same property (address 5301 N Tarrant Pkwy matches exactly). Owner match corroborated: West Shore's own site lists a portfolio page at west-shore.com/property/the-sovereign-apartments."
+ },
+ {
+  "census_id": "TX-38-854",
+  "resolved_name": "Emmitt Luxury Apartments",
+  "units": 402,
+  "units_source": "https://www.apartmentfinder.com/Texas/Haltom-City-Apartments/Emmitt-Luxury-Apartments-538wq7m",
+  "notes": "ApartmentFinder Property Information states 'built in 1985 and has 2 stories with 402 units' (5 years off CAD's 1980, same property — address 5613 Coventry Park Dr matches). Batch's second address (5744 Coventry Park Dr) is confirmed to be the same community (also branded 'Emmitt Luxury Apartments' per Zillow/Trulia listings at that address) — 402 is the whole-community total across both parcels."
+ },
+ {
+  "census_id": "TX-38-939526",
+  "resolved_name": "Westley Apartments",
+  "units": 272,
+  "units_source": "https://www.apartments.com/westley-arlington-tx/8nw6sc3/",
+  "notes": "Apartments.com Property Information states 'Built in 1985' and '272 units/2 stories' (1 year off CAD's 1984). Current leasing address is 2612 Cinnamon Park Cir, Arlington, TX 76016, not matching CAD's 2419/2612 Spanish Tr; identity confirmed via owner_group match — multiple listings state the complex was 'purchased by S2 Capital' and is managed by 'S2 Residential', matching owner_group exactly. Likely a private-street renaming after S2's acquisition/rebrand; treated as the same whole-community property given owner + near year-built match."
+ },
+ {
+  "census_id": "TX-36-1194",
+  "resolved_name": "The Mont",
+  "units": 288,
+  "units_source": "https://www.apartments.com/the-mont-austin-tx/0mm7q91/",
+  "notes": "Apartments.com Property Information states 'Built in 2020' and '288 units/4 stories' — year built matches CAD exactly. Address (2405 Montopolis Dr, Austin, TX 78741) matches exactly. Listing attributes development to Willow Bridge Property Company; CAD's owner_group (Arbor Management Acquisition Co) not independently corroborated but address+year match confirm same property."
+ },
+ {
+  "census_id": "TX-36-1466",
+  "resolved_name": "Capital Hills Apartments",
+  "units": 206,
+  "units_source": "https://www.apartments.com/capital-hills-austin-tx/yyzgvxv/",
+  "notes": "Apartments.com Property Information states 'Built in 1983' and '206 units/3 stories' — year built matches CAD exactly. Address (8527 N Capital of Texas Hwy, Austin, TX 78759) matches exactly."
+ },
+ {
+  "census_id": "TX-36-1838",
+  "resolved_name": "Del Via Apartments (marketed by Presidium as \"Del Via\")",
+  "units": 307,
+  "units_source": "https://www.apartments.com/del-via-apartments-del-valle-tx/szn0te6/",
+  "notes": "Apartments.com Property Information states 'Built in 2025' and '307 units/4 stories' (1 year off CAD's 2024, same property). Address (11600 Spirit Dr) matches exactly; city shown as Del Valle, TX 78617 (unincorporated Austin-area community, often listed as 'Austin' in CAD/postal records). Managed/developed by Presidium, matching owner_group exactly."
+ },
+ {
+  "census_id": "TX-36-927014",
+  "resolved_name": "Ellwood at Lake Travis",
+  "units": 553,
+  "units_source": "https://www.forrentuniversity.com/tx/austin/ellwood-at-lake-travis/jv61197",
+  "notes": "Property Information section states 'Built in 2001' and '553 units/3 stories' — year built matches CAD exactly. Address is 7655 N Ranch Road 620 (aka N FM 620), Austin, TX 78726 — FM 620 and Ranch Road 620 are the same road (RM/FM 620 = RR 620), so this matches CAD's '7655 N FM 620' exactly. Note: apartments.com's own page (https://www.apartments.com/ellwood-at-lake-travis-austin-tx/4v6169l/) shows a floor-plan site map summing to ~90 units, but that reflects only currently-modeled/available floor plans by floor, not the whole-community total; the 553-unit figure (matching CAD year_built exactly) is treated as authoritative. owner_group in batch was blank/not provided, so no independent owner corroboration was possible."
+ }
+]

@@ -1,0 +1,86 @@
+[
+ {
+  "census_id": "TX-38-1047",
+  "resolved_name": "Cortland Riverside (now The Hadley Riverside)",
+  "units": 374,
+  "units_source": "https://www.apartments.com/cortland-riverside-fort-worth-tx/6dht80s/",
+  "notes": "Apartments.com and ApartmentGuide both state '374 units/3 stories' at 6032 Travertine Ln, Fort Worth TX 76137 — exact address match. Property has since been rebranded 'The Hadley Riverside' under the same address/unit count. Listing shows built 2019 vs CAD year_built 2017 (minor discrepancy, same property)."
+ },
+ {
+  "census_id": "TX-38-1260",
+  "resolved_name": "Cedar Point Apartments",
+  "units": 272,
+  "units_source": "https://www.apartments.com/cedar-point-apartments-arlington-tx/vsbthfd/",
+  "notes": "Apartments.com states '272 units/2 stories, Built in 1977' at 2020 Cedar Point Dr, Arlington TX 76010 — exact address and year_built match (CAD: 1977)."
+ },
+ {
+  "census_id": "TX-38-1495418",
+  "resolved_name": "Neuhaus Lake Worth Apartments",
+  "units": 288,
+  "units_source": "https://flournoycompanies.com/our-portfolio/neuhaus-lake-worth",
+  "notes": "Developer Flournoy's own portfolio page (owner_group match: Flournoy Development Group) lists 288 total units at 6201 Azle Ave, Lake Worth TX — exact address match. Page lists completion date 2024 vs CAD year_built 2022 (property was likely delivered in phases; treated as same property given exact address/owner match)."
+ },
+ {
+  "census_id": "TX-38-2188",
+  "resolved_name": "Stillwater Crystal Springs (Crystal Springs)",
+  "units": 387,
+  "units_source": "https://www.prnewswire.com/news-releases/stillwater-capital-announces-groundbreaking-of-crystal-springs-301082142.html",
+  "notes": "PR Newswire release (owner_group match: Stillwater Capital Investments) states a '387-unit, Class-A+ apartment community' at Crystal Springs in Fort Worth's River District. Address confirmed via secondary source: LoopNet/TAD record for 113 Western Swing Way, Fort Worth TX 76114 shows the parcel legally described as 'CRYSTAL SPRINGS ADDN BLOCK 6 LOT 1R & BLK 5 LOT 1R,' built 2021 (matches CAD year_built exactly) — confirms this address is part of the Crystal Springs development. Property markets under both 'Crystal Springs' and 'Stillwater Crystal Springs.'"
+ },
+ {
+  "census_id": "TX-38-2481",
+  "resolved_name": "Jefferson North Collins (now Zenith Arlington)",
+  "units": 346,
+  "units_source": "https://www.jpi.com/jpi-announces-closing-346-home-community-arlington/",
+  "notes": "JPI's own press release (owner_group match: JPI) announces closing of a 346-home community at Madison/Washington Dr, Arlington TX — matches batch address (735 Washington Dr) and confirms the property has since been renamed 'Zenith' and sold out of JPI ownership; unit count corroborated by JPI's community page and Apartments.com listing for the current 'Zenith' brand at the same address."
+ },
+ {
+  "census_id": "TX-38-2879",
+  "resolved_name": "The Woodlands Apartments (now The Griffin Apartments)",
+  "units": 386,
+  "units_source": "https://www.apartments.com/the-griffin-apartments-fort-worth-tx/zjexp3x/",
+  "notes": "Apartments.com states '386 units/2 stories, Built in 1985' at 7040 John T White Rd, Fort Worth TX 76120 (one of the batch's three listed parcels) — property has been rebranded 'The Griffin Apartments.' Could not independently confirm 6991 Anderson Blvd and 7030 John T White Rd as parcels of the same community via a listing site; a HAR/Redfin record shows 7030 John T White Rd as a distinct 69,606 sq ft improvement immediately adjacent to 7040, consistent with a clubhouse/ancillary parcel of the same multi-parcel complex per the task's guidance on multi-building communities, but this is inferred rather than directly sourced. Listing year built 1985 vs CAD year_built 1979 (discrepancy, treated as same property given address match)."
+ },
+ {
+  "census_id": "TX-38-864",
+  "resolved_name": "Lawson Apartments",
+  "units": 166,
+  "units_source": "https://www.apartments.com/lawson-benbrook-tx/5vd365n/",
+  "notes": "Apartments.com states '166 units/2 stories, Built in 1980' at 5608 Royal Ln, Benbrook TX 76109 — exact address and year_built match (CAD: 1980). Owner_group (Brazos Residential) corroborated by brazosresidential.com listing this property."
+ },
+ {
+  "census_id": "TX-NEW-TARRANT-3",
+  "resolved_name": "Infinity on the Landing",
+  "units": 267,
+  "units_source": "https://www.yardimatrix.com/property-types/multifamily/fortworth/infinity-on-the-landing-3720-post-oak-blvd-tx-76040--33420",
+  "notes": "Yardi Matrix CRE data record states 267 units, built 1983, at 3720 Post Oak Blvd — exact address and exact year_built match (CAD: 1983). Note property's postal city is Euless, TX (not Fort Worth as listed in batch 'city' field), but address and TAD sponsor/geography place it in Tarrant County consistent with the batch."
+ },
+ {
+  "census_id": "TX-36-1345319",
+  "resolved_name": "The Bower (404 E Olympic Dr) + Brio (705 E Olympic Dr) — two Wilson Capital communities on a combined CAD parcel/account",
+  "units": 630,
+  "units_source": "https://www.apartments.com/the-bower-pflugerville-tx/kd29x49/ ; https://www.apartments.com/brio-pflugerville-tx/wm7lbxj/",
+  "notes": "Batch address combines two distinct street numbers (404 & 705 E Olympic Dr, Pflugerville) under one census_id. Investigation found these are TWO separately branded, adjacent Wilson Capital (owner_group match) developments: The Bower at 404 E Olympic Dr = 294 units (apartments.com, confirmed also by Community Impact article 'Community Impact 294 apartments to open in The Bower', April 2025) and Brio at 705 E Olympic Dr = 336 units (apartments.com). Could not find a bond/CAD filing explicitly confirming they share one tax account, but the exact address pairing in the batch record strongly suggests a combined CAD improvement account spanning both parcels. Reporting 630 as the sum (whole combined-record total) per the task's multi-parcel guidance; flagging real uncertainty that the CAD row may in fact refer to only ONE of the two properties rather than both — if so, most likely 294 (The Bower, whose completion window ~2025 is closer to CAD year_built 2024) or 336 (Brio, built 2023)."
+ },
+ {
+  "census_id": "TX-36-1526",
+  "resolved_name": "Presidium Waterford",
+  "units": 283,
+  "units_source": "https://www.apartments.com/presidium-waterford-austin-tx/mkg2g5h/",
+  "notes": "Apartments.com states '283 units across 6 stories' at 9127 Research Blvd, Austin TX 78758 — exact address match; owner_group (Presidium) matches property brand name. Listing shows built 2023 vs CAD year_built 2022 (minor discrepancy, same property)."
+ },
+ {
+  "census_id": "TX-36-375983",
+  "resolved_name": "Presidium 183",
+  "units": 374,
+  "units_source": "https://www.apartmentfinder.com/Texas/Austin-Apartments/Presidium-183-Apartments-qd5c8ny",
+  "notes": "ApartmentFinder states '374 units, built in 2025' at 9111 Research Blvd, Austin TX 78758 — exact address match; owner_group (Presidium) matches property brand name. Listing year_built 2025 vs CAD year_built 2024 (1-year discrepancy, same property, likely delivered in phases)."
+ },
+ {
+  "census_id": "TX-NEW-TRAVIS-3",
+  "resolved_name": "Spectra Park Apartments (formerly Citizen House Decker; also seen as 'Residences at Decker')",
+  "units": 324,
+  "units_source": "https://therealdeal.com/2021/12/28/prism-multifamily-buys-first-texas-property",
+  "notes": "The Real Deal reports Prism Multifamily Group (owner_group exact match) acquired a 324-unit property, 'Spectra Parks Apartments' (developed by Endeavor as 'Citizen House Decker'), at 5301 Decker Ln, Austin — exact address match. Property currently markets as 'Residences at Decker' (residencesdeckeraustin.com) at the same address."
+ }
+]
