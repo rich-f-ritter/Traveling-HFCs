@@ -1,0 +1,94 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Traveling-HFC Census — Ownership &amp; Geography</title>
+<style>*{box-sizing:border-box}html,body{margin:0;padding:0}
+:root{--navy:#074070;--navy-ink:#1A2B3C;--blue:#589BD5;--gold:#B49955;--gray:#6F6F70;
+--body:#404040;--panel:#EEF1F6;--divider:#D9D9D9;--pale:#C7D6E6;
+--serif:Cambria,Georgia,"Times New Roman",serif;--sans:Calibri,Carlito,"Segoe UI",Arial,sans-serif;
+--mono:Consolas,"Cascadia Code",Menlo,monospace;}
+body{background:#cfd6dd;color:var(--body);font-family:var(--sans);-webkit-font-smoothing:antialiased;}
+.deck{display:flex;flex-direction:column;align-items:center;padding:26px 12px;}
+.page{width:1280px;height:960px;background:#fff;border:1px solid #b9c2cb;
+box-shadow:0 2px 6px rgba(20,40,60,.12),0 14px 40px -18px rgba(20,40,60,.35);
+padding:30px 44px 16px;display:flex;flex-direction:column;overflow:hidden;}
+@media print{body{background:#fff}.deck{padding:0}.page{border:none;box-shadow:none}
+@page{size:1280px 960px}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+.topbar{display:flex;justify-content:space-between;align-items:baseline;}
+.kicker{font-size:12.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--blue);font-weight:600;}
+.pageno{font-size:11.5px;letter-spacing:.22em;color:var(--gray);text-transform:uppercase;}
+h1{font-family:var(--serif);font-weight:700;font-size:26px;line-height:1.12;color:var(--navy-ink);margin:9px 0 0;letter-spacing:-.005em;}
+.bar{width:130px;height:4px;background:var(--navy);margin:8px 0 8px;}
+.insight{font-size:14.5px;line-height:1.48;color:var(--body);max-width:1192px;margin:0;}
+.insight b{color:var(--navy);}
+.cols{display:flex;gap:30px;flex:1;min-height:0;margin-top:14px;}
+.sec{font-size:13.5px;font-weight:700;color:var(--navy);letter-spacing:.02em;margin:0 0 8px;
+padding-bottom:5px;border-bottom:1.5px solid var(--divider);}
+table.t{width:100%;border-collapse:collapse;font-size:11.8px;table-layout:fixed;color:var(--body);}
+table.t th{font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--navy);
+text-align:left;padding:6px 8px;border-bottom:2px solid var(--navy);background:#DCE6F1;font-weight:700;}
+table.t td{padding:9.5px 8px;border-bottom:1px solid #EAEDF1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+table.t tbody tr:nth-child(even) td{background:#F6F8FB;}
+table.t td.rk{color:var(--gray);font-family:var(--mono);font-size:10px;text-align:right;padding-right:3px;}
+table.t td.own{font-weight:600;color:var(--navy-ink);}
+table.t .num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:700;color:var(--navy-ink);}
+table.t td.gold{color:var(--gold);}
+table.t td.zero{color:#C9CDD3;font-weight:400;}
+table.t tr.tot td{background:#DCE6F1!important;border-top:2px solid var(--navy);font-weight:700;color:var(--navy);}
+.ocols{display:flex;gap:22px;}
+.ocol{flex:1;min-width:0;}
+.onote{font-size:10px;color:var(--gray);font-style:italic;margin:9px 0 0;line-height:1.4;}
+.funnel{background:var(--panel);border:1px solid var(--divider);border-left:4px solid var(--navy);
+padding:11px 14px;margin-top:16px;}
+.funnel .ft{font-size:13px;font-weight:700;color:var(--navy);margin-bottom:6px;}
+.frow{display:flex;align-items:center;margin:9px 0;}
+.ftrk{flex:1;display:flex;align-items:center;}
+.fbar{height:22px;border-radius:0 3px 3px 0;}
+.fbar.pale{background:var(--pale);}.fbar.blue{background:var(--blue);}.fbar.gold{background:var(--gold);}
+.fnum{width:70px;text-align:right;font-family:var(--mono);font-size:17px;font-weight:700;color:var(--navy-ink);padding:0 9px;}
+.fnum .fpct{display:block;font-size:9.5px;color:var(--gray);font-weight:400;}
+.flab{width:150px;font-size:11.5px;color:var(--body);}
+.take{margin-top:16px;}
+.take .ft{font-size:13px;font-weight:700;color:var(--navy);border-bottom:1.5px solid var(--divider);padding-bottom:5px;margin-bottom:6px;}
+.take ul{margin:0;padding-left:16px;}
+.take li{font-size:12.2px;line-height:1.5;color:var(--body);margin:5px 0;}
+.take li b{color:var(--navy);}
+.foot{border-top:1px solid var(--divider);margin-top:auto;padding-top:8px;display:flex;
+justify-content:space-between;gap:14px;font-size:10px;color:var(--gray);align-items:baseline;}
+.foot .src{font-style:italic;}.foot .brand{white-space:nowrap;letter-spacing:.06em;}
+.foot .brand b{color:#595959;font-weight:700;}
+.rnote{font-size:10px;color:var(--gray);font-style:italic;margin:10px 0 0;line-height:1.4;}
+</style></head><body><div class="deck"><section class="page">
+<div class="topbar"><div class="kicker">Traveling-HFC Census &nbsp;·&nbsp; Ownership &amp; Geography &nbsp;·&nbsp; 388 HFC-held properties (Ch. 394)</div>
+<div class="pageno">Exhibit</div></div>
+<h1>Who Holds the Traveling-HFC Portfolio — and Where the Institutional Targets Cluster</h1>
+<div class="bar"></div>
+<p class="insight">Ownership is a familiar bench of value-add sponsors and the geography is lopsided. Of <b>388 HFC-held
+properties</b>, only <b>~1 in 4 (107)</b> are institutional-quality — <b>built 1990+ and 200+ units</b> — and they
+concentrate in <b>DFW (53)</b> and <b>Houston (32)</b>; Austin holds just 13. Tellingly, volume and quality diverge:
+<b>Presidium (5 of 7)</b> and <b>JPI (5 of 6)</b> skew new-and-large, while <b>S2 Capital's 35</b> and <b>Tides' 19</b> are mostly older or sub-200-unit stock.</p>
+<div class="cols">
+  <div style="flex:0 0 660px;min-width:0;display:flex;flex-direction:column;">
+    <div class="sec">Top 30 private owners — number of HFC-held properties</div>
+    <div class="ocols"><div class="ocol"><table class="t"><colgroup><col style="width:24px"><col><col style="width:40px"><col style="width:46px"></colgroup><thead><tr><th></th><th>Owner</th><th class="num">HFC</th><th class="num">Tgt*</th></tr></thead><tbody><tr><td class="rk">1</td><td class="own">S2 Capital</td><td class="num">35</td><td class="num gold">7</td></tr><tr><td class="rk">2</td><td class="own">Tides Equities</td><td class="num">19</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">3</td><td class="own">Post Investment Grp</td><td class="num">12</td><td class="num gold">3</td></tr><tr><td class="rk">4</td><td class="own">Sphinx Development</td><td class="num">11</td><td class="num gold">3</td></tr><tr><td class="rk">5</td><td class="own">Ashland Greene Capital</td><td class="num">9</td><td class="num gold">1</td></tr><tr><td class="rk">6</td><td class="own">WindMass Capital</td><td class="num">9</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">7</td><td class="own">Strategic Realty Holdings</td><td class="num">8</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">8</td><td class="own">Presidium</td><td class="num">7</td><td class="num gold">5</td></tr><tr><td class="rk">9</td><td class="own">JPI</td><td class="num">6</td><td class="num gold">5</td></tr><tr><td class="rk">10</td><td class="own">Wilson Capital</td><td class="num">6</td><td class="num gold">1</td></tr><tr><td class="rk">11</td><td class="own">REEP Equity</td><td class="num">5</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">12</td><td class="own">Cienda Partners</td><td class="num">5</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">13</td><td class="own">Polaris RE Partners</td><td class="num">5</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">14</td><td class="own">Pennybacker Capital</td><td class="num">5</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">15</td><td class="own">Brick Street Capital</td><td class="num">5</td><td class="num gold">4</td></tr></tbody></table></div><div class="ocol"><table class="t"><colgroup><col style="width:24px"><col><col style="width:40px"><col style="width:46px"></colgroup><thead><tr><th></th><th>Owner</th><th class="num">HFC</th><th class="num">Tgt*</th></tr></thead><tbody><tr><td class="rk">16</td><td class="own">Palladius Capital Mgmt</td><td class="num">4</td><td class="num gold">3</td></tr><tr><td class="rk">17</td><td class="own">Cottonwood Group</td><td class="num">4</td><td class="num gold">1</td></tr><tr><td class="rk">18</td><td class="own">Magma Equities</td><td class="num">4</td><td class="num gold">3</td></tr><tr><td class="rk">19</td><td class="own">ShainRealty Capital</td><td class="num">4</td><td class="num gold">2</td></tr><tr><td class="rk">20</td><td class="own">Ashcroft Capital</td><td class="num">4</td><td class="num gold">1</td></tr><tr><td class="rk">21</td><td class="own">MC</td><td class="num">4</td><td class="num gold">1</td></tr><tr><td class="rk">22</td><td class="own">Hilltop Residential</td><td class="num">4</td><td class="num gold">2</td></tr><tr><td class="rk">23</td><td class="own">7C Equity Group</td><td class="num">4</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">24</td><td class="own">TriArc RE Partners</td><td class="num">4</td><td class="num gold">1</td></tr><tr><td class="rk">25</td><td class="own">LoanCore Capital</td><td class="num">3</td><td class="num gold">1</td></tr><tr><td class="rk">26</td><td class="own">Sahara Equity</td><td class="num">3</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">27</td><td class="own">Nitya Capital</td><td class="num">3</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">28</td><td class="own">29th Street Capital</td><td class="num">3</td><td class="num gold">3</td></tr><tr><td class="rk">29</td><td class="own">GVA</td><td class="num">2</td><td class="num zero">&mdash;</td></tr><tr><td class="rk">30</td><td class="own">Dalian Development</td><td class="num">2</td><td class="num gold">2</td></tr></tbody></table></div></div>
+    <p class="onote">Owner = the private group that conveyed the property into the HFC (normalized). Top 30 = 199 of 293 identified-owner properties; a further 95 HFC properties have no owner identifiable from free records. &nbsp;*Tgt = target (built 1990+ &amp; 200+ units).</p>
+  </div>
+  <div style="flex:1;min-width:0;display:flex;flex-direction:column;">
+    <div class="sec">By metro — and how many clear the quality bar</div>
+    <table class="t"><colgroup><col><col style="width:56px"><col style="width:64px"><col style="width:60px"></colgroup>
+      <thead><tr><th>Metro</th><th class="num">HFC</th><th class="num">1990+</th><th class="num">Target</th></tr></thead>
+      <tbody><tr><td class="own">DFW</td><td class="num">219</td><td class="num">80</td><td class="num gold">53</td></tr><tr><td class="own">Houston</td><td class="num">98</td><td class="num">43</td><td class="num gold">32</td></tr><tr><td class="own">Austin</td><td class="num">36</td><td class="num">21</td><td class="num gold">13</td></tr><tr><td class="own">San Antonio</td><td class="num">28</td><td class="num">13</td><td class="num gold">9</td></tr><tr><td class="own">Other</td><td class="num">7</td><td class="num">4</td><td class="num gold">0</td></tr><tr class="tot"><td class="own">All metros</td><td class="num">388</td><td class="num">161</td><td class="num gold">107</td></tr></tbody></table>
+    <div class="funnel"><div class="ft">The quality funnel</div>
+      <div class="frow"><div class="ftrk"><span class="fbar pale" style="width:100%"></span></div><div class="fnum">388<span class="fpct">100%</span></div><div class="flab">All HFC-held</div></div>
+      <div class="frow"><div class="ftrk"><span class="fbar blue" style="width:41%"></span></div><div class="fnum">161<span class="fpct">41%</span></div><div class="flab">Built 1990 or newer</div></div>
+      <div class="frow"><div class="ftrk"><span class="fbar gold" style="width:28%"></span></div><div class="fnum">107<span class="fpct">28%</span></div><div class="flab">Target — 1990+ &amp; 200+ u</div></div>
+    </div>
+    <div class="take"><div class="ft">The read</div>
+      <ul><li><b>DFW + Houston</b> hold <b>85 of the 107 targets</b> (79%) — the actionable set is a two-market story.</li>
+      <li>The four biggest owners (S2, Tides, Post, Sphinx) hold <b>77</b> HFC deals, but volume ≠ quality: of <b>S2's 35</b> and <b>Tides' 19</b>, only <b>7</b> clear the bar.</li>
+      <li>The newest-and-largest stock sits with <b>Presidium</b> and <b>JPI</b> — small holders, but nearly all target-grade.</li></ul></div>
+    <p class="rnote">"Target" = HFC-held, built 1990 or newer, 200+ units — the institutional-scale subset most likely to trade at the 2027 unwind. Metros: DFW, Houston, Austin, San Antonio; "Other" = Beaumont, Corpus, Waco.</p>
+  </div>
+</div>
+<div class="foot"><span class="src">Source: Traveling HFC/PFC census (458 properties; 388 HFC / Ch. 394 shown) — CAD rolls, county deed indexes, TDHCA, listing sites; owners normalized from recorded grantors &amp; press. As of 2026-07-12.</span>
+<span class="brand"><b>The MILESTONE Group</b> &nbsp;|&nbsp; CONFIDENTIAL &amp; PROPRIETARY</span></div>
+</section></div></body></html>
